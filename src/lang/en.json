@@ -1,0 +1,369 @@
+{
+  "navbar": {
+    "items": [
+      { "name": "Home", "href": "#home" },
+      { "name": "About", "href": "#about" },
+      { "name": "Expertise", "href": "#expertise" },
+      { "name": "Career", "href": "#career" },
+      { "name": "Contact", "href": "#contact" }
+    ],
+    "languageToggle": "EN"
+  },
+  "hero": {
+    "ariaLabel": "Hero section introducing Majid Askarifarsangi",
+    "name": {
+      "first": "Majid",
+      "last": "Askarifarsangi"
+    },
+    "profileAlt": "Profile photo of Majid Askarifarsangi",
+    "roles": {
+      "role1": "Software Engineer",
+      "role2": "Web Developer"
+    },
+    "description": "I'm happy to have a digital chat or meet over a cup of coffee."
+  },
+  "about": {
+    "title": "About Me",
+    "paragraph": "I am an experienced web developer who is passionate about innovative and user-friendly web design with front-end and back-end development expertise. I create modern, responsive websites that engage visitors and strengthen your business's digital profile.",
+    "personalInfoTitle": "Personal Information",
+    "personalInfoAriaLabel": "Personal highlights and interests",
+    "personalDetails": [
+      "I'm 42 years old",
+      "I build things for internet!",
+      "I have a genuine enthusiasm for exploring new technologies",
+      "In my free time, I enjoy playing football"
+    ],
+    "servicesOverview": {
+      "title": "What I Do",
+      "description": "I specialize in full-stack web development using React.js, Next.js, Node.js, and PostgreSQL. I've worked with companies like Konsulenthus Oslo, TechPros Oslo, and Osloweb Sandvika, building everything from business websites to complex web applications."
+    }
+  },
+  "expertise": {
+    "title": "Expertise",
+    "description": "My technical skills and areas of specialization in software development.",
+    "technicalSkills": "Technical Skills",
+    "education": "Education",
+    "skillCategories": [
+      {
+        "title": "Frontend Development",
+        "icon": "Code",
+        "skills": [
+          "React",
+          "JavaScript",
+          "Next.js",
+          "TypeScript",
+          "HTML5",
+          "CSS3",
+          "Styled-components",
+          "Material UI",
+          "Bootstrap",
+          "Tailwind CSS",
+          "SASS",
+          "React Query",
+          "Axios",
+          "Vite",
+          "Figma"
+        ]
+      },
+      {
+        "title": "Backend Development",
+        "icon": "Database",
+        "skills": [
+          "Node.js",
+          "Express.js",
+          "Nest.js",
+          "Kotlin",
+          "PostgreSQL",
+          "MongoDB",
+          "Spring Boot",
+          "JWT Authentication",
+          "REST APIs",
+          "Webhooks",
+          "Document Store",
+          "C++",
+          "SQL Server",
+          "MySQL"
+        ]
+      },
+      {
+        "title": "Soft Skills",
+        "icon": "Users",
+        "skills": [
+          "Problem-solving",
+          "Communication",
+          "Adaptability",
+          "Time Management",
+          "Teamwork",
+          "Attention to Detail",
+          "Work Ethic",
+          "Creativity",
+          "Leadership",
+          "Interpersonal Skills"
+        ]
+      },
+      {
+        "title": "Tools & Technologies",
+        "icon": "Settings",
+        "skills": [
+          "Git",
+          "Docker",
+          "Azure",
+          "Vim",
+          "Netlify",
+          "Jira",
+          "WordPress",
+          "Shopify",
+          "WCAG",
+          "SEO"
+        ]
+      }
+    ],
+    "educationList": [
+      {
+        "degree": "Master in Business Strategic",
+        "institution": "PNU University of IRAN",
+        "period": "2013 - 2015"
+      },
+      {
+        "degree": "Bachelor in Computer Engineering",
+        "institution": "AZAD University of IRAN",
+        "period": "2011 - 2013"
+      },
+      {
+        "degree": "Kotlin for Beginners",
+        "institution": "Udemy",
+        "period": "2024"
+      },
+      {
+        "degree": "Project Management",
+        "institution": "Holte Academy",
+        "period": "2024"
+      },
+      {
+        "degree": "Next.js & React Complete Guide",
+        "institution": "Udemy",
+        "period": "2022"
+      },
+      {
+        "degree": "Web Developer Bootcamp",
+        "institution": "Udemy",
+        "period": "2021"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "sections": {
+      "getInTouch": {
+        "title": "Get In Touch",
+        "contactInfo": [
+          {
+            "label": "Address",
+            "value": "Sandvika Norway",
+            "icon": "MapPin"
+          },
+          {
+            "label": "Phone",
+            "value": "+47 40189111",
+            "icon": "Phone",
+            "link": "tel:+4740189111"
+          },
+          {
+            "label": "Email",
+            "value": "majid@sitedesign.no",
+            "icon": "Mail",
+            "link": "mailto:majid@sitedesign.no"
+          }
+        ],
+        "status": "Available for freelance projects"
+      },
+      "about": {
+        "title": "About",
+        "personalInfo": [
+          {
+            "label": "Age",
+            "value": "42"
+          },
+          {
+            "label": "Nationality",
+            "value": "Iran"
+          },
+          {
+            "label": "Study",
+            "value": "Azad University of Iran"
+          },
+          {
+            "label": "Degree",
+            "value": "Master"
+          },
+          {
+            "label": "Freelance",
+            "value": "Available"
+          }
+        ]
+      },
+      "resources": {
+        "title": "Resources",
+        "downloadCV": "Download CV",
+        "viewLicences": "View Licences"
+      },
+      "connect": {
+        "title": "Connect",
+        "socialLinks": [
+          {
+            "name": "LinkedIn",
+            "icon": "Linkedin",
+            "url": "https://linkedin.com/in/majid-askarifarsangi"
+          },
+          {
+            "name": "GitHub",
+            "icon": "Github",
+            "url": "https://github.com/majid-askarifarsangi"
+          },
+          {
+            "name": "Phone",
+            "icon": "Phone",
+            "url": "tel:+4740189111"
+          },
+          {
+            "name": "WhatsApp",
+            "icon": "MessageCircle",
+            "url": "https://wa.me/4740189111"
+          }
+        ]
+      },
+      "meeting": {
+        "title": "Schedule a Meeting",
+        "calendarTitle": "Book a Meeting"
+      }
+    }
+  },
+  "career": {
+    "title": "Career",
+    "description": "Over the years, I've enjoyed building AI tools and large digital platforms with React and JavaScript, always looking for new challenges and ways to create real impact with my teams.",
+    "experiences": [
+      {
+        "year": "2025",
+        "position": "React Developer",
+        "company": "MERCOR – San Francisco, USA",
+        "duration": "01.2025 - present",
+        "description": "AI training, problem-solving, prompt engineering using React, JavaScript, CSS, Tailwind"
+      },
+      {
+        "year": "2024",
+        "position": "Software Engineer",
+        "company": "CELESTE – San Francisco, USA",
+        "duration": "04.2024 - 09.2024",
+        "description": "Built AI training pipelines, implemented prompt engineering solutions, developed AI model training interfaces"
+      },
+      {
+        "year": "2024",
+        "position": "Technical Project Management Training",
+        "company": "Bærum kommune – Norway",
+        "duration": "02.2024 - 05.2024",
+        "description": "Led digitization project coordination, managed municipal IT infrastructure modernization"
+      },
+      {
+        "year": "2022",
+        "position": "Fullstack Developer",
+        "company": "TECHPROS AS – Oslo, Norway",
+        "duration": "04.2022 - 05.2022",
+        "description": "Developed automation framework for financial collections, built React dashboard with Node.js/PostgreSQL"
+      },
+      {
+        "year": "2009",
+        "position": "Web Developer",
+        "company": "Municipality of Tehran – Iran",
+        "duration": "01.2009 - 01.2020",
+        "description": "Built large-scale digital platforms serving 50,000+ daily users, improved public service accessibility by 60%"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "sections": {
+      "getInTouch": {
+        "title": "Get In Touch",
+        "status": "Available for freelance projects",
+        "contactInfo": [
+          {
+            "label": "Address",
+            "value": "Sandvika Norway",
+            "icon": "MapPin"
+          },
+          {
+            "label": "Phone",
+            "value": "+47 40189111",
+            "icon": "Phone",
+            "link": "tel:+4740189111"
+          },
+          {
+            "label": "Email",
+            "value": "majid@sitedesign.no",
+            "icon": "Mail",
+            "link": "mailto:majid@sitedesign.no"
+          }
+        ]
+      },
+      "about": {
+        "title": "About",
+        "personalInfo": [
+          {
+            "label": "Age",
+            "value": "42"
+          },
+          {
+            "label": "Nationality",
+            "value": "Iran"
+          },
+          {
+            "label": "Study",
+            "value": "Azad University of Iran"
+          },
+          {
+            "label": "Degree",
+            "value": "Master"
+          },
+          {
+            "label": "Freelance",
+            "value": "Available"
+          }
+        ]
+      },
+      "resources": {
+        "title": "Resources",
+        "downloadCV": "Download CV",
+        "viewLicences": "View Licences"
+      },
+      "connect": {
+        "title": "Connect",
+        "socialLinks": [
+          {
+            "name": "LinkedIn",
+            "icon": "Linkedin",
+            "url": "https://linkedin.com/in/majid-askarifarsangi"
+          },
+          {
+            "name": "GitHub",
+            "icon": "Github",
+            "url": "https://github.com/majid-askarifarsangi"
+          },
+          {
+            "name": "Phone",
+            "icon": "Phone",
+            "url": "tel:+4740189111"
+          },
+          {
+            "name": "WhatsApp",
+            "icon": "MessageCircle",
+            "url": "https://wa.me/4740189111"
+          }
+        ]
+      },
+      "meeting": {
+        "title": "Schedule a Meeting",
+        "calendarTitle": "Book a Meeting"
+      }
+    }
+  }
+}

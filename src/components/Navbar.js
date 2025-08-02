@@ -1,16 +1,12 @@
+import { translations } from "@/lang/translations";
+
 export default function Navbar() {
-  const navItems = [
-    { name: "Home", href: "/" },
-    { name: "About", href: "/about" },
-    { name: "Expertise", href: "/expertise" },
-    { name: "Career", href: "/career" },
-    { name: "Contact", href: "/contact" },
-  ];
+  const { navbar } = translations;
 
   return (
     <nav className="h-screen w-28 sticky top-0 bg-primary text-base flex items-center justify-center group   hover:pl-3">
       <ul className="h-min w-full flex flex-col items-center list-none text-center">
-        {navItems.map((item, index) => (
+        {navbar.items.map((item, index) => (
           <li
             key={item.name}
             className="text-white w-4 text-start flex justify-start opacity-25 transition-all duration-700 ease-in-out hover:opacity-90 hover:pl-4 group-hover:w-full group-hover:px-2 mb-6"
@@ -29,9 +25,8 @@ export default function Navbar() {
           </li>
         ))}
       </ul>
-
-      <div className="absolute bottom-8 left-8 text-base text-gray-400 hover:text-white hover:cursor-pointer transition-colors duration-700 ease-in-out">
-        EN - NO
+      <div className="absolute bottom-8 left-10 text-xl text-base/40 hover:text-base hover:cursor-pointer transition-colors duration-700 ease-in-out">
+        {navbar.languageToggle}
       </div>
     </nav>
   );

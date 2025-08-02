@@ -1,13 +1,20 @@
+import { translations } from "@/lang/translations";
 import { Code, Database, Users, Settings, Calendar } from "lucide-react";
 
-const SkillCategory = ({ category }) => {
-  const Icon = category.icon;
+const iconMap = {
+  Code,
+  Database,
+  Users,
+  Settings,
+};
 
+const SkillCategory = ({ category }) => {
+  const Icon = iconMap[category.icon];
   return (
     <div className="border border-gray-300 p-4 max-w-xs">
       <div className="flex items-center gap-2 mb-4 pb-2 border-b border-gray-300/30">
         <Icon className="w-[18px] h-[18px] opacity-70" />
-        <h4 className="text-base font-normal">{category.title}</h4>
+        <h4 className="text-content font-normal">{category.title}</h4>
       </div>
       <div className="flex flex-wrap gap-1">
         {category.skills.map((skill, index) => (
@@ -65,68 +72,21 @@ const EducationSection = ({ title, education }) => (
 );
 
 export default function Expertise() {
-  const skillCategories = [
-    {
-      title: "Frontend Development",
-      skills: ["React", "TypeScript", "Tailwind CSS", "Next.js", "Vue.js"],
-      icon: Code,
-    },
-    {
-      title: "Backend Development",
-      skills: ["Node.js", "Python", "PostgreSQL", "MongoDB", "REST APIs"],
-      icon: Database,
-    },
-    {
-      title: "Soft Skills",
-      skills: [
-        "Problem Solving",
-        "Team Collaboration",
-        "Project Management",
-        "Communication",
-      ],
-      icon: Users,
-    },
-    {
-      title: "Tools & Technologies",
-      skills: ["Git", "Docker", "AWS", "VS Code", "Figma"],
-      icon: Settings,
-    },
-  ];
-
-  const education = [
-    {
-      period: "2020-2024",
-      degree: "Bachelor of Computer Science",
-      institution: "University of Technology",
-    },
-    {
-      period: "2023",
-      degree: "Advanced React Development",
-      institution: "Tech Academy",
-    },
-    {
-      period: "2022",
-      degree: "Full Stack Web Development",
-      institution: "Online Learning Platform",
-    },
-  ];
+  const { expertise } = translations;
 
   return (
-    <section id="expertise" className="py-16">
-      <div className="w-full mx-auto">
-        <h2>Expertise</h2>
-        <p>
-          My technical skills and areas of specialization in software
-          development.
-        </p>
-
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-8">
-          <TechnicalSkillsSection
-            title="Technical Skills"
-            skillCategories={skillCategories}
-          />
-          <EducationSection title="Education" education={education} />
-        </div>
+    <section id="expertise">
+      <h2>{expertise.title}</h2>
+      <p>{expertise.description}</p>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-8">
+        <TechnicalSkillsSection
+          title={expertise.technicalSkills}
+          skillCategories={expertise.skillCategories}
+        />
+        <EducationSection
+          title={expertise.education}
+          education={expertise.educationList}
+        />
       </div>
     </section>
   );
