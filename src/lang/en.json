@@ -1,4 +1,49 @@
 {
+  "metadata": {
+    "title": {
+      "default": "Majid Askarifarsangi - Full Stack Web Developer | SiteDesign Portfolio",
+      "template": "%s | Majid Askarifarsangi - Full Stack Developer"
+    },
+    "description": "Professional full stack web developer specializing in React, Next.js, Node.js, and modern web technologies. View my portfolio of custom web applications and development projects.",
+    "keywords": [
+      "Majid Askarifarsangi",
+      "full stack developer",
+      "React developer",
+      "Next.js developer",
+      "JavaScript developer",
+      "web developer",
+      "frontend developer",
+      "backend developer",
+      "Node.js",
+      "Express.js",
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "Bootstrap",
+      "Material UI",
+      "SQL Server",
+      "PostgreSQL",
+      "web development portfolio",
+      "SiteDesign"
+    ],
+    "authors": [{ "name": "Majid Askarifarsangi" }],
+    "creator": "Majid Askarifarsangi",
+    "publisher": "Majid Askarifarsangi",
+    "robots": {
+      "index": true,
+      "follow": true,
+      "googleBot": {
+        "index": true,
+        "follow": true,
+        "max-video-preview": -1,
+        "max-image-preview": "large",
+        "max-snippet": -1
+      }
+    },
+    "category": "Web Development",
+    "classification": "Portfolio Website",
+    "applicationName": "SiteDesign Portfolio"
+  },
   "navbar": {
     "items": [
       { "name": "Home", "href": "#home" },

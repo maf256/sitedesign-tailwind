@@ -1,4 +1,49 @@
 {
+  "metadata": {
+    "title": {
+      "default": "Majid Askarifarsangi - Fullstack Webutvikler | SiteDesign Portfolio",
+      "template": "%s | Majid Askarifarsangi - Fullstack Utvikler"
+    },
+    "description": "Profesjonell fullstack webutvikler med spesialisering i React, Next.js, Node.js og moderne webteknologier. Se min portefølje av skreddersydde webapplikasjoner og utviklingsprosjekter.",
+    "keywords": [
+      "Majid Askarifarsangi",
+      "fullstack utvikler",
+      "React utvikler",
+      "Next.js utvikler",
+      "JavaScript utvikler",
+      "webutvikler",
+      "frontend utvikler",
+      "backend utvikler",
+      "Node.js",
+      "Express.js",
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "Bootstrap",
+      "Material UI",
+      "SQL Server",
+      "PostgreSQL",
+      "webutvikling portefølje",
+      "SiteDesign"
+    ],
+    "authors": [{ "name": "Majid Askarifarsangi" }],
+    "creator": "Majid Askarifarsangi",
+    "publisher": "Majid Askarifarsangi",
+    "robots": {
+      "index": true,
+      "follow": true,
+      "googleBot": {
+        "index": true,
+        "follow": true,
+        "max-video-preview": -1,
+        "max-image-preview": "large",
+        "max-snippet": -1
+      }
+    },
+    "category": "Webutvikling",
+    "classification": "Portefølje Nettside",
+    "applicationName": "SiteDesign Portefølje"
+  },
   "navbar": {
     "items": [
       { "name": "Hjem", "href": "#home" },
