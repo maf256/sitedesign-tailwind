@@ -1,3 +1,3 @@
 export default function Expertise() {
-  return <div>Expertise</div>;
+  return <section>Expertise</section>;
 }

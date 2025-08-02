@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-:root {
+@theme {
   --color-base: #fdfdfd;
   --color-content: #000717;
   --color-primary: #071233;
@@ -8,14 +8,22 @@
   --color-info: #f25f35;
 }
 
-h1 {
-  font-family: var(--font-old-standard);
-  font-size: 40px;
-  font-weight: 700;
-}
-
 body {
   background: var(--color-base);
   color: var(--color-content);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+  margin-top: 260px;
+  width: 100px;
+}
+
+h1 {
+  font-family: var(--font-old-standard);
+}
+
+p {
+  font-size: 22px;
+  font-family: serif;
 }

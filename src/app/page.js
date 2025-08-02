@@ -7,12 +7,14 @@ import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
-    <main className="">
-      <Hero />
-      <About />
-      <Expertise />
-      <Career />
-      <Contact />
+    <main className="flex mx-auto w-fit">
+      <div className="w-[800px] ">
+        <Hero />
+        <About />
+        <Expertise />
+        <Career />
+        <Contact />
+      </div>
       <Navbar />
     </main>
   );
