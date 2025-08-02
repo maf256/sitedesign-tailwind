@@ -1,3 +1,8 @@
 export default function Home() {
-  return <div>goodbye moon</div>;
+  return (
+    <div>
+      <h1>Majid</h1>
+      goodbye moon
+    </div>
+  );
 }
