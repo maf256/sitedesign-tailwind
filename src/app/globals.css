@@ -11,19 +11,33 @@
 body {
   background: var(--color-base);
   color: var(--color-content);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: serif;
 }
 
 section {
   margin-top: 260px;
-  width: 100px;
+  width: 700px;
 }
 
 h1 {
   font-family: var(--font-old-standard);
 }
 
+h2 {
+  font-family: var(--font-old-standard);
+  font-size: 59.2px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+h3 {
+  font-family: var(--font-old-standard);
+  font-size: 36.65px;
+  margin-bottom: 8px;
+}
+
 p {
-  font-size: 22px;
-  font-family: serif;
+  font-size: 22.5px;
+  color: var(--color-content);
+  opacity: 0.75;
 }

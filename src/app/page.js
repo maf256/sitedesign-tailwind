@@ -7,7 +7,7 @@ import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
-    <main className="flex mx-auto w-fit">
+    <main className="flex mx-auto w-fit min-h-screen">
       <div className="w-[800px] ">
         <Hero />
         <About />
@@ -15,7 +15,9 @@ export default function Home() {
         <Career />
         <Contact />
       </div>
-      <Navbar />
+      <div className="w-14">
+        <Navbar />
+      </div>
     </main>
   );
 }

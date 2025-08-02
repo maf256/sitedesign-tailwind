@@ -10,7 +10,7 @@ export default function Hero() {
         <div className="flex items-baseline gap-4 mb-1">
           <span>Majid</span>
           <Image
-            className="border border-gray-400 rounded-[14px]"
+            className="border border-content/40 rounded-[14px]"
             src="/profile.jpg"
             alt="Profile photo of Majid Askarifarsangi"
             width={96}
@@ -20,7 +20,7 @@ export default function Hero() {
         <div>Askarifarsangi</div>
       </h1>
 
-      <p className="!text-sm w-xl text-gray-700">
+      <p className="!text-sm">
         <span className="text-[22.5px]">Software Engineer</span> and{" "}
         <span className="text-[22.5px]">Web Developer</span>,<br />
         I'm happy to have a digital chat or meet over a cup of coffee.
