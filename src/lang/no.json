@@ -1,0 +1,282 @@
+{
+  "navbar": {
+    "items": [
+      { "name": "Hjem", "href": "#home" },
+      { "name": "Om", "href": "#about" },
+      { "name": "Kompetanse", "href": "#expertise" },
+      { "name": "Karriere", "href": "#career" },
+      { "name": "Kontakt", "href": "#contact" }
+    ],
+    "languageToggle": "NO"
+  },
+  "hero": {
+    "ariaLabel": "Hero-seksjon som introduserer Majid Askarifarsangi",
+    "name": {
+      "first": "Majid",
+      "last": "Askarifarsangi"
+    },
+    "profileAlt": "Profilbilde av Majid Askarifarsangi",
+    "roles": {
+      "role1": "Programvareutvikler",
+      "role2": "Webutvikler"
+    },
+    "description": "Jeg blir glad for en digital prat eller å møtes over en kopp kaffe."
+  },
+  "about": {
+    "title": "Om Meg",
+    "paragraph": "Jeg er en erfaren webutvikler som liker innovative og brukervennlige nettsider. Jeg jobber med både front-end og back-end. Jeg lager moderne, responsive nettsider som engasjerer besøkende og styrker den digitale profilen til din bedrift.",
+    "personalInfoTitle": "Personlig Informasjon",
+    "personalInfoAriaLabel": "Personlige høydepunkter og interesser",
+    "personalDetails": [
+      "Jeg er 42 år gammel",
+      "Jeg lager ting for internett!",
+      "Jeg liker å utforske ny teknologi",
+      "På fritiden liker jeg å spille fotball"
+    ],
+    "servicesOverview": {
+      "title": "Hva Jeg Gjør",
+      "description": "Jeg jobber med fullstack webutvikling med React.js, Next.js, Node.js og PostgreSQL. Jeg har jobbet med selskaper som Konsulenthus Oslo, TechPros Oslo og Osloweb Sandvika, og laget alt fra nettsider til avanserte webapplikasjoner."
+    }
+  },
+  "expertise": {
+    "title": "Kompetanse",
+    "description": "Mine tekniske ferdigheter og spesialiseringsområder innen programvareutvikling.",
+    "technicalSkills": "Tekniske Ferdigheter",
+    "education": "Utdanning",
+    "skillCategories": [
+      {
+        "title": "Frontend Utvikling",
+        "icon": "Code",
+        "skills": [
+          "React",
+          "JavaScript",
+          "Next.js",
+          "TypeScript",
+          "HTML5",
+          "CSS3",
+          "Styled-components",
+          "Material UI",
+          "Bootstrap",
+          "Tailwind CSS",
+          "SASS",
+          "React Query",
+          "Axios",
+          "Vite",
+          "Figma"
+        ]
+      },
+      {
+        "title": "Backend Utvikling",
+        "icon": "Database",
+        "skills": [
+          "Node.js",
+          "Express.js",
+          "Nest.js",
+          "Kotlin",
+          "PostgreSQL",
+          "MongoDB",
+          "Spring Boot",
+          "JWT Autentisering",
+          "REST API-er",
+          "Webhooks",
+          "Dokumentlager",
+          "C++",
+          "SQL Server",
+          "MySQL"
+        ]
+      },
+      {
+        "title": "Myke Ferdigheter",
+        "icon": "Users",
+        "skills": [
+          "Problemløsning",
+          "Kommunikasjon",
+          "Tilpasningsevne",
+          "Tidsstyring",
+          "Teamarbeid",
+          "Detaljfokus",
+          "Arbeidsmoral",
+          "Kreativitet",
+          "Lederskap",
+          "Sosiale Ferdigheter"
+        ]
+      },
+      {
+        "title": "Verktøy og Teknologi",
+        "icon": "Settings",
+        "skills": [
+          "Git",
+          "Docker",
+          "Azure",
+          "Vim",
+          "Netlify",
+          "Jira",
+          "WordPress",
+          "Shopify",
+          "WCAG",
+          "SEO"
+        ]
+      }
+    ],
+    "educationList": [
+      {
+        "degree": "Master i Forretningsstrategi",
+        "institution": "PNU Universitetet i IRAN",
+        "period": "2013 - 2015"
+      },
+      {
+        "degree": "Bachelor i Datateknologi",
+        "institution": "AZAD Universitetet i IRAN",
+        "period": "2011 - 2013"
+      },
+      {
+        "degree": "Kotlin for Nybegynnere",
+        "institution": "Udemy",
+        "period": "2024"
+      },
+      {
+        "degree": "Prosjektledelse",
+        "institution": "Holte Academy",
+        "period": "2024"
+      },
+      {
+        "degree": "Next.js & React Komplett Guide",
+        "institution": "Udemy",
+        "period": "2022"
+      },
+      {
+        "degree": "Webutvikler Bootcamp",
+        "institution": "Udemy",
+        "period": "2021"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Kontakt",
+    "sections": {
+      "getInTouch": {
+        "title": "Ta Kontakt",
+        "contactInfo": [
+          {
+            "label": "Adresse",
+            "value": "Sandvika Norge",
+            "icon": "MapPin"
+          },
+          {
+            "label": "Telefon",
+            "value": "+47 40189111",
+            "icon": "Phone",
+            "link": "tel:+4740189111"
+          },
+          {
+            "label": "E-post",
+            "value": "majid@sitedesign.no",
+            "icon": "Mail",
+            "link": "mailto:majid@sitedesign.no"
+          }
+        ],
+        "status": "Tilgjengelig for frilansprosjekter"
+      },
+      "about": {
+        "title": "Om",
+        "personalInfo": [
+          {
+            "label": "Alder",
+            "value": "42"
+          },
+          {
+            "label": "Nasjonalitet",
+            "value": "Iran"
+          },
+          {
+            "label": "Studie",
+            "value": "Azad Universitetet i Iran"
+          },
+          {
+            "label": "Grad",
+            "value": "Master"
+          },
+          {
+            "label": "Frilans",
+            "value": "Tilgjengelig"
+          }
+        ]
+      },
+      "resources": {
+        "title": "Ressurser",
+        "downloadCV": "Last ned CV",
+        "viewLicences": "Se Lisenser"
+      },
+      "connect": {
+        "title": "Koble til",
+        "socialLinks": [
+          {
+            "name": "LinkedIn",
+            "icon": "Linkedin",
+            "url": "https://linkedin.com/in/majid-askarifarsangi"
+          },
+          {
+            "name": "GitHub",
+            "icon": "Github",
+            "url": "https://github.com/majid-askarifarsangi"
+          },
+          {
+            "name": "Telefon",
+            "icon": "Phone",
+            "url": "tel:+4740189111"
+          },
+          {
+            "name": "WhatsApp",
+            "icon": "MessageCircle",
+            "url": "https://wa.me/4740189111"
+          }
+        ]
+      },
+      "meeting": {
+        "title": "Avtal et Møte",
+        "calendarTitle": "Bestill Møte"
+      }
+    }
+  },
+  "career": {
+    "title": "Karriere",
+    "description": "Gjennom årene har jeg laget AI-verktøy og store digitale plattformer med React og JavaScript. Jeg liker nye utfordringer og å lage løsninger som gir ekte verdi i team.",
+    "experiences": [
+      {
+        "year": "2025",
+        "position": "React Utvikler",
+        "company": "MERCOR – San Francisco, USA",
+        "duration": "01.2025 - nåværende",
+        "description": "AI-trening, problemløsning, prompt engineering med React, JavaScript, CSS, Tailwind"
+      },
+      {
+        "year": "2024",
+        "position": "Programvareutvikler",
+        "company": "CELESTE – San Francisco, USA",
+        "duration": "04.2024 - 09.2024",
+        "description": "Bygget AI-treningssystemer, laget løsninger for prompt engineering, laget AI-grensesnitt"
+      },
+      {
+        "year": "2024",
+        "position": "Opplæring i Teknisk Prosjektledelse",
+        "company": "Bærum kommune – Norge",
+        "duration": "02.2024 - 05.2024",
+        "description": "Ledet digitaliseringsprosjekt, jobbet med IT-modernisering i kommunen"
+      },
+      {
+        "year": "2022",
+        "position": "Fullstack Utvikler",
+        "company": "TECHPROS AS – Oslo, Norge",
+        "duration": "04.2022 - 05.2022",
+        "description": "Laget automatiseringssystem for økonomi, bygget React-dashboard med Node.js/PostgreSQL"
+      },
+      {
+        "year": "2009",
+        "position": "Webutvikler",
+        "company": "Teherans kommune – Iran",
+        "duration": "01.2009 - 01.2020",
+        "description": "Lagde store digitale plattformer for over 50 000 brukere daglig, forbedret tilgjengelighet for offentlige tjenester med 60%"
+      }
+    ]
+  }
+}
