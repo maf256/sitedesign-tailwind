@@ -25,9 +25,21 @@ export default function Navbar() {
           </li>
         ))}
       </ul>
-      <div className="absolute bottom-8 left-10 text-xl text-base/40 hover:text-base hover:cursor-pointer transition-colors duration-700 ease-in-out">
-        {navbar.languageToggle}
-      </div>
+      {navbar.languageToggle === "no" ? (
+        <a
+          href="https://en.sitedesign.no/"
+          className="absolute bottom-8 left-10 text-xl text-base/40 hover:text-base hover:cursor-pointer transition-colors duration-700 ease-in-out"
+        >
+          EN
+        </a>
+      ) : (
+        <a
+          href="https://sitedesign.no/"
+          className="absolute bottom-8 left-10 text-xl text-base/40 hover:text-base hover:cursor-pointer transition-colors duration-700 ease-in-out"
+        >
+          NO
+        </a>
+      )}
     </nav>
   );
 }

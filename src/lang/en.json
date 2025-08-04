@@ -196,93 +196,6 @@
       }
     ]
   },
-  "contact": {
-    "title": "Contact",
-    "sections": {
-      "getInTouch": {
-        "title": "Get In Touch",
-        "contactInfo": [
-          {
-            "label": "Address",
-            "value": "Sandvika Norway",
-            "icon": "MapPin"
-          },
-          {
-            "label": "Phone",
-            "value": "+47 40189111",
-            "icon": "Phone",
-            "link": "tel:+4740189111"
-          },
-          {
-            "label": "Email",
-            "value": "majid@sitedesign.no",
-            "icon": "Mail",
-            "link": "mailto:majid@sitedesign.no"
-          }
-        ],
-        "status": "Available for freelance projects"
-      },
-      "about": {
-        "title": "About",
-        "personalInfo": [
-          {
-            "label": "Age",
-            "value": "42"
-          },
-          {
-            "label": "Nationality",
-            "value": "Iran"
-          },
-          {
-            "label": "Study",
-            "value": "Azad University of Iran"
-          },
-          {
-            "label": "Degree",
-            "value": "Master"
-          },
-          {
-            "label": "Freelance",
-            "value": "Available"
-          }
-        ]
-      },
-      "resources": {
-        "title": "Resources",
-        "downloadCV": "Download CV",
-        "viewLicences": "View Licences"
-      },
-      "connect": {
-        "title": "Connect",
-        "socialLinks": [
-          {
-            "name": "LinkedIn",
-            "icon": "Linkedin",
-            "url": "https://linkedin.com/in/majid-askarifarsangi"
-          },
-          {
-            "name": "GitHub",
-            "icon": "Github",
-            "url": "https://github.com/majid-askarifarsangi"
-          },
-          {
-            "name": "Phone",
-            "icon": "Phone",
-            "url": "tel:+4740189111"
-          },
-          {
-            "name": "WhatsApp",
-            "icon": "MessageCircle",
-            "url": "https://wa.me/4740189111"
-          }
-        ]
-      },
-      "meeting": {
-        "title": "Schedule a Meeting",
-        "calendarTitle": "Book a Meeting"
-      }
-    }
-  },
   "career": {
     "title": "Career",
     "description": "Over the years, I've enjoyed building AI tools and large digital platforms with React and JavaScript, always looking for new challenges and ways to create real impact with my teams.",
@@ -334,7 +247,8 @@
           {
             "label": "Address",
             "value": "Sandvika Norway",
-            "icon": "MapPin"
+            "icon": "MapPin",
+            "link": "https://maps.app.goo.gl/291WSFANgPYTSAAx8"
           },
           {
             "label": "Phone",

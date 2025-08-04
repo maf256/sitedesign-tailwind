@@ -205,7 +205,8 @@
           {
             "label": "Adresse",
             "value": "Sandvika Norge",
-            "icon": "MapPin"
+            "icon": "MapPin",
+            "link": "https://maps.app.goo.gl/291WSFANgPYTSAAx8"
           },
           {
             "label": "Telefon",

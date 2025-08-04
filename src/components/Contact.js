@@ -50,16 +50,13 @@ export default function Contact() {
                     <span className="block text-sm opacity-60 mb-0.5 uppercase tracking-wider">
                       {item.label}
                     </span>
-                    {item.link ? (
-                      <a
-                        href={item.link}
-                        className="text-lg text-blue-600 no-underline transition-opacity duration-200 hover:opacity-80"
-                      >
-                        {item.value}
-                      </a>
-                    ) : (
-                      <p className="text-lg m-0">{item.value}</p>
-                    )}
+
+                    <a
+                      href={item.link}
+                      className="text-lg text-blue-600 no-underline transition-opacity duration-200 hover:opacity-80"
+                    >
+                      {item.value}
+                    </a>
                   </div>
                 </div>
               );
@@ -148,8 +145,8 @@ export default function Contact() {
             <iframe
               src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ08q78jfdTSAvdjzrYsZzvFRPIxbVtTln79uu3M9ITm3VITP81IoKX-YurFrpjs3PoE-IG9z8je?gv=true"
               width="100%"
-              height="400"
-              className="block w-full h-96 border-0"
+              height="700"
+              className="block w-full border-0"
               title={contact.sections.meeting.calendarTitle}
               loading="lazy"
             ></iframe>
