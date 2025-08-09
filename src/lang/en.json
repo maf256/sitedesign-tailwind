@@ -1,34 +1,44 @@
 {
   "metadata": {
     "title": {
-      "default": "Majid Askarifarsangi - Full Stack Web Developer | SiteDesign Portfolio",
-      "template": "%s | Majid Askarifarsangi - Full Stack Developer"
+      "default": "Web Developer Oslo | Webdesign Oslo | Majid Askarifarsangi - Professional Web Design & Development",
+      "template": "%s | Web Developer Oslo | Webdesign Oslo | Majid Askarifarsangi"
     },
-    "description": "Professional full stack web developer specializing in React, Next.js, Node.js, and modern web technologies. View my portfolio of custom web applications and development projects.",
+    "description": "Expert web developer Oslo and webdesign Oslo services. Professional webutvikler Oslo specializing in React, Next.js, and modern web development. Custom website design and development by experienced webdesigner Oslo.",
     "keywords": [
+      "web developer oslo",
+      "webdesign oslo",
+      "webutvikler oslo",
+      "webdesigner oslo",
+      "web development oslo",
+      "website developer oslo",
+      "react developer oslo",
+      "nextjs developer oslo",
+      "javascript developer oslo",
+      "fullstack developer oslo",
+      "frontend developer oslo",
+      "backend developer oslo",
+      "web design oslo",
+      "website design oslo",
+      "responsive web design",
+      "modern web development",
+      "professional web development",
+      "custom web development",
+      "e-commerce development",
+      "business website development",
+      "seo optimization",
+      "web application development",
       "Majid Askarifarsangi",
-      "full stack developer",
-      "React developer",
-      "Next.js developer",
-      "JavaScript developer",
-      "web developer",
-      "frontend developer",
-      "backend developer",
-      "Node.js",
-      "Express.js",
-      "HTML",
-      "CSS",
-      "Tailwind CSS",
-      "Bootstrap",
-      "Material UI",
-      "SQL Server",
-      "PostgreSQL",
-      "web development portfolio",
-      "SiteDesign"
+      "norway web developer",
+      "oslo web services",
+      "webutvikling oslo",
+      "nettside utvikling",
+      "wordpress development oslo",
+      "shopify development oslo"
     ],
     "authors": [{ "name": "Majid Askarifarsangi" }],
-    "creator": "Majid Askarifarsangi",
-    "publisher": "Majid Askarifarsangi",
+    "creator": "Majid Askarifarsangi - Web Developer Oslo",
+    "publisher": "Web Developer Oslo - Majid Askarifarsangi",
     "robots": {
       "index": true,
       "follow": true,
@@ -40,9 +50,112 @@
         "max-snippet": -1
       }
     },
-    "category": "Web Development",
-    "classification": "Portfolio Website",
-    "applicationName": "SiteDesign Portfolio"
+    "category": "Web Development Oslo",
+    "classification": "Professional Web Developer Oslo Portfolio",
+    "applicationName": "Web Developer Oslo - Majid Askarifarsangi"
+  },
+  "structuredData": {
+    "@context": "https://schema.org",
+    "@type": ["Person", "ProfessionalService"],
+    "name": "Majid Askarifarsangi",
+    "jobTitle": "Full Stack Web Developer",
+    "description": "Professional full stack web developer in Oslo specializing in React, Next.js, Node.js, and modern web technologies. Expert in custom web development and responsive design.",
+    "url": "https://sitedesign.no",
+    "email": "majid@sitedesign.no",
+    "telephone": "+47-40189111",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Oslo",
+      "addressRegion": "Oslo",
+      "addressCountry": "Norway"
+    },
+    "sameAs": [
+      "https://linkedin.com/in/majid-askarifarsangi",
+      "https://github.com/majid-askarifarsangi"
+    ],
+    "knowsAbout": [
+      "React Development",
+      "Next.js Development",
+      "JavaScript Programming",
+      "Node.js Development",
+      "PostgreSQL Database",
+      "TypeScript Development",
+      "Full Stack Development",
+      "Web Development Oslo",
+      "Frontend Development",
+      "Backend Development",
+      "Responsive Web Design",
+      "E-commerce Development",
+      "SEO Optimization",
+      "Web Application Development"
+    ],
+    "hasOccupation": {
+      "@type": "Occupation",
+      "name": "Software Engineer",
+      "occupationLocation": {
+        "@type": "Country",
+        "name": "Norway"
+      }
+    },
+    "alumniOf": [
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "PNU University of Iran"
+      },
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "AZAD University of Iran"
+      }
+    ],
+    "worksFor": [
+      {
+        "@type": "Organization",
+        "name": "MERCOR",
+        "address": "San Francisco, USA"
+      }
+    ],
+    "serviceType": [
+      "Web Development",
+      "Web Design",
+      "Frontend Development",
+      "Backend Development",
+      "Full Stack Development",
+      "E-commerce Development",
+      "Custom Web Applications"
+    ],
+    "areaServed": ["Oslo", "Norway", "Remote", "Scandinavia"],
+    "availableLanguage": ["English", "Persian", "Norwegian"],
+    "priceRange": "$$",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Web Development Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Custom Web Development",
+            "description": "Professional custom web development using modern technologies"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "React Development",
+            "description": "Expert React.js application development and consulting"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "E-commerce Development",
+            "description": "Complete e-commerce solutions and online store development"
+          }
+        }
+      ]
+    }
   },
   "navbar": {
     "items": [
