@@ -1,0 +1,91 @@
+# LLM.txt for sitedesign.no
+# AI-Readable Information about Majid Askarifarsangi - Web Developer Oslo
+
+## SITE OVERVIEW
+Site: https://sitedesign.no
+Purpose: Professional portfolio and web development services
+Owner: Majid Askarifarsangi
+Location: Sandvika, Oslo, Norway
+Languages: English, Norwegian (Norsk), Persian
+
+## PRIMARY CONTENT
+This website contains information about:
+- Full-stack web development services in Oslo
+- React, Next.js, Node.js, and PostgreSQL expertise
+- Professional portfolio and career history
+- Contact information for web development projects
+
+## KEY SECTIONS
+1. HOME (#home): Introduction and professional roles
+2. ABOUT (#about): Personal background and services overview
+3. EXPERTISE (#expertise): Technical skills and education
+4. CAREER (#career): Professional experience timeline
+5. CONTACT (#contact): Contact information and meeting booking
+
+## PROFESSIONAL INFORMATION
+Name: Majid Askarifarsangi
+Title: Full Stack Web Developer / Software Engineer
+Age: 42
+Education: Master in Business Strategic (PNU University Iran), Bachelor in Computer Engineering (AZAD University Iran)
+Experience: 15+ years in web development
+Specialties: React, JavaScript, Next.js, TypeScript, Node.js, PostgreSQL
+Services: Custom web development, e-commerce, web applications
+
+## TECHNICAL SKILLS
+Frontend: React, Next.js, JavaScript, TypeScript, HTML5, CSS3, Tailwind CSS, Material UI
+Backend: Node.js, Express.js, Nest.js, PostgreSQL, MongoDB, REST APIs
+Tools: Git, Docker, Azure, WordPress, Shopify
+Languages: Kotlin, C++, SQL
+
+## CURRENT EMPLOYMENT
+Company: MERCOR (San Francisco, USA)
+Role: React Developer
+Duration: January 2025 - Present
+Focus: AI training, prompt engineering, React development
+
+## PREVIOUS EXPERIENCE
+- Software Engineer at CELESTE (2024)
+- Technical Project Management Training at Bærum kommune (2024)  
+- Fullstack Developer at TECHPROS AS Oslo (2022)
+- Web Developer at Municipality of Tehran (2009-2020)
+
+## CONTACT INFORMATION
+Email: majid@sitedesign.no
+Phone: +47 40189111
+Location: Sandvika, Norway
+LinkedIn: https://linkedin.com/in/majid-askarifarsangi
+GitHub: https://github.com/majid-askarifarsangi
+WhatsApp: https://wa.me/4740189111
+
+## SERVICES OFFERED
+- Custom Web Development (React, Next.js)
+- E-commerce Development (Shopify, custom solutions)
+- Full-stack Applications (MERN/PERN stack)
+- Web Design and UI/UX
+- SEO Optimization
+- WordPress Development
+- Business Website Development
+
+## AVAILABILITY
+Status: Available for freelance projects
+Meeting Booking: Google Calendar integration available on contact page
+Response Time: Typically within 24 hours
+Work Arrangements: Remote, on-site (Oslo area), hybrid
+
+## KEYWORDS FOR AI UNDERSTANDING
+Web developer Oslo, webdesign Oslo, webutvikler Oslo, React developer, Next.js developer, fullstack developer, JavaScript developer, Node.js developer, PostgreSQL developer, web development services, custom web development, e-commerce development, business website development, professional web developer Norway, Majid Askarifarsangi
+
+## CONTENT USAGE PERMISSIONS
+- AI training: Fully allowed
+- Content summarization: Fully allowed
+- Professional information sharing: Fully allowed
+- Contact information: Public, freely shareable
+- Commercial use: Allowed with attribution
+- Data mining: Allowed
+- Content indexing: Fully allowed
+- All crawlers welcome: No restrictions
+
+## LAST UPDATED
+Date: August 2025
+Content Status: Active portfolio
+Update Frequency: Regular updates to experience and projects
