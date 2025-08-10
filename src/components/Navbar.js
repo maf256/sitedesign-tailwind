@@ -25,7 +25,7 @@ export default function Navbar() {
           </li>
         ))}
       </ul>
-      {navbar.languageToggle === "no" ? (
+      {navbar.languageToggle === "NO" ? (
         <a
           href="https://en.sitedesign.no/"
           className="absolute bottom-8 left-10 text-xl text-base/40 hover:text-base hover:cursor-pointer transition-colors duration-700 ease-in-out"
