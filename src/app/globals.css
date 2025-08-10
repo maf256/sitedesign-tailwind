@@ -14,37 +14,51 @@ body {
   font-family: serif;
 }
 
+
 section {
   margin-top: 260px;
-  width: 700px;
+  width: 100%;
+  max-width: 700px;
+  padding: 0 1rem;
+}
+
+
+@media (max-width: 768px) {
+  section {
+    margin-top: 150px;
+  }
 }
 
 h1 {
   font-family: var(--font-old-standard);
 }
 
+
 h2 {
   font-family: var(--font-old-standard);
-  font-size: 59.2px;
+  font-size: clamp(2.5rem, 5vw, 59.2px);
   font-weight: 700;
   margin-bottom: 16px;
 }
 
+
 h3 {
   font-family: var(--font-old-standard);
-  font-size: 36.65px;
+  font-size: clamp(1.5rem, 3vw, 36.65px);
   margin-bottom: 8px;
 }
 
+
 p {
-  font-size: 22.5px;
+  font-size: clamp(1rem, 2.5vw, 22.5px);
   color: var(--color-content);
   opacity: 0.75;
 }
 
+
 .time {
   font-family: serif;
-  font-size: 24px;
+  font-size: clamp(1.25rem, 2.5vw, 24px);
   font-weight: 700;
   color: var(--color-secondary);
   margin-bottom: 1px;

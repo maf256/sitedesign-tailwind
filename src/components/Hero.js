@@ -10,11 +10,14 @@ export default function Hero() {
       aria-label={hero.ariaLabel}
       id="home"
     >
-      <h1 className="font-bold text-8xl leading-none mb-4" role="banner">
-        <div className="flex items-baseline gap-4 mb-1">
+      <h1
+        className="font-bold text-4xl md:text-8xl leading-none mb-4"
+        role="banner"
+      >
+        <div className="flex flex-row md:flex-row items-baseline gap-4 mb-1">
           <span>{hero.name.first}</span>
           <Image
-            className="border border-content/40 rounded-[14px]"
+            className="border border-content/40 rounded-[14px] w-16 h-16 md:w-24 md:h-24"
             src="/profile.jpg"
             alt={hero.profileAlt}
             width={96}
@@ -24,8 +27,9 @@ export default function Hero() {
         <div>{hero.name.last}</div>
       </h1>
       <p className="!text-sm">
-        <span className="text-[22.5px]">{hero.roles.role1}</span> and{" "}
-        <span className="text-[22.5px]">{hero.roles.role2}</span>,<br />
+        <span className="text-lg md:text-[22.5px]">{hero.roles.role1}</span> and{" "}
+        <span className="text-lg md:text-[22.5px]">{hero.roles.role2}</span>,
+        <br />
         {hero.description}
       </p>
     </section>
