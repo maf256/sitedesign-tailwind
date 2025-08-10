@@ -62,7 +62,7 @@
     "jobTitle": "Fullstack Webutvikler",
     "description": "Profesjonell fullstack webutvikler i Oslo spesialisert i React, Next.js, Node.js, og moderne webteknologier. Ekspert i skreddersydd webutvikling og responsivt design.",
     "url": "https://sitedesign.no",
-    "email": "majid@sitedesign.no",
+    "email": "maf256@gmail.com",
     "telephone": "+47-40189111",
     "address": {
       "@type": "PostalAddress",
@@ -71,8 +71,8 @@
       "addressCountry": "Norge"
     },
     "sameAs": [
-      "https://linkedin.com/in/majid-askarifarsangi",
-      "https://github.com/majid-askarifarsangi"
+      "https://www.linkedin.com/in/farsangi",
+      "https://github.com/maf256"
     ],
     "knowsAbout": [
       "React Utvikling",
@@ -330,9 +330,9 @@
           },
           {
             "label": "E-post",
-            "value": "majid@sitedesign.no",
+            "value": "maf256@gmail.com",
             "icon": "Mail",
-            "link": "mailto:majid@sitedesign.no"
+            "link": "mailto:maf256@gmail.com"
           }
         ],
         "status": "Tilgjengelig for frilansprosjekter"
@@ -365,6 +365,7 @@
       "resources": {
         "title": "Ressurser",
         "downloadCV": "Last ned CV",
+        "cvUrl": "https://drive.google.com/file/d/17mUMeWG0EodCvCT3zQco0ttpT5rxd3z7/view?usp=sharing",
         "viewLicences": "Se Lisenser"
       },
       "connect": {
@@ -373,12 +374,12 @@
           {
             "name": "LinkedIn",
             "icon": "Linkedin",
-            "url": "https://linkedin.com/in/majid-askarifarsangi"
+            "url": "https://www.linkedin.com/in/farsangi"
           },
           {
             "name": "GitHub",
             "icon": "Github",
-            "url": "https://github.com/majid-askarifarsangi"
+            "url": "https://github.com/maf256"
           },
           {
             "name": "Telefon",

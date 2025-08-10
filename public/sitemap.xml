@@ -8,7 +8,7 @@
     <lastmod>2025-08-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://sitedesign.no"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://en.sitedesign.no"/>
     <xhtml:link rel="alternate" hreflang="no" href="https://sitedesign.no"/>
   </url>
 
@@ -62,8 +62,7 @@
 
   <!-- CV download link (external) -->
   <url>
-    <loc>https://drive.google.com/file/d/1-WdloD7z_Y7TRNyC0zWIMPefDYLFt2Ki/view?usp=sharing</loc>
-    <lastmod>2025-08-10</lastmod>
+    <loc>https://drive.google.com/file/d/17mUMeWG0EodCvCT3zQco0ttpT5rxd3z7/view?usp=sharing</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

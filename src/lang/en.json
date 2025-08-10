@@ -61,7 +61,7 @@
     "jobTitle": "Full Stack Web Developer",
     "description": "Professional full stack web developer in Oslo specializing in React, Next.js, Node.js, and modern web technologies. Expert in custom web development and responsive design.",
     "url": "https://sitedesign.no",
-    "email": "majid@sitedesign.no",
+    "email": "maf256@gmail.com",
     "telephone": "+47-40189111",
     "address": {
       "@type": "PostalAddress",
@@ -70,8 +70,8 @@
       "addressCountry": "Norway"
     },
     "sameAs": [
-      "https://linkedin.com/in/majid-askarifarsangi",
-      "https://github.com/majid-askarifarsangi"
+      "https://www.linkedin.com/in/farsangi",
+      "https://github.com/maf256"
     ],
     "knowsAbout": [
       "React Development",
@@ -371,9 +371,9 @@
           },
           {
             "label": "Email",
-            "value": "majid@sitedesign.no",
+            "value": "maf256@gmail.com",
             "icon": "Mail",
-            "link": "mailto:majid@sitedesign.no"
+            "link": "mailto:maf256@gmail.com"
           }
         ]
       },
@@ -405,6 +405,7 @@
       "resources": {
         "title": "Resources",
         "downloadCV": "Download CV",
+        "cvUrl": "https://drive.google.com/file/d/1g8hki7Fy16VIHNfv651jOB5LT3p5ktc1/view?usp=sharing",
         "viewLicences": "View Licences"
       },
       "connect": {
@@ -413,12 +414,12 @@
           {
             "name": "LinkedIn",
             "icon": "Linkedin",
-            "url": "https://linkedin.com/in/majid-askarifarsangi"
+            "url": "https://www.linkedin.com/in/farsangi"
           },
           {
             "name": "GitHub",
             "icon": "Github",
-            "url": "https://github.com/majid-askarifarsangi"
+            "url": "https://github.com/maf256"
           },
           {
             "name": "Phone",

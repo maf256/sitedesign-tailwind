@@ -94,7 +94,7 @@ export default function Contact() {
           </h3>
           <div className="flex flex-col gap-4">
             <a
-              href="https://drive.google.com/file/d/1-WdloD7z_Y7TRNyC0zWIMPefDYLFt2Ki/view?usp=sharing"
+              href={contact.sections.resources.cvUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-4 py-4 px-6 border border-gray-300 text-gray-700 no-underline text-sm transition-all duration-200 hover:bg-blue-600/5"
