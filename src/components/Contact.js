@@ -10,7 +10,7 @@ import {
 } from "lucide-react";
 import { translations } from "@/lang/translations";
 
-// Icon mapping for dynamic icons
+
 const iconMap = {
   MapPin,
   Phone,
@@ -97,7 +97,7 @@ export default function Contact() {
               href={contact.sections.resources.cvUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-4 py-4 px-6 border border-gray-300 text-gray-700 no-underline text-sm transition-all duration-200 hover:bg-blue-600/5"
+              className="flex items-center gap-4 py-4 px-6 border border-gray-300 text-content no-underline text-sm transition-all duration-200 hover:bg-blue-600/5"
             >
               <Download className="w-[18px] h-[18px]" />
               {contact.sections.resources.downloadCV}
@@ -106,7 +106,7 @@ export default function Contact() {
               href="https://drive.google.com/file/d/1ik8Ajr50lamXsje0qRqjnsmJIjM2e9Xd/view"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-4 py-4 px-6 border border-gray-300 text-black text-sm opacity-80"
+              className="flex items-center gap-4 py-4 px-6 border border-gray-300 text-content text-sm "
             >
               <ScrollText className="w-[18px] h-[18px]" />
               <span>{contact.sections.resources.viewLicences}</span>
@@ -127,7 +127,7 @@ export default function Contact() {
                   href={social.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 py-2 px-4 border border-gray-300 text-black no-underline text-sm transition-all duration-200 h-12 hover:border-blue-600 hover:text-blue-600"
+                  className="flex items-center gap-2 py-2 px-4 border border-gray-300 text-content no-underline text-sm transition-all duration-200 h-12 hover:border-blue-600 hover:text-blue-600"
                 >
                   <IconComponent className="w-[14px] h-[14px] flex-shrink-0" />
                   <span className="text-sm">{social.name}</span>

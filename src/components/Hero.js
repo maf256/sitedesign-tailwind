@@ -1,5 +1,7 @@
 import { translations } from "@/lang/translations";
 import Image from "next/image";
+import MobileDarkmodeToggle from "./MobileDarkmodeToggleWrapper"; 
+import MobileLangToggle from "./LangButton";
 
 export default function Hero() {
   const { hero } = translations;
@@ -10,6 +12,11 @@ export default function Hero() {
       aria-label={hero.ariaLabel}
       id="home"
     >
+      <div className="absolute top-6 right-6 flex items-center gap-3 lg:hidden">
+        <MobileDarkmodeToggle />
+        <MobileLangToggle />
+      </div>
+
       <h1
         className="font-bold text-4xl md:text-8xl leading-none mb-4"
         role="banner"

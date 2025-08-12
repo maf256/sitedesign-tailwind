@@ -1,4 +1,5 @@
 import { translations } from "@/lang/translations";
+import MobileDarkmodeToggle from "./MobileDarkmodeToggleWrapper"; 
 
 export default function Navbar() {
   const { navbar } = translations;
@@ -25,17 +26,18 @@ export default function Navbar() {
           </li>
         ))}
       </ul>
+        <MobileDarkmodeToggle />
       {navbar.languageToggle === "NO" ? (
         <a
           href="https://en.sitedesign.no/"
-          className="absolute bottom-8 left-10 text-xl text-base/70 hover:text-base hover:cursor-pointer transition-colors duration-700 ease-in-out"
+          className="absolute bottom-8 left-10 text-xl text-white/70 hover:text-secondary hover:cursor-pointer transition-colors duration-700 ease-in-out"
         >
           EN
         </a>
       ) : (
         <a
           href="https://sitedesign.no/"
-          className="absolute bottom-8 left-10 text-xl text-base/70 hover:text-base hover:cursor-pointer transition-colors duration-700 ease-in-out"
+          className="absolute bottom-8 left-10 text-xl text-white/70 hover:text-secondary hover:cursor-pointer transition-colors duration-700 ease-in-out"
         >
           NO
         </a>
