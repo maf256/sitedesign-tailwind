@@ -1,6 +1,6 @@
 import { translations } from "@/lang/translations";
 import Image from "next/image";
-import MobileDarkmodeToggle from "./MobileDarkmodeToggleWrapper"; 
+import MobileDarkmodeToggle from "./MobileDarkmodeToggleWrapper";
 import MobileLangToggle from "./LangButton";
 
 export default function Hero() {
@@ -17,10 +17,7 @@ export default function Hero() {
         <MobileLangToggle />
       </div>
 
-      <h1
-        className="font-bold text-4xl md:text-8xl leading-none mb-4"
-        role="banner"
-      >
+      <h1 className="font-bold text-4xl md:text-8xl leading-none mb-4">
         <div className="flex flex-row md:flex-row items-baseline gap-4 mb-1">
           <span>{hero.name.first}</span>
           <Image
