@@ -2,10 +2,10 @@ function loadTranslations() {
   const lang = process.env.SELECTED_LANG || "en";
 
   try {
-    return require(`../lang/${lang}.json`);
+    return require(`./${lang}.json`);
   } catch (error) {
     console.warn(`translation file for ${lang} not found, falling back to en`);
-    return require(`../lang/en.json`);
+    return require(`./en.json`);
   }
 }
 

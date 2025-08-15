@@ -19,14 +19,12 @@ export default function MobileDarkmodeToggle() {
   };
 
   return (
-    <div className="lg:absolute lg:bottom-20 lg:left-10">
-      <button
-        onClick={toggleTheme}
-        className="text-base lg:text-white/70 hover:text-secondary transition-colors duration-200 p-1"
-        aria-label={isDark ? "Switch to light mode" : "Switch to dark mode"}
-      >
-        {isDark ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
-      </button>
-    </div>
+    <button
+      onClick={toggleTheme}
+      className="p-2 rounded-md text-content/80 hover:text-content hover:bg-gray-100/50 transition-all duration-200"
+      aria-label={isDark ? "Switch to light mode" : "Switch to dark mode"}
+    >
+      {isDark ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
+    </button>
   );
 }

@@ -1,9 +1,25 @@
 {
   "metadata": {
-    "title": {
-      "default": "Web design and Web development in Oslo - Majid Askarifarsangi"
+    "home": {
+      "title": "Web design and Web development in Oslo - Majid Askarifarsangi",
+      "description": "Expert web developer Oslo and webdesign Oslo services. Professional webutvikler Oslo specializing in React, Next.js, and modern web development. Custom website design and development by experienced webdesigner Oslo."
     },
-    "description": "Expert web developer Oslo and webdesign Oslo services. Professional webutvikler Oslo specializing in React, Next.js, and modern web development. Custom website design and development by experienced webdesigner Oslo.",
+    "about": {
+      "title": "About - Majid Askarifarsangi | Full Stack Web Developer Oslo",
+      "description": "Learn about Majid Askarifarsangi, a full stack web developer in Oslo with expertise in React, Next.js, Node.js, and modern web technologies. University education and professional background."
+    },
+    "work": {
+      "title": "Work Experience - Majid Askarifarsangi | Career Timeline",
+      "description": "Explore Majid Askarifarsangi's professional work experience and career timeline. From AI training at MERCOR to fullstack development at TechPros Oslo and large-scale platforms."
+    },
+    "contact": {
+      "title": "Contact - Majid Askarifarsangi | Web Developer Oslo",
+      "description": "Get in touch with Majid Askarifarsangi for web development projects. Available for freelance work in Oslo, Norway. Phone, email, and booking available."
+    },
+    "404": {
+      "title": "Page Not Found - Majid Askarifarsangi",
+      "description": "The page you're looking for doesn't exist. Return to the main portfolio of Majid Askarifarsangi, web developer in Oslo."
+    },
     "keywords": [
       "web developer oslo",
       "webdesign oslo",
@@ -124,7 +140,7 @@
     ],
     "areaServed": ["Oslo", "Norway", "Remote", "Scandinavia"],
     "availableLanguage": ["English", "Persian", "Norwegian"],
-    "priceRange": "$$",
+    "priceRange": "$",
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Web Development Services",
@@ -156,285 +172,272 @@
       ]
     }
   },
-  "navbar": {
+  "navigation": {
     "items": [
-      { "name": "Home", "href": "#home" },
-      { "name": "About", "href": "#about" },
-      { "name": "Expertise", "href": "#expertise" },
-      { "name": "Career", "href": "#career" },
-      { "name": "Contact", "href": "#contact" }
+      { "name": "Home", "href": "/" },
+      { "name": "About", "href": "/about" },
+      { "name": "Work", "href": "/work" },
+      { "name": "Contact", "href": "/contact" }
     ],
     "languageToggle": "EN"
   },
-  "hero": {
-    "ariaLabel": "Hero section introducing Majid Askarifarsangi",
-    "name": {
-      "first": "Majid",
-      "last": "Askarifarsangi"
+  "pages": {
+    "home": {
+      "hero": {
+        "ariaLabel": "Hero section introducing Majid Askarifarsangi",
+        "name": {
+          "first": "Majid",
+          "last": "Askarifarsangi"
+        },
+        "profileAlt": "Profile photo of Majid Askarifarsangi",
+        "roles": {
+          "role1": "Software Engineer",
+          "role2": "Web Developer"
+        },
+        "description": "I'm happy to have a digital chat or meet over a cup of coffee.",
+        "cta": {
+          "about": "Learn About Me",
+          "work": "View My Work",
+          "contact": "Get In Touch"
+        }
+      }
     },
-    "profileAlt": "Profile photo of Majid Askarifarsangi",
-    "roles": {
-      "role1": "Software Engineer",
-      "role2": "Web Developer"
+    "about": {
+      "title": "About Me",
+      "subtitle": "Full Stack Engineer with Modern Frontend & Backend Skills",
+      "introduction": {
+        "title": "Hello, I'm Majid Askarifarsangi",
+        "content": "I am an experienced full stack web developer who is passionate about innovative and user-friendly web design with comprehensive front-end and back-end development expertise. I create modern, responsive websites that engage visitors and strengthen your business's digital profile."
+      },
+      "background": {
+        "title": "Background & Journey",
+        "content": "My path into development began during my computer science studies and has evolved into a deep expertise in full stack engineering. I specialize in modern JavaScript frameworks, particularly React and Next.js, combined with extensive backend experience including Node.js, API development, and microservice integration. I believe in writing clean, maintainable code and following best practices to deliver robust solutions."
+      },
+      "skills": {
+        "title": "Full Stack Engineering Capabilities",
+        "frontend": {
+          "title": "Modern Frontend Skills",
+          "description": "Expert in React, Next.js, TypeScript, and modern CSS frameworks with strong design sensibilities"
+        },
+        "backend": {
+          "title": "Backend & API Integration",
+          "description": "Proficient in Node.js, Express, database design, REST APIs, and microservice architecture"
+        },
+        "design": {
+          "title": "Design Skills",
+          "description": "Strong eye for UI/UX design, responsive layouts, and modern web aesthetics"
+        }
+      },
+      "education": {
+        "title": "Education & Qualifications",
+        "universities": [
+          {
+            "degree": "Master in Business Strategic",
+            "institution": "PNU University of Iran",
+            "period": "2013 - 2015",
+            "description": "Advanced studies in strategic business management and technology integration"
+          },
+          {
+            "degree": "Bachelor in Computer Engineering",
+            "institution": "AZAD University of Iran",
+            "period": "2011 - 2013",
+            "description": "Foundation in computer science, software engineering, and system design"
+          }
+        ],
+        "certifications": [
+          {
+            "title": "Kotlin for Beginners",
+            "institution": "Udemy",
+            "year": "2024"
+          },
+          {
+            "title": "Project Management",
+            "institution": "Holte Academy",
+            "year": "2024"
+          },
+          {
+            "title": "Next.js & React Complete Guide",
+            "institution": "Udemy",
+            "year": "2022"
+          },
+          {
+            "title": "Web Developer Bootcamp",
+            "institution": "Udemy",
+            "year": "2021"
+          }
+        ]
+      },
+      "personal": {
+        "title": "Personal Information",
+        "details": [
+          "I'm 42 years old",
+          "I build things for the internet!",
+          "I have a genuine enthusiasm for exploring new technologies",
+          "In my free time, I enjoy playing football"
+        ]
+      }
     },
-    "description": "I'm happy to have a digital chat or meet over a cup of coffee."
-  },
-  "about": {
-    "title": "About Me",
-    "paragraph": "I am an experienced web developer who is passionate about innovative and user-friendly web design with front-end and back-end development expertise. I create modern, responsive websites that engage visitors and strengthen your business's digital profile.",
-    "personalInfoTitle": "Personal Information",
-    "personalInfoAriaLabel": "Personal highlights and interests",
-    "personalDetails": [
-      "I'm 42 years old",
-      "I build things for internet!",
-      "I have a genuine enthusiasm for exploring new technologies",
-      "In my free time, I enjoy playing football"
-    ],
-    "servicesOverview": {
-      "title": "What I Do",
-      "description": "I specialize in full-stack web development using React.js, Next.js, Node.js, and PostgreSQL. I've worked with companies like Konsulenthus Oslo, TechPros Oslo, and Osloweb Sandvika, building everything from business websites to complex web applications."
-    }
-  },
-  "expertise": {
-    "title": "Expertise",
-    "description": "My technical skills and areas of specialization in software development.",
-    "technicalSkills": "Technical Skills",
-    "education": "Education",
-    "skillCategories": [
-      {
-        "title": "Frontend Development",
-        "icon": "Code",
-        "skills": [
-          "React",
-          "JavaScript",
-          "Next.js",
-          "TypeScript",
-          "HTML5",
-          "CSS3",
-          "Styled-components",
-          "Material UI",
-          "Bootstrap",
-          "Tailwind CSS",
-          "SASS",
-          "React Query",
-          "Axios",
-          "Vite",
-          "Figma"
-        ]
-      },
-      {
-        "title": "Backend Development",
-        "icon": "Database",
-        "skills": [
-          "Node.js",
-          "Express.js",
-          "Nest.js",
-          "Kotlin",
-          "PostgreSQL",
-          "MongoDB",
-          "Spring Boot",
-          "JWT Authentication",
-          "REST APIs",
-          "Webhooks",
-          "Document Store",
-          "C++",
-          "SQL Server",
-          "MySQL"
-        ]
-      },
-      {
-        "title": "Soft Skills",
-        "icon": "Users",
-        "skills": [
-          "Problem-solving",
-          "Communication",
-          "Adaptability",
-          "Time Management",
-          "Teamwork",
-          "Attention to Detail",
-          "Work Ethic",
-          "Creativity",
-          "Leadership",
-          "Interpersonal Skills"
-        ]
-      },
-      {
-        "title": "Tools & Technologies",
-        "icon": "Settings",
-        "skills": [
-          "Git",
-          "Docker",
-          "Azure",
-          "Vim",
-          "Netlify",
-          "Jira",
-          "WordPress",
-          "Shopify",
-          "WCAG",
-          "SEO"
-        ]
+    "work": {
+      "title": "Work Experience",
+      "subtitle": "Career Timeline & Professional Journey",
+      "searchPlaceholder": "Search by role, company, skills, or description...",
+      "experiences": [
+        {
+          "id": "mercor-2025",
+          "year": "2025",
+          "position": "React Developer",
+          "company": "MERCOR",
+          "location": "San Francisco, USA",
+          "duration": "01.2025 - present",
+          "description": "AI training, problem-solving, prompt engineering using React, JavaScript, CSS, Tailwind",
+          "skills": ["React", "JavaScript", "CSS", "Tailwind", "AI Training", "Prompt Engineering"],
+          "searchableText": "React Developer MERCOR San Francisco AI training problem-solving prompt engineering React JavaScript CSS Tailwind"
+        },
+        {
+          "id": "celeste-2024",
+          "year": "2024",
+          "position": "Software Engineer",
+          "company": "CELESTE",
+          "location": "San Francisco, USA",
+          "duration": "04.2024 - 09.2024",
+          "description": "Built AI training pipelines, implemented prompt engineering solutions, developed AI model training interfaces",
+          "skills": ["AI Pipelines", "Prompt Engineering", "Machine Learning", "Python", "React", "API Development"],
+          "searchableText": "Software Engineer CELESTE San Francisco AI training pipelines prompt engineering AI model training interfaces"
+        },
+        {
+          "id": "baerum-2024",
+          "year": "2024",
+          "position": "Technical Project Management Training",
+          "company": "Bærum kommune",
+          "location": "Norway",
+          "duration": "02.2024 - 05.2024",
+          "description": "Led digitization project coordination, managed municipal IT infrastructure modernization",
+          "skills": ["Project Management", "IT Infrastructure", "Digitization", "Municipal Systems"],
+          "searchableText": "Technical Project Management Bærum kommune Norway digitization project coordination municipal IT infrastructure modernization"
+        },
+        {
+          "id": "techpros-2022",
+          "year": "2022",
+          "position": "Fullstack Developer",
+          "company": "TECHPROS AS",
+          "location": "Oslo, Norway",
+          "duration": "04.2022 - 05.2022",
+          "description": "Developed automation framework for financial collections, built React dashboard with Node.js/PostgreSQL",
+          "skills": ["React", "Node.js", "PostgreSQL", "Automation", "Financial Systems", "Dashboard Development"],
+          "searchableText": "Fullstack Developer TECHPROS Oslo Norway automation framework financial collections React dashboard Node.js PostgreSQL"
+        },
+        {
+          "id": "tehran-2009",
+          "year": "2009",
+          "position": "Web Developer",
+          "company": "Municipality of Tehran",
+          "location": "Iran",
+          "duration": "01.2009 - 01.2020",
+          "description": "Built large-scale digital platforms serving 50,000+ daily users, improved public service accessibility by 60%",
+          "skills": ["Large Scale Systems", "Public Services", "Web Development", "Database Design", "Performance Optimization"],
+          "searchableText": "Web Developer Municipality Tehran Iran large-scale digital platforms 50000 daily users public service accessibility"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "subtitle": "Let's Work Together",
+      "sections": {
+        "getInTouch": {
+          "title": "Get In Touch",
+          "status": "Available for freelance projects",
+          "contactInfo": [
+            {
+              "label": "Address",
+              "value": "Sandvika Norway",
+              "icon": "MapPin",
+              "link": "https://maps.app.goo.gl/291WSFANgPYTSAAx8"
+            },
+            {
+              "label": "Phone",
+              "value": "+47 40189111",
+              "icon": "Phone",
+              "link": "tel:+4740189111"
+            },
+            {
+              "label": "Email",
+              "value": "maf256@gmail.com",
+              "icon": "Mail",
+              "link": "mailto:maf256@gmail.com"
+            }
+          ]
+        },
+        "about": {
+          "title": "About",
+          "personalInfo": [
+            {
+              "label": "Age",
+              "value": "42"
+            },
+            {
+              "label": "Nationality",
+              "value": "Iran"
+            },
+            {
+              "label": "Study",
+              "value": "Azad University of Iran"
+            },
+            {
+              "label": "Degree",
+              "value": "Master"
+            },
+            {
+              "label": "Freelance",
+              "value": "Available"
+            }
+          ]
+        },
+        "resources": {
+          "title": "Resources",
+          "downloadCV": "Download CV",
+          "cvUrl": "https://drive.google.com/file/d/1g8hki7Fy16VIHNfv651jOB5LT3p5ktc1/view?usp=sharing",
+          "viewLicences": "View Licences"
+        },
+        "connect": {
+          "title": "Connect",
+          "socialLinks": [
+            {
+              "name": "LinkedIn",
+              "icon": "Linkedin",
+              "url": "https://www.linkedin.com/in/farsangi"
+            },
+            {
+              "name": "GitHub",
+              "icon": "Github",
+              "url": "https://github.com/maf256"
+            },
+            {
+              "name": "Phone",
+              "icon": "Phone",
+              "url": "tel:+4740189111"
+            },
+            {
+              "name": "WhatsApp",
+              "icon": "MessageCircle",
+              "url": "https://wa.me/4740189111"
+            }
+          ]
+        },
+        "meeting": {
+          "title": "Schedule a Meeting",
+          "calendarTitle": "Book a Meeting"
+        }
       }
-    ],
-    "educationList": [
-      {
-        "degree": "Master in Business Strategic",
-        "institution": "PNU University of IRAN",
-        "period": "2013 - 2015"
-      },
-      {
-        "degree": "Bachelor in Computer Engineering",
-        "institution": "AZAD University of IRAN",
-        "period": "2011 - 2013"
-      },
-      {
-        "degree": "Kotlin for Beginners",
-        "institution": "Udemy",
-        "period": "2024"
-      },
-      {
-        "degree": "Project Management",
-        "institution": "Holte Academy",
-        "period": "2024"
-      },
-      {
-        "degree": "Next.js & React Complete Guide",
-        "institution": "Udemy",
-        "period": "2022"
-      },
-      {
-        "degree": "Web Developer Bootcamp",
-        "institution": "Udemy",
-        "period": "2021"
-      }
-    ]
-  },
-  "career": {
-    "title": "Career",
-    "description": "Over the years, I've enjoyed building AI tools and large digital platforms with React and JavaScript, always looking for new challenges and ways to create real impact with my teams.",
-    "experiences": [
-      {
-        "year": "2025",
-        "position": "React Developer",
-        "company": "MERCOR – San Francisco, USA",
-        "duration": "01.2025 - present",
-        "description": "AI training, problem-solving, prompt engineering using React, JavaScript, CSS, Tailwind"
-      },
-      {
-        "year": "2024",
-        "position": "Software Engineer",
-        "company": "CELESTE – San Francisco, USA",
-        "duration": "04.2024 - 09.2024",
-        "description": "Built AI training pipelines, implemented prompt engineering solutions, developed AI model training interfaces"
-      },
-      {
-        "year": "2024",
-        "position": "Technical Project Management Training",
-        "company": "Bærum kommune – Norway",
-        "duration": "02.2024 - 05.2024",
-        "description": "Led digitization project coordination, managed municipal IT infrastructure modernization"
-      },
-      {
-        "year": "2022",
-        "position": "Fullstack Developer",
-        "company": "TECHPROS AS – Oslo, Norway",
-        "duration": "04.2022 - 05.2022",
-        "description": "Developed automation framework for financial collections, built React dashboard with Node.js/PostgreSQL"
-      },
-      {
-        "year": "2009",
-        "position": "Web Developer",
-        "company": "Municipality of Tehran – Iran",
-        "duration": "01.2009 - 01.2020",
-        "description": "Built large-scale digital platforms serving 50,000+ daily users, improved public service accessibility by 60%"
-      }
-    ]
-  },
-  "contact": {
-    "title": "Contact",
-    "sections": {
-      "getInTouch": {
-        "title": "Get In Touch",
-        "status": "Available for freelance projects",
-        "contactInfo": [
-          {
-            "label": "Address",
-            "value": "Sandvika Norway",
-            "icon": "MapPin",
-            "link": "https://maps.app.goo.gl/291WSFANgPYTSAAx8"
-          },
-          {
-            "label": "Phone",
-            "value": "+47 40189111",
-            "icon": "Phone",
-            "link": "tel:+4740189111"
-          },
-          {
-            "label": "Email",
-            "value": "maf256@gmail.com",
-            "icon": "Mail",
-            "link": "mailto:maf256@gmail.com"
-          }
-        ]
-      },
-      "about": {
-        "title": "About",
-        "personalInfo": [
-          {
-            "label": "Age",
-            "value": "42"
-          },
-          {
-            "label": "Nationality",
-            "value": "Iran"
-          },
-          {
-            "label": "Study",
-            "value": "Azad University of Iran"
-          },
-          {
-            "label": "Degree",
-            "value": "Master"
-          },
-          {
-            "label": "Freelance",
-            "value": "Available"
-          }
-        ]
-      },
-      "resources": {
-        "title": "Resources",
-        "downloadCV": "Download CV",
-        "cvUrl": "https://drive.google.com/file/d/1g8hki7Fy16VIHNfv651jOB5LT3p5ktc1/view?usp=sharing",
-        "viewLicences": "View Licences"
-      },
-      "connect": {
-        "title": "Connect",
-        "socialLinks": [
-          {
-            "name": "LinkedIn",
-            "icon": "Linkedin",
-            "url": "https://www.linkedin.com/in/farsangi"
-          },
-          {
-            "name": "GitHub",
-            "icon": "Github",
-            "url": "https://github.com/maf256"
-          },
-          {
-            "name": "Phone",
-            "icon": "Phone",
-            "url": "tel:+4740189111"
-          },
-          {
-            "name": "WhatsApp",
-            "icon": "MessageCircle",
-            "url": "https://wa.me/4740189111"
-          }
-        ]
-      },
-      "meeting": {
-        "title": "Schedule a Meeting",
-        "calendarTitle": "Book a Meeting"
+    },
+    "404": {
+      "title": "Page Not Found",
+      "subtitle": "Oops! The page you're looking for doesn't exist.",
+      "description": "The page you requested could not be found. It might have been moved, deleted, or you entered the wrong URL.",
+      "actions": {
+        "home": "Go Home",
+        "about": "About Me",
+        "work": "View Work",
+        "contact": "Contact"
       }
     }
   }

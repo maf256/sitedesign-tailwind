@@ -16,11 +16,11 @@ This website contains information about:
 - Contact information for web development projects
 
 ## KEY SECTIONS
-1. HOME (#home): Introduction and professional roles
-2. ABOUT (#about): Personal background and services overview
-3. EXPERTISE (#expertise): Technical skills and education
-4. CAREER (#career): Professional experience timeline
-5. CONTACT (#contact): Contact information and meeting booking
+1. HOME (/): Introduction and professional roles
+2. ABOUT (/about): Personal background and services overview
+3. WORK (/work): Professional experience timeline with search functionality
+4. CONTACT (/contact): Contact information and meeting booking
+5. 404 (/404): Custom error page
 
 ## PROFESSIONAL INFORMATION
 Name: Majid Askarifarsangi
