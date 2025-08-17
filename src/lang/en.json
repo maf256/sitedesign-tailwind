@@ -1,364 +1,205 @@
 {
-  "metadata": {
-    "title": {
-      "default": "Web design and Web development in Oslo - Majid Askarifarsangi"
-    },
-    "description": "Expert web developer Oslo and webdesign Oslo services. Professional webutvikler Oslo specializing in React, Next.js, and modern web development. Custom website design and development by experienced webdesigner Oslo.",
-    "keywords": [
-      "web developer oslo",
-      "webdesign oslo",
-      "webutvikler oslo",
-      "webdesigner oslo",
-      "web development oslo",
-      "website developer oslo",
-      "react developer oslo",
-      "nextjs developer oslo",
-      "javascript developer oslo",
-      "fullstack developer oslo",
-      "frontend developer oslo",
-      "backend developer oslo",
-      "web design oslo",
-      "website design oslo",
-      "responsive web design",
-      "modern web development",
-      "professional web development",
-      "custom web development",
-      "e-commerce development",
-      "business website development",
-      "seo optimization",
-      "web application development",
-      "Majid Askarifarsangi",
-      "norway web developer",
-      "oslo web services",
-      "webutvikling oslo",
-      "nettside utvikling",
-      "wordpress development oslo",
-      "shopify development oslo"
+  "navbar": {
+    "items": [
+      { "name": "Home" },
+      { "name": "About" },
+      { "name": "Career" },
+      { "name": "Contact" }
     ],
-    "authors": [{ "name": "Majid Askarifarsangi" }],
-    "creator": "Majid Askarifarsangi - Web Developer Oslo",
-    "publisher": "Web Developer Oslo - Majid Askarifarsangi",
-    "robots": {
-      "index": true,
-      "follow": true,
-      "googleBot": {
-        "index": true,
-        "follow": true,
-        "max-video-preview": -1,
-        "max-image-preview": "large",
-        "max-snippet": -1
-      }
-    },
-    "category": "Web Development Oslo",
-    "classification": "Professional Web Developer Oslo Portfolio",
-    "applicationName": "Web Developer Oslo - Majid Askarifarsangi"
+    "languageToggle": "EN"
   },
-  "structuredData": {
-    "@context": "https://schema.org",
-    "@type": ["Person", "ProfessionalService"],
-    "name": "Majid Askarifarsangi",
-    "jobTitle": "Full Stack Web Developer",
-    "description": "Professional full stack web developer in Oslo specializing in React, Next.js, Node.js, and modern web technologies. Expert in custom web development and responsive design.",
-    "url": "https://sitedesign.no",
-    "email": "maf256@gmail.com",
-    "telephone": "+47-40189111",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Oslo",
-      "addressRegion": "Oslo",
-      "addressCountry": "Norway"
+  "home": {
+    "title": {
+      "line1": "Web Developer",
+      "line2": "& Designer"
     },
-    "sameAs": [
-      "https://www.linkedin.com/in/farsangi",
-      "https://github.com/maf256"
-    ],
-    "knowsAbout": [
-      "React Development",
-      "Next.js Development",
-      "JavaScript Programming",
-      "Node.js Development",
-      "PostgreSQL Database",
-      "TypeScript Development",
-      "Full Stack Development",
-      "Web Development Oslo",
-      "Frontend Development",
-      "Backend Development",
-      "Responsive Web Design",
-      "E-commerce Development",
-      "SEO Optimization",
-      "Web Application Development"
-    ],
-    "hasOccupation": {
-      "@type": "Occupation",
-      "name": "Software Engineer",
-      "occupationLocation": {
-        "@type": "Country",
-        "name": "Norway"
-      }
+    "profile": {
+      "alt": "webdeveloper - Majid Askarifarsangi",
+      "name": "Majid Askarifarsangi",
+      "tagline": "I build things for the web"
     },
-    "alumniOf": [
-      {
-        "@type": "CollegeOrUniversity",
-        "name": "PNU University of Iran"
+    "about": {
+      "description": "I'm happy to have a digital chat or meet over a cup of coffee.I create responsive, user-friendly websites, focusing on modern web design and effective web development, helping your business succeed online."
+    },
+    "whatIsWebDev": {
+      "title": "What is Web Development?",
+      "description": "Web development is building applications, services, or sites that run over the web, whether that's consumer-facing websites or backend enterprise systems delivered through web technologies. It can range from creating simple informational pages to developing complex APIs and client-server systems that power entire organizations. At its core, web development is about using the web as the platform for delivering software and connecting people with the tools or information they need.",
+      "readMore": "Read More",
+      "frontend": {
+        "title": "Frontend Development",
+        "description": "Frontend web development is about creating the part of a website or app that people directly use. It shapes how users see, click, type, and move through the interface. Ultimately, it bridges design and user experience into a functional product."
       },
-      {
-        "@type": "CollegeOrUniversity",
-        "name": "AZAD University of Iran"
+      "backend": {
+        "title": "Backend Development",
+        "description": "Backend web development is about building the logic, infrastructure, and systems that support a digital product. It handles how data is stored, processed, and shared between different parts of the application. Ultimately, it enables the product to function as an interconnected, intelligent system."
       }
-    ],
-    "worksFor": [
-      {
-        "@type": "Organization",
-        "name": "MERCOR",
-        "address": "San Francisco, USA"
+    },
+    "approach": {
+      "title": "My Approach",
+      "description": "For me, great engineering isn't just about code or metrics, it's about trust. When a client hands you a complex problem, they're trusting that you can deliver value. They rely on you not just to write solutions, but to understand their needs, anticipate risks, and communicate with clarity. Engineering, at its best, is a partnership, where every line of code reflects reliability, every decision reflects integrity, and every outcome strengthens that trust."
+    },
+    "why": {
+      "title": "Why Your Business Needs Professional Web Development",
+      "paragraphs": [
+        "Your website is often the first place people encounter your brand it's your digital storefront. In just a few seconds, visitors decide whether to stay and explore or click away. That's why design and usability are critical. A skilled web developer can craft a layout that captures attention and keeps users engaged.",
+        "One of the biggest benefits of working with a professional web developer is the chance to build a site that truly reflects your business. Unlike cookie-cutter website builders, custom development gives you freedom. Your website can align perfectly with your brand voice, whether you want something bold and creative or simple and minimalist."
+      ]
+    },
+    "features": {
+      "support": {
+        "title": "Support and Maintenance",
+        "description": "A website needs regular updates to stay secure and effective. Ongoing support ensures your site runs smoothly and grows with your business."
+      },
+      "ux": {
+        "title": "Improved User Experience",
+        "description": "Easy navigation, fast loading, and clear design keep visitors engaged and more likely to convert into customers."
+      },
+      "responsive": {
+        "title": "Responsiveness",
+        "description": "A responsive site adapts to any device, giving users a smooth experience on mobile, tablet, or desktop."
       }
-    ],
-    "serviceType": [
-      "Web Development",
-      "Web Design",
-      "Frontend Development",
-      "Backend Development",
-      "Full Stack Development",
-      "E-commerce Development",
-      "Custom Web Applications"
-    ],
-    "areaServed": ["Oslo", "Norway", "Remote", "Scandinavia"],
-    "availableLanguage": ["English", "Persian", "Norwegian"],
-    "priceRange": "$$",
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Web Development Services",
-      "itemListElement": [
+    },
+    "cta": {
+      "title": "Ready to Build Something Amazing?",
+      "description": "A professional website is essential to the success of your business in today's digital world. Whether you need a simple website, e-commerce platform, or a custom web solution",
+      "button": "Start Your Project"
+    }
+  },
+  "about": {
+    "pageTitle": "About",
+    "subtitle": "Majid Askarifarsangi - Web Developer",
+    "imageAlt": "Web Developer in Oslo, Norway",
+    "story": {
+      "title": "My Story",
+      "paragraphs": [
+        "I'm an experienced full-stack developer with over 15 years of professional work, specializing in React.js, Next.js, Node.js, and PostgreSQL. I've delivered solutions ranging from business websites to complex web applications for companies such as Konsulenthus Oslo, TechPros Oslo, and Osloweb Sandvika.",
+        "My passion lies in building performant, user-friendly applications that not only look great but also solve real-world business problems and strengthen digital presence.",
+        "I approach both work and life with a growth mindset, leading by example in both professional settings and at home. I believe that continuous learning and accountability are the keys to long-term success."
+      ]
+    },
+    "philosophy": {
+      "title": "My Philosophy",
+      "quote": "Technology evolves quickly, and the best way to stay valuable is through continuous learning, reinvention, and adaptability."
+    },
+    "quickFacts": {
+      "title": "Quick Facts",
+      "facts": [
+        { "label": "Age", "value": "41" },
+        { "label": "Birthday", "value": "30.03.1983" },
+        { "label": "Location", "value": "Sandvika, Norway" },
+        { "label": "Phone", "value": "+47 40189111" },
+        { "label": "Experience", "value": "15+ Years" },
+        { "label": "Specialty", "value": "JavaScript" },
+        { "label": "Status", "value": "Available" }
+      ]
+    },
+    "currently": {
+      "title": "Currently",
+      "items": [
         {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Custom Web Development",
-            "description": "Professional custom web development using modern technologies"
-          }
+          "role": "React Developer at MERCOR",
+          "description": "AI training & prompt engineering"
         },
         {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "React Development",
-            "description": "Expert React.js application development and consulting"
-          }
+          "role": "Freelance Projects",
+          "description": "Web development & consulting"
         },
         {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "E-commerce Development",
-            "description": "Complete e-commerce solutions and online store development"
-          }
+          "role": "Learning",
+          "description": "Advanced AI integration"
+        }
+      ]
+    },
+    "education": {
+      "title": "University Education",
+      "universities": [
+        {
+          "degree": "Master in Business Strategic",
+          "institution": "PNU University of IRAN",
+          "period": "2013 - 2015",
+          "description": "Advanced studies in strategic business management, focusing on organizational development and strategic planning methodologies."
+        },
+        {
+          "degree": "Bachelor in Computer Engineering",
+          "institution": "AZAD University of IRAN",
+          "period": "2011 - 2013",
+          "description": "Comprehensive foundation in computer science principles, software engineering, and system architecture design."
         }
       ]
     }
   },
-  "navbar": {
-    "items": [
-      { "name": "Home", "href": "#home" },
-      { "name": "About", "href": "#about" },
-      { "name": "Expertise", "href": "#expertise" },
-      { "name": "Career", "href": "#career" },
-      { "name": "Contact", "href": "#contact" }
-    ],
-    "languageToggle": "EN"
-  },
-  "hero": {
-    "ariaLabel": "Hero section introducing Majid Askarifarsangi",
-    "name": {
-      "first": "Majid",
-      "last": "Askarifarsangi"
-    },
-    "profileAlt": "Profile photo of Majid Askarifarsangi",
-    "roles": {
-      "role1": "Software Engineer",
-      "role2": "Web Developer"
-    },
-    "description": "I'm happy to have a digital chat or meet over a cup of coffee."
-  },
-  "about": {
-    "title": "About Me",
-    "paragraph": "I am an experienced web developer who is passionate about innovative and user-friendly web design with front-end and back-end development expertise. I create modern, responsive websites that engage visitors and strengthen your business's digital profile.",
-    "personalInfoTitle": "Personal Information",
-    "personalInfoAriaLabel": "Personal highlights and interests",
-    "personalDetails": [
-      "I'm 42 years old",
-      "I build things for internet!",
-      "I have a genuine enthusiasm for exploring new technologies",
-      "In my free time, I enjoy playing football"
-    ],
-    "servicesOverview": {
-      "title": "What I Do",
-      "description": "I specialize in full-stack web development using React.js, Next.js, Node.js, and PostgreSQL. I've worked with companies like Konsulenthus Oslo, TechPros Oslo, and Osloweb Sandvika, building everything from business websites to complex web applications."
-    }
-  },
-  "expertise": {
-    "title": "Expertise",
-    "description": "My technical skills and areas of specialization in software development.",
-    "technicalSkills": "Technical Skills",
-    "education": "Education",
-    "skillCategories": [
-      {
-        "title": "Frontend Development",
-        "icon": "Code",
-        "skills": [
-          "React",
-          "JavaScript",
-          "Next.js",
-          "TypeScript",
-          "HTML5",
-          "CSS3",
-          "Styled-components",
-          "Material UI",
-          "Bootstrap",
-          "Tailwind CSS",
-          "SASS",
-          "React Query",
-          "Axios",
-          "Vite",
-          "Figma"
-        ]
-      },
-      {
-        "title": "Backend Development",
-        "icon": "Database",
-        "skills": [
-          "Node.js",
-          "Express.js",
-          "Nest.js",
-          "Kotlin",
-          "PostgreSQL",
-          "MongoDB",
-          "Spring Boot",
-          "JWT Authentication",
-          "REST APIs",
-          "Webhooks",
-          "Document Store",
-          "C++",
-          "SQL Server",
-          "MySQL"
-        ]
-      },
-      {
-        "title": "Soft Skills",
-        "icon": "Users",
-        "skills": [
-          "Problem-solving",
-          "Communication",
-          "Adaptability",
-          "Time Management",
-          "Teamwork",
-          "Attention to Detail",
-          "Work Ethic",
-          "Creativity",
-          "Leadership",
-          "Interpersonal Skills"
-        ]
-      },
-      {
-        "title": "Tools & Technologies",
-        "icon": "Settings",
-        "skills": [
-          "Git",
-          "Docker",
-          "Azure",
-          "Vim",
-          "Netlify",
-          "Jira",
-          "WordPress",
-          "Shopify",
-          "WCAG",
-          "SEO"
-        ]
-      }
-    ],
-    "educationList": [
-      {
-        "degree": "Master in Business Strategic",
-        "institution": "PNU University of IRAN",
-        "period": "2013 - 2015"
-      },
-      {
-        "degree": "Bachelor in Computer Engineering",
-        "institution": "AZAD University of IRAN",
-        "period": "2011 - 2013"
-      },
-      {
-        "degree": "Kotlin for Beginners",
-        "institution": "Udemy",
-        "period": "2024"
-      },
-      {
-        "degree": "Project Management",
-        "institution": "Holte Academy",
-        "period": "2024"
-      },
-      {
-        "degree": "Next.js & React Complete Guide",
-        "institution": "Udemy",
-        "period": "2022"
-      },
-      {
-        "degree": "Web Developer Bootcamp",
-        "institution": "Udemy",
-        "period": "2021"
-      }
-    ]
-  },
   "career": {
     "title": "Career",
-    "description": "Over the years, I've enjoyed building AI tools and large digital platforms with React and JavaScript, always looking for new challenges and ways to create real impact with my teams.",
+    "description": "Over the years, I've enjoyed creating software, working on freelance projects, and full time positions as a web developer, always looking for new opportunities to grow.",
     "experiences": [
       {
         "year": "2025",
         "position": "React Developer",
         "company": "MERCOR – San Francisco, USA",
         "duration": "01.2025 - present",
-        "description": "AI training, problem-solving, prompt engineering using React, JavaScript, CSS, Tailwind"
+        "description": "AI training, problem-solving, prompt engineering using React, JavaScript, CSS, Tailwind",
+        "skills": ["React", "JavaScript", "CSS", "Tailwind", "AI", "TypeScript"]
       },
       {
         "year": "2024",
         "position": "Software Engineer",
         "company": "CELESTE – San Francisco, USA",
         "duration": "04.2024 - 09.2024",
-        "description": "Built AI training pipelines, implemented prompt engineering solutions, developed AI model training interfaces"
+        "description": "Built AI training pipelines, implemented prompt engineering solutions, developed AI model training interfaces",
+        "skills": [
+          "Python",
+          "AI",
+          "Machine Learning",
+          "Node.js",
+          "React",
+          "TypeScript"
+        ]
       },
       {
         "year": "2024",
         "position": "Technical Project Management Training",
         "company": "Bærum kommune – Norway",
         "duration": "02.2024 - 05.2024",
-        "description": "Led digitization project coordination, managed municipal IT infrastructure modernization"
+        "description": "Led digitization project coordination, managed municipal IT infrastructure modernization",
+        "skills": [
+          "Project Management",
+          "Azure",
+          "Infrastructure",
+          "Leadership"
+        ]
       },
       {
         "year": "2022",
         "position": "Fullstack Developer",
         "company": "TECHPROS AS – Oslo, Norway",
         "duration": "04.2022 - 05.2022",
-        "description": "Developed automation framework for financial collections, built React dashboard with Node.js/PostgreSQL"
+        "description": "Developed automation framework for financial collections, built React dashboard with Node.js/PostgreSQL",
+        "skills": ["React", "Node.js", "PostgreSQL", "JavaScript", "REST API"]
       },
       {
         "year": "2009",
         "position": "Web Developer",
         "company": "Municipality of Tehran – Iran",
         "duration": "01.2009 - 01.2020",
-        "description": "Built large-scale digital platforms serving 50,000+ daily users, improved public service accessibility by 60%"
+        "description": "Built large-scale digital platforms serving 50,000+ daily users, improved public service accessibility by 60%",
+        "skills": ["JavaScript", "HTML", "CSS", "SQL", "MySQL"]
       }
     ]
   },
   "contact": {
     "title": "Contact",
     "sections": {
-      "getInTouch": {
+      "intro": {
+        "headline": "Ready to discuss your project?",
+        "description": "Let's schedule a meeting to explore how we can work together.",
+        "status": "Available for freelance projects"
+      },
+      "contactInfo": {
         "title": "Get In Touch",
-        "status": "Available for freelance projects",
-        "contactInfo": [
+        "items": [
           {
             "label": "Address",
-            "value": "Sandvika Norway",
+            "value": "Sandvika, Norway",
             "icon": "MapPin",
             "link": "https://maps.app.goo.gl/291WSFANgPYTSAAx8"
           },
@@ -376,36 +217,23 @@
           }
         ]
       },
-      "about": {
-        "title": "About",
-        "personalInfo": [
-          {
-            "label": "Age",
-            "value": "42"
-          },
-          {
-            "label": "Nationality",
-            "value": "Iran"
-          },
-          {
-            "label": "Study",
-            "value": "Azad University of Iran"
-          },
-          {
-            "label": "Degree",
-            "value": "Master"
-          },
-          {
-            "label": "Freelance",
-            "value": "Available"
-          }
+      "personalInfo": {
+        "title": "Personal Information",
+        "items": [
+          { "label": "Age", "value": "41" },
+          { "label": "Birthday", "value": "30.03.1983" },
+          { "label": "Location", "value": "Sandvika, Norway" },
+          { "label": "Phone", "value": "+47 40189111" }
         ]
       },
       "resources": {
         "title": "Resources",
         "downloadCV": "Download CV",
         "cvUrl": "https://drive.google.com/file/d/1g8hki7Fy16VIHNfv651jOB5LT3p5ktc1/view?usp=sharing",
-        "viewLicences": "View Licences"
+        "viewLicences": {
+          "label": "View Licences",
+          "url": "https://drive.google.com/file/d/1ik8Ajr50lamXsje0qRqjnsmJIjM2e9Xd/view"
+        }
       },
       "connect": {
         "title": "Connect",
@@ -434,7 +262,50 @@
       },
       "meeting": {
         "title": "Schedule a Meeting",
-        "calendarTitle": "Book a Meeting"
+        "calendarTitle": "Book a Meeting",
+        "calendarUrl": "https://calendar.google.com/calendar/appointments/schedules/AcZssZ08q78jfdTSAvdjzrYsZzvFRPIxbVtTln79uu3M9ITm3VITP81IoKX-YurFrpjs3PoE-IG9z8je?gv=true"
+      }
+    }
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you're looking for doesn't exist.",
+    "backToHome": "Back to Home"
+  },
+  "footer": {
+    "description": "Majid Askarifarsangi, Web Developer Services, Oslo"
+  },
+  "seo": {
+    "home": {
+      "title": "Web Developer in Oslo | Majid Askarifarsangi",
+      "description": "Oslo-based web developer specializing in React and Next.js. I build modern, responsive websites that help businesses grow.",
+      "openGraph": {
+        "title": "Web Developer Oslo | Majid Askarifarsangi",
+        "description": "Modern, responsive websites built with React & Next.js in Oslo. Helping businesses grow online."
+      }
+    },
+    "about": {
+      "title": "About Me | Majid Askarifarsangi",
+      "description": "Experienced Oslo web developer with 15+ years in React, Next.js, and full-stack development.",
+      "openGraph": {
+        "title": "About Majid Askarifarsangi",
+        "description": "Full-stack web developer in Oslo with 15+ years of experience. React, Next.js & modern web solutions."
+      }
+    },
+    "career": {
+      "title": "Career | Majid Askarifarsangi, Web Developer Oslo",
+      "description": "15+ years of experience in web development, from enterprise apps to modern React projects.",
+      "openGraph": {
+        "title": "Career of Majid Askarifarsangi",
+        "description": "Explore my professional journey as a web developer in Oslo, from enterprise systems to modern React apps."
+      }
+    },
+    "contact": {
+      "title": "Contact | Web Developer in Oslo",
+      "description": "Get in touch for professional web development in Oslo. Let’s build a modern, responsive website for your business.",
+      "openGraph": {
+        "title": "Contact Majid Askarifarsangi",
+        "description": "Reach out for web development in Oslo. React, Next.js, and modern websites tailored to your business."
       }
     }
   }

@@ -1,40 +1,52 @@
 @import "tailwindcss";
 
 @theme {
+  --color-base-100: var(--base-100);
+  --color-base-200: var(--base-200);
+  --color-base-300: var(--base-300);
+  --color-content: var(--content);
+  --color-primary: var(--primary);
+  --color-error: var(--error);
+  --color-info: var(--info);
+  --color-success: var(--success);
 
-  --color-primary: #071233;
-  --color-secondary: #355ef2;
-  --color-info: #f25f35;
+  --radius: 1.5rem;
 }
 
-
-
 :root {
-  --color-base: #fdfdfd;
-  --color-content: #000717;
-
+  --base-100: #ffffff;
+  --base-200: #f2f2f7;
+  --base-300: #e5e5ea;
+  --content: #000000;
+  --primary: #003d82;
+  --error: #ff3b30;
+  --info: #ff9500;
+  --success: #34c759;
 }
 
 .dark {
-  --color-base: #000717;
-  --color-content: #fdfdfd;
-
+  --base-100: #1c1c1e;
+  --base-200: #2c2c2e;
+  --base-200: #363638;
+  --content: #ffffff;
+  --primary: #0a84ff;
+  --error: #ff453a;
+  --info: #ff9f0a;
+  --success: #30d158;
 }
 
 body {
-  background: var(--color-base);
-  color: var(--color-content);
+  background: var(--base-100);
+  color: var(--content);
   font-family: serif;
 }
 
-
-section {
+/* section {
   margin-top: 260px;
   width: 100%;
   max-width: 700px;
   padding: 0 1rem;
-}
-
+} */
 
 @media (max-width: 768px) {
   section {
@@ -44,8 +56,8 @@ section {
 
 h1 {
   font-family: var(--font-old-standard);
+  font-size: clamp(2rem, 5vw, 3.5rem);
 }
-
 
 h2 {
   font-family: var(--font-old-standard);
@@ -54,25 +66,22 @@ h2 {
   margin-bottom: 16px;
 }
 
-
 h3 {
   font-family: var(--font-old-standard);
   font-size: clamp(1.5rem, 3vw, 36.65px);
   margin-bottom: 8px;
 }
 
-
 p {
   font-size: clamp(1rem, 2.5vw, 22.5px);
-  color: var(--color-content);
+  color: var(--content);
   opacity: 0.75;
 }
-
 
 .time {
   font-family: serif;
   font-size: clamp(1.25rem, 2.5vw, 24px);
   font-weight: 700;
-  color: var(--color-secondary);
+  color: var(--primary);
   margin-bottom: 1px;
 }

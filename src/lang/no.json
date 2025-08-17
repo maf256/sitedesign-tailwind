@@ -1,323 +1,200 @@
 {
-  "metadata": {
-    "title": {
-      "default": "Webdesign og Webutvikling i Oslo - Majid Askarifarsangi"
-    },
-    "description": "Ekspert webutvikler Oslo og webdesign Oslo tjenester. Profesjonell webdesigner Oslo spesialisert i React, Next.js, og moderne webutvikling. Skreddersydd nettside design og utvikling av erfaren webutvikler.",
-    "keywords": [
-      "webutvikler oslo",
-      "webdesign oslo",
-      "webdesigner oslo",
-      "webutvikling oslo",
-      "nettside utvikling oslo",
-      "react utvikler oslo",
-      "nextjs utvikler oslo",
-      "javascript utvikler oslo",
-      "fullstack utvikler oslo",
-      "frontend utvikler oslo",
-      "backend utvikler oslo",
-      "webdesign i oslo",
-      "nettside design oslo",
-      "responsiv webdesign",
-      "moderne webutvikling",
-      "profesjonell webutvikling",
-      "skreddersydd webutvikling",
-      "e-handel utvikling",
-      "bedrift nettside utvikling",
-      "seo optimalisering",
-      "web applikasjon utvikling",
-      "Majid Askarifarsangi",
-      "norge webutvikler",
-      "oslo web tjenester",
-      "webutvikling oslo",
-      "nettside utvikling",
-      "wordpress utvikling oslo",
-      "shopify utvikling oslo",
-      "webdesigner i oslo",
-      "webutvikler i oslo"
+  "navbar": {
+    "items": [
+      { "name": "Hjem" },
+      { "name": "Om meg" },
+      { "name": "Karriere" },
+      { "name": "Kontakt" }
     ],
-    "authors": [{ "name": "Majid Askarifarsangi" }],
-    "creator": "Majid Askarifarsangi - Webutvikler Oslo",
-    "publisher": "Webutvikler Oslo - Majid Askarifarsangi",
-    "robots": {
-      "index": true,
-      "follow": true,
-      "googleBot": {
-        "index": true,
-        "follow": true,
-        "max-video-preview": -1,
-        "max-image-preview": "large",
-        "max-snippet": -1
-      }
-    },
-    "category": "Webutvikling Oslo",
-    "classification": "Profesjonell Webutvikler Oslo Portfolio",
-    "applicationName": "Webutvikler Oslo - Majid Askarifarsangi"
+    "languageToggle": "NO"
   },
-  "structuredData": {
-    "@context": "https://schema.org",
-    "@type": ["Person", "ProfessionalService"],
-    "name": "Majid Askarifarsangi",
-    "jobTitle": "Fullstack Webutvikler",
-    "description": "Profesjonell fullstack webutvikler i Oslo spesialisert i React, Next.js, Node.js, og moderne webteknologier. Ekspert i skreddersydd webutvikling og responsivt design.",
-    "url": "https://sitedesign.no",
-    "email": "maf256@gmail.com",
-    "telephone": "+47-40189111",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Oslo",
-      "addressRegion": "Oslo",
-      "addressCountry": "Norge"
+  "home": {
+    "title": {
+      "line1": "Webutvikler",
+      "line2": "& Designer"
     },
-    "sameAs": [
-      "https://www.linkedin.com/in/farsangi",
-      "https://github.com/maf256"
-    ],
-    "knowsAbout": [
-      "React Utvikling",
-      "Next.js Utvikling",
-      "JavaScript Programmering",
-      "Node.js Utvikling",
-      "PostgreSQL Database",
-      "TypeScript Utvikling",
-      "Fullstack Utvikling",
-      "Webutvikling Oslo",
-      "Frontend Utvikling",
-      "Backend Utvikling",
-      "Responsiv Webdesign",
-      "E-handel Utvikling",
-      "SEO Optimalisering",
-      "Web Applikasjon Utvikling"
-    ],
-    "hasOccupation": {
-      "@type": "Occupation",
-      "name": "Programvareingeniør",
-      "occupationLocation": {
-        "@type": "Country",
-        "name": "Norge"
-      }
+    "profile": {
+      "alt": "webutvikler - Majid Askarifarsangi",
+      "name": "Majid Askarifarsangi",
+      "tagline": "Jeg bygger løsninger for web"
     },
-    "alumniOf": [
-      {
-        "@type": "CollegeOrUniversity",
-        "name": "PNU University of Iran"
+    "about": {
+      "description": "Jeg tar gjerne en digital prat eller møtes over en kopp kaffe. Jeg lager responsive og brukervennlige nettsider, med fokus på moderne webdesign og effektiv webutvikling, for å hjelpe bedriften din å lykkes på nett."
+    },
+    "whatIsWebDev": {
+      "title": "Hva er webutvikling?",
+      "description": "Webutvikling handler om å lage applikasjoner, tjenester eller nettsider som kjører på nettet, enten det er enkle informasjons­sider eller avanserte systemer brukt av bedrifter. Det kan være alt fra en enkel landingsside til komplekse API-er og klient-server løsninger som støtter hele organisasjoner. Kort sagt: webutvikling handler om å bruke nettet som plattform for programvare og for å koble folk til verktøy og informasjon de trenger.",
+      "readMore": "Les mer",
+      "frontend": {
+        "title": "Frontend-utvikling",
+        "description": "Frontend handler om det brukeren ser og bruker direkte. Det bestemmer hvordan man klikker, skriver og beveger seg i en løsning. Her kobles design og brukeropplevelse sammen til et fungerende produkt."
       },
-      {
-        "@type": "CollegeOrUniversity",
-        "name": "AZAD University of Iran"
+      "backend": {
+        "title": "Backend-utvikling",
+        "description": "Backend handler om logikken, infrastrukturen og systemene bak et digitalt produkt. Det styrer hvordan data lagres, behandles og deles. Backend gjør at hele løsningen fungerer som et helhetlig system."
       }
-    ],
-    "worksFor": [
-      {
-        "@type": "Organization",
-        "name": "MERCOR",
-        "address": "San Francisco, USA"
+    },
+    "approach": {
+      "title": "Min tilnærming",
+      "description": "For meg handler god utvikling ikke bare om kode eller tall, men om tillit. Når en kunde gir deg et problem, stoler de på at du kan levere verdi. De forventer ikke bare kode, men også at du forstår behovene, ser mulige utfordringer og kommuniserer tydelig. God utvikling er et samarbeid, der hver linje kode viser pålitelighet, hvert valg viser integritet, og hvert resultat styrker tilliten."
+    },
+    "why": {
+      "title": "Hvorfor din bedrift trenger profesjonell webutvikling",
+      "paragraphs": [
+        "Nettsiden din er ofte det første folk ser av merkevaren din – ditt digitale utstillingsvindu. På bare noen sekunder bestemmer besøkende seg for å bli eller gå videre. Derfor er design og brukervennlighet avgjørende. En dyktig webutvikler kan lage et oppsett som fanger oppmerksomheten og holder på brukeren.",
+        "En av de største fordelene med å bruke en profesjonell utvikler er muligheten til å bygge en side som virkelig speiler bedriften din. I stedet for standard maler får du frihet til å skape noe unikt. Nettsiden kan tilpasses merkevaren din, enten du ønsker noe dristig og kreativt eller enkelt og minimalistisk."
+      ]
+    },
+    "features": {
+      "support": {
+        "title": "Støtte og vedlikehold",
+        "description": "Et nettsted trenger jevnlige oppdateringer for å være sikkert og effektivt. Med videre støtte kan du være trygg på at siden din fungerer godt og vokser med bedriften."
+      },
+      "ux": {
+        "title": "Bedre brukeropplevelse",
+        "description": "Enkel navigasjon, rask lasting og tydelig design gjør at besøkende blir lenger og lettere kan bli kunder."
+      },
+      "responsive": {
+        "title": "Responsivt design",
+        "description": "En responsiv nettside tilpasser seg alle enheter, og gir en jevn opplevelse på mobil, nettbrett og datamaskin."
       }
-    ],
-    "serviceType": [
-      "Webutvikling",
-      "Webdesign",
-      "Frontend Utvikling",
-      "Backend Utvikling",
-      "Fullstack Utvikling",
-      "E-handel Utvikling",
-      "Skreddersydde Web Applikasjoner"
-    ],
-    "areaServed": ["Oslo", "Norge", "Fjerntjenester", "Skandinavia"],
-    "availableLanguage": ["Engelsk", "Persisk", "Norsk"],
-    "priceRange": "$$",
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Webutvikling Tjenester",
-      "itemListElement": [
+    },
+    "cta": {
+      "title": "Klar til å bygge noe fantastisk?",
+      "description": "En profesjonell nettside er viktig for suksess i dagens digitale verden. Enten du trenger en enkel side, en nettbutikk eller en skreddersydd løsning",
+      "button": "Start ditt prosjekt"
+    }
+  },
+  "about": {
+    "pageTitle": "Om meg",
+    "subtitle": "Majid Askarifarsangi – Webutvikler",
+    "imageAlt": "Webutvikler i Oslo, Norge",
+    "story": {
+      "title": "Min historie",
+      "paragraphs": [
+        "Jeg er en erfaren fullstack-utvikler med over 15 år i bransjen, og jobber spesielt med React.js, Next.js, Node.js og PostgreSQL. Jeg har levert løsninger fra enkle bedriftssider til komplekse webapplikasjoner for selskaper som Konsulenthus Oslo, TechPros Oslo og Osloweb Sandvika.",
+        "Jeg brenner for å lage raske og brukervennlige apper som ikke bare ser bra ut, men også løser faktiske problemer og styrker den digitale tilstedeværelsen.",
+        "Jeg møter både arbeid og livet med et veksttankesett, og leder med eksempel både på jobb og privat. Jeg tror at kontinuerlig læring og ansvarlighet er nøkkelen til varig suksess."
+      ]
+    },
+    "philosophy": {
+      "title": "Min filosofi",
+      "quote": "Teknologien utvikler seg raskt, og den beste måten å være verdifull på er å lære hele tiden, tilpasse seg og fornye seg."
+    },
+    "quickFacts": {
+      "title": "Kjappe fakta",
+      "facts": [
+        { "label": "Alder", "value": "41" },
+        { "label": "Bursdag", "value": "30.03.1983" },
+        { "label": "Sted", "value": "Sandvika, Norge" },
+        { "label": "Telefon", "value": "+47 40189111" },
+        { "label": "Erfaring", "value": "15+ år" },
+        { "label": "Spesialitet", "value": "JavaScript" },
+        { "label": "Status", "value": "Tilgjengelig" }
+      ]
+    },
+    "currently": {
+      "title": "Akkurat nå",
+      "items": [
         {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Skreddersydd Webutvikling",
-            "description": "Profesjonell skreddersydd webutvikling med moderne teknologier"
-          }
+          "role": "React-utvikler hos MERCOR",
+          "description": "AI-trening og prompt-engineering"
         },
         {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "React Utvikling",
-            "description": "Ekspert React.js applikasjonsutvikling og rådgivning"
-          }
+          "role": "Frilansprosjekter",
+          "description": "Webutvikling og rådgivning"
         },
         {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "E-handel Utvikling",
-            "description": "Komplette e-handel løsninger og nettbutikk utvikling"
-          }
+          "role": "Lærer",
+          "description": "Avansert AI-integrasjon"
+        }
+      ]
+    },
+    "education": {
+      "title": "Utdanning",
+      "universities": [
+        {
+          "degree": "Master i Strategisk ledelse",
+          "institution": "PNU Universitet, Iran",
+          "period": "2013 - 2015",
+          "description": "Fordypning i strategisk forretningsledelse, med fokus på organisasjonsutvikling og planleggingsmetoder."
+        },
+        {
+          "degree": "Bachelor i Datateknikk",
+          "institution": "AZAD Universitet, Iran",
+          "period": "2011 - 2013",
+          "description": "Grunnleggende kunnskap i informatikk, programvareutvikling og systemdesign."
         }
       ]
     }
   },
-  "navbar": {
-    "items": [
-      { "name": "Hjem", "href": "#home" },
-      { "name": "Om", "href": "#about" },
-      { "name": "Kompetanse", "href": "#expertise" },
-      { "name": "Karriere", "href": "#career" },
-      { "name": "Kontakt", "href": "#contact" }
-    ],
-    "languageToggle": "NO"
-  },
-  "hero": {
-    "ariaLabel": "Hero-seksjon som introduserer Majid Askarifarsangi",
-    "name": {
-      "first": "Majid",
-      "last": "Askarifarsangi"
-    },
-    "profileAlt": "Profilbilde av Majid Askarifarsangi",
-    "roles": {
-      "role1": "Programvareutvikler",
-      "role2": "Webutvikler"
-    },
-    "description": "Jeg blir glad for en digital prat eller å møtes over en kopp kaffe."
-  },
-  "about": {
-    "title": "Om Meg",
-    "paragraph": "Jeg er en erfaren webutvikler som liker innovative og brukervennlige nettsider. Jeg jobber med både front-end og back-end. Jeg lager moderne, responsive nettsider som engasjerer besøkende og styrker den digitale profilen til din bedrift.",
-    "personalInfoTitle": "Personlig Informasjon",
-    "personalInfoAriaLabel": "Personlige høydepunkter og interesser",
-    "personalDetails": [
-      "Jeg er 42 år gammel",
-      "Jeg lager ting for internett!",
-      "Jeg liker å utforske ny teknologi",
-      "På fritiden liker jeg å spille fotball"
-    ],
-    "servicesOverview": {
-      "title": "Hva Jeg Gjør",
-      "description": "Jeg jobber med fullstack webutvikling med React.js, Next.js, Node.js og PostgreSQL. Jeg har jobbet med selskaper som Konsulenthus Oslo, TechPros Oslo og Osloweb Sandvika, og laget alt fra nettsider til avanserte webapplikasjoner."
-    }
-  },
-  "expertise": {
-    "title": "Kompetanse",
-    "description": "Mine tekniske ferdigheter og spesialiseringsområder innen programvareutvikling.",
-    "technicalSkills": "Tekniske Ferdigheter",
-    "education": "Utdanning",
-    "skillCategories": [
+  "career": {
+    "title": "Karriere",
+    "description": "Gjennom årene har jeg hatt glede av å lage programvare, jobbe på frilansprosjekter og i faste stillinger som webutvikler, alltid på jakt etter nye muligheter til å vokse.",
+    "experiences": [
       {
-        "title": "Frontend Utvikling",
-        "icon": "Code",
-        "skills": [
-          "React",
-          "JavaScript",
-          "Next.js",
-          "TypeScript",
-          "HTML5",
-          "CSS3",
-          "Styled-components",
-          "Material UI",
-          "Bootstrap",
-          "Tailwind CSS",
-          "SASS",
-          "React Query",
-          "Axios",
-          "Vite",
-          "Figma"
-        ]
+        "year": "2025",
+        "position": "React-utvikler",
+        "company": "MERCOR – San Francisco, USA",
+        "duration": "01.2025 - nå",
+        "description": "AI-trening, problemløsning, prompt-engineering med React, JavaScript, CSS, Tailwind",
+        "skills": ["React", "JavaScript", "CSS", "Tailwind", "AI", "TypeScript"]
       },
       {
-        "title": "Backend Utvikling",
-        "icon": "Database",
+        "year": "2024",
+        "position": "Programvareutvikler",
+        "company": "CELESTE – San Francisco, USA",
+        "duration": "04.2024 - 09.2024",
+        "description": "Bygget AI-treningssystemer, implementerte prompt-løsninger, utviklet grensesnitt for AI-modelltrening",
         "skills": [
+          "Python",
+          "AI",
+          "Maskinlæring",
           "Node.js",
-          "Express.js",
-          "Nest.js",
-          "Kotlin",
-          "PostgreSQL",
-          "MongoDB",
-          "Spring Boot",
-          "JWT Autentisering",
-          "REST API-er",
-          "Webhooks",
-          "Dokumentlager",
-          "C++",
-          "SQL Server",
-          "MySQL"
+          "React",
+          "TypeScript"
         ]
       },
       {
-        "title": "Myke Ferdigheter",
-        "icon": "Users",
-        "skills": [
-          "Problemløsning",
-          "Kommunikasjon",
-          "Tilpasningsevne",
-          "Tidsstyring",
-          "Teamarbeid",
-          "Detaljfokus",
-          "Arbeidsmoral",
-          "Kreativitet",
-          "Lederskap",
-          "Sosiale Ferdigheter"
-        ]
+        "year": "2024",
+        "position": "Opplæring i prosjektledelse",
+        "company": "Bærum kommune – Norge",
+        "duration": "02.2024 - 05.2024",
+        "description": "Ledet digitaliseringsprosjekter, styrte modernisering av kommunens IT-infrastruktur",
+        "skills": ["Prosjektledelse", "Azure", "Infrastruktur", "Ledelse"]
       },
       {
-        "title": "Verktøy og Teknologi",
-        "icon": "Settings",
-        "skills": [
-          "Git",
-          "Docker",
-          "Azure",
-          "Vim",
-          "Netlify",
-          "Jira",
-          "WordPress",
-          "Shopify",
-          "WCAG",
-          "SEO"
-        ]
-      }
-    ],
-    "educationList": [
-      {
-        "degree": "Master i Forretningsstrategi",
-        "institution": "PNU Universitetet i IRAN",
-        "period": "2013 - 2015"
+        "year": "2022",
+        "position": "Fullstack-utvikler",
+        "company": "TECHPROS AS – Oslo, Norge",
+        "duration": "04.2022 - 05.2022",
+        "description": "Utviklet rammeverk for automatisering av økonomi, bygget React-dashboard med Node.js/PostgreSQL",
+        "skills": ["React", "Node.js", "PostgreSQL", "JavaScript", "REST API"]
       },
       {
-        "degree": "Bachelor i Datateknologi",
-        "institution": "AZAD Universitetet i IRAN",
-        "period": "2011 - 2013"
-      },
-      {
-        "degree": "Kotlin for Nybegynnere",
-        "institution": "Udemy",
-        "period": "2024"
-      },
-      {
-        "degree": "Prosjektledelse",
-        "institution": "Holte Academy",
-        "period": "2024"
-      },
-      {
-        "degree": "Next.js & React Komplett Guide",
-        "institution": "Udemy",
-        "period": "2022"
-      },
-      {
-        "degree": "Webutvikler Bootcamp",
-        "institution": "Udemy",
-        "period": "2021"
+        "year": "2009",
+        "position": "Webutvikler",
+        "company": "Teheran kommune – Iran",
+        "duration": "01.2009 - 01.2020",
+        "description": "Bygget store digitale plattformer for 50 000+ daglige brukere, forbedret tilgjengeligheten til offentlige tjenester med 60 %",
+        "skills": ["JavaScript", "HTML", "CSS", "SQL", "MySQL"]
       }
     ]
   },
   "contact": {
     "title": "Kontakt",
     "sections": {
-      "getInTouch": {
-        "title": "Ta Kontakt",
-        "contactInfo": [
+      "intro": {
+        "headline": "Klar til å snakke om prosjektet ditt?",
+        "description": "La oss avtale et møte for å se hvordan vi kan jobbe sammen.",
+        "status": "Tilgjengelig for frilansprosjekter"
+      },
+      "contactInfo": {
+        "title": "Ta kontakt",
+        "items": [
           {
             "label": "Adresse",
-            "value": "Sandvika Norge",
+            "value": "Sandvika, Norge",
             "icon": "MapPin",
             "link": "https://maps.app.goo.gl/291WSFANgPYTSAAx8"
           },
@@ -333,39 +210,28 @@
             "icon": "Mail",
             "link": "mailto:maf256@gmail.com"
           }
-        ],
-        "status": "Tilgjengelig for frilansprosjekter"
+        ]
       },
-      "about": {
-        "title": "Om",
-        "personalInfo": [
-          {
-            "label": "Alder",
-            "value": "42"
-          },
-          {
-            "label": "Nasjonalitet",
-            "value": "Iran"
-          },
-          {
-            "label": "Studie",
-            "value": "Azad Universitetet i Iran"
-          },
-          {
-            "label": "Grad",
-            "value": "Master"
-          },
-          {
-            "label": "Frilans",
-            "value": "Tilgjengelig"
-          }
+      "personalInfo": {
+        "title": "Personlig informasjon",
+        "items": [
+          { "label": "Alder", "value": "41" },
+          { "label": "Bursdag", "value": "30.03.1983" },
+          { "label": "Sted", "value": "Sandvika, Norge" },
+          { "label": "Telefon", "value": "+47 40189111" },
+          { "label": "Erfaring", "value": "15+ år" },
+          { "label": "Spesialitet", "value": "JavaScript" },
+          { "label": "Status", "value": "Tilgjengelig" }
         ]
       },
       "resources": {
         "title": "Ressurser",
         "downloadCV": "Last ned CV",
-        "cvUrl": "https://drive.google.com/file/d/17mUMeWG0EodCvCT3zQco0ttpT5rxd3z7/view?usp=sharing",
-        "viewLicences": "Se Lisenser"
+        "cvUrl": "https://drive.google.com/file/d/1g8hki7Fy16VIHNfv651jOB5LT3p5ktc1/view?usp=sharing",
+        "viewLicences": {
+          "label": "Se lisenser",
+          "url": "https://drive.google.com/file/d/1ik8Ajr50lamXsje0qRqjnsmJIjM2e9Xd/view"
+        }
       },
       "connect": {
         "title": "Koble til",
@@ -393,50 +259,52 @@
         ]
       },
       "meeting": {
-        "title": "Avtal et Møte",
-        "calendarTitle": "Bestill Møte"
+        "title": "Avtal et møte",
+        "calendarTitle": "Book et møte",
+        "calendarUrl": "https://calendar.google.com/calendar/appointments/schedules/AcZssZ08q78jfdTSAvdjzrYsZzvFRPIxbVtTln79uu3M9ITm3VITP81IoKX-YurFrpjs3PoE-IG9z8je?gv=true"
       }
     }
   },
-  "career": {
-    "title": "Karriere",
-    "description": "Gjennom årene har jeg laget AI-verktøy og store digitale plattformer med React og JavaScript. Jeg liker nye utfordringer og å lage løsninger som gir ekte verdi i team.",
-    "experiences": [
-      {
-        "year": "2025",
-        "position": "React Utvikler",
-        "company": "MERCOR – San Francisco, USA",
-        "duration": "01.2025 - nåværende",
-        "description": "AI-trening, problemløsning, prompt engineering med React, JavaScript, CSS, Tailwind"
-      },
-      {
-        "year": "2024",
-        "position": "Programvareutvikler",
-        "company": "CELESTE – San Francisco, USA",
-        "duration": "04.2024 - 09.2024",
-        "description": "Bygget AI-treningssystemer, laget løsninger for prompt engineering, laget AI-grensesnitt"
-      },
-      {
-        "year": "2024",
-        "position": "Opplæring i Teknisk Prosjektledelse",
-        "company": "Bærum kommune – Norge",
-        "duration": "02.2024 - 05.2024",
-        "description": "Ledet digitaliseringsprosjekt, jobbet med IT-modernisering i kommunen"
-      },
-      {
-        "year": "2022",
-        "position": "Fullstack Utvikler",
-        "company": "TECHPROS AS – Oslo, Norge",
-        "duration": "04.2022 - 05.2022",
-        "description": "Laget automatiseringssystem for økonomi, bygget React-dashboard med Node.js/PostgreSQL"
-      },
-      {
-        "year": "2009",
-        "position": "Webutvikler",
-        "company": "Teherans kommune – Iran",
-        "duration": "01.2009 - 01.2020",
-        "description": "Lagde store digitale plattformer for over 50 000 brukere daglig, forbedret tilgjengelighet for offentlige tjenester med 60%"
+  "notFound": {
+    "title": "Siden finnes ikke",
+    "description": "Siden du leter etter eksisterer ikke.",
+    "backToHome": "Tilbake til hjem"
+  },
+  "footer": {
+    "description": "Majid Askarifarsangi, webutvikler-tjenester, Oslo"
+  },
+  "seo": {
+    "home": {
+      "title": "Webutvikler og webdesigner | Oslo",
+      "description": "Webutvikler i Oslo som lager moderne og responsive nettsider med React og Next.js. Skreddersydde løsninger som hjelper bedrifter å vokse.",
+      "openGraph": {
+        "title": "Webutvikler og webdesigner | Oslo",
+        "description": "Moderne og brukervennlige nettsider utviklet i Oslo. Spesialist på React og Next.js."
       }
-    ]
+    },
+    "about": {
+      "title": "Om meg | Majid Askarifarsangi. webdesigner i oslo",
+      "description": "Erfaren webutvikler i Oslo med over 15 års erfaring innen React, Next.js og fullstack-utvikling.",
+      "openGraph": {
+        "title": "Om Majid Askarifarsangi, webdesigner i oslo",
+        "description": "Fullstack webutvikler i Oslo med 15+ års erfaring. React, Next.js og moderne webutvikling."
+      }
+    },
+    "career": {
+      "title": "Karriere | Majid Askarifarsangi, webutvikler Oslo",
+      "description": "Over 15 års erfaring med webutvikling – fra store systemer til moderne React-applikasjoner.",
+      "openGraph": {
+        "title": "Karriere | Majid Askarifarsangi",
+        "description": "Se min profesjonelle reise som webutvikler i Oslo. Erfaring fra enterprise-løsninger til moderne React-prosjekter."
+      }
+    },
+    "contact": {
+      "title": "Kontakt | Webutvikler i Oslo",
+      "description": "Ta kontakt for profesjonell webutvikling i Oslo. Jeg bygger moderne, responsive nettsider tilpasset din bedrift.",
+      "openGraph": {
+        "title": "Kontakt Majid Askarifarsangi",
+        "description": "Kontakt meg for webutvikling i Oslo. Spesialist på React, Next.js og skreddersydde nettsider."
+      }
+    }
   }
 }

@@ -1,7 +1,16 @@
-# Web Developer Oslo | Majid Askarifarsangi Portfolio
+# Robots.txt for sitedesign.no - Web Developer Oslo
+# Professional web development services in Norway
 
 User-agent: *
 Allow: /
+Allow: /about
+Allow: /career  
+Allow: /contact
+
+
 
 # Sitemap location
 Sitemap: https://sitedesign.no/sitemap.xml
+
+
+

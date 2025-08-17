@@ -19,10 +19,10 @@ export default function MobileDarkmodeToggle() {
   };
 
   return (
-    <div className="lg:absolute lg:bottom-20 lg:left-10">
+    <div>
       <button
         onClick={toggleTheme}
-        className="text-base lg:text-white/70 hover:text-secondary transition-colors duration-200 p-1"
+        className="text-base lg:text-content/70 duration-200 p-1 hover:cursor-pointer"
         aria-label={isDark ? "Switch to light mode" : "Switch to dark mode"}
       >
         {isDark ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
