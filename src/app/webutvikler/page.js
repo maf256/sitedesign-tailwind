@@ -32,7 +32,7 @@ export function generateMetadata() {
         lang === "en"
           ? "https://en.sitedesign.no/webdeveloper"
           : "https://sitedesign.no/webdeveloper",
-      siteName: "Majid Askarifarsangi - Web Developer Oslo",
+      siteName: "Majid Askarifarsangi - Webutvikler Oslo",
       images: [
         {
           url:
@@ -41,7 +41,7 @@ export function generateMetadata() {
               : "https://sitedesign.no/profile.jpg",
           width: 1200,
           height: 630,
-          alt: "Web Developer - Majid Askarifarsangi",
+          alt: "Webutvikler - Majid Askarifarsangi",
         },
       ],
       locale: lang === "en" ? "en_US" : "no_NO",

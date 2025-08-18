@@ -271,12 +271,12 @@
       "title": "Hva gjør en webutvikler?",
       "description": "En webutvikler lager nettsider og applikasjoner som kjører på internett. Noen fokuserer på det du ser og bruker, andre på det som skjer i bakgrunnen – men sammen får de nettet til å fungere.",
       "frontend": {
-        "title": "Frontend",
-        "description": "Frontend-utviklere jobber med grensesnittet. De sørger for at alt ser riktig ut, laster raskt, og reagerer når du klikker eller skriver."
+        "title": "Frontend webutvikler",
+        "description": "Frontend webutvikler jobber med grensesnittet. De sørger for at alt ser riktig ut, laster raskt, og reagerer når du klikker eller skriver."
       },
       "backend": {
-        "title": "Backend",
-        "description": "Backend-utviklere jobber med den skjulte logikken. De håndterer data, sikkerhet, servere og alt som får systemet til å kjøre pålitelig."
+        "title": "Backend webutvikler",
+        "description": "Backend webutvikler jobber med den skjulte logikken. De håndterer data, sikkerhet, servere og alt som får systemet til å kjøre pålitelig."
       }
     },
     "skills": {

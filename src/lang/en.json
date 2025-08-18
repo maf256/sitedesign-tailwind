@@ -276,11 +276,11 @@
       "title": "What Does a Web Developer Do?",
       "description": "A web developer creates websites and applications that run on the internet. Some focus on what you see and use, others focus on what happens in the background—but together, they make the web work.",
       "frontend": {
-        "title": "Frontend",
+        "title": "Frontend Development",
         "description": "Frontend developers work on the interface. They make sure everything looks right, loads fast, and reacts when you click or type."
       },
       "backend": {
-        "title": "Backend",
+        "title": "Backend Development",
         "description": "Backend developers work on the hidden logic. They handle data, security, servers, and everything that makes the system run reliably."
       }
     },
