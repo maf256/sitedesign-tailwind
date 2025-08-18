@@ -273,12 +273,23 @@
     "backToHome": "Back to Home"
   },
   "footer": {
-    "description": "Majid Askarifarsangi, Web Developer Services, Oslo"
+    "description": "Web developer and webdesigner: Majid Askarifarsangi"
   },
   "seo": {
     "home": {
       "title": "Web Developer in Oslo | Majid Askarifarsangi",
       "description": "Oslo-based web developer specializing in React and Next.js. I build modern, responsive websites that help businesses grow.",
+      "keywords": [
+        "Web developer",
+        "Oslo",
+        "Web design",
+        "web development Oslo",
+        "developer",
+        "JavaScript developer",
+        "frontend development Oslo",
+        "Modern Web Developer",
+        "web design"
+      ],
       "openGraph": {
         "title": "Web Developer Oslo | Majid Askarifarsangi",
         "description": "Modern, responsive websites built with React & Next.js in Oslo. Helping businesses grow online."
@@ -287,6 +298,14 @@
     "about": {
       "title": "About Me | Majid Askarifarsangi",
       "description": "Experienced Oslo web developer with 15+ years in React, Next.js, and full-stack development.",
+      "keywords": [
+        "web developer Oslo",
+        "web designer Oslo",
+        "fullstack developer",
+        "React developer Norway",
+        "JavaScript expert Oslo",
+        "professional web development"
+      ],
       "openGraph": {
         "title": "About Majid Askarifarsangi",
         "description": "Full-stack web developer in Oslo with 15+ years of experience. React, Next.js & modern web solutions."
@@ -295,6 +314,14 @@
     "career": {
       "title": "Career | Majid Askarifarsangi, Web Developer Oslo",
       "description": "15+ years of experience in web development, from enterprise apps to modern React projects.",
+      "keywords": [
+        "job as web developer Oslo",
+        "React developer position",
+        "fullstack developer",
+        "frontend developer job",
+        "JavaScript",
+        "career in web design"
+      ],
       "openGraph": {
         "title": "Career of Majid Askarifarsangi",
         "description": "Explore my professional journey as a web developer in Oslo, from enterprise systems to modern React apps."
@@ -303,6 +330,14 @@
     "contact": {
       "title": "Contact | Web Developer in Oslo",
       "description": "Get in touch for professional web development in Oslo. Let’s build a modern, responsive website for your business.",
+      "keywords": [
+        "web developer Oslo",
+        "JavaScript developer",
+        "React developer Norway",
+        "contact web developer Oslo",
+        "web development Oslo phone",
+        "web design help Oslo"
+      ],
       "openGraph": {
         "title": "Contact Majid Askarifarsangi",
         "description": "Reach out for web development in Oslo. React, Next.js, and modern websites tailored to your business."

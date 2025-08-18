@@ -66,7 +66,7 @@ export function generateMetadata() {
       },
     },
     verification: {
-      google: "your-google-verification-code",
+      google: "AB9rSMiJ7pRPqNVjQueN25PAjTmJIriz07HUg7iq4Bg",
     },
   };
 }

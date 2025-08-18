@@ -2,8 +2,8 @@
   "navbar": {
     "items": [
       { "name": "Hjem" },
-      { "name": "Om meg" },
-      { "name": "Karriere" },
+      { "name": "Om" },
+      { "name": "Erfaring" },
       { "name": "Kontakt" }
     ],
     "languageToggle": "NO"
@@ -66,7 +66,7 @@
     }
   },
   "about": {
-    "pageTitle": "Om meg",
+    "pageTitle": "Om",
     "subtitle": "Majid Askarifarsangi – Webutvikler",
     "imageAlt": "Webutvikler i Oslo, Norge",
     "story": {
@@ -129,12 +129,12 @@
     }
   },
   "career": {
-    "title": "Karriere",
+    "title": "Erfaring",
     "description": "Gjennom årene har jeg hatt glede av å lage programvare, jobbe på frilansprosjekter og i faste stillinger som webutvikler, alltid på jakt etter nye muligheter til å vokse.",
     "experiences": [
       {
         "year": "2025",
-        "position": "React-utvikler",
+        "position": "React webutvikler",
         "company": "MERCOR – San Francisco, USA",
         "duration": "01.2025 - nå",
         "description": "AI-trening, problemløsning, prompt-engineering med React, JavaScript, CSS, Tailwind",
@@ -142,7 +142,7 @@
       },
       {
         "year": "2024",
-        "position": "Programvareutvikler",
+        "position": "Fullstack webutvikler",
         "company": "CELESTE – San Francisco, USA",
         "duration": "04.2024 - 09.2024",
         "description": "Bygget AI-treningssystemer, implementerte prompt-løsninger, utviklet grensesnitt for AI-modelltrening",
@@ -165,7 +165,7 @@
       },
       {
         "year": "2022",
-        "position": "Fullstack-utvikler",
+        "position": "Fullstack webutvikler",
         "company": "TECHPROS AS – Oslo, Norge",
         "duration": "04.2022 - 05.2022",
         "description": "Utviklet rammeverk for automatisering av økonomi, bygget React-dashboard med Node.js/PostgreSQL",
@@ -218,10 +218,7 @@
           { "label": "Alder", "value": "41" },
           { "label": "Bursdag", "value": "30.03.1983" },
           { "label": "Sted", "value": "Sandvika, Norge" },
-          { "label": "Telefon", "value": "+47 40189111" },
-          { "label": "Erfaring", "value": "15+ år" },
-          { "label": "Spesialitet", "value": "JavaScript" },
-          { "label": "Status", "value": "Tilgjengelig" }
+          { "label": "Telefon", "value": "+47 40189111" }
         ]
       },
       "resources": {
@@ -271,36 +268,71 @@
     "backToHome": "Tilbake til hjem"
   },
   "footer": {
-    "description": "Majid Askarifarsangi, webutvikler-tjenester, Oslo"
+    "description": "Webutvikler og webdesign: Majid Askarifarsangi"
   },
   "seo": {
     "home": {
       "title": "Webutvikler og webdesigner | Oslo",
       "description": "Webutvikler i Oslo som lager moderne og responsive nettsider med React og Next.js. Skreddersydde løsninger som hjelper bedrifter å vokse.",
+      "keywords": [
+        "Webutvikler",
+        "Oslo",
+        "Webdesign",
+        "webutvikling oslo",
+        "utvikler",
+        "JavaScript utvikler",
+        "frontend utvikling Oslo",
+        "Moderne Webutvikler",
+        "nettdesign"
+      ],
       "openGraph": {
         "title": "Webutvikler og webdesigner | Oslo",
         "description": "Moderne og brukervennlige nettsider utviklet i Oslo. Spesialist på React og Next.js."
       }
     },
     "about": {
-      "title": "Om meg | Majid Askarifarsangi. webdesigner i oslo",
+      "title": "Om | Majid Askarifarsangi. webdesigner i oslo",
       "description": "Erfaren webutvikler i Oslo med over 15 års erfaring innen React, Next.js og fullstack-utvikling.",
+      "keywords": [
+        "webutvikler Oslo",
+        "webdesigner Oslo",
+        "fullstack utvikler",
+        "React utvikler Norge",
+        "JavaScript ekspert Oslo",
+        "profesjonell webutvikling"
+      ],
       "openGraph": {
         "title": "Om Majid Askarifarsangi, webdesigner i oslo",
         "description": "Fullstack webutvikler i Oslo med 15+ års erfaring. React, Next.js og moderne webutvikling."
       }
     },
     "career": {
-      "title": "Karriere | Majid Askarifarsangi, webutvikler Oslo",
+      "title": "Erfaring | Majid Askarifarsangi, webutvikler Oslo",
       "description": "Over 15 års erfaring med webutvikling – fra store systemer til moderne React-applikasjoner.",
+      "keywords": [
+        "jobb som webutvikler Oslo",
+        "React utvikler stilling",
+        "fullstack utvikler",
+        "frontend utvikler jobb",
+        "JavaScript",
+        "karriere innen webdesign"
+      ],
       "openGraph": {
-        "title": "Karriere | Majid Askarifarsangi",
+        "title": "Erfaring | Majid Askarifarsangi",
         "description": "Se min profesjonelle reise som webutvikler i Oslo. Erfaring fra enterprise-løsninger til moderne React-prosjekter."
       }
     },
     "contact": {
       "title": "Kontakt | Webutvikler i Oslo",
       "description": "Ta kontakt for profesjonell webutvikling i Oslo. Jeg bygger moderne, responsive nettsider tilpasset din bedrift.",
+      "keywords": [
+        "web developer Oslo",
+        "JavaScript utvikler",
+        "React developer Norway",
+        "kontakt webutvikler Oslo",
+        "webutvikling Oslo telefon",
+        "webdesign hjelp Oslo"
+      ],
       "openGraph": {
         "title": "Kontakt Majid Askarifarsangi",
         "description": "Kontakt meg for webutvikling i Oslo. Spesialist på React, Next.js og skreddersydde nettsider."
