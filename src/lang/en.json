@@ -267,6 +267,75 @@
       }
     }
   },
+  "webdeveloper": {
+    "hero": {
+      "title": "Who is a Web Developer?",
+      "subtitle": "A web developer is the person who builds the digital layer of today’s world. They turn ideas into websites, apps, and online tools that people use every day."
+    },
+    "what": {
+      "title": "What Does a Web Developer Do?",
+      "description": "A web developer creates websites and applications that run on the internet. Some focus on what you see and use, others focus on what happens in the background—but together, they make the web work.",
+      "frontend": {
+        "title": "Frontend",
+        "description": "Frontend developers work on the interface. They make sure everything looks right, loads fast, and reacts when you click or type."
+      },
+      "backend": {
+        "title": "Backend",
+        "description": "Backend developers work on the hidden logic. They handle data, security, servers, and everything that makes the system run reliably."
+      }
+    },
+    "skills": {
+      "title": "Skills That Shape a Web Developer",
+      "description": "A good developer doesn’t just know code—they understand how people use the web and how businesses grow online.",
+      "items": [
+        {
+          "title": "Problem Solving",
+          "description": "Breaking down complex issues and finding working solutions."
+        },
+        {
+          "title": "Design Awareness",
+          "description": "Knowing how design choices affect usability and flow."
+        },
+        {
+          "title": "Technical Adaptability",
+          "description": "Staying current with frameworks, languages, and web standards."
+        },
+        {
+          "title": "Collaboration",
+          "description": "Working with designers, clients, and other developers to bring ideas to life."
+        },
+        {
+          "title": "Performance Mindset",
+          "description": "Optimizing for speed, security, and scalability."
+        },
+        {
+          "title": "User Focus",
+          "description": "Always building with the end-user’s experience in mind."
+        }
+      ]
+    },
+    "why": {
+      "title": "Why Web Developers Matter",
+      "paragraphs": [
+        "Every brand needs a digital presence. Without a website or app, you’re invisible to most of your audience.",
+        "A skilled web developer helps create tools that don’t just exist—they perform. That means better reach, more engagement, and stronger trust."
+      ],
+      "points": [
+        {
+          "title": "First Impressions",
+          "description": "A visitor’s opinion forms in seconds. Good development keeps them engaged."
+        },
+        {
+          "title": "Scalability",
+          "description": "A strong foundation allows your site or app to grow with your business."
+        },
+        {
+          "title": "Reliability",
+          "description": "Secure, stable, and well-maintained systems prevent downtime and protect your data."
+        }
+      ]
+    }
+  },
   "notFound": {
     "title": "Page Not Found",
     "description": "The page you're looking for doesn't exist.",
@@ -341,6 +410,27 @@
       "openGraph": {
         "title": "Contact Majid Askarifarsangi",
         "description": "Reach out for web development in Oslo. React, Next.js, and modern websites tailored to your business."
+      }
+    },
+    "webdeveloper": {
+      "title": "Web developer | who is a web developer?",
+      "description": "Discover what a web developer does, the difference between frontend and backend development, and the key skills needed to build modern websites and applications. Learn why web developers are essential in today’s digital world.",
+      "keywords": [
+        "web developer",
+        "web development",
+        "website development",
+        "web development services",
+        "custom web development",
+        "full stack development",
+        "frontend development",
+        "backend development",
+        "freelance web developer",
+        "web developers near me",
+        "web application development"
+      ],
+      "openGraph": {
+        "title": "Who is a Web Developer? | Frontend & Backend Explained",
+        "description": "Understand the role of a web developer, explore frontend and backend responsibilities, discover key skills, and learn why web developers are vital for modern businesses."
       }
     }
   }

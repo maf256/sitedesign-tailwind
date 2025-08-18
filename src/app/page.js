@@ -28,7 +28,7 @@ export function generateMetadata() {
       title: seo.openGraph.title,
       description: seo.openGraph.description,
       url: lang === "en" ? "https://en.sitedesign.no" : "https://sitedesign.no",
-      siteName: "Majid Askarifarsangi - Web Developer Oslo",
+      siteName: "Majid Askarifarsangi - Webutvikler Oslo",
       images: [
         {
           url:
@@ -37,7 +37,7 @@ export function generateMetadata() {
               : "https://sitedesign.no/profile.jpg",
           width: 1200,
           height: 630,
-          alt: "Majid Askarifarsangi - Professional Web Developer in Oslo",
+          alt: "Majid Askarifarsangi - Webutvikler i Oslo",
         },
       ],
       locale: lang === "en" ? "en_US" : "no_NO",
@@ -168,12 +168,9 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <main className="min-h-screen w-full">
+      <main className=" w-full">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <section
-            className="min-h-screen flex flex-col justify-center py-20"
-            id="home"
-          >
+          <section className=" flex flex-col justify-center py-20" id="home">
             <div className="max-w-4xl mx-auto text-center lg:text-left">
               <h1 className="font-bold !text-5xl md:text-7xl lg:!text-8xl leading-[0.9] tracking-tight text-content mb-8">
                 {home.title.line1}
@@ -213,13 +210,13 @@ export default function Home() {
                 </h2>
                 <div className="space-y-6 text-lg text-content/80 leading-relaxed">
                   <p>{home.whatIsWebDev.description}</p>
-                  <a
-                    href="#"
+                  <Link
+                    href={"/webutvikler"}
                     className="inline-flex items-center gap-2 text-primary hover:underline transition-all duration-200"
                   >
                     {home.whatIsWebDev.readMore}
                     <ArrowRight size={16} />
-                  </a>
+                  </Link>
                 </div>
               </div>
 
