@@ -209,7 +209,7 @@ export default function Contact() {
           lang === "en" ? "https://en.sitedesign.no" : "https://sitedesign.no",
         jobTitle: lang === "en" ? "Web Developer" : "Webutvikler",
         telephone: "+47-40189111",
-        email: "maf256@gmail.com",
+        email: "majid@sitedesign.no",
         address: {
           "@type": "PostalAddress",
           addressLocality: "Sandvika",
@@ -264,7 +264,7 @@ export default function Contact() {
           },
           {
             "@type": "ServiceChannel",
-            serviceUrl: "mailto:maf256@gmail.com",
+            serviceUrl: "mailto:majid@sitedesign.no",
           },
           {
             "@type": "ServiceChannel",
@@ -301,33 +301,27 @@ export default function Contact() {
           <section className="pb-20">
             <div className="grid md:grid-cols-3 gap-8 mb-16">
               {contact.sections.contactInfo.items.map((info, index) => (
-                <div
+                <a
                   key={index}
-                  className="bg-base-200 rounded-3xl p-8 text-center hover:bg-base-300 transition-colors duration-200"
+                  href={info.link}
+                  className=""
+                  {...(info.label === "Address" && {
+                    target: "_blank",
+                    rel: "noopener noreferrer",
+                  })}
                 >
-                  <div className="flex justify-center mb-4 text-primary">
-                    {getContactIcon(info.label)}
+                  <div className="bg-base-200 rounded-3xl p-8 text-center hover:bg-base-300 transition-colors duration-200">
+                    <div className="flex justify-center mb-4 text-primary">
+                      {getContactIcon(info.label)}
+                    </div>
+                    <h3 className="!text-lg !font-bold !text-content !mb-2">
+                      {info.label}
+                    </h3>
+                    <div className="text-content font-semibold focus:outline-none focus:underline hover:text-primary transition-colors duration-200">
+                      {info.link ? <span>{info.value}</span> : info.value}
+                    </div>
                   </div>
-                  <h3 className="!text-lg !font-bold !text-content !mb-2">
-                    {info.label}
-                  </h3>
-                  <div className="text-content font-semibold">
-                    {info.link ? (
-                      <a
-                        href={info.link}
-                        className="focus:outline-none focus:underline hover:text-primary transition-colors duration-200"
-                        {...(info.label === "Address" && {
-                          target: "_blank",
-                          rel: "noopener noreferrer",
-                        })}
-                      >
-                        {info.value}
-                      </a>
-                    ) : (
-                      info.value
-                    )}
-                  </div>
-                </div>
+                </a>
               ))}
             </div>
           </section>
@@ -370,12 +364,20 @@ export default function Contact() {
                     {contact.sections.resources.downloadCV}
                   </a>
                   <a
-                    href={contact.sections.resources.viewLicences.url}
+                    href="https://drive.google.com/file/d/1ik8Ajr50lamXsje0qRqjnsmJIjM2e9Xd/view"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block w-full bg-base-200 text-content text-center font-semibold py-4 px-6 rounded-2xl border border-base-300 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent hover:bg-base-300 transition-colors duration-200"
                   >
-                    {contact.sections.resources.viewLicences.label}
+                    {contact.sections.resources.viewLicences}
+                  </a>
+                  <a
+                    href="https://drive.google.com/file/d/1Nh8i9QphiozXYRAhtb-X3-OhE2BovEd1/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block w-full bg-base-200 text-content text-center font-semibold py-4 px-6 rounded-2xl border border-base-300 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent hover:bg-base-300 transition-colors duration-200"
+                  >
+                    <span>{contact.sections.resources.schoolCert}</span>
                   </a>
                 </div>
               </section>
@@ -408,18 +410,18 @@ export default function Contact() {
           {/* Calendar Section */}
           <section className="pb-20 ">
             <div className="bg-base-200 rounded-3xl md:p-12 sm:px-0 py-8 ">
-              <h2 className="!text-2xl !font-bold !text-content !mb-8 text-center">
+              <h2 className="!text-2xl !font-bold !mb-8 text-center">
                 {contact.sections.meeting.title}
               </h2>
               <div className="rounded-2xl overflow-hidden">
                 <iframe
-                  src={contact.sections.meeting.calendarUrl}
+                  src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0RNfX5P3AeFZiKt1ZSMI81WbW9BokkuSoB5fwPmZ9mzm1Ik6QnsUZ5BMX14GU1qO5bXOabrxZq?gv=true"
                   width="100%"
                   height="600"
                   className="block w-full border-0"
-                  title={contact.sections.meeting.calendarTitle}
                   loading="lazy"
-                />
+                  title={contact.sections.meeting.calendarTitle}
+                ></iframe>
               </div>
             </div>
           </section>

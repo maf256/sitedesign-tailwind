@@ -3,7 +3,6 @@ export default function sitemap() {
   const englishBaseUrl = "https://en.sitedesign.no";
   const currentDate = new Date().toISOString();
 
-  // Define routes for both languages
   const routes = [
     {
       url: baseUrl,
@@ -29,7 +28,12 @@ export default function sitemap() {
       changeFrequency: "monthly",
       priority: 0.9,
     },
-    // English versions
+    {
+      url: `${baseUrl}/webutvikler`,
+      lastModified: currentDate,
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
     {
       url: englishBaseUrl,
       lastModified: currentDate,
@@ -53,6 +57,12 @@ export default function sitemap() {
       lastModified: currentDate,
       changeFrequency: "monthly",
       priority: 0.8,
+    },
+    {
+      url: `${englishBaseUrl}/webutvikler`,
+      lastModified: currentDate,
+      changeFrequency: "monthly",
+      priority: 0.9,
     },
   ];
 

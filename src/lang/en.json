@@ -85,7 +85,6 @@
       "title": "Quick Facts",
       "facts": [
         { "label": "Age", "value": "41" },
-        { "label": "Birthday", "value": "30.03.1983" },
         { "label": "Location", "value": "Sandvika, Norway" },
         { "label": "Phone", "value": "+47 40189111" },
         { "label": "Experience", "value": "15+ Years" },
@@ -211,9 +210,9 @@
           },
           {
             "label": "Email",
-            "value": "maf256@gmail.com",
+            "value": "majid@sitedesign.no",
             "icon": "Mail",
-            "link": "mailto:maf256@gmail.com"
+            "link": "mailto:majid@sitedesign.no"
           }
         ]
       },
@@ -221,7 +220,6 @@
         "title": "Personal Information",
         "items": [
           { "label": "Age", "value": "41" },
-          { "label": "Birthday", "value": "30.03.1983" },
           { "label": "Location", "value": "Sandvika, Norway" },
           { "label": "Phone", "value": "+47 40189111" }
         ]
@@ -229,11 +227,9 @@
       "resources": {
         "title": "Resources",
         "downloadCV": "Download CV",
-        "cvUrl": "https://drive.google.com/file/d/1g8hki7Fy16VIHNfv651jOB5LT3p5ktc1/view?usp=sharing",
-        "viewLicences": {
-          "label": "View Licences",
-          "url": "https://drive.google.com/file/d/1ik8Ajr50lamXsje0qRqjnsmJIjM2e9Xd/view"
-        }
+        "cvUrl": "https://drive.google.com/file/d/1aJRhmnlenAe5zWuxs6OCQBlG2eI-KsFH/view?usp=sharing",
+        "schoolCert": "Certificate of Competence",
+        "viewLicences": "View Licences"
       },
       "connect": {
         "title": "Connect",
@@ -262,8 +258,7 @@
       },
       "meeting": {
         "title": "Schedule a Meeting",
-        "calendarTitle": "Book a Meeting",
-        "calendarUrl": "https://calendar.google.com/calendar/appointments/schedules/AcZssZ08q78jfdTSAvdjzrYsZzvFRPIxbVtTln79uu3M9ITm3VITP81IoKX-YurFrpjs3PoE-IG9z8je?gv=true"
+        "calendarTitle": "Book a Meeting"
       }
     }
   },

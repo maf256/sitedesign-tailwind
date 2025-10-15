@@ -110,7 +110,7 @@ export default function Home() {
           addressCountry: "NO",
         },
         telephone: "+47-40189111",
-        email: "maf256@gmail.com",
+        email: "majid@sitedesign.no",
       },
       {
         "@type": "WebSite",

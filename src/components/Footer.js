@@ -11,10 +11,10 @@ export default function Footer() {
         </p>
         <p>
           <a
-            href="mailto:maf256@gmail.com"
+            href="mailto:majid@sitedesign.no"
             className="!text-[1.05rem] text-primary hover:underline transition-colors duration-200"
           >
-            maf256@gmail.com
+            majid@sitedesign.no
           </a>
         </p>
       </div>

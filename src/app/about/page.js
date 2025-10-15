@@ -103,7 +103,7 @@ export default function About() {
       addressCountry: "NO",
     },
     telephone: "+47-40189111",
-    email: "maf256@gmail.com",
+    email: "majid@sitedesign.no",
     sameAs: [
       "https://www.linkedin.com/in/farsangi",
       "https://github.com/maf256",
