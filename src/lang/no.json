@@ -69,63 +69,45 @@
     "pageTitle": "Om",
     "subtitle": "Majid Askarifarsangi – Webutvikler",
     "imageAlt": "Webutvikler i Oslo, Norge",
-    "story": {
-      "title": "Min historie",
-      "paragraphs": [
-        "Jeg er en erfaren fullstack-utvikler med over 15 år i bransjen, og jobber spesielt med React.js, Next.js, Node.js og PostgreSQL. Jeg har levert løsninger fra enkle bedriftssider til komplekse webapplikasjoner for selskaper som Konsulenthus Oslo, TechPros Oslo og Osloweb Sandvika.",
-        "Jeg brenner for å lage raske og brukervennlige apper som ikke bare ser bra ut, men også løser faktiske problemer og styrker den digitale tilstedeværelsen.",
-        "Jeg møter både arbeid og livet med et veksttankesett, og leder med eksempel både på jobb og privat. Jeg tror at kontinuerlig læring og ansvarlighet er nøkkelen til varig suksess."
-      ]
-    },
-    "philosophy": {
-      "title": "Min filosofi",
-      "quote": "Teknologien utvikler seg raskt, og den beste måten å være verdifull på er å lære hele tiden, tilpasse seg og fornye seg."
-    },
-    "quickFacts": {
-      "title": "Kjappe fakta",
-      "facts": [
-        { "label": "Alder", "value": "41" },
-        { "label": "Sted", "value": "Sandvika, Norge" },
-        { "label": "Telefon", "value": "+47 40189111" },
-        { "label": "Erfaring", "value": "15+ år" },
-        { "label": "Spesialitet", "value": "JavaScript" },
-        { "label": "Status", "value": "Tilgjengelig" }
-      ]
-    },
-    "currently": {
-      "title": "Akkurat nå",
+    "summery": {
+      "title": "Kort om meg",
       "items": [
-        {
-          "role": "React webutvikler hos MERCOR",
-          "description": "AI-trening og prompt-engineering"
-        },
-        {
-          "role": "Frilansprosjekter",
-          "description": "Webutvikling og rådgivning"
-        },
-        {
-          "role": "Lærer",
-          "description": "Avansert AI-integrasjon"
-        }
+        "Jeg heter Majid og er 41 år gammel",
+        "Jeg bor i Sandvika, Norge",
+        "Jeg spesialiserer meg på JavaScript",
+        "Jeg har jobbet med JavaScript prosjekter siden 2010",
+        "Jeg ser aktivt etter prosjekter i Norge",
+        "Jeg har også en ledelsesgrad i tillegg til dataingeniørutdanning",
+        "Karrieren min inkluderer erfaring fra både store bedrifter og moderne applikasjoner",
+        "Jeg er kjent med alle ansettelsesformer frilans, deltid, heltid, prosjektbasert osv."
       ]
+    },
+    "certs": {
+      "resume": {
+        "text": "Last ned CV",
+        "url": "https://drive.google.com/file/d/1aJRhmnlenAe5zWuxs6OCQBlG2eI-KsFH/view?usp=sharing"
+      },
+      "schoolCert": "Kompetansebevis VG3",
+      "viewLicences": "Se lisenser"
     },
     "education": {
-      "title": "Utdanning",
+      "title": "utdanning",
       "universities": [
         {
-          "degree": "Master i Strategisk ledelse",
-          "institution": "PNU Universitet, Iran",
-          "period": "2013 - 2015",
-          "description": "Fordypning i strategisk forretningsledelse, med fokus på organisasjonsutvikling og planleggingsmetoder."
+          "degree": "Master i forretningsstrategi",
+          "institution": "PNU-universitetet i Iran",
+          "period": "2013 – 2015",
+          "description": "Fordypning i strategisk forretningsledelse, med fokus på organisasjonsutvikling og strategisk planlegging."
         },
         {
-          "degree": "Bachelor i software ingeniør",
-          "institution": "AZAD Universitet, Iran",
-          "period": "2011 - 2013",
-          "description": "Grunnleggende kunnskap i informatikk, programvareutvikling og systemdesign."
+          "degree": "Bachelor i dataingeniørfag",
+          "institution": "AZAD-universitetet i Iran",
+          "period": "2011 – 2013",
+          "description": "Grunnleggende opplæring i informatikk, programvareutvikling og systemdesign."
         }
       ]
-    }
+    },
+    "now": "Jeg jobber for tiden som programvareutvikler og React-utvikler hos Mercor. Jeg er også veldig interessert i Kotlin og backend-systemer i Kotlin. Jeg tar for tiden et Kotlin-masterkurs på Udemy, og ser fram til å jobbe som backend-utvikler med Kotlin."
   },
   "career": {
     "title": "Erfaring",

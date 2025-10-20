@@ -92,10 +92,6 @@ export default function About() {
         ? "Experienced full-stack developer with over 15 years of professional work, specializing in React.js, Next.js, Node.js, and PostgreSQL."
         : "Erfaren fullstack-utvikler med over 15 år i bransjen, og jobber spesielt med React.js, Next.js, Node.js og PostgreSQL.",
     birthDate: "1983-03-30",
-    birthPlace: {
-      "@type": "Place",
-      name: "Iran",
-    },
     address: {
       "@type": "PostalAddress",
       addressLocality: "Sandvika",
@@ -145,159 +141,230 @@ export default function About() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <main className="w-full">
-        <div className="mx-auto max-w-6xl px-6 lg:px-8">
-          {/* Hero Image */}
+      <main className="w-full" style={{ background: "#ececec" }}>
+        <div className="mx-auto max-w-4xl px-6 lg:px-8">
           <section className="pt-20 pb-8 text-center">
             <div className="mb-8">
               <Image
-                className="mx-auto rounded-2xl"
+                className="mx-auto"
                 src="/art-portrait.webp"
                 alt={about.imageAlt}
                 width={800}
                 height={600}
                 priority
-                sizes="(max-width: 768px) 100vw, 800px"
+                sizes="(max-width: 768px) 100vw, 700px"
+                style={{
+                  borderRadius: "3px",
+                  boxShadow: "0 1px 3px rgba(0,0,0,0.3)",
+                  border: "1px solid rgba(0,0,0,0.2)",
+                }}
               />
             </div>
           </section>
 
-          {/* Page Title */}
           <section className="pt-32 pb-16 text-center">
-            <h1 className="text-6xl md:text-7xl font-bold text-content mb-4 leading-tight">
+            <h1
+              className="text-6xl md:text-7xl text-content mb-4"
+              style={{
+                fontWeight: "600",
+                color: "#1d1d1d",
+                textShadow: "0 1px 0 rgba(255,255,255,0.9)",
+                letterSpacing: "-0.8px",
+              }}
+            >
               {about.pageTitle}
             </h1>
-            <p className="text-2xl text-primary font-semibold mb-6">
+            <p
+              style={{
+                fontSize: "17px",
+                color: "#4d4d4d",
+                textShadow: "0 1px 0 rgba(255,255,255,0.7)",
+              }}
+            >
               {about.subtitle}
             </p>
           </section>
 
-          {/* Story + Philosophy */}
-          <section className="py-16">
-            <div className="grid lg:grid-cols-3 gap-8">
-              <article className="lg:col-span-2 space-y-8">
-                {/* My Story */}
-                <div className="bg-base-200 rounded-3xl p-10">
-                  <h2 className="text-4xl font-bold text-content mb-6">
-                    {about.story.title}
-                  </h2>
-                  <div className="space-y-6 text-lg text-content/80 leading-relaxed">
-                    {about.story.paragraphs.map((para, index) => (
-                      <p key={index}>{para}</p>
-                    ))}
-                  </div>
-                </div>
-
-                {/* Philosophy */}
-                <div className="bg-primary/5 rounded-3xl p-10 border border-primary/20">
-                  <h2 className="text-3xl font-bold text-content mb-6">
-                    {about.philosophy.title}
-                  </h2>
-                  <blockquote className="text-xl text-content/80 leading-relaxed">
-                    {about.philosophy.quote}
-                  </blockquote>
-                </div>
-              </article>
-
-              {/* Sidebar */}
-              <aside className="space-y-8">
-                {/* Quick Facts */}
-                <section className="bg-base-200 rounded-3xl p-8">
-                  <h2 className="text-2xl font-bold text-content mb-6">
-                    {about.quickFacts.title}
-                  </h2>
-                  <dl className="divide-y divide-content/10">
-                    {about.quickFacts.facts.map((fact, index) => (
-                      <div
-                        key={index}
-                        className="flex justify-between items-center py-2"
-                      >
-                        <dt className="text-content/70">{fact.label}</dt>
-                        <dd className="font-semibold text-content">
-                          {fact.label === "Phone" ? (
-                            <a
-                              href={`tel:${fact.value.replace(/\s+/g, "")}`}
-                              className="hover:underline"
-                            >
-                              {fact.value}
-                            </a>
-                          ) : (
-                            fact.value
-                          )}
-                        </dd>
-                      </div>
-                    ))}
-                  </dl>
-                </section>
-
-                {/* Currently */}
-                <section className="bg-base-200 rounded-3xl p-8">
-                  <h2 className="text-2xl font-bold text-content mb-6">
-                    {about.currently.title}
-                  </h2>
-                  <ul className="space-y-4">
-                    {about.currently.items.map((item, index) => (
-                      <li key={index} className="flex items-start gap-3">
-                        <span
-                          className="w-2 h-2 bg-primary rounded-full mt-2"
-                          aria-hidden="true"
-                        ></span>
-                        <div>
-                          <p className="font-semibold text-content">
-                            {item.role}
-                          </p>
-                          <p className="text-sm text-content/70">
-                            {item.description}
-                          </p>
-                        </div>
-                      </li>
-                    ))}
-                  </ul>
-                </section>
-              </aside>
-            </div>
-          </section>
-
-          {/* Education */}
-          <section className="mb-8">
+          <section className="mb-16">
             <h2
-              className="font-old-standard text-2xl font-medium text-content mb-6"
-              id="university-education"
+              className="mb-3"
+              style={{
+                fontSize: "28px",
+                fontWeight: "600",
+                color: "#1d1d1d",
+                textShadow: "0 1px 0 rgba(255,255,255,0.9)",
+              }}
             >
-              {about.education.title}
+              {about.summery.title}
             </h2>
-            <ul className="space-y-6" aria-labelledby="university-education">
-              {about.education.universities.map((edu, index) => (
+            <ul className="space-y-1.5 pl-5">
+              {about.summery.items.map((item, index) => (
                 <li
                   key={index}
-                  className="group relative bg-gray-50/30 p-6 rounded-2xl border border-gray-200/30 transition-all duration-300"
+                  className="list-disc"
+                  style={{
+                    fontSize: "20px",
+                    lineHeight: "1.6",
+                    color: "#2d2d2d",
+                    textShadow: "0 1px 0 rgba(255,255,255,0.7)",
+                  }}
                 >
-                  <div
-                    className="absolute left-0 top-6 w-1 h-16 bg-secondary/30 rounded-r-full transition-colors duration-300"
-                    aria-hidden="true"
-                  ></div>
-                  <div className="ml-4">
-                    <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-3">
-                      <h3 className="font-old-standard text-lg font-medium text-content">
-                        {edu.degree}
-                      </h3>
-                      <time
-                        className="text-content/80 text-sm font-medium bg-gray-100/50 px-3 py-1 rounded-full"
-                        dateTime={edu.period}
-                      >
-                        {edu.period}
-                      </time>
-                    </div>
-                    <p className="text-secondary font-medium mb-3">
-                      {edu.institution}
-                    </p>
-                    <p className="text-content/70 leading-relaxed">
-                      {edu.description}
-                    </p>
-                  </div>
+                  {item}
                 </li>
               ))}
             </ul>
+          </section>
+
+          <section className="mb-16">
+            <div style={{ display: "flex", flexDirection: "row", gap: "5px" }}>
+              <a
+                href={about.certs.resume.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: "block",
+                  padding: "7px 14px",
+                  fontSize: "18px",
+                  fontWeight: "500",
+                  color: "#2d2d2d",
+                  textDecoration: "none",
+                  borderRadius: "5px",
+                  background:
+                    "linear-gradient(180deg, #e9e9e9 0%, #d1d1d1 100%)",
+                  boxShadow:
+                    "inset 0 1px 0 rgba(255,255,255,0.85), 0 1px 2px rgba(0,0,0,0.18)",
+                  border: "1px solid rgba(0,0,0,0.17)",
+                  textShadow: "0 1px 0 rgba(255,255,255,0.85)",
+                  letterSpacing: "-0.01em",
+                }}
+              >
+                {about.certs.resume.text}
+              </a>
+
+              <a
+                href="https://drive.google.com/file/d/1ik8Ajr50lamXsje0qRqjnsmJIjM2e9Xd/view"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: "block",
+                  padding: "7px 14px",
+                  fontSize: "18px",
+                  fontWeight: "500",
+                  color: "#2d2d2d",
+                  textDecoration: "none",
+                  borderRadius: "5px",
+                  background:
+                    "linear-gradient(180deg, #e9e9e9 0%, #d1d1d1 100%)",
+                  boxShadow:
+                    "inset 0 1px 0 rgba(255,255,255,0.85), 0 1px 2px rgba(0,0,0,0.18)",
+                  border: "1px solid rgba(0,0,0,0.17)",
+                  textShadow: "0 1px 0 rgba(255,255,255,0.85)",
+                  letterSpacing: "-0.01em",
+                }}
+              >
+                {about.certs.viewLicences}
+              </a>
+
+              <a
+                href="https://drive.google.com/file/d/1Nh8i9QphiozXYRAhtb-X3-OhE2BovEd1/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: "block",
+                  padding: "7px 14px",
+                  fontSize: "18px",
+                  fontWeight: "500",
+                  color: "#2d2d2d",
+                  textDecoration: "none",
+                  borderRadius: "5px",
+                  background:
+                    "linear-gradient(180deg, #e9e9e9 0%, #d1d1d1 100%)",
+                  boxShadow:
+                    "inset 0 1px 0 rgba(255,255,255,0.85), 0 1px 2px rgba(0,0,0,0.18)",
+                  border: "1px solid rgba(0,0,0,0.17)",
+                  textShadow: "0 1px 0 rgba(255,255,255,0.85)",
+                  letterSpacing: "-0.01em",
+                }}
+              >
+                {about.certs.schoolCert}
+              </a>
+            </div>
+          </section>
+
+          <section className="mb-16">
+            <h2
+              className="mb-4"
+              style={{
+                fontSize: "28px",
+                fontWeight: "600",
+                color: "#1d1d1d",
+                textShadow: "0 1px 0 rgba(255,255,255,0.9)",
+              }}
+            >
+              {about.education.title}
+            </h2>
+            <div className="space-y-5">
+              {about.education.universities.map((edu, index) => (
+                <div key={index}>
+                  <div className="flex justify-between items-baseline mb-1">
+                    <h3
+                      style={{
+                        fontSize: "20px",
+                        fontWeight: "600",
+                        color: "#1d1d1d",
+                        textShadow: "0 1px 0 rgba(255,255,255,0.9)",
+                      }}
+                    >
+                      {edu.degree}
+                    </h3>
+                    <time
+                      dateTime={edu.period}
+                      style={{
+                        fontSize: "16px",
+                        color: "#5d5d5d",
+                        textShadow: "0 1px 0 rgba(255,255,255,0.7)",
+                      }}
+                    >
+                      {edu.period}
+                    </time>
+                  </div>
+                  <p
+                    className="mb-1"
+                    style={{
+                      fontSize: "17px",
+                      fontWeight: "500",
+                      color: "#2d2d2d",
+                      textShadow: "0 1px 0 rgba(255,255,255,0.8)",
+                    }}
+                  >
+                    {edu.institution}
+                  </p>
+                  <p
+                    style={{
+                      fontSize: "16px",
+                      color: "#4d4d4d",
+                      lineHeight: "1.5",
+                      textShadow: "0 1px 0 rgba(255,255,255,0.7)",
+                    }}
+                  >
+                    {edu.description}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          <section className="pb-16">
+            <p
+              style={{
+                fontSize: "20px",
+                color: "#2d2d2d",
+                lineHeight: "1.6",
+                textShadow: "0 1px 0 rgba(255,255,255,0.7)",
+              }}
+            >
+              {about.now}
+            </p>
           </section>
         </div>
       </main>

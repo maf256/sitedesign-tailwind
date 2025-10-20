@@ -168,156 +168,367 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <main className=" w-full">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <section className=" flex flex-col justify-center py-20" id="home">
-            <div className="max-w-4xl mx-auto text-center lg:text-left">
-              <h1 className="font-bold !text-5xl md:text-7xl lg:!text-8xl leading-[0.9] tracking-tight text-content mb-8">
+      <main className="min-h-screen w-full" style={{ background: "#ececec" }}>
+        <div className="mx-auto max-w-5xl px-6 lg:px-8">
+          <section className="flex flex-col justify-center py-20" id="home">
+            <div className="max-w-4xl mx-auto text-center">
+              <h1
+                className="font-semibold text-5xl md:text-6xl lg:text-7xl leading-tight tracking-tight mb-8"
+                style={{
+                  color: "#1d1d1f",
+                  textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                }}
+              >
                 {home.title.line1}
-                <span className="block text-primary">{home.title.line2}</span>
+                <span
+                  className="block"
+                  style={{
+                    color: "#0066cc",
+                    textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                  }}
+                >
+                  {home.title.line2}
+                </span>
               </h1>
 
-              <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-start gap-8 mb-8">
+              <div className="flex flex-col items-center gap-6 mb-8">
                 <Image
-                  className="border-2 border-content/20 rounded-3xl w-24 h-24 md:w-28 md:h-28 object-cover"
+                  className="rounded-2xl w-28 h-28 md:w-32 md:h-32 object-cover"
                   src="/profile.jpg"
                   alt={home.profile.alt}
-                  width={112}
-                  height={112}
+                  width={128}
+                  height={128}
                   priority
+                  style={{
+                    boxShadow: "0 1px 3px rgba(0,0,0,0.3)",
+                    border: "1px solid rgba(0,0,0,0.2)",
+                  }}
                 />
-                <div className="text-center lg:text-left">
-                  <div className="text-3xl md:text-4xl font-semibold text-content mb-2">
+                <div className="text-center">
+                  <div
+                    className="text-3xl md:text-4xl font-semibold mb-2"
+                    style={{
+                      color: "#1d1d1f",
+                      textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                    }}
+                  >
                     {home.profile.name}
                   </div>
-                  <p className="text-content/70 text-xl">
+                  <p
+                    className="text-lg"
+                    style={{
+                      color: "#4d4d4d",
+                      textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                    }}
+                  >
                     &ldquo;{home.profile.tagline}&rdquo;
                   </p>
                 </div>
               </div>
 
-              <p className="text-xl md:text-2xl leading-relaxed text-content/80 max-w-3xl mx-auto lg:mx-0">
+              <p
+                className="text-xl leading-relaxed max-w-3xl mx-auto"
+                style={{
+                  color: "#2d2d2d",
+                  textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                }}
+              >
                 {home.about.description}
               </p>
             </div>
           </section>
 
-          <section className="py-20 border-t border-content/10">
-            <div className="grid lg:grid-cols-2 gap-16 items-start">
-              <div>
-                <h2 className="text-4xl md:text-5xl font-bold text-content mb-8 leading-tight">
-                  {home.whatIsWebDev.title}
-                </h2>
-                <div className="space-y-6 text-lg text-content/80 leading-relaxed">
-                  <p>{home.whatIsWebDev.description}</p>
-                  <Link
-                    href={"/webutvikler"}
-                    className="inline-flex items-center gap-2 text-primary hover:underline transition-all duration-200"
-                  >
-                    {home.whatIsWebDev.readMore}
-                    <ArrowRight size={16} />
-                  </Link>
-                </div>
+          <section className="py-16">
+            <div
+              className="rounded-lg p-8 mb-12"
+              style={{
+                background: "linear-gradient(180deg, #f9f9f9 0%, #e5e5e5 100%)",
+                boxShadow:
+                  "0 1px 0 rgba(255,255,255,0.8) inset, 0 1px 3px rgba(0,0,0,0.15)",
+                border: "1px solid #b8b8b8",
+              }}
+            >
+              <h2
+                className="text-4xl font-semibold mb-6"
+                style={{
+                  color: "#1d1d1f",
+                  textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                }}
+              >
+                {home.whatIsWebDev.title}
+              </h2>
+              <p
+                className="text-lg leading-relaxed mb-6"
+                style={{
+                  color: "#2d2d2d",
+                  textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                }}
+              >
+                {home.whatIsWebDev.description}
+              </p>
+              <Link
+                href={"/webutvikler"}
+                className="inline-flex items-center gap-2 font-medium"
+                style={{
+                  color: "#0066cc",
+                  textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                }}
+              >
+                {home.whatIsWebDev.readMore}
+                <ArrowRight size={16} />
+              </Link>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-6">
+              <div
+                className="rounded-lg p-8"
+                style={{
+                  background:
+                    "linear-gradient(180deg, #fafafa 0%, #e8e8e8 100%)",
+                  boxShadow:
+                    "0 1px 0 rgba(255,255,255,0.9) inset, 0 1px 2px rgba(0,0,0,0.12)",
+                  border: "1px solid #c0c0c0",
+                }}
+              >
+                <h3
+                  className="text-2xl font-semibold mb-3"
+                  style={{
+                    color: "#1d1d1f",
+                    textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                  }}
+                >
+                  {home.whatIsWebDev.frontend.title}
+                </h3>
+                <p
+                  style={{
+                    fontSize: "17px",
+                    color: "#3a3a3a",
+                    textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                  }}
+                >
+                  {home.whatIsWebDev.frontend.description}
+                </p>
               </div>
 
-              <div className="space-y-8">
-                <div className="bg-base-200 rounded-3xl p-8">
-                  <h3 className="text-2xl font-semibold text-content mb-4">
-                    {home.whatIsWebDev.frontend.title}
-                  </h3>
-                  <p className="text-content/70 leading-relaxed">
-                    {home.whatIsWebDev.frontend.description}
-                  </p>
-                </div>
-
-                <div className="bg-base-200 rounded-3xl p-8">
-                  <h3 className="text-2xl font-semibold text-content mb-4">
-                    {home.whatIsWebDev.backend.title}
-                  </h3>
-                  <p className="text-content/70 leading-relaxed">
-                    {home.whatIsWebDev.backend.description}
-                  </p>
-                </div>
+              <div
+                className="rounded-lg p-8"
+                style={{
+                  background:
+                    "linear-gradient(180deg, #fafafa 0%, #e8e8e8 100%)",
+                  boxShadow:
+                    "0 1px 0 rgba(255,255,255,0.9) inset, 0 1px 2px rgba(0,0,0,0.12)",
+                  border: "1px solid #c0c0c0",
+                }}
+              >
+                <h3
+                  className="text-2xl font-semibold mb-3"
+                  style={{
+                    color: "#1d1d1f",
+                    textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                  }}
+                >
+                  {home.whatIsWebDev.backend.title}
+                </h3>
+                <p
+                  style={{
+                    fontSize: "17px",
+                    color: "#3a3a3a",
+                    textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                  }}
+                >
+                  {home.whatIsWebDev.backend.description}
+                </p>
               </div>
             </div>
           </section>
 
-          <section className="py-20 border-t border-content/10">
-            <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold text-content mb-6">
+          <section className="py-16">
+            <div className="text-center mb-12">
+              <h2
+                className="text-4xl font-semibold mb-4"
+                style={{
+                  color: "#1d1d1f",
+                  textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                }}
+              >
                 {home.approach.title}
               </h2>
-              <p className="text-xl text-content/70 max-w-3xl mx-auto leading-relaxed">
+              <p
+                className="text-lg max-w-3xl mx-auto"
+                style={{
+                  color: "#2d2d2d",
+                  textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                }}
+              >
                 {home.approach.description}
               </p>
             </div>
           </section>
 
-          <section className="py-20 border-t border-content/10">
-            <div className="grid lg:grid-cols-2 gap-16 items-center">
-              <div>
-                <h2 className="text-4xl md:text-5xl font-bold text-content mb-8 leading-tight">
-                  {home.why.title}
-                </h2>
-                <div className="space-y-6 text-lg text-content/80 leading-relaxed">
-                  {home.why.paragraphs.map((p, idx) => (
-                    <p key={idx}>{p}</p>
-                  ))}
-                </div>
+          <section className="py-16">
+            <div
+              className="rounded-lg p-8 mb-8"
+              style={{
+                background: "linear-gradient(180deg, #f9f9f9 0%, #e5e5e5 100%)",
+                boxShadow:
+                  "0 1px 0 rgba(255,255,255,0.8) inset, 0 1px 3px rgba(0,0,0,0.15)",
+                border: "1px solid #b8b8b8",
+              }}
+            >
+              <h2
+                className="text-4xl font-semibold mb-6"
+                style={{
+                  color: "#1d1d1f",
+                  textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                }}
+              >
+                {home.why.title}
+              </h2>
+              <div className="space-y-5">
+                {home.why.paragraphs.map((p, idx) => (
+                  <p
+                    key={idx}
+                    className="text-lg leading-relaxed"
+                    style={{
+                      color: "#2d2d2d",
+                      textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                    }}
+                  >
+                    {p}
+                  </p>
+                ))}
+              </div>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-6">
+              <div
+                className="rounded-lg p-6"
+                style={{
+                  background:
+                    "linear-gradient(180deg, #fafafa 0%, #e8e8e8 100%)",
+                  boxShadow:
+                    "0 1px 0 rgba(255,255,255,0.9) inset, 0 1px 2px rgba(0,0,0,0.12)",
+                  border: "1px solid #c0c0c0",
+                }}
+              >
+                <h3
+                  className="font-semibold mb-2"
+                  style={{
+                    fontSize: "18px",
+                    color: "#1d1d1f",
+                    textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                  }}
+                >
+                  {home.features.support.title}
+                </h3>
+                <p
+                  style={{
+                    fontSize: "16px",
+                    color: "#3a3a3a",
+                    textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                  }}
+                >
+                  {home.features.support.description}
+                </p>
               </div>
 
-              <div className="bg-base-200 rounded-3xl p-10 space-y-8">
-                <div className="flex items-start gap-4">
-                  <div>
-                    <h3 className="font-semibold text-content mb-2">
-                      {home.features.support.title}
-                    </h3>
-                    <p className="text-content/70">
-                      {home.features.support.description}
-                    </p>
-                  </div>
-                </div>
+              <div
+                className="rounded-lg p-6"
+                style={{
+                  background:
+                    "linear-gradient(180deg, #fafafa 0%, #e8e8e8 100%)",
+                  boxShadow:
+                    "0 1px 0 rgba(255,255,255,0.9) inset, 0 1px 2px rgba(0,0,0,0.12)",
+                  border: "1px solid #c0c0c0",
+                }}
+              >
+                <h3
+                  className="font-semibold mb-2"
+                  style={{
+                    fontSize: "18px",
+                    color: "#1d1d1f",
+                    textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                  }}
+                >
+                  {home.features.ux.title}
+                </h3>
+                <p
+                  style={{
+                    fontSize: "16px",
+                    color: "#3a3a3a",
+                    textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                  }}
+                >
+                  {home.features.ux.description}
+                </p>
+              </div>
 
-                <div className="flex items-start gap-4">
-                  <div>
-                    <h3 className="font-semibold text-content mb-2">
-                      {home.features.ux.title}
-                    </h3>
-                    <p className="text-content/70">
-                      {home.features.ux.description}
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <div>
-                    <h3 className="font-semibold text-content mb-2">
-                      {home.features.responsive.title}
-                    </h3>
-                    <p className="text-content/70">
-                      {home.features.responsive.description}
-                    </p>
-                  </div>
-                </div>
+              <div
+                className="rounded-lg p-6"
+                style={{
+                  background:
+                    "linear-gradient(180deg, #fafafa 0%, #e8e8e8 100%)",
+                  boxShadow:
+                    "0 1px 0 rgba(255,255,255,0.9) inset, 0 1px 2px rgba(0,0,0,0.12)",
+                  border: "1px solid #c0c0c0",
+                }}
+              >
+                <h3
+                  className="font-semibold mb-2"
+                  style={{
+                    fontSize: "18px",
+                    color: "#1d1d1f",
+                    textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                  }}
+                >
+                  {home.features.responsive.title}
+                </h3>
+                <p
+                  style={{
+                    fontSize: "16px",
+                    color: "#3a3a3a",
+                    textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                  }}
+                >
+                  {home.features.responsive.description}
+                </p>
               </div>
             </div>
           </section>
 
-          <section className="py-20 text-center">
-            <h2 className="text-4xl md:text-5xl font-bold text-content mb-6">
+          <section className="py-16 text-center">
+            <h2
+              className="text-4xl font-semibold mb-4"
+              style={{
+                color: "#1d1d1f",
+                textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+              }}
+            >
               {home.cta.title}
             </h2>
-            <p className="!text-md text-content/70 mb-8 max-w-2xl mx-auto leading-relaxed">
+            <p
+              className="text-lg mb-8 max-w-2xl mx-auto"
+              style={{
+                color: "#2d2d2d",
+                textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+              }}
+            >
               {home.cta.description}
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link
-                href={"/contact"}
-                className="bg-primary/30 text-content px-8 py-4 rounded-2xl font-semibold text-lg hover:bg-primary/90 transition-colors"
-              >
-                {home.cta.button}
-              </Link>
-            </div>
+            <Link
+              href={"/contact"}
+              className="inline-block px-8 py-3 rounded-lg font-semibold text-lg"
+              style={{
+                background: "linear-gradient(180deg, #e9e9e9 0%, #d1d1d1 100%)",
+                boxShadow:
+                  "inset 0 1px 0 rgba(255,255,255,0.85), 0 1px 2px rgba(0,0,0,0.18)",
+                border: "1px solid rgba(0,0,0,0.17)",
+                color: "#2d2d2d",
+                textShadow: "0 1px 0 rgba(255,255,255,0.85)",
+              }}
+            >
+              {home.cta.button}
+            </Link>
           </section>
         </div>
       </main>

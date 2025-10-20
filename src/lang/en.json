@@ -69,45 +69,26 @@
     "pageTitle": "About",
     "subtitle": "Majid Askarifarsangi - Web Developer",
     "imageAlt": "Web Developer in Oslo, Norway",
-    "story": {
-      "title": "My Story",
-      "paragraphs": [
-        "I'm an experienced full-stack developer with over 15 years of professional work, specializing in React.js, Next.js, Node.js, and PostgreSQL. I've delivered solutions ranging from business websites to complex web applications for companies such as Konsulenthus Oslo, TechPros Oslo, and Osloweb Sandvika.",
-        "My passion lies in building performant, user-friendly applications that not only look great but also solve real-world business problems and strengthen digital presence.",
-        "I approach both work and life with a growth mindset, leading by example in both professional settings and at home. I believe that continuous learning and accountability are the keys to long-term success."
-      ]
-    },
-    "philosophy": {
-      "title": "My Philosophy",
-      "quote": "Technology evolves quickly, and the best way to stay valuable is through continuous learning, reinvention, and adaptability."
-    },
-    "quickFacts": {
-      "title": "Quick Facts",
-      "facts": [
-        { "label": "Age", "value": "41" },
-        { "label": "Location", "value": "Sandvika, Norway" },
-        { "label": "Phone", "value": "+47 40189111" },
-        { "label": "Experience", "value": "15+ Years" },
-        { "label": "Specialty", "value": "JavaScript" },
-        { "label": "Status", "value": "Available" }
-      ]
-    },
-    "currently": {
-      "title": "Currently",
+    "summery": {
+      "title": "Summery",
       "items": [
-        {
-          "role": "React Developer at MERCOR",
-          "description": "AI training & prompt engineering"
-        },
-        {
-          "role": "Freelance Projects",
-          "description": "Web development & consulting"
-        },
-        {
-          "role": "Learning",
-          "description": "Advanced AI integration"
-        }
+        "I'm majid and im 41",
+        "I live in Sandvika, Norway",
+        "My Specialty is JavaScript",
+        "I have been working on JavaScript Projects since 2010",
+        "Im activley searching for projects in Norway",
+        "I also have a management degree alongside computer engineering",
+        "My carrer includes enterprise and modern application experience",
+        "I am familar with all emplyment types. freelanc, part time, full time, project based ..."
       ]
+    },
+    "certs": {
+      "resume": {
+        "text": "Download resume",
+        "url": "https://drive.google.com/file/d/1aJRhmnlenAe5zWuxs6OCQBlG2eI-KsFH/view?usp=sharing"
+      },
+      "schoolCert": "Certificate of Competence",
+      "viewLicences": "View Licences"
     },
     "education": {
       "title": "University Education",
@@ -125,7 +106,8 @@
           "description": "Comprehensive foundation in computer science principles, software engineering, and system architecture design."
         }
       ]
-    }
+    },
+    "now": "Currently, I'm working as a software engineer and React developer at Mercor. But I am very much interested in Kotlin and Kotlin backend systems. I'm in the process of Udemy's Kotlin master class. I'm looking forward to work a backend position as a Kotlin developer"
   },
   "career": {
     "title": "Career",

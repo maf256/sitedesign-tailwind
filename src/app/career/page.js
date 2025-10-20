@@ -143,18 +143,29 @@ export default function CareerPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <main className="min-h-screen bg-base-100">
+      <main className="min-h-screen w-full" style={{ background: "#ececec" }}>
         <section className="max-w-4xl mx-auto px-4 py-16">
           <header className="text-center mb-16">
-            <h1 className="text-4xl md:text-5xl font-bold text-content mb-4">
+            <h1
+              className="text-4xl md:text-5xl font-bold mb-4"
+              style={{
+                color: "#1d1d1f",
+                textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+              }}
+            >
               {career.title}
             </h1>
-            <p className="text-lg text-content/75 max-w-2xl mx-auto">
+            <p
+              className="text-lg max-w-2xl mx-auto"
+              style={{
+                color: "#3a3a3a",
+                textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+              }}
+            >
               {career.description}
             </p>
           </header>
 
-          {/* Timeline */}
           <section
             className="relative"
             role="region"
@@ -164,9 +175,12 @@ export default function CareerPage() {
               Career Timeline
             </h2>
 
-            {/* Timeline line */}
             <div
-              className="absolute left-8 top-0 bottom-0 w-0.5 bg-base-300 hidden md:block"
+              className="absolute left-8 top-0 bottom-0 w-0.5 hidden md:block"
+              style={{
+                background: "linear-gradient(180deg, #b8b8b8 0%, #d1d1d1 100%)",
+                boxShadow: "1px 0 0 rgba(255,255,255,0.8)",
+              }}
               aria-hidden="true"
             ></div>
 
@@ -177,34 +191,63 @@ export default function CareerPage() {
                   className="relative group animate-in fade-in slide-in-from-bottom-4 duration-300"
                   style={{ animationDelay: `${index * 100}ms` }}
                 >
-                  {/* Timeline dot */}
                   <div
-                    className="absolute left-6 w-4 h-4 bg-primary rounded-full border-4 border-base-100 hidden md:block group-hover:bg-primary/80 transition-colors duration-200"
+                    className="absolute left-6 w-4 h-4 rounded-full border-4 hidden md:block group-hover:scale-110 transition-transform duration-200"
+                    style={{
+                      background:
+                        "linear-gradient(135deg, #e9e9e9 0%, #c1c1c1 100%)",
+                      borderColor: "#ececec",
+                      boxShadow:
+                        "0 1px 3px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.8)",
+                    }}
                     aria-hidden="true"
                   ></div>
 
-                  {/* Experience card */}
                   <article
-                    className="md:ml-16 bg-base-200/30 border border-base-300/30 rounded-2xl p-6 hover:shadow-md hover:border-base-300/50 transition-all duration-300 hover:-translate-y-1"
+                    className="md:ml-16 p-6 hover:shadow-lg transition-all duration-300"
+                    style={{
+                      background: "rgba(249, 249, 249, 0.6)",
+                      backdropFilter: "blur(10px)",
+                      border: "1px solid rgba(184, 184, 184, 0.3)",
+                      borderRadius: "8px",
+                    }}
                     aria-labelledby={`experience-${index}-title`}
                     aria-describedby={`experience-${index}-description`}
                   >
-                    {/* Header */}
                     <header className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
                       <div className="flex-1">
                         <h3
                           id={`experience-${index}-title`}
-                          className="text-xl font-semibold text-content mb-2 group-hover:text-primary transition-colors duration-200"
+                          className="text-xl font-semibold mb-2"
+                          style={{
+                            color: "#1d1d1f",
+                            textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                          }}
                         >
                           {experience.position}
                         </h3>
-                        <p className="text-lg text-primary font-medium mb-1">
+                        <p
+                          className="text-lg font-medium mb-1"
+                          style={{
+                            color: "#0066cc",
+                            textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                          }}
+                        >
                           {experience.company}
                         </p>
                       </div>
                       <div className="mt-3 md:mt-0 md:ml-4">
                         <time
-                          className="inline-block bg-base-200/60 text-content/70 px-4 py-2 rounded-full text-sm font-medium"
+                          className="inline-block px-3 py-1.5 rounded-md text-sm font-medium"
+                          style={{
+                            background:
+                              "linear-gradient(180deg, #fafafa 0%, #e0e0e0 100%)",
+                            boxShadow:
+                              "0 1px 0 rgba(255,255,255,0.9) inset, 0 1px 2px rgba(0,0,0,0.1)",
+                            border: "1px solid #c0c0c0",
+                            color: "#4d4d4d",
+                            textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                          }}
                           aria-label={`Employment duration: ${experience.duration}`}
                         >
                           {experience.duration}
@@ -212,16 +255,19 @@ export default function CareerPage() {
                       </div>
                     </header>
 
-                    {/* Description */}
                     <p
                       id={`experience-${index}-description`}
-                      className="text-content/80 mb-6 leading-relaxed"
+                      className="mb-6 leading-relaxed"
+                      style={{
+                        fontSize: "17px",
+                        color: "#2d2d2d",
+                        textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                      }}
                       aria-label={`Job description: ${experience.description}`}
                     >
                       {experience.description}
                     </p>
 
-                    {/* Skills */}
                     {experience.skills && experience.skills.length > 0 && (
                       <div
                         className="flex flex-wrap gap-2"
@@ -233,9 +279,13 @@ export default function CareerPage() {
                         {experience.skills.map((skill, skillIndex) => (
                           <span
                             key={skillIndex}
-                            className="inline-block bg-primary/10 text-primary px-3 py-1.5 rounded-full text-sm font-medium
-                                     hover:bg-primary/20 hover:text-primary/90 transition-all duration-200 cursor-default
-                                     border border-primary/20 hover:border-primary/30 hover:scale-105"
+                            className="inline-block px-3 py-1 rounded-full text-sm font-medium hover:scale-105 transition-all duration-200"
+                            style={{
+                              background: "rgba(0, 102, 204, 0.08)",
+                              border: "1px solid rgba(0, 102, 204, 0.2)",
+                              color: "#0066cc",
+                              textShadow: "0 1px 0 rgba(255, 255, 255, 0.5)",
+                            }}
                             aria-label={`Technology skill: ${skill}`}
                             tabIndex="0"
                           >
