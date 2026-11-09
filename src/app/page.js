@@ -239,15 +239,7 @@ export default function Home() {
           </section>
 
           <section className="py-16">
-            <div
-              className="rounded-lg p-8 mb-12"
-              style={{
-                background: "linear-gradient(180deg, #f9f9f9 0%, #e5e5e5 100%)",
-                boxShadow:
-                  "0 1px 0 rgba(255,255,255,0.8) inset, 0 1px 3px rgba(0,0,0,0.15)",
-                border: "1px solid #b8b8b8",
-              }}
-            >
+            <div className="rounded-lg p-8 mb-12 metal-card">
               <h2
                 className="text-4xl font-semibold mb-6"
                 style={{
@@ -280,16 +272,7 @@ export default function Home() {
             </div>
 
             <div className="grid md:grid-cols-2 gap-6">
-              <div
-                className="rounded-lg p-8"
-                style={{
-                  background:
-                    "linear-gradient(180deg, #fafafa 0%, #e8e8e8 100%)",
-                  boxShadow:
-                    "0 1px 0 rgba(255,255,255,0.9) inset, 0 1px 2px rgba(0,0,0,0.12)",
-                  border: "1px solid #c0c0c0",
-                }}
-              >
+              <div className="rounded-lg p-8 metal-button">
                 <h3
                   className="text-2xl font-semibold mb-3"
                   style={{
@@ -310,16 +293,7 @@ export default function Home() {
                 </p>
               </div>
 
-              <div
-                className="rounded-lg p-8"
-                style={{
-                  background:
-                    "linear-gradient(180deg, #fafafa 0%, #e8e8e8 100%)",
-                  boxShadow:
-                    "0 1px 0 rgba(255,255,255,0.9) inset, 0 1px 2px rgba(0,0,0,0.12)",
-                  border: "1px solid #c0c0c0",
-                }}
-              >
+              <div className="rounded-lg p-8 metal-button">
                 <h3
                   className="text-2xl font-semibold mb-3"
                   style={{
@@ -366,15 +340,7 @@ export default function Home() {
           </section>
 
           <section className="py-16">
-            <div
-              className="rounded-lg p-8 mb-8"
-              style={{
-                background: "linear-gradient(180deg, #f9f9f9 0%, #e5e5e5 100%)",
-                boxShadow:
-                  "0 1px 0 rgba(255,255,255,0.8) inset, 0 1px 3px rgba(0,0,0,0.15)",
-                border: "1px solid #b8b8b8",
-              }}
-            >
+            <div className="rounded-lg p-8 mb-8 metal-card">
               <h2
                 className="text-4xl font-semibold mb-6"
                 style={{
@@ -401,16 +367,7 @@ export default function Home() {
             </div>
 
             <div className="grid md:grid-cols-3 gap-6">
-              <div
-                className="rounded-lg p-6"
-                style={{
-                  background:
-                    "linear-gradient(180deg, #fafafa 0%, #e8e8e8 100%)",
-                  boxShadow:
-                    "0 1px 0 rgba(255,255,255,0.9) inset, 0 1px 2px rgba(0,0,0,0.12)",
-                  border: "1px solid #c0c0c0",
-                }}
-              >
+              <div className="rounded-lg p-6 metal-button">
                 <h3
                   className="font-semibold mb-2"
                   style={{
@@ -432,16 +389,7 @@ export default function Home() {
                 </p>
               </div>
 
-              <div
-                className="rounded-lg p-6"
-                style={{
-                  background:
-                    "linear-gradient(180deg, #fafafa 0%, #e8e8e8 100%)",
-                  boxShadow:
-                    "0 1px 0 rgba(255,255,255,0.9) inset, 0 1px 2px rgba(0,0,0,0.12)",
-                  border: "1px solid #c0c0c0",
-                }}
-              >
+              <div className="rounded-lg p-6 metal-button">
                 <h3
                   className="font-semibold mb-2"
                   style={{
@@ -463,16 +411,7 @@ export default function Home() {
                 </p>
               </div>
 
-              <div
-                className="rounded-lg p-6"
-                style={{
-                  background:
-                    "linear-gradient(180deg, #fafafa 0%, #e8e8e8 100%)",
-                  boxShadow:
-                    "0 1px 0 rgba(255,255,255,0.9) inset, 0 1px 2px rgba(0,0,0,0.12)",
-                  border: "1px solid #c0c0c0",
-                }}
-              >
+              <div className="rounded-lg p-6 metal-button">
                 <h3
                   className="font-semibold mb-2"
                   style={{
@@ -517,14 +456,8 @@ export default function Home() {
             </p>
             <Link
               href={"/contact"}
-              className="inline-block px-8 py-3 rounded-lg font-semibold text-lg"
+              className="inline-block px-8 py-3 rounded-lg font-semibold text-lg metal-button"
               style={{
-                background: "linear-gradient(180deg, #e9e9e9 0%, #d1d1d1 100%)",
-                boxShadow:
-                  "inset 0 1px 0 rgba(255,255,255,0.85), 0 1px 2px rgba(0,0,0,0.18)",
-                border: "1px solid rgba(0,0,0,0.17)",
-                color: "#2d2d2d",
-                textShadow: "0 1px 0 rgba(255,255,255,0.85)",
               }}
             >
               {home.cta.button}

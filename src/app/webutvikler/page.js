@@ -113,15 +113,7 @@ export default function WebDeveloperPage() {
         </section>
 
         <section className="py-16">
-          <div
-            className="rounded-lg p-8 mb-8"
-            style={{
-              background: "linear-gradient(180deg, #f9f9f9 0%, #e5e5e5 100%)",
-              boxShadow:
-                "0 1px 0 rgba(255,255,255,0.8) inset, 0 1px 3px rgba(0,0,0,0.15)",
-              border: "1px solid #b8b8b8",
-            }}
-          >
+          <div className="rounded-lg p-8 mb-8 metal-card">
             <h2
               className="text-4xl font-semibold mb-6"
               style={{
@@ -143,15 +135,7 @@ export default function WebDeveloperPage() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-6">
-            <div
-              className="rounded-lg p-8"
-              style={{
-                background: "linear-gradient(180deg, #fafafa 0%, #e8e8e8 100%)",
-                boxShadow:
-                  "0 1px 0 rgba(255,255,255,0.9) inset, 0 1px 2px rgba(0,0,0,0.12)",
-                border: "1px solid #c0c0c0",
-              }}
-            >
+            <div className="rounded-lg p-8 metal-button">
               <h3
                 className="text-2xl font-semibold mb-3"
                 style={{
@@ -171,15 +155,7 @@ export default function WebDeveloperPage() {
                 {webdeveloper.what.frontend.description}
               </p>
             </div>
-            <div
-              className="rounded-lg p-8"
-              style={{
-                background: "linear-gradient(180deg, #fafafa 0%, #e8e8e8 100%)",
-                boxShadow:
-                  "0 1px 0 rgba(255,255,255,0.9) inset, 0 1px 2px rgba(0,0,0,0.12)",
-                border: "1px solid #c0c0c0",
-              }}
-            >
+            <div className="rounded-lg p-8 metal-button">
               <h3
                 className="text-2xl font-semibold mb-3"
                 style={{
@@ -227,14 +203,7 @@ export default function WebDeveloperPage() {
             {webdeveloper.skills.items.map((skill, idx) => (
               <div
                 key={idx}
-                className="rounded-lg p-6 text-center"
-                style={{
-                  background:
-                    "linear-gradient(180deg, #fafafa 0%, #e8e8e8 100%)",
-                  boxShadow:
-                    "0 1px 0 rgba(255,255,255,0.9) inset, 0 1px 2px rgba(0,0,0,0.12)",
-                  border: "1px solid #c0c0c0",
-                }}
+                className="rounded-lg p-6 text-center metal-button"
               >
                 <h3
                   className="font-semibold mb-2"
@@ -261,15 +230,7 @@ export default function WebDeveloperPage() {
         </section>
 
         <section className="py-16">
-          <div
-            className="rounded-lg p-8 mb-8"
-            style={{
-              background: "linear-gradient(180deg, #f9f9f9 0%, #e5e5e5 100%)",
-              boxShadow:
-                "0 1px 0 rgba(255,255,255,0.8) inset, 0 1px 3px rgba(0,0,0,0.15)",
-              border: "1px solid #b8b8b8",
-            }}
-          >
+          <div className="rounded-lg p-8 mb-8 metal-card">
             <h2
               className="text-4xl font-semibold mb-6"
               style={{
@@ -296,17 +257,7 @@ export default function WebDeveloperPage() {
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {webdeveloper.why.points.map((point, idx) => (
-              <div
-                key={idx}
-                className="rounded-lg p-6"
-                style={{
-                  background:
-                    "linear-gradient(180deg, #fafafa 0%, #e8e8e8 100%)",
-                  boxShadow:
-                    "0 1px 0 rgba(255,255,255,0.9) inset, 0 1px 2px rgba(0,0,0,0.12)",
-                  border: "1px solid #c0c0c0",
-                }}
-              >
+              <div key={idx} className="rounded-lg p-6 metal-button">
                 <h3
                   className="font-semibold mb-2"
                   style={{

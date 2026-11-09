@@ -238,14 +238,8 @@ export default function CareerPage() {
                       </div>
                       <div className="mt-3 md:mt-0 md:ml-4">
                         <time
-                          className="inline-block px-3 py-1.5 rounded-md text-sm font-medium"
+                          className="inline-block px-3 py-1.5 rounded-md text-sm font-medium metal-button"
                           style={{
-                            background:
-                              "linear-gradient(180deg, #fafafa 0%, #e0e0e0 100%)",
-                            boxShadow:
-                              "0 1px 0 rgba(255,255,255,0.9) inset, 0 1px 2px rgba(0,0,0,0.1)",
-                            border: "1px solid #c0c0c0",
-                            color: "#4d4d4d",
                             textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
                           }}
                           aria-label={`Employment duration: ${experience.duration}`}

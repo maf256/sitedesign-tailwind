@@ -274,25 +274,11 @@ export default function Contact() {
             </p>
           </section>
 
-          <section
-            className="p-8 rounded-lg"
-            style={{
-              background: "linear-gradient(180deg, #f9f9f9 0%, #e5e5e5 100%)",
-              boxShadow:
-                "0 1px 0 rgba(255,255,255,0.8) inset, 0 1px 3px rgba(0,0,0,0.15)",
-              border: "1px solid #b8b8b8",
-            }}
-          >
+          <section className="p-8 rounded-lg metal-card">
             <div className="flex items-center gap-4 mb-6">
               <div
-                className="w-12 h-12 rounded-md flex items-center justify-center"
+                className="w-12 h-12 rounded-md flex items-center justify-center metal-button"
                 style={{
-                  background:
-                    "linear-gradient(180deg, #fafafa 0%, #dadada 100%)",
-                  boxShadow:
-                    "0 1px 0 rgba(255,255,255,0.9) inset, 0 1px 2px rgba(0,0,0,0.2)",
-                  border: "1px solid #b0b0b0",
-                  color: "#3a3a3a",
                 }}
               >
                 <a href="mailto:majid@sitedesign.no">
@@ -332,14 +318,8 @@ export default function Contact() {
                   href={social.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-14 h-14 rounded-md flex items-center justify-center transition-all duration-150 hover:brightness-95"
+                  className="w-14 h-14 rounded-md flex items-center justify-center transition-all duration-150 hover:brightness-95 metal-button"
                   style={{
-                    background:
-                      "linear-gradient(180deg, #fafafa 0%, #dadada 100%)",
-                    boxShadow:
-                      "0 1px 0 rgba(255,255,255,0.9) inset, 0 1px 2px rgba(0,0,0,0.2)",
-                    border: "1px solid #b0b0b0",
-                    color: "#3a3a3a",
                   }}
                   title={social.name}
                 >
@@ -349,15 +329,7 @@ export default function Contact() {
             </div>
           </section>
 
-          <section
-            className="rounded-lg overflow-hidden"
-            style={{
-              background: "linear-gradient(180deg, #f9f9f9 0%, #e5e5e5 100%)",
-              boxShadow:
-                "0 1px 0 rgba(255,255,255,0.8) inset, 0 1px 3px rgba(0,0,0,0.15)",
-              border: "1px solid #b8b8b8",
-            }}
-          >
+          <section className="rounded-lg overflow-hidden metal-card">
             <div
               className="p-6 border-b"
               style={{ borderColor: "rgba(0,0,0,0.08)" }}
