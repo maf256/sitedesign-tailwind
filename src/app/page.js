@@ -168,23 +168,23 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <main className="min-h-screen w-full" style={{ background: "#ececec" }}>
+      <main className="min-h-screen w-full" style={{ background: "var(--base-100)" }}>
         <div className="mx-auto max-w-5xl px-6 lg:px-8">
           <section className="flex flex-col justify-center py-20" id="home">
             <div className="max-w-4xl mx-auto text-center">
               <h1
                 className="font-semibold text-5xl md:text-6xl lg:text-7xl leading-tight tracking-tight mb-8"
                 style={{
-                  color: "#1d1d1f",
-                  textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                  color: "var(--heading)",
+                  textShadow: "0 1px 1px var(--shine-strong)",
                 }}
               >
                 {home.title.line1}
                 <span
                   className="block"
                   style={{
-                    color: "#0066cc",
-                    textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                    color: "var(--primary)",
+                    textShadow: "0 1px 1px var(--shine-strong)",
                   }}
                 >
                   {home.title.line2}
@@ -193,23 +193,19 @@ export default function Home() {
 
               <div className="flex flex-col items-center gap-6 mb-8">
                 <Image
-                  className="rounded-2xl w-28 h-28 md:w-32 md:h-32 object-cover"
+                  className="rounded-2xl w-28 h-28 md:w-32 md:h-32 object-cover metal-frame"
                   src="/profile.jpg"
                   alt={home.profile.alt}
                   width={128}
                   height={128}
                   priority
-                  style={{
-                    boxShadow: "0 1px 3px rgba(0,0,0,0.3)",
-                    border: "1px solid rgba(0,0,0,0.2)",
-                  }}
                 />
                 <div className="text-center">
                   <div
                     className="text-3xl md:text-4xl font-semibold mb-2"
                     style={{
-                      color: "#1d1d1f",
-                      textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                      color: "var(--heading)",
+                      textShadow: "0 1px 1px var(--shine-strong)",
                     }}
                   >
                     {home.profile.name}
@@ -217,8 +213,8 @@ export default function Home() {
                   <p
                     className="text-lg"
                     style={{
-                      color: "#4d4d4d",
-                      textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                      color: "var(--text-subtle)",
+                      textShadow: "0 1px 0 var(--shine-soft)",
                     }}
                   >
                     &ldquo;{home.profile.tagline}&rdquo;
@@ -229,8 +225,8 @@ export default function Home() {
               <p
                 className="text-xl leading-relaxed max-w-3xl mx-auto"
                 style={{
-                  color: "#2d2d2d",
-                  textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                  color: "var(--text)",
+                  textShadow: "0 1px 0 var(--shine-soft)",
                 }}
               >
                 {home.about.description}
@@ -239,20 +235,12 @@ export default function Home() {
           </section>
 
           <section className="py-16">
-            <div
-              className="rounded-lg p-8 mb-12"
-              style={{
-                background: "linear-gradient(180deg, #f9f9f9 0%, #e5e5e5 100%)",
-                boxShadow:
-                  "0 1px 0 rgba(255,255,255,0.8) inset, 0 1px 3px rgba(0,0,0,0.15)",
-                border: "1px solid #b8b8b8",
-              }}
-            >
+            <div className="rounded-lg p-8 mb-12 metal-card">
               <h2
                 className="text-4xl font-semibold mb-6"
                 style={{
-                  color: "#1d1d1f",
-                  textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                  color: "var(--heading)",
+                  textShadow: "0 1px 1px var(--shine-strong)",
                 }}
               >
                 {home.whatIsWebDev.title}
@@ -260,8 +248,8 @@ export default function Home() {
               <p
                 className="text-lg leading-relaxed mb-6"
                 style={{
-                  color: "#2d2d2d",
-                  textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                  color: "var(--text)",
+                  textShadow: "0 1px 0 var(--shine-soft)",
                 }}
               >
                 {home.whatIsWebDev.description}
@@ -270,8 +258,8 @@ export default function Home() {
                 href={"/webutvikler"}
                 className="inline-flex items-center gap-2 font-medium"
                 style={{
-                  color: "#0066cc",
-                  textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                  color: "var(--primary)",
+                  textShadow: "0 1px 0 var(--shine-soft)",
                 }}
               >
                 {home.whatIsWebDev.readMore}
@@ -280,21 +268,12 @@ export default function Home() {
             </div>
 
             <div className="grid md:grid-cols-2 gap-6">
-              <div
-                className="rounded-lg p-8"
-                style={{
-                  background:
-                    "linear-gradient(180deg, #fafafa 0%, #e8e8e8 100%)",
-                  boxShadow:
-                    "0 1px 0 rgba(255,255,255,0.9) inset, 0 1px 2px rgba(0,0,0,0.12)",
-                  border: "1px solid #c0c0c0",
-                }}
-              >
+              <div className="rounded-lg p-8 metal-button">
                 <h3
                   className="text-2xl font-semibold mb-3"
                   style={{
-                    color: "#1d1d1f",
-                    textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                    color: "var(--heading)",
+                    textShadow: "0 1px 1px var(--shine-strong)",
                   }}
                 >
                   {home.whatIsWebDev.frontend.title}
@@ -302,29 +281,20 @@ export default function Home() {
                 <p
                   style={{
                     fontSize: "17px",
-                    color: "#3a3a3a",
-                    textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                    color: "var(--text)",
+                    textShadow: "0 1px 0 var(--shine-soft)",
                   }}
                 >
                   {home.whatIsWebDev.frontend.description}
                 </p>
               </div>
 
-              <div
-                className="rounded-lg p-8"
-                style={{
-                  background:
-                    "linear-gradient(180deg, #fafafa 0%, #e8e8e8 100%)",
-                  boxShadow:
-                    "0 1px 0 rgba(255,255,255,0.9) inset, 0 1px 2px rgba(0,0,0,0.12)",
-                  border: "1px solid #c0c0c0",
-                }}
-              >
+              <div className="rounded-lg p-8 metal-button">
                 <h3
                   className="text-2xl font-semibold mb-3"
                   style={{
-                    color: "#1d1d1f",
-                    textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                    color: "var(--heading)",
+                    textShadow: "0 1px 1px var(--shine-strong)",
                   }}
                 >
                   {home.whatIsWebDev.backend.title}
@@ -332,8 +302,8 @@ export default function Home() {
                 <p
                   style={{
                     fontSize: "17px",
-                    color: "#3a3a3a",
-                    textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                    color: "var(--text)",
+                    textShadow: "0 1px 0 var(--shine-soft)",
                   }}
                 >
                   {home.whatIsWebDev.backend.description}
@@ -347,8 +317,8 @@ export default function Home() {
               <h2
                 className="text-4xl font-semibold mb-4"
                 style={{
-                  color: "#1d1d1f",
-                  textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                  color: "var(--heading)",
+                  textShadow: "0 1px 1px var(--shine-strong)",
                 }}
               >
                 {home.approach.title}
@@ -356,8 +326,8 @@ export default function Home() {
               <p
                 className="text-lg max-w-3xl mx-auto"
                 style={{
-                  color: "#2d2d2d",
-                  textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                  color: "var(--text)",
+                  textShadow: "0 1px 0 var(--shine-soft)",
                 }}
               >
                 {home.approach.description}
@@ -366,20 +336,12 @@ export default function Home() {
           </section>
 
           <section className="py-16">
-            <div
-              className="rounded-lg p-8 mb-8"
-              style={{
-                background: "linear-gradient(180deg, #f9f9f9 0%, #e5e5e5 100%)",
-                boxShadow:
-                  "0 1px 0 rgba(255,255,255,0.8) inset, 0 1px 3px rgba(0,0,0,0.15)",
-                border: "1px solid #b8b8b8",
-              }}
-            >
+            <div className="rounded-lg p-8 mb-8 metal-card">
               <h2
                 className="text-4xl font-semibold mb-6"
                 style={{
-                  color: "#1d1d1f",
-                  textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                  color: "var(--heading)",
+                  textShadow: "0 1px 1px var(--shine-strong)",
                 }}
               >
                 {home.why.title}
@@ -390,8 +352,8 @@ export default function Home() {
                     key={idx}
                     className="text-lg leading-relaxed"
                     style={{
-                      color: "#2d2d2d",
-                      textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                      color: "var(--text)",
+                      textShadow: "0 1px 0 var(--shine-soft)",
                     }}
                   >
                     {p}
@@ -401,22 +363,13 @@ export default function Home() {
             </div>
 
             <div className="grid md:grid-cols-3 gap-6">
-              <div
-                className="rounded-lg p-6"
-                style={{
-                  background:
-                    "linear-gradient(180deg, #fafafa 0%, #e8e8e8 100%)",
-                  boxShadow:
-                    "0 1px 0 rgba(255,255,255,0.9) inset, 0 1px 2px rgba(0,0,0,0.12)",
-                  border: "1px solid #c0c0c0",
-                }}
-              >
+              <div className="rounded-lg p-6 metal-button">
                 <h3
                   className="font-semibold mb-2"
                   style={{
                     fontSize: "18px",
-                    color: "#1d1d1f",
-                    textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                    color: "var(--heading)",
+                    textShadow: "0 1px 1px var(--shine-strong)",
                   }}
                 >
                   {home.features.support.title}
@@ -424,30 +377,21 @@ export default function Home() {
                 <p
                   style={{
                     fontSize: "16px",
-                    color: "#3a3a3a",
-                    textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                    color: "var(--text)",
+                    textShadow: "0 1px 0 var(--shine-soft)",
                   }}
                 >
                   {home.features.support.description}
                 </p>
               </div>
 
-              <div
-                className="rounded-lg p-6"
-                style={{
-                  background:
-                    "linear-gradient(180deg, #fafafa 0%, #e8e8e8 100%)",
-                  boxShadow:
-                    "0 1px 0 rgba(255,255,255,0.9) inset, 0 1px 2px rgba(0,0,0,0.12)",
-                  border: "1px solid #c0c0c0",
-                }}
-              >
+              <div className="rounded-lg p-6 metal-button">
                 <h3
                   className="font-semibold mb-2"
                   style={{
                     fontSize: "18px",
-                    color: "#1d1d1f",
-                    textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                    color: "var(--heading)",
+                    textShadow: "0 1px 1px var(--shine-strong)",
                   }}
                 >
                   {home.features.ux.title}
@@ -455,30 +399,21 @@ export default function Home() {
                 <p
                   style={{
                     fontSize: "16px",
-                    color: "#3a3a3a",
-                    textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                    color: "var(--text)",
+                    textShadow: "0 1px 0 var(--shine-soft)",
                   }}
                 >
                   {home.features.ux.description}
                 </p>
               </div>
 
-              <div
-                className="rounded-lg p-6"
-                style={{
-                  background:
-                    "linear-gradient(180deg, #fafafa 0%, #e8e8e8 100%)",
-                  boxShadow:
-                    "0 1px 0 rgba(255,255,255,0.9) inset, 0 1px 2px rgba(0,0,0,0.12)",
-                  border: "1px solid #c0c0c0",
-                }}
-              >
+              <div className="rounded-lg p-6 metal-button">
                 <h3
                   className="font-semibold mb-2"
                   style={{
                     fontSize: "18px",
-                    color: "#1d1d1f",
-                    textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                    color: "var(--heading)",
+                    textShadow: "0 1px 1px var(--shine-strong)",
                   }}
                 >
                   {home.features.responsive.title}
@@ -486,8 +421,8 @@ export default function Home() {
                 <p
                   style={{
                     fontSize: "16px",
-                    color: "#3a3a3a",
-                    textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                    color: "var(--text)",
+                    textShadow: "0 1px 0 var(--shine-soft)",
                   }}
                 >
                   {home.features.responsive.description}
@@ -500,8 +435,8 @@ export default function Home() {
             <h2
               className="text-4xl font-semibold mb-4"
               style={{
-                color: "#1d1d1f",
-                textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                color: "var(--heading)",
+                textShadow: "0 1px 1px var(--shine-strong)",
               }}
             >
               {home.cta.title}
@@ -509,22 +444,16 @@ export default function Home() {
             <p
               className="text-lg mb-8 max-w-2xl mx-auto"
               style={{
-                color: "#2d2d2d",
-                textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                color: "var(--text)",
+                textShadow: "0 1px 0 var(--shine-soft)",
               }}
             >
               {home.cta.description}
             </p>
             <Link
               href={"/contact"}
-              className="inline-block px-8 py-3 rounded-lg font-semibold text-lg"
+              className="inline-block px-8 py-3 rounded-lg font-semibold text-lg metal-button"
               style={{
-                background: "linear-gradient(180deg, #e9e9e9 0%, #d1d1d1 100%)",
-                boxShadow:
-                  "inset 0 1px 0 rgba(255,255,255,0.85), 0 1px 2px rgba(0,0,0,0.18)",
-                border: "1px solid rgba(0,0,0,0.17)",
-                color: "#2d2d2d",
-                textShadow: "0 1px 0 rgba(255,255,255,0.85)",
               }}
             >
               {home.cta.button}

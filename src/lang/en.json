@@ -69,17 +69,17 @@
     "pageTitle": "About",
     "subtitle": "Majid Askarifarsangi - Web Developer",
     "imageAlt": "Web Developer in Oslo, Norway",
-    "summery": {
-      "title": "Summery",
+    "summary": {
+      "title": "Summary",
       "items": [
-        "I'm majid and im 41",
+        "I'm Majid and I'm {age} years old",
         "I live in Sandvika, Norway",
-        "My Specialty is JavaScript",
-        "I have been working on JavaScript Projects since 2010",
-        "Im activley searching for projects in Norway",
+        "My specialty is JavaScript",
+        "I have been working on JavaScript projects since 2010",
+        "I'm actively searching for projects in Norway",
         "I also have a management degree alongside computer engineering",
-        "My carrer includes enterprise and modern application experience",
-        "I am familar with all emplyment types. freelanc, part time, full time, project based ..."
+        "My career includes enterprise and modern application experience",
+        "I am familiar with all employment types: freelance, part-time, full-time, project-based, etc."
       ]
     },
     "certs": {
@@ -198,14 +198,6 @@
           }
         ]
       },
-      "personalInfo": {
-        "title": "Personal Information",
-        "items": [
-          { "label": "Age", "value": "41" },
-          { "label": "Location", "value": "Sandvika, Norway" },
-          { "label": "Phone", "value": "+47 40189111" }
-        ]
-      },
       "resources": {
         "title": "Resources",
         "downloadCV": "Download CV",
@@ -240,11 +232,15 @@
       },
       "meeting": {
         "title": "Schedule a Meeting",
-        "calendarTitle": "Book a Meeting"
+        "calendarTitle": "Book a Meeting",
+        "showCalendar": "Show booking calendar",
+        "calendarNotice": "The calendar is provided by Google and sets cookies once loaded.",
+        "openInNewTab": "Or open the calendar in a new tab"
       }
     }
   },
   "webdeveloper": {
+    "breadcrumbHome": "Home",
     "hero": {
       "title": "Who is a Web Developer?",
       "subtitle": "A web developer is the person who builds the digital layer of today’s world. They turn ideas into websites, apps, and online tools that people use every day."

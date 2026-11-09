@@ -1,6 +1,10 @@
 import { translations, getTranslation } from "@/lang/translations";
+import CalendarEmbed from "@/components/CalendarEmbed";
 
 const { contact } = translations;
+
+const CALENDAR_EMBED_URL =
+  "https://calendar.google.com/calendar/appointments/schedules/AcZssZ0RNfX5P3AeFZiKt1ZSMI81WbW9BokkuSoB5fwPmZ9mzm1Ik6QnsUZ5BMX14GU1qO5bXOabrxZq?gv=true";
 
 export function generateMetadata() {
   const seo = getTranslation("seo.contact");
@@ -248,7 +252,7 @@ export default function Contact() {
       <main
         className="min-h-screen py-20 px-4"
         style={{
-          background: "#ececec",
+          background: "var(--base-100)",
         }}
       >
         <div className="max-w-[720px] mx-auto space-y-16">
@@ -257,8 +261,8 @@ export default function Contact() {
             <h1
               className="text-5xl font-semibold tracking-tight mb-4"
               style={{
-                color: "#1d1d1f",
-                textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                color: "var(--heading)",
+                textShadow: "0 1px 1px var(--shine-strong)",
               }}
             >
               {contact.title}
@@ -266,33 +270,19 @@ export default function Contact() {
             <p
               className="text-lg leading-relaxed"
               style={{
-                color: "#3a3a3a",
-                textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                color: "var(--text)",
+                textShadow: "0 1px 0 var(--shine-soft)",
               }}
             >
               {contact.sections.intro.description}
             </p>
           </section>
 
-          <section
-            className="p-8 rounded-lg"
-            style={{
-              background: "linear-gradient(180deg, #f9f9f9 0%, #e5e5e5 100%)",
-              boxShadow:
-                "0 1px 0 rgba(255,255,255,0.8) inset, 0 1px 3px rgba(0,0,0,0.15)",
-              border: "1px solid #b8b8b8",
-            }}
-          >
+          <section className="p-8 rounded-lg metal-card">
             <div className="flex items-center gap-4 mb-6">
               <div
-                className="w-12 h-12 rounded-md flex items-center justify-center"
+                className="w-12 h-12 rounded-md flex items-center justify-center metal-button"
                 style={{
-                  background:
-                    "linear-gradient(180deg, #fafafa 0%, #dadada 100%)",
-                  boxShadow:
-                    "0 1px 0 rgba(255,255,255,0.9) inset, 0 1px 2px rgba(0,0,0,0.2)",
-                  border: "1px solid #b0b0b0",
-                  color: "#3a3a3a",
                 }}
               >
                 <a href="mailto:majid@sitedesign.no">
@@ -303,8 +293,8 @@ export default function Contact() {
                 <p
                   className="text-sm font-medium mb-1"
                   style={{
-                    color: "#6e6e73",
-                    textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                    color: "var(--text-muted)",
+                    textShadow: "0 1px 0 var(--shine-soft)",
                   }}
                 >
                   {contact.sections.connect.title}
@@ -313,8 +303,8 @@ export default function Contact() {
                   href="mailto:majid@sitedesign.no"
                   className="text-lg font-medium"
                   style={{
-                    color: "#0066cc",
-                    textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                    color: "var(--primary)",
+                    textShadow: "0 1px 0 var(--shine-soft)",
                   }}
                 >
                   Majid@sitedesign.no
@@ -324,7 +314,7 @@ export default function Contact() {
 
             <div
               className="flex gap-3 pt-4 border-t"
-              style={{ borderColor: "rgba(0,0,0,0.08)" }}
+              style={{ borderColor: "var(--divider)" }}
             >
               {contact.sections.connect.socialLinks.map((social, index) => (
                 <a
@@ -332,14 +322,8 @@ export default function Contact() {
                   href={social.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-14 h-14 rounded-md flex items-center justify-center transition-all duration-150 hover:brightness-95"
+                  className="w-14 h-14 rounded-md flex items-center justify-center transition-all duration-150 hover:brightness-95 metal-button"
                   style={{
-                    background:
-                      "linear-gradient(180deg, #fafafa 0%, #dadada 100%)",
-                    boxShadow:
-                      "0 1px 0 rgba(255,255,255,0.9) inset, 0 1px 2px rgba(0,0,0,0.2)",
-                    border: "1px solid #b0b0b0",
-                    color: "#3a3a3a",
                   }}
                   title={social.name}
                 >
@@ -349,38 +333,31 @@ export default function Contact() {
             </div>
           </section>
 
-          <section
-            className="rounded-lg overflow-hidden"
-            style={{
-              background: "linear-gradient(180deg, #f9f9f9 0%, #e5e5e5 100%)",
-              boxShadow:
-                "0 1px 0 rgba(255,255,255,0.8) inset, 0 1px 3px rgba(0,0,0,0.15)",
-              border: "1px solid #b8b8b8",
-            }}
-          >
+          <section className="rounded-lg overflow-hidden metal-card">
             <div
               className="p-6 border-b"
-              style={{ borderColor: "rgba(0,0,0,0.08)" }}
+              style={{ borderColor: "var(--divider)" }}
             >
               <h2
                 className="!text-4xl text-center font-semibold"
                 style={{
-                  color: "#1d1d1f",
-                  textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                  color: "var(--heading)",
+                  textShadow: "0 1px 1px var(--shine-strong)",
                 }}
               >
                 {contact.sections.meeting.title}
               </h2>
             </div>
-            <div className="p-4">
-              <iframe
-                src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0RNfX5P3AeFZiKt1ZSMI81WbW9BokkuSoB5fwPmZ9mzm1Ik6QnsUZ5BMX14GU1qO5bXOabrxZq?gv=true"
-                width="100%"
-                height="600"
-                className="block w-full border-0 rounded"
-                loading="lazy"
+            <div className="p-4 relative">
+              <CalendarEmbed
+                src={CALENDAR_EMBED_URL}
                 title={contact.sections.meeting.calendarTitle}
-              ></iframe>
+                labels={{
+                  show: contact.sections.meeting.showCalendar,
+                  notice: contact.sections.meeting.calendarNotice,
+                  openInNewTab: contact.sections.meeting.openInNewTab,
+                }}
+              />
             </div>
           </section>
         </div>

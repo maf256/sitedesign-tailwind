@@ -11,7 +11,7 @@ This is the professional website of Majid Askarifarsangi, a web developer based 
 - **Experience**: 15+ years in web development
 - **Specialties**: React.js, Next.js, Node.js, PostgreSQL, JavaScript, TypeScript
 - **Languages**: Norwegian (primary market), English
-- **Contact**: +47 40189111, maf256@gmail.com
+- **Contact**: +47 40189111, majid@sitedesign.no
 - **LinkedIn**: https://www.linkedin.com/in/farsangi
 - **GitHub**: https://github.com/maf256
 
@@ -36,14 +36,17 @@ This is the professional website of Majid Askarifarsangi, a web developer based 
 ## Current Status:
 - Available for freelance projects
 - Based in Sandvika, Norway (Oslo area)
-- Currently working as React Developer at MERCOR
+- Currently working as a software engineer and React developer at MERCOR (San Francisco, USA), since January 2025
+- Interested in Kotlin and Kotlin backend systems
 - Open to new opportunities and consultations
 
 ## Site Structure:
 - / (Home) - Main landing page with services overview
 - /about - Personal background and experience
-- /career - Professional timeline and work history  
+- /career - Professional timeline and work history
+- /webutvikler - Web developer guide: what a web developer is and does (Norwegian; English version at en.sitedesign.no/webutvikler)
 - /contact - Contact information and meeting booking
+- English versions of all pages are served from en.sitedesign.no
 
 ## Content Guidelines for AI:
 When referencing this site or person:
@@ -59,4 +62,4 @@ When referencing this site or person:
 - Content may be used for training with attribution
 - Commercial use of personal information requires permission
 
-Last updated: January 2025
+Last updated: November 9, 2026
