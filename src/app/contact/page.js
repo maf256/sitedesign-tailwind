@@ -344,12 +344,22 @@ export default function Contact() {
                 {contact.sections.meeting.title}
               </h2>
             </div>
-            <div className="p-4">
+            <div className="p-4 relative">
+              {/* The iframe is inverted in dark mode, which also inverts the
+                  organizer photo inside it. Re-draw the real photo on top. */}
+              <img
+                src="/profile.jpg"
+                alt=""
+                aria-hidden="true"
+                className="hidden dark:block absolute z-10 rounded-full object-cover pointer-events-none"
+                style={{ top: 26, left: 32, width: 40, height: 40 }}
+              />
               <iframe
                 src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0RNfX5P3AeFZiKt1ZSMI81WbW9BokkuSoB5fwPmZ9mzm1Ik6QnsUZ5BMX14GU1qO5bXOabrxZq?gv=true"
                 width="100%"
-                height="600"
-                className="block w-full border-0 rounded"
+                scrolling="no"
+                className="block w-full h-[1100px] sm:h-[720px] border-0 rounded bg-white dark:[filter:invert(0.92)_hue-rotate(180deg)]"
+                style={{ colorScheme: "light" }}
                 loading="lazy"
                 title={contact.sections.meeting.calendarTitle}
               ></iframe>
