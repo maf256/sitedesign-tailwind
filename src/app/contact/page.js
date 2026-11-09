@@ -248,7 +248,7 @@ export default function Contact() {
       <main
         className="min-h-screen py-20 px-4"
         style={{
-          background: "#ececec",
+          background: "var(--base-100)",
         }}
       >
         <div className="max-w-[720px] mx-auto space-y-16">
@@ -257,8 +257,8 @@ export default function Contact() {
             <h1
               className="text-5xl font-semibold tracking-tight mb-4"
               style={{
-                color: "#1d1d1f",
-                textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                color: "var(--heading)",
+                textShadow: "0 1px 1px var(--shine-strong)",
               }}
             >
               {contact.title}
@@ -266,8 +266,8 @@ export default function Contact() {
             <p
               className="text-lg leading-relaxed"
               style={{
-                color: "#3a3a3a",
-                textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                color: "var(--text)",
+                textShadow: "0 1px 0 var(--shine-soft)",
               }}
             >
               {contact.sections.intro.description}
@@ -289,8 +289,8 @@ export default function Contact() {
                 <p
                   className="text-sm font-medium mb-1"
                   style={{
-                    color: "#6e6e73",
-                    textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                    color: "var(--text-muted)",
+                    textShadow: "0 1px 0 var(--shine-soft)",
                   }}
                 >
                   {contact.sections.connect.title}
@@ -299,8 +299,8 @@ export default function Contact() {
                   href="mailto:majid@sitedesign.no"
                   className="text-lg font-medium"
                   style={{
-                    color: "#0066cc",
-                    textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                    color: "var(--primary)",
+                    textShadow: "0 1px 0 var(--shine-soft)",
                   }}
                 >
                   Majid@sitedesign.no
@@ -310,7 +310,7 @@ export default function Contact() {
 
             <div
               className="flex gap-3 pt-4 border-t"
-              style={{ borderColor: "rgba(0,0,0,0.08)" }}
+              style={{ borderColor: "var(--divider)" }}
             >
               {contact.sections.connect.socialLinks.map((social, index) => (
                 <a
@@ -332,13 +332,13 @@ export default function Contact() {
           <section className="rounded-lg overflow-hidden metal-card">
             <div
               className="p-6 border-b"
-              style={{ borderColor: "rgba(0,0,0,0.08)" }}
+              style={{ borderColor: "var(--divider)" }}
             >
               <h2
                 className="!text-4xl text-center font-semibold"
                 style={{
-                  color: "#1d1d1f",
-                  textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                  color: "var(--heading)",
+                  textShadow: "0 1px 1px var(--shine-strong)",
                 }}
               >
                 {contact.sections.meeting.title}

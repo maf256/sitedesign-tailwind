@@ -74,15 +74,15 @@ export function generateMetadata() {
 
 export default function WebDeveloperPage() {
   return (
-    <main className="min-h-screen w-full" style={{ background: "#ececec" }}>
+    <main className="min-h-screen w-full" style={{ background: "var(--base-100)" }}>
       <div className="mx-auto max-w-5xl px-6 lg:px-8">
         <div className="pt-8 pb-4">
           <Link
             href="/"
             className="inline-flex items-center gap-2 font-medium"
             style={{
-              color: "#0066cc",
-              textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+              color: "var(--primary)",
+              textShadow: "0 1px 0 var(--shine-soft)",
             }}
           >
             <ArrowLeft size={18} /> Back
@@ -94,8 +94,8 @@ export default function WebDeveloperPage() {
             <h1
               className="font-semibold text-5xl md:text-6xl lg:text-7xl leading-tight tracking-tight mb-6"
               style={{
-                color: "#1d1d1f",
-                textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                color: "var(--heading)",
+                textShadow: "0 1px 1px var(--shine-strong)",
               }}
             >
               {webdeveloper.hero.title}
@@ -103,8 +103,8 @@ export default function WebDeveloperPage() {
             <p
               className="text-xl leading-relaxed max-w-3xl mx-auto"
               style={{
-                color: "#2d2d2d",
-                textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                color: "var(--text)",
+                textShadow: "0 1px 0 var(--shine-soft)",
               }}
             >
               {webdeveloper.hero.subtitle}
@@ -117,8 +117,8 @@ export default function WebDeveloperPage() {
             <h2
               className="text-4xl font-semibold mb-6"
               style={{
-                color: "#1d1d1f",
-                textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                color: "var(--heading)",
+                textShadow: "0 1px 1px var(--shine-strong)",
               }}
             >
               {webdeveloper.what.title}
@@ -126,8 +126,8 @@ export default function WebDeveloperPage() {
             <p
               className="text-lg leading-relaxed"
               style={{
-                color: "#2d2d2d",
-                textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                color: "var(--text)",
+                textShadow: "0 1px 0 var(--shine-soft)",
               }}
             >
               {webdeveloper.what.description}
@@ -139,8 +139,8 @@ export default function WebDeveloperPage() {
               <h3
                 className="text-2xl font-semibold mb-3"
                 style={{
-                  color: "#1d1d1f",
-                  textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                  color: "var(--heading)",
+                  textShadow: "0 1px 1px var(--shine-strong)",
                 }}
               >
                 {webdeveloper.what.frontend.title}
@@ -148,8 +148,8 @@ export default function WebDeveloperPage() {
               <p
                 style={{
                   fontSize: "17px",
-                  color: "#3a3a3a",
-                  textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                  color: "var(--text)",
+                  textShadow: "0 1px 0 var(--shine-soft)",
                 }}
               >
                 {webdeveloper.what.frontend.description}
@@ -159,8 +159,8 @@ export default function WebDeveloperPage() {
               <h3
                 className="text-2xl font-semibold mb-3"
                 style={{
-                  color: "#1d1d1f",
-                  textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                  color: "var(--heading)",
+                  textShadow: "0 1px 1px var(--shine-strong)",
                 }}
               >
                 {webdeveloper.what.backend.title}
@@ -168,8 +168,8 @@ export default function WebDeveloperPage() {
               <p
                 style={{
                   fontSize: "17px",
-                  color: "#3a3a3a",
-                  textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                  color: "var(--text)",
+                  textShadow: "0 1px 0 var(--shine-soft)",
                 }}
               >
                 {webdeveloper.what.backend.description}
@@ -183,8 +183,8 @@ export default function WebDeveloperPage() {
             <h2
               className="text-4xl font-semibold mb-4"
               style={{
-                color: "#1d1d1f",
-                textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                color: "var(--heading)",
+                textShadow: "0 1px 1px var(--shine-strong)",
               }}
             >
               {webdeveloper.skills.title}
@@ -192,8 +192,8 @@ export default function WebDeveloperPage() {
             <p
               className="text-lg max-w-3xl mx-auto"
               style={{
-                color: "#2d2d2d",
-                textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                color: "var(--text)",
+                textShadow: "0 1px 0 var(--shine-soft)",
               }}
             >
               {webdeveloper.skills.description}
@@ -209,8 +209,8 @@ export default function WebDeveloperPage() {
                   className="font-semibold mb-2"
                   style={{
                     fontSize: "18px",
-                    color: "#1d1d1f",
-                    textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                    color: "var(--heading)",
+                    textShadow: "0 1px 1px var(--shine-strong)",
                   }}
                 >
                   {skill.title}
@@ -218,8 +218,8 @@ export default function WebDeveloperPage() {
                 <p
                   style={{
                     fontSize: "16px",
-                    color: "#3a3a3a",
-                    textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                    color: "var(--text)",
+                    textShadow: "0 1px 0 var(--shine-soft)",
                   }}
                 >
                   {skill.description}
@@ -234,8 +234,8 @@ export default function WebDeveloperPage() {
             <h2
               className="text-4xl font-semibold mb-6"
               style={{
-                color: "#1d1d1f",
-                textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                color: "var(--heading)",
+                textShadow: "0 1px 1px var(--shine-strong)",
               }}
             >
               {webdeveloper.why.title}
@@ -246,8 +246,8 @@ export default function WebDeveloperPage() {
                   key={idx}
                   className="text-lg leading-relaxed"
                   style={{
-                    color: "#2d2d2d",
-                    textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                    color: "var(--text)",
+                    textShadow: "0 1px 0 var(--shine-soft)",
                   }}
                 >
                   {p}
@@ -262,8 +262,8 @@ export default function WebDeveloperPage() {
                   className="font-semibold mb-2"
                   style={{
                     fontSize: "18px",
-                    color: "#1d1d1f",
-                    textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                    color: "var(--heading)",
+                    textShadow: "0 1px 1px var(--shine-strong)",
                   }}
                 >
                   {point.title}
@@ -271,8 +271,8 @@ export default function WebDeveloperPage() {
                 <p
                   style={{
                     fontSize: "16px",
-                    color: "#3a3a3a",
-                    textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                    color: "var(--text)",
+                    textShadow: "0 1px 0 var(--shine-soft)",
                   }}
                 >
                   {point.description}
