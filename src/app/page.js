@@ -168,23 +168,23 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <main className="min-h-screen w-full" style={{ background: "#ececec" }}>
+      <main className="min-h-screen w-full" style={{ background: "var(--base-100)" }}>
         <div className="mx-auto max-w-5xl px-6 lg:px-8">
           <section className="flex flex-col justify-center py-20" id="home">
             <div className="max-w-4xl mx-auto text-center">
               <h1
                 className="font-semibold text-5xl md:text-6xl lg:text-7xl leading-tight tracking-tight mb-8"
                 style={{
-                  color: "#1d1d1f",
-                  textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                  color: "var(--heading)",
+                  textShadow: "0 1px 1px var(--shine-strong)",
                 }}
               >
                 {home.title.line1}
                 <span
                   className="block"
                   style={{
-                    color: "#0066cc",
-                    textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                    color: "var(--primary)",
+                    textShadow: "0 1px 1px var(--shine-strong)",
                   }}
                 >
                   {home.title.line2}
@@ -200,16 +200,16 @@ export default function Home() {
                   height={128}
                   priority
                   style={{
-                    boxShadow: "0 1px 3px rgba(0,0,0,0.3)",
-                    border: "1px solid rgba(0,0,0,0.2)",
+                    boxShadow: "0 1px 3px var(--card-drop)",
+                    border: "1px solid var(--card-border)",
                   }}
                 />
                 <div className="text-center">
                   <div
                     className="text-3xl md:text-4xl font-semibold mb-2"
                     style={{
-                      color: "#1d1d1f",
-                      textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                      color: "var(--heading)",
+                      textShadow: "0 1px 1px var(--shine-strong)",
                     }}
                   >
                     {home.profile.name}
@@ -217,8 +217,8 @@ export default function Home() {
                   <p
                     className="text-lg"
                     style={{
-                      color: "#4d4d4d",
-                      textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                      color: "var(--text-subtle)",
+                      textShadow: "0 1px 0 var(--shine-soft)",
                     }}
                   >
                     &ldquo;{home.profile.tagline}&rdquo;
@@ -229,8 +229,8 @@ export default function Home() {
               <p
                 className="text-xl leading-relaxed max-w-3xl mx-auto"
                 style={{
-                  color: "#2d2d2d",
-                  textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                  color: "var(--text)",
+                  textShadow: "0 1px 0 var(--shine-soft)",
                 }}
               >
                 {home.about.description}
@@ -243,8 +243,8 @@ export default function Home() {
               <h2
                 className="text-4xl font-semibold mb-6"
                 style={{
-                  color: "#1d1d1f",
-                  textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                  color: "var(--heading)",
+                  textShadow: "0 1px 1px var(--shine-strong)",
                 }}
               >
                 {home.whatIsWebDev.title}
@@ -252,8 +252,8 @@ export default function Home() {
               <p
                 className="text-lg leading-relaxed mb-6"
                 style={{
-                  color: "#2d2d2d",
-                  textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                  color: "var(--text)",
+                  textShadow: "0 1px 0 var(--shine-soft)",
                 }}
               >
                 {home.whatIsWebDev.description}
@@ -262,8 +262,8 @@ export default function Home() {
                 href={"/webutvikler"}
                 className="inline-flex items-center gap-2 font-medium"
                 style={{
-                  color: "#0066cc",
-                  textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                  color: "var(--primary)",
+                  textShadow: "0 1px 0 var(--shine-soft)",
                 }}
               >
                 {home.whatIsWebDev.readMore}
@@ -276,8 +276,8 @@ export default function Home() {
                 <h3
                   className="text-2xl font-semibold mb-3"
                   style={{
-                    color: "#1d1d1f",
-                    textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                    color: "var(--heading)",
+                    textShadow: "0 1px 1px var(--shine-strong)",
                   }}
                 >
                   {home.whatIsWebDev.frontend.title}
@@ -285,8 +285,8 @@ export default function Home() {
                 <p
                   style={{
                     fontSize: "17px",
-                    color: "#3a3a3a",
-                    textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                    color: "var(--text)",
+                    textShadow: "0 1px 0 var(--shine-soft)",
                   }}
                 >
                   {home.whatIsWebDev.frontend.description}
@@ -297,8 +297,8 @@ export default function Home() {
                 <h3
                   className="text-2xl font-semibold mb-3"
                   style={{
-                    color: "#1d1d1f",
-                    textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                    color: "var(--heading)",
+                    textShadow: "0 1px 1px var(--shine-strong)",
                   }}
                 >
                   {home.whatIsWebDev.backend.title}
@@ -306,8 +306,8 @@ export default function Home() {
                 <p
                   style={{
                     fontSize: "17px",
-                    color: "#3a3a3a",
-                    textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                    color: "var(--text)",
+                    textShadow: "0 1px 0 var(--shine-soft)",
                   }}
                 >
                   {home.whatIsWebDev.backend.description}
@@ -321,8 +321,8 @@ export default function Home() {
               <h2
                 className="text-4xl font-semibold mb-4"
                 style={{
-                  color: "#1d1d1f",
-                  textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                  color: "var(--heading)",
+                  textShadow: "0 1px 1px var(--shine-strong)",
                 }}
               >
                 {home.approach.title}
@@ -330,8 +330,8 @@ export default function Home() {
               <p
                 className="text-lg max-w-3xl mx-auto"
                 style={{
-                  color: "#2d2d2d",
-                  textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                  color: "var(--text)",
+                  textShadow: "0 1px 0 var(--shine-soft)",
                 }}
               >
                 {home.approach.description}
@@ -344,8 +344,8 @@ export default function Home() {
               <h2
                 className="text-4xl font-semibold mb-6"
                 style={{
-                  color: "#1d1d1f",
-                  textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                  color: "var(--heading)",
+                  textShadow: "0 1px 1px var(--shine-strong)",
                 }}
               >
                 {home.why.title}
@@ -356,8 +356,8 @@ export default function Home() {
                     key={idx}
                     className="text-lg leading-relaxed"
                     style={{
-                      color: "#2d2d2d",
-                      textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                      color: "var(--text)",
+                      textShadow: "0 1px 0 var(--shine-soft)",
                     }}
                   >
                     {p}
@@ -372,8 +372,8 @@ export default function Home() {
                   className="font-semibold mb-2"
                   style={{
                     fontSize: "18px",
-                    color: "#1d1d1f",
-                    textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                    color: "var(--heading)",
+                    textShadow: "0 1px 1px var(--shine-strong)",
                   }}
                 >
                   {home.features.support.title}
@@ -381,8 +381,8 @@ export default function Home() {
                 <p
                   style={{
                     fontSize: "16px",
-                    color: "#3a3a3a",
-                    textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                    color: "var(--text)",
+                    textShadow: "0 1px 0 var(--shine-soft)",
                   }}
                 >
                   {home.features.support.description}
@@ -394,8 +394,8 @@ export default function Home() {
                   className="font-semibold mb-2"
                   style={{
                     fontSize: "18px",
-                    color: "#1d1d1f",
-                    textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                    color: "var(--heading)",
+                    textShadow: "0 1px 1px var(--shine-strong)",
                   }}
                 >
                   {home.features.ux.title}
@@ -403,8 +403,8 @@ export default function Home() {
                 <p
                   style={{
                     fontSize: "16px",
-                    color: "#3a3a3a",
-                    textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                    color: "var(--text)",
+                    textShadow: "0 1px 0 var(--shine-soft)",
                   }}
                 >
                   {home.features.ux.description}
@@ -416,8 +416,8 @@ export default function Home() {
                   className="font-semibold mb-2"
                   style={{
                     fontSize: "18px",
-                    color: "#1d1d1f",
-                    textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                    color: "var(--heading)",
+                    textShadow: "0 1px 1px var(--shine-strong)",
                   }}
                 >
                   {home.features.responsive.title}
@@ -425,8 +425,8 @@ export default function Home() {
                 <p
                   style={{
                     fontSize: "16px",
-                    color: "#3a3a3a",
-                    textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                    color: "var(--text)",
+                    textShadow: "0 1px 0 var(--shine-soft)",
                   }}
                 >
                   {home.features.responsive.description}
@@ -439,8 +439,8 @@ export default function Home() {
             <h2
               className="text-4xl font-semibold mb-4"
               style={{
-                color: "#1d1d1f",
-                textShadow: "0 1px 1px rgba(255, 255, 255, 0.9)",
+                color: "var(--heading)",
+                textShadow: "0 1px 1px var(--shine-strong)",
               }}
             >
               {home.cta.title}
@@ -448,8 +448,8 @@ export default function Home() {
             <p
               className="text-lg mb-8 max-w-2xl mx-auto"
               style={{
-                color: "#2d2d2d",
-                textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                color: "var(--text)",
+                textShadow: "0 1px 0 var(--shine-soft)",
               }}
             >
               {home.cta.description}

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { translations } from "@/lang/translations";
+import DarkmodeToggle from "./MobileDarkmodeToggleWrapper";
 
 const navRoutes = ["/", "/about", "/career", "/contact"];
 const { navbar } = translations;
@@ -22,13 +23,13 @@ export default function Navbar() {
                 href={navRoutes[index]}
                 className="relative text-[15px] font-medium tracking-tight transition-all duration-200 group"
                 style={{
-                  color: "#2c2c2c",
-                  textShadow: "0 1px 0 rgba(255, 255, 255, 0.6)",
+                  color: "var(--heading)",
+                  textShadow: "0 1px 0 var(--shine-soft)",
                   fontWeight: 550,
                   letterSpacing: "-0.01em",
                 }}
               >
-                <span className="relative inline-block px-3 py-1.5 rounded-md group-hover:bg-black/5 transition-all duration-200">
+                <span className="relative inline-block px-3 py-1.5 rounded-md group-hover:bg-content/5 transition-all duration-200">
                   {item.name}
                 </span>
               </Link>
@@ -36,15 +37,16 @@ export default function Navbar() {
           </div>
 
           {/* Language Toggle */}
-          <div className="flex items-center">
+          <div className="flex items-center gap-2">
+            <DarkmodeToggle />
             {navbar.languageToggle === "NO" ? (
               <a
                 href="https://en.sitedesign.no/"
-                className="relative text-[14px] font-medium tracking-tight transition-all duration-200 hover:bg-black/5 rounded-md"
+                className="relative text-[14px] font-medium tracking-tight transition-all duration-200 hover:bg-content/5 rounded-md"
                 hrefLang="en"
                 style={{
-                  color: "#4a4a4a",
-                  textShadow: "0 1px 0 rgba(255, 255, 255, 0.5)",
+                  color: "var(--text-subtle)",
+                  textShadow: "0 1px 0 var(--shine-soft)",
                   fontWeight: 550,
                   letterSpacing: "-0.01em",
                 }}
@@ -56,11 +58,11 @@ export default function Navbar() {
             ) : (
               <a
                 href="https://sitedesign.no/"
-                className="relative text-[14px] font-medium tracking-tight transition-all duration-200 hover:bg-black/5 rounded-md"
+                className="relative text-[14px] font-medium tracking-tight transition-all duration-200 hover:bg-content/5 rounded-md"
                 hrefLang="no"
                 style={{
-                  color: "#4a4a4a",
-                  textShadow: "0 1px 0 rgba(255, 255, 255, 0.5)",
+                  color: "var(--text-subtle)",
+                  textShadow: "0 1px 0 var(--shine-soft)",
                   fontWeight: 550,
                   letterSpacing: "-0.01em",
                 }}

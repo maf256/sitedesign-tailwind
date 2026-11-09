@@ -24,6 +24,8 @@
   --heading: #1d1d1f;
   --text: #2d2d2d;
   --text-subtle: #4d4d4d;
+  --text-muted: #6e6e73;
+  --divider: rgba(0, 0, 0, 0.08);
   --shine-strong: rgba(255, 255, 255, 0.9);
   --shine-soft: rgba(255, 255, 255, 0.7);
   --card-top: #f9f9f9;
@@ -51,6 +53,8 @@
   --heading: #ffffff;
   --text: #e5e5e7;
   --text-subtle: #a1a1a6;
+  --text-muted: #8e8e93;
+  --divider: rgba(255, 255, 255, 0.12);
   --shine-strong: rgba(0, 0, 0, 0.6);
   --shine-soft: rgba(0, 0, 0, 0.5);
   --card-top: #2c2c2e;

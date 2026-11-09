@@ -67,8 +67,13 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang={lang}>
+    <html lang={lang} suppressHydrationWarning>
       <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `try{var t=localStorage.getItem("theme");if(t==="dark"||(!t&&matchMedia("(prefers-color-scheme: dark)").matches))document.documentElement.classList.add("dark")}catch(e){}`,
+          }}
+        />
         <meta name="geo.region" content="NO-02" />
         <meta name="geo.placename" content="Oslo" />
         <meta name="geo.position" content="59.9139;10.7522" />

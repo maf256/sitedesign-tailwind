@@ -142,7 +142,7 @@ export default function About() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <main className="w-full" style={{ background: "#ececec" }}>
+      <main className="w-full" style={{ background: "var(--base-100)" }}>
         <div className="mx-auto max-w-4xl px-6 lg:px-8">
           <section className="pt-20 pb-8 text-center">
             <div className="mb-8">
@@ -156,8 +156,8 @@ export default function About() {
                 sizes="(max-width: 768px) 100vw, 700px"
                 style={{
                   borderRadius: "3px",
-                  boxShadow: "0 1px 3px rgba(0,0,0,0.3)",
-                  border: "1px solid rgba(0,0,0,0.2)",
+                  boxShadow: "0 1px 3px var(--card-drop)",
+                  border: "1px solid var(--card-border)",
                 }}
               />
             </div>
@@ -168,8 +168,8 @@ export default function About() {
               className="text-6xl md:text-7xl text-content mb-4"
               style={{
                 fontWeight: "600",
-                color: "#1d1d1d",
-                textShadow: "0 1px 0 rgba(255,255,255,0.9)",
+                color: "var(--heading)",
+                textShadow: "0 1px 0 var(--shine-strong)",
                 letterSpacing: "-0.8px",
               }}
             >
@@ -178,8 +178,8 @@ export default function About() {
             <p
               style={{
                 fontSize: "17px",
-                color: "#4d4d4d",
-                textShadow: "0 1px 0 rgba(255,255,255,0.7)",
+                color: "var(--text-subtle)",
+                textShadow: "0 1px 0 var(--shine-soft)",
               }}
             >
               {about.subtitle}
@@ -192,8 +192,8 @@ export default function About() {
               style={{
                 fontSize: "28px",
                 fontWeight: "600",
-                color: "#1d1d1d",
-                textShadow: "0 1px 0 rgba(255,255,255,0.9)",
+                color: "var(--heading)",
+                textShadow: "0 1px 0 var(--shine-strong)",
               }}
             >
               {about.summery.title}
@@ -206,8 +206,8 @@ export default function About() {
                   style={{
                     fontSize: "20px",
                     lineHeight: "1.6",
-                    color: "#2d2d2d",
-                    textShadow: "0 1px 0 rgba(255,255,255,0.7)",
+                    color: "var(--text)",
+                    textShadow: "0 1px 0 var(--shine-soft)",
                   }}
                 >
                   {withAge(item)}
@@ -280,8 +280,8 @@ export default function About() {
               style={{
                 fontSize: "28px",
                 fontWeight: "600",
-                color: "#1d1d1d",
-                textShadow: "0 1px 0 rgba(255,255,255,0.9)",
+                color: "var(--heading)",
+                textShadow: "0 1px 0 var(--shine-strong)",
               }}
             >
               {about.education.title}
@@ -294,8 +294,8 @@ export default function About() {
                       style={{
                         fontSize: "20px",
                         fontWeight: "600",
-                        color: "#1d1d1d",
-                        textShadow: "0 1px 0 rgba(255,255,255,0.9)",
+                        color: "var(--heading)",
+                        textShadow: "0 1px 0 var(--shine-strong)",
                       }}
                     >
                       {edu.degree}
@@ -304,8 +304,8 @@ export default function About() {
                       dateTime={edu.period}
                       style={{
                         fontSize: "16px",
-                        color: "#5d5d5d",
-                        textShadow: "0 1px 0 rgba(255,255,255,0.7)",
+                        color: "var(--text-muted)",
+                        textShadow: "0 1px 0 var(--shine-soft)",
                       }}
                     >
                       {edu.period}
@@ -316,8 +316,8 @@ export default function About() {
                     style={{
                       fontSize: "17px",
                       fontWeight: "500",
-                      color: "#2d2d2d",
-                      textShadow: "0 1px 0 rgba(255,255,255,0.8)",
+                      color: "var(--text)",
+                      textShadow: "0 1px 0 var(--shine-soft)",
                     }}
                   >
                     {edu.institution}
@@ -325,9 +325,9 @@ export default function About() {
                   <p
                     style={{
                       fontSize: "16px",
-                      color: "#4d4d4d",
+                      color: "var(--text-subtle)",
                       lineHeight: "1.5",
-                      textShadow: "0 1px 0 rgba(255,255,255,0.7)",
+                      textShadow: "0 1px 0 var(--shine-soft)",
                     }}
                   >
                     {edu.description}
@@ -341,9 +341,9 @@ export default function About() {
             <p
               style={{
                 fontSize: "20px",
-                color: "#2d2d2d",
+                color: "var(--text)",
                 lineHeight: "1.6",
-                textShadow: "0 1px 0 rgba(255,255,255,0.7)",
+                textShadow: "0 1px 0 var(--shine-soft)",
               }}
             >
               {about.now}

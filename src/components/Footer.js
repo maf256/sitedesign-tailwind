@@ -60,7 +60,7 @@ export default function Footer() {
     <footer
       className="py-8 mt-20"
       style={{
-        borderTop: "1px solid rgba(0,0,0,0.08)",
+        borderTop: "1px solid var(--divider)",
       }}
     >
       <div className="max-w-5xl mx-auto px-6">
@@ -68,8 +68,8 @@ export default function Footer() {
           <p
             className="text-sm order-2 md:order-1"
             style={{
-              color: "#6e6e73",
-              textShadow: "0 1px 0 rgba(255, 255, 255, 0.5)",
+              color: "var(--text-muted)",
+              textShadow: "0 1px 0 var(--shine-soft)",
             }}
           >
             © {new Date().getFullYear()} {footer.description}
@@ -80,21 +80,21 @@ export default function Footer() {
               href="mailto:majid@sitedesign.no"
               className="text-sm font-medium"
               style={{
-                color: "#0066cc",
-                textShadow: "0 1px 0 rgba(255, 255, 255, 0.7)",
+                color: "var(--primary)",
+                textShadow: "0 1px 0 var(--shine-soft)",
               }}
             >
               Majid@sitedesign.no
             </a>
-            <span style={{ color: "#c0c0c0" }}>|</span>
+            <span style={{ color: "var(--card-border)" }}>|</span>
             <a
               href="https://www.linkedin.com/in/farsangi"
               target="_blank"
               rel="noopener noreferrer"
               className="transition-opacity duration-200 hover:opacity-70"
               style={{
-                color: "#6e6e73",
-                textShadow: "0 1px 0 rgba(255, 255, 255, 0.5)",
+                color: "var(--text-muted)",
+                textShadow: "0 1px 0 var(--shine-soft)",
               }}
               title="LinkedIn"
             >
@@ -106,8 +106,8 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="transition-opacity duration-200 hover:opacity-70"
               style={{
-                color: "#6e6e73",
-                textShadow: "0 1px 0 rgba(255, 255, 255, 0.5)",
+                color: "var(--text-muted)",
+                textShadow: "0 1px 0 var(--shine-soft)",
               }}
               title="GitHub"
             >
@@ -119,8 +119,8 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="transition-opacity duration-200 hover:opacity-70"
               style={{
-                color: "#6e6e73",
-                textShadow: "0 1px 0 rgba(255, 255, 255, 0.5)",
+                color: "var(--text-muted)",
+                textShadow: "0 1px 0 var(--shine-soft)",
               }}
               title="WhatsApp"
             >
@@ -130,8 +130,8 @@ export default function Footer() {
               href="tel:+4740189111"
               className="transition-opacity duration-200 hover:opacity-70"
               style={{
-                color: "#6e6e73",
-                textShadow: "0 1px 0 rgba(255, 255, 255, 0.5)",
+                color: "var(--text-muted)",
+                textShadow: "0 1px 0 var(--shine-soft)",
               }}
               title="Phone"
             >
