@@ -227,7 +227,10 @@
       },
       "meeting": {
         "title": "Avtal et møte",
-        "calendarTitle": "Book et møte"
+        "calendarTitle": "Book et møte",
+        "showCalendar": "Vis bookingkalender",
+        "calendarNotice": "Kalenderen leveres av Google og setter informasjonskapsler når den lastes.",
+        "openInNewTab": "Eller åpne kalenderen i en ny fane"
       }
     }
   },
