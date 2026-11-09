@@ -86,7 +86,7 @@ export default function Footer() {
             >
               Majid@sitedesign.no
             </a>
-            <span style={{ color: "var(--card-border)" }}>|</span>
+            <span style={{ color: "var(--separator)" }}>|</span>
             <a
               href="https://www.linkedin.com/in/farsangi"
               target="_blank"

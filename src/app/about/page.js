@@ -147,18 +147,14 @@ export default function About() {
           <section className="pt-20 pb-8 text-center">
             <div className="mb-8">
               <Image
-                className="mx-auto"
+                className="mx-auto metal-frame"
                 src="/art-portrait.webp"
                 alt={about.imageAlt}
                 width={800}
                 height={600}
                 priority
                 sizes="(max-width: 768px) 100vw, 700px"
-                style={{
-                  borderRadius: "3px",
-                  boxShadow: "0 1px 3px var(--card-drop)",
-                  border: "1px solid var(--card-border)",
-                }}
+                style={{ borderRadius: "3px" }}
               />
             </div>
           </section>
@@ -196,10 +192,10 @@ export default function About() {
                 textShadow: "0 1px 0 var(--shine-strong)",
               }}
             >
-              {about.summery.title}
+              {about.summary.title}
             </h2>
             <ul className="space-y-1.5 pl-5">
-              {about.summery.items.map((item, index) => (
+              {about.summary.items.map((item, index) => (
                 <li
                   key={index}
                   className="list-disc"

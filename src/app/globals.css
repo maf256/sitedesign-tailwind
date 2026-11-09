@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   --color-base-100: var(--base-100);
   --color-base-200: var(--base-200);
@@ -31,6 +33,7 @@
   --card-top: #f9f9f9;
   --card-bottom: #e5e5e5;
   --card-border: #b8b8b8;
+  --separator: #b8b8b8;
   --card-shine: rgba(255, 255, 255, 0.8);
   --card-drop: rgba(0, 0, 0, 0.15);
   --button-top: #e9e9e9;
@@ -60,6 +63,7 @@
   --card-top: #2c2c2e;
   --card-bottom: #1c1c1e;
   --card-border: #48484a;
+  --separator: #48484a;
   --card-shine: rgba(255, 255, 255, 0.08);
   --card-drop: rgba(0, 0, 0, 0.5);
   --button-top: #3a3a3c;
@@ -101,6 +105,12 @@ p {
   box-shadow:
     0 1px 0 var(--card-shine) inset,
     0 1px 3px var(--card-drop);
+  border: 1px solid var(--card-border);
+}
+
+/* Bordered, shadowed frame for images (no gradient fill). */
+.metal-frame {
+  box-shadow: 0 1px 3px var(--card-drop);
   border: 1px solid var(--card-border);
 }
 

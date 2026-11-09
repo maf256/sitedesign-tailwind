@@ -11,6 +11,8 @@ export function getAge(birthDate = BIRTH_DATE, today = new Date()) {
   return age;
 }
 
+// NOTE: pages are statically generated, so the age is computed at build time
+// and only refreshes on the next build/deploy (e.g. around the birthday).
 // Replaces every "{age}" token in a string with the current age.
 export function withAge(text, today = new Date()) {
   return text.replaceAll("{age}", String(getAge(BIRTH_DATE, today)));
