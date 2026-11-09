@@ -35,10 +35,10 @@ export function generateMetadata() {
         {
           url:
             lang === "en"
-              ? "https://en.sitedesign.no/profile.jpg"
-              : "https://sitedesign.no/profile.jpg",
-          width: 1200,
-          height: 630,
+              ? "https://en.sitedesign.no/majid-askarifarsangi.jpg"
+              : "https://sitedesign.no/majid-askarifarsangi.jpg",
+          width: 800,
+          height: 800,
           alt: "Majid Askarifarsangi - Professional Career Web Developer Oslo",
         },
       ],
@@ -46,13 +46,13 @@ export function generateMetadata() {
       type: "profile",
     },
     twitter: {
-      card: "summary_large_image",
+      card: "summary",
       title: seo.openGraph.title,
       description: seo.openGraph.description,
       images: [
         lang === "en"
-          ? "https://en.sitedesign.no/profile.jpg"
-          : "https://sitedesign.no/profile.jpg",
+          ? "https://en.sitedesign.no/majid-askarifarsangi.jpg"
+          : "https://sitedesign.no/majid-askarifarsangi.jpg",
       ],
       creator: "@majid_dev",
     },

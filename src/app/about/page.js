@@ -39,8 +39,8 @@ export function generateMetadata() {
             lang === "en"
               ? "https://en.sitedesign.no/art-portrait.webp"
               : "https://sitedesign.no/art-portrait.webp",
-          width: 1200,
-          height: 630,
+          width: 800,
+          height: 600,
           alt: "Majid Askarifarsangi - Web Developer in Oslo, Norway",
         },
       ],

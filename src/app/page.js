@@ -33,10 +33,10 @@ export function generateMetadata() {
         {
           url:
             lang === "en"
-              ? "https://en.sitedesign.no/profile.jpg"
-              : "https://sitedesign.no/profile.jpg",
-          width: 1200,
-          height: 630,
+              ? "https://en.sitedesign.no/majid-askarifarsangi.jpg"
+              : "https://sitedesign.no/majid-askarifarsangi.jpg",
+          width: 800,
+          height: 800,
           alt: "Majid Askarifarsangi - Webutvikler i Oslo",
         },
       ],
@@ -44,13 +44,13 @@ export function generateMetadata() {
       type: "website",
     },
     twitter: {
-      card: "summary_large_image",
+      card: "summary",
       title: seo.openGraph.title,
       description: seo.openGraph.description,
       images: [
         lang === "en"
-          ? "https://en.sitedesign.no/profile.jpg"
-          : "https://sitedesign.no/profile.jpg",
+          ? "https://en.sitedesign.no/majid-askarifarsangi.jpg"
+          : "https://sitedesign.no/majid-askarifarsangi.jpg",
       ],
       creator: "@majid_dev",
     },
@@ -89,10 +89,10 @@ export default function Home() {
           "@type": "ImageObject",
           url:
             lang === "en"
-              ? "https://en.sitedesign.no/profile.jpg"
-              : "https://sitedesign.no/profile.jpg",
-          width: 400,
-          height: 400,
+              ? "https://en.sitedesign.no/majid-askarifarsangi.jpg"
+              : "https://sitedesign.no/majid-askarifarsangi.jpg",
+          width: 800,
+          height: 800,
         },
         sameAs: [
           "https://www.linkedin.com/in/farsangi",
@@ -194,7 +194,7 @@ export default function Home() {
               <div className="flex flex-col items-center gap-6 mb-8">
                 <Image
                   className="rounded-2xl w-28 h-28 md:w-32 md:h-32 object-cover metal-frame"
-                  src="/profile.jpg"
+                  src="/majid-askarifarsangi.jpg"
                   alt={home.profile.alt}
                   width={128}
                   height={128}
