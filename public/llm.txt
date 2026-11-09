@@ -37,7 +37,7 @@ This is the professional website of Majid Askarifarsangi, a web developer based 
 - Available for freelance projects
 - Based in Sandvika, Norway (Oslo area)
 - Currently working as a software engineer and React developer at MERCOR (San Francisco, USA), since January 2025
-- Interested in backend roles as a Kotlin developer
+- Interested in Kotlin and Kotlin backend systems
 - Open to new opportunities and consultations
 
 ## Site Structure:

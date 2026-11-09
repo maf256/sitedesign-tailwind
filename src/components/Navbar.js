@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { translations } from "@/lang/translations";
-import DarkmodeToggle from "./MobileDarkmodeToggleWrapper";
+import DarkmodeToggle from "./DarkmodeToggle";
 
 const navRoutes = ["/", "/about", "/career", "/contact"];
 const { navbar } = translations;

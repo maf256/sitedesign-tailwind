@@ -69,7 +69,7 @@
     "pageTitle": "About",
     "subtitle": "Majid Askarifarsangi - Web Developer",
     "imageAlt": "Web Developer in Oslo, Norway",
-    "summery": {
+    "summary": {
       "title": "Summary",
       "items": [
         "I'm Majid and I'm {age} years old",
@@ -196,14 +196,6 @@
             "icon": "Mail",
             "link": "mailto:majid@sitedesign.no"
           }
-        ]
-      },
-      "personalInfo": {
-        "title": "Personal Information",
-        "items": [
-          { "label": "Age", "value": "{age}" },
-          { "label": "Location", "value": "Sandvika, Norway" },
-          { "label": "Phone", "value": "+47 40189111" }
         ]
       },
       "resources": {

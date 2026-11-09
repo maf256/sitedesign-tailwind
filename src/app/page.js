@@ -193,16 +193,12 @@ export default function Home() {
 
               <div className="flex flex-col items-center gap-6 mb-8">
                 <Image
-                  className="rounded-2xl w-28 h-28 md:w-32 md:h-32 object-cover"
+                  className="rounded-2xl w-28 h-28 md:w-32 md:h-32 object-cover metal-frame"
                   src="/profile.jpg"
                   alt={home.profile.alt}
                   width={128}
                   height={128}
                   priority
-                  style={{
-                    boxShadow: "0 1px 3px var(--card-drop)",
-                    border: "1px solid var(--card-border)",
-                  }}
                 />
                 <div className="text-center">
                   <div

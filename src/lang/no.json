@@ -69,7 +69,7 @@
     "pageTitle": "Om",
     "subtitle": "Majid Askarifarsangi – Webutvikler",
     "imageAlt": "Webutvikler i Oslo, Norge",
-    "summery": {
+    "summary": {
       "title": "Kort om meg",
       "items": [
         "Jeg heter Majid og er {age} år gammel",
@@ -191,14 +191,6 @@
             "icon": "Mail",
             "link": "mailto:majid@sitedesign.no"
           }
-        ]
-      },
-      "personalInfo": {
-        "title": "Personlig informasjon",
-        "items": [
-          { "label": "Alder", "value": "{age}" },
-          { "label": "Sted", "value": "Sandvika, Norge" },
-          { "label": "Telefon", "value": "+47 40189111" }
         ]
       },
       "resources": {
