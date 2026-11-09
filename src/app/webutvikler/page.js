@@ -91,12 +91,7 @@ export default function WebDeveloperPage() {
         image: `${base}/profile.jpg`,
         // References the Person defined on the homepage (`/#person`)
         // instead of duplicating the profile here.
-        author: {
-          "@type": "Person",
-          "@id": `${base}/#person`,
-          name: "Majid Askarifarsangi",
-          url: base,
-        },
+        author: { "@id": `${base}/#person` },
       },
       {
         "@type": "BreadcrumbList",
@@ -104,7 +99,7 @@ export default function WebDeveloperPage() {
           {
             "@type": "ListItem",
             position: 1,
-            name: translations.navbar.items[0].name,
+            name: webdeveloper.breadcrumbHome,
             item: base,
           },
           {
@@ -124,214 +119,217 @@ export default function WebDeveloperPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <main className="min-h-screen w-full" style={{ background: "var(--base-100)" }}>
-      <div className="mx-auto max-w-5xl px-6 lg:px-8">
-        <div className="pt-8 pb-4">
-          <Link
-            href="/"
-            className="inline-flex items-center gap-2 font-medium"
-            style={{
-              color: "var(--primary)",
-              textShadow: "0 1px 0 var(--shine-soft)",
-            }}
-          >
-            <ArrowLeft size={18} /> Back
-          </Link>
-        </div>
-
-        <section className="flex flex-col justify-center py-12 text-center">
-          <div className="max-w-4xl mx-auto">
-            <h1
-              className="font-semibold text-5xl md:text-6xl lg:text-7xl leading-tight tracking-tight mb-6"
+      <main
+        className="min-h-screen w-full"
+        style={{ background: "var(--base-100)" }}
+      >
+        <div className="mx-auto max-w-5xl px-6 lg:px-8">
+          <div className="pt-8 pb-4">
+            <Link
+              href="/"
+              className="inline-flex items-center gap-2 font-medium"
               style={{
-                color: "var(--heading)",
-                textShadow: "0 1px 1px var(--shine-strong)",
-              }}
-            >
-              {webdeveloper.hero.title}
-            </h1>
-            <p
-              className="text-xl leading-relaxed max-w-3xl mx-auto"
-              style={{
-                color: "var(--text)",
+                color: "var(--primary)",
                 textShadow: "0 1px 0 var(--shine-soft)",
               }}
             >
-              {webdeveloper.hero.subtitle}
-            </p>
-          </div>
-        </section>
-
-        <section className="py-16">
-          <div className="rounded-lg p-8 mb-8 metal-card">
-            <h2
-              className="text-4xl font-semibold mb-6"
-              style={{
-                color: "var(--heading)",
-                textShadow: "0 1px 1px var(--shine-strong)",
-              }}
-            >
-              {webdeveloper.what.title}
-            </h2>
-            <p
-              className="text-lg leading-relaxed"
-              style={{
-                color: "var(--text)",
-                textShadow: "0 1px 0 var(--shine-soft)",
-              }}
-            >
-              {webdeveloper.what.description}
-            </p>
+              <ArrowLeft size={18} /> Back
+            </Link>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-6">
-            <div className="rounded-lg p-8 metal-button">
-              <h3
-                className="text-2xl font-semibold mb-3"
+          <section className="flex flex-col justify-center py-12 text-center">
+            <div className="max-w-4xl mx-auto">
+              <h1
+                className="font-semibold text-5xl md:text-6xl lg:text-7xl leading-tight tracking-tight mb-6"
                 style={{
                   color: "var(--heading)",
                   textShadow: "0 1px 1px var(--shine-strong)",
                 }}
               >
-                {webdeveloper.what.frontend.title}
-              </h3>
+                {webdeveloper.hero.title}
+              </h1>
               <p
+                className="text-xl leading-relaxed max-w-3xl mx-auto"
                 style={{
-                  fontSize: "17px",
                   color: "var(--text)",
                   textShadow: "0 1px 0 var(--shine-soft)",
                 }}
               >
-                {webdeveloper.what.frontend.description}
+                {webdeveloper.hero.subtitle}
               </p>
             </div>
-            <div className="rounded-lg p-8 metal-button">
-              <h3
-                className="text-2xl font-semibold mb-3"
+          </section>
+
+          <section className="py-16">
+            <div className="rounded-lg p-8 mb-8 metal-card">
+              <h2
+                className="text-4xl font-semibold mb-6"
                 style={{
                   color: "var(--heading)",
                   textShadow: "0 1px 1px var(--shine-strong)",
                 }}
               >
-                {webdeveloper.what.backend.title}
-              </h3>
+                {webdeveloper.what.title}
+              </h2>
               <p
+                className="text-lg leading-relaxed"
                 style={{
-                  fontSize: "17px",
                   color: "var(--text)",
                   textShadow: "0 1px 0 var(--shine-soft)",
                 }}
               >
-                {webdeveloper.what.backend.description}
+                {webdeveloper.what.description}
               </p>
             </div>
-          </div>
-        </section>
 
-        <section className="py-16">
-          <div className="text-center mb-12">
-            <h2
-              className="text-4xl font-semibold mb-4"
-              style={{
-                color: "var(--heading)",
-                textShadow: "0 1px 1px var(--shine-strong)",
-              }}
-            >
-              {webdeveloper.skills.title}
-            </h2>
-            <p
-              className="text-lg max-w-3xl mx-auto"
-              style={{
-                color: "var(--text)",
-                textShadow: "0 1px 0 var(--shine-soft)",
-              }}
-            >
-              {webdeveloper.skills.description}
-            </p>
-          </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {webdeveloper.skills.items.map((skill, idx) => (
-              <div
-                key={idx}
-                className="rounded-lg p-6 text-center metal-button"
-              >
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="rounded-lg p-8 metal-button">
                 <h3
-                  className="font-semibold mb-2"
+                  className="text-2xl font-semibold mb-3"
                   style={{
-                    fontSize: "18px",
                     color: "var(--heading)",
                     textShadow: "0 1px 1px var(--shine-strong)",
                   }}
                 >
-                  {skill.title}
+                  {webdeveloper.what.frontend.title}
                 </h3>
                 <p
                   style={{
-                    fontSize: "16px",
+                    fontSize: "17px",
                     color: "var(--text)",
                     textShadow: "0 1px 0 var(--shine-soft)",
                   }}
                 >
-                  {skill.description}
+                  {webdeveloper.what.frontend.description}
                 </p>
               </div>
-            ))}
-          </div>
-        </section>
-
-        <section className="py-16">
-          <div className="rounded-lg p-8 mb-8 metal-card">
-            <h2
-              className="text-4xl font-semibold mb-6"
-              style={{
-                color: "var(--heading)",
-                textShadow: "0 1px 1px var(--shine-strong)",
-              }}
-            >
-              {webdeveloper.why.title}
-            </h2>
-            <div className="space-y-5">
-              {webdeveloper.why.paragraphs.map((p, idx) => (
-                <p
-                  key={idx}
-                  className="text-lg leading-relaxed"
+              <div className="rounded-lg p-8 metal-button">
+                <h3
+                  className="text-2xl font-semibold mb-3"
                   style={{
+                    color: "var(--heading)",
+                    textShadow: "0 1px 1px var(--shine-strong)",
+                  }}
+                >
+                  {webdeveloper.what.backend.title}
+                </h3>
+                <p
+                  style={{
+                    fontSize: "17px",
                     color: "var(--text)",
                     textShadow: "0 1px 0 var(--shine-soft)",
                   }}
                 >
-                  {p}
+                  {webdeveloper.what.backend.description}
                 </p>
+              </div>
+            </div>
+          </section>
+
+          <section className="py-16">
+            <div className="text-center mb-12">
+              <h2
+                className="text-4xl font-semibold mb-4"
+                style={{
+                  color: "var(--heading)",
+                  textShadow: "0 1px 1px var(--shine-strong)",
+                }}
+              >
+                {webdeveloper.skills.title}
+              </h2>
+              <p
+                className="text-lg max-w-3xl mx-auto"
+                style={{
+                  color: "var(--text)",
+                  textShadow: "0 1px 0 var(--shine-soft)",
+                }}
+              >
+                {webdeveloper.skills.description}
+              </p>
+            </div>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {webdeveloper.skills.items.map((skill, idx) => (
+                <div
+                  key={idx}
+                  className="rounded-lg p-6 text-center metal-button"
+                >
+                  <h3
+                    className="font-semibold mb-2"
+                    style={{
+                      fontSize: "18px",
+                      color: "var(--heading)",
+                      textShadow: "0 1px 1px var(--shine-strong)",
+                    }}
+                  >
+                    {skill.title}
+                  </h3>
+                  <p
+                    style={{
+                      fontSize: "16px",
+                      color: "var(--text)",
+                      textShadow: "0 1px 0 var(--shine-soft)",
+                    }}
+                  >
+                    {skill.description}
+                  </p>
+                </div>
               ))}
             </div>
-          </div>
-          <div className="grid md:grid-cols-3 gap-6">
-            {webdeveloper.why.points.map((point, idx) => (
-              <div key={idx} className="rounded-lg p-6 metal-button">
-                <h3
-                  className="font-semibold mb-2"
-                  style={{
-                    fontSize: "18px",
-                    color: "var(--heading)",
-                    textShadow: "0 1px 1px var(--shine-strong)",
-                  }}
-                >
-                  {point.title}
-                </h3>
-                <p
-                  style={{
-                    fontSize: "16px",
-                    color: "var(--text)",
-                    textShadow: "0 1px 0 var(--shine-soft)",
-                  }}
-                >
-                  {point.description}
-                </p>
+          </section>
+
+          <section className="py-16">
+            <div className="rounded-lg p-8 mb-8 metal-card">
+              <h2
+                className="text-4xl font-semibold mb-6"
+                style={{
+                  color: "var(--heading)",
+                  textShadow: "0 1px 1px var(--shine-strong)",
+                }}
+              >
+                {webdeveloper.why.title}
+              </h2>
+              <div className="space-y-5">
+                {webdeveloper.why.paragraphs.map((p, idx) => (
+                  <p
+                    key={idx}
+                    className="text-lg leading-relaxed"
+                    style={{
+                      color: "var(--text)",
+                      textShadow: "0 1px 0 var(--shine-soft)",
+                    }}
+                  >
+                    {p}
+                  </p>
+                ))}
               </div>
-            ))}
-          </div>
-        </section>
-      </div>
+            </div>
+            <div className="grid md:grid-cols-3 gap-6">
+              {webdeveloper.why.points.map((point, idx) => (
+                <div key={idx} className="rounded-lg p-6 metal-button">
+                  <h3
+                    className="font-semibold mb-2"
+                    style={{
+                      fontSize: "18px",
+                      color: "var(--heading)",
+                      textShadow: "0 1px 1px var(--shine-strong)",
+                    }}
+                  >
+                    {point.title}
+                  </h3>
+                  <p
+                    style={{
+                      fontSize: "16px",
+                      color: "var(--text)",
+                      textShadow: "0 1px 0 var(--shine-soft)",
+                    }}
+                  >
+                    {point.description}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </section>
+        </div>
       </main>
     </>
   );

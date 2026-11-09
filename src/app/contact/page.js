@@ -3,6 +3,9 @@ import CalendarEmbed from "@/components/CalendarEmbed";
 
 const { contact } = translations;
 
+const CALENDAR_EMBED_URL =
+  "https://calendar.google.com/calendar/appointments/schedules/AcZssZ0RNfX5P3AeFZiKt1ZSMI81WbW9BokkuSoB5fwPmZ9mzm1Ik6QnsUZ5BMX14GU1qO5bXOabrxZq?gv=true";
+
 export function generateMetadata() {
   const seo = getTranslation("seo.contact");
   const lang = process.env.SELECTED_LANG || "no";
@@ -347,13 +350,12 @@ export default function Contact() {
             </div>
             <div className="p-4 relative">
               <CalendarEmbed
-                src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0RNfX5P3AeFZiKt1ZSMI81WbW9BokkuSoB5fwPmZ9mzm1Ik6QnsUZ5BMX14GU1qO5bXOabrxZq?gv=true"
+                src={CALENDAR_EMBED_URL}
                 title={contact.sections.meeting.calendarTitle}
                 labels={{
                   show: contact.sections.meeting.showCalendar,
                   notice: contact.sections.meeting.calendarNotice,
                   openInNewTab: contact.sections.meeting.openInNewTab,
-                  href: "https://calendar.google.com/calendar/appointments/schedules/AcZssZ0RNfX5P3AeFZiKt1ZSMI81WbW9BokkuSoB5fwPmZ9mzm1Ik6QnsUZ5BMX14GU1qO5bXOabrxZq",
                 }}
               />
             </div>

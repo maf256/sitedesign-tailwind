@@ -235,6 +235,7 @@
     }
   },
   "webdeveloper": {
+    "breadcrumbHome": "Hjem",
     "hero": {
       "title": "Hvem er en webutvikler?",
       "subtitle": "En webutvikler er personen som bygger det digitale laget i dagens verden. De gjør ideer om til nettsider, apper og nettbaserte verktøy som folk bruker hver dag."

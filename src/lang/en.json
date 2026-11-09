@@ -240,6 +240,7 @@
     }
   },
   "webdeveloper": {
+    "breadcrumbHome": "Home",
     "hero": {
       "title": "Who is a Web Developer?",
       "subtitle": "A web developer is the person who builds the digital layer of today’s world. They turn ideas into websites, apps, and online tools that people use every day."
