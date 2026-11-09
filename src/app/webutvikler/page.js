@@ -73,8 +73,58 @@ export function generateMetadata() {
 }
 
 export default function WebDeveloperPage() {
+  const lang = process.env.SELECTED_LANG || "no";
+  const base = lang === "en" ? "https://en.sitedesign.no" : "https://sitedesign.no";
+  const pageUrl = `${base}/webutvikler`;
+  const seo = getTranslation("seo.webdeveloper");
+
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        headline: webdeveloper.hero.title,
+        description: seo.description,
+        url: pageUrl,
+        mainEntityOfPage: pageUrl,
+        inLanguage: lang === "en" ? "en-US" : "no-NO",
+        image: `${base}/profile.jpg`,
+        // References the Person defined on the homepage (`/#person`)
+        // instead of duplicating the profile here.
+        author: {
+          "@type": "Person",
+          "@id": `${base}/#person`,
+          name: "Majid Askarifarsangi",
+          url: base,
+        },
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: translations.navbar.items[0].name,
+            item: base,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: webdeveloper.hero.title,
+            item: pageUrl,
+          },
+        ],
+      },
+    ],
+  };
+
   return (
-    <main className="min-h-screen w-full" style={{ background: "var(--base-100)" }}>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <main className="min-h-screen w-full" style={{ background: "var(--base-100)" }}>
       <div className="mx-auto max-w-5xl px-6 lg:px-8">
         <div className="pt-8 pb-4">
           <Link
@@ -282,6 +332,7 @@ export default function WebDeveloperPage() {
           </div>
         </section>
       </div>
-    </main>
+      </main>
+    </>
   );
 }
