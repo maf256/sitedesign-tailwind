@@ -232,7 +232,10 @@
       },
       "meeting": {
         "title": "Schedule a Meeting",
-        "calendarTitle": "Book a Meeting"
+        "calendarTitle": "Book a Meeting",
+        "showCalendar": "Show booking calendar",
+        "calendarNotice": "The calendar is provided by Google and sets cookies once loaded.",
+        "openInNewTab": "Or open the calendar in a new tab"
       }
     }
   },
