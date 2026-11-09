@@ -1,37 +1,46 @@
 const NO_BASE = "https://sitedesign.no";
 const EN_BASE = "https://en.sitedesign.no";
 
-// One entry per page. `lastModified` is the date the page's content last
-// changed (route file or its translations), not the build time. Update it
-// when the content changes.
+// Last content change per page. To update, run
+//   git log -1 --format=%cs -- <page file>
+// (include src/lang/*.json if only the copy changed) and paste the date here.
+const LAST_MODIFIED = {
+  home: "2026-11-09", // src/app/page.js
+  about: "2026-11-09", // src/app/about/page.js
+  career: "2026-11-09", // src/app/career/page.js
+  contact: "2026-11-09", // src/app/contact/page.js
+  webutvikler: "2026-11-09", // src/app/webutvikler/page.js
+};
+
+// One entry per page.
 const PAGES = [
   {
     path: "",
-    lastModified: "2026-11-09",
+    lastModified: LAST_MODIFIED.home,
     no: { changeFrequency: "weekly", priority: 1.0 },
     en: { changeFrequency: "weekly", priority: 0.9 },
   },
   {
     path: "/about",
-    lastModified: "2026-11-09",
+    lastModified: LAST_MODIFIED.about,
     no: { changeFrequency: "monthly", priority: 0.8 },
     en: { changeFrequency: "monthly", priority: 0.7 },
   },
   {
     path: "/career",
-    lastModified: "2026-11-09",
+    lastModified: LAST_MODIFIED.career,
     no: { changeFrequency: "monthly", priority: 0.7 },
     en: { changeFrequency: "monthly", priority: 0.6 },
   },
   {
     path: "/contact",
-    lastModified: "2026-11-09",
+    lastModified: LAST_MODIFIED.contact,
     no: { changeFrequency: "monthly", priority: 0.9 },
     en: { changeFrequency: "monthly", priority: 0.8 },
   },
   {
     path: "/webutvikler",
-    lastModified: "2026-11-09",
+    lastModified: LAST_MODIFIED.webutvikler,
     no: { changeFrequency: "monthly", priority: 0.9 },
     en: { changeFrequency: "monthly", priority: 0.9 },
   },

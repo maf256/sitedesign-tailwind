@@ -2,10 +2,15 @@
 
 import { useState } from "react";
 
+const HEIGHT = "h-[1100px] sm:h-[720px]";
+const HEADING = { color: "var(--heading)" };
+
 // Loads the Google Calendar embed only after the visitor asks for it, so no
 // third-party cookies are set on page load.
 export default function CalendarEmbed({ src, title, labels }) {
   const [loaded, setLoaded] = useState(false);
+  // The embed URL carries `?gv=true`; the plain URL opens the full page.
+  const newTabHref = src.split("?")[0];
 
   if (loaded) {
     return (
@@ -23,7 +28,7 @@ export default function CalendarEmbed({ src, title, labels }) {
           src={src}
           width="100%"
           scrolling="no"
-          className="block w-full h-[1100px] sm:h-[720px] border-0 rounded bg-white dark:[filter:invert(0.92)_hue-rotate(180deg)]"
+          className={`block w-full ${HEIGHT} border-0 rounded bg-white dark:[filter:invert(0.92)_hue-rotate(180deg)]`}
           style={{ colorScheme: "light" }}
           title={title}
         ></iframe>
@@ -32,24 +37,24 @@ export default function CalendarEmbed({ src, title, labels }) {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center gap-4 text-center h-[1100px] sm:h-[720px] px-4">
+    <div className={`flex flex-col items-center justify-center gap-4 text-center rounded metal-card px-4 ${HEIGHT}`}>
       <button
         type="button"
         onClick={() => setLoaded(true)}
         className="px-8 py-4 rounded-md font-semibold cursor-pointer metal-button focus-visible:outline-2 focus-visible:outline-offset-2"
-        style={{ color: "var(--heading)" }}
+        style={HEADING}
       >
         {labels.show}
       </button>
-      <p className="text-sm max-w-md" style={{ color: "var(--heading)" }}>
+      <p className="text-sm max-w-md" style={HEADING}>
         {labels.notice}
       </p>
       <a
-        href={labels.href}
+        href={newTabHref}
         target="_blank"
         rel="noopener noreferrer"
         className="underline text-sm"
-        style={{ color: "var(--heading)" }}
+        style={HEADING}
       >
         {labels.openInNewTab}
       </a>
