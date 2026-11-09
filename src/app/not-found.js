@@ -4,6 +4,14 @@ import { translations } from "@/lang/translations";
 
 const { notFound } = translations;
 
+export const metadata = {
+  title: notFound.title,
+  description: notFound.description,
+  // Next injects its own `noindex` tag on 404s; null drops the layout's
+  // inherited "index, follow" so only one robots tag is emitted.
+  robots: null,
+};
+
 export default function NotFound() {
   return (
     <main className="min-h-screen bg-base-100 flex items-center justify-center px-4 py-20">
