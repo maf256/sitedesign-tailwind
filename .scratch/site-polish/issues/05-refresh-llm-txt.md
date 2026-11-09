@@ -1,6 +1,6 @@
-# 05: Refresh `llm.txt`
+# 05: Refresh `llms.txt`
 
-**What to build:** `llm.txt` accurately describes the site today so AI crawlers get current information.
+**What to build:** `llms.txt` accurately describes the site today so AI crawlers get current information.
 
 **Blocked by:** None (can start immediately)
 

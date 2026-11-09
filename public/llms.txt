@@ -1,0 +1,24 @@
+# Majid Askarifarsangi – Web Developer Oslo
+
+> Personal website of Majid Askarifarsangi, a web developer and designer based in Sandvika/Oslo, Norway, with 15+ years of experience in React, Next.js, Node.js, TypeScript and PostgreSQL. Available for freelance projects. The site is in Norwegian, with English versions served from en.sitedesign.no.
+
+Majid currently works as a software engineer and React developer at MERCOR (San Francisco, USA), since January 2025, and is interested in Kotlin backend systems. Services: web development, React and Next.js applications, responsive web design, full-stack development, web application consulting and database design.
+
+## Pages
+
+- [Home](https://sitedesign.no/): Services overview and introduction
+- [About](https://sitedesign.no/about): Personal background and experience
+- [Career](https://sitedesign.no/career): Professional timeline and work history
+- [Webutvikler](https://sitedesign.no/webutvikler): Guide to what a web developer is and does (Norwegian; English at https://en.sitedesign.no/webutvikler)
+- [Contact](https://sitedesign.no/contact): Contact information and meeting booking
+
+## Contact and profiles
+
+- Email: majid@sitedesign.no
+- Phone: +47 40189111
+- [LinkedIn](https://www.linkedin.com/in/farsangi)
+- [GitHub](https://github.com/maf256)
+
+## Optional
+
+- [English site](https://en.sitedesign.no/): English versions of all pages
