@@ -1,10 +1,18 @@
 {
   "navbar": {
     "items": [
-      { "name": "Hjem" },
-      { "name": "Om" },
-      { "name": "Erfaring" },
-      { "name": "Kontakt" }
+      {
+        "name": "Hjem"
+      },
+      {
+        "name": "Om"
+      },
+      {
+        "name": "Erfaring"
+      },
+      {
+        "name": "Kontakt"
+      }
     ],
     "languageToggle": "NO"
   },
@@ -111,54 +119,131 @@
   },
   "career": {
     "title": "Erfaring",
-    "description": "Gjennom årene har jeg hatt glede av å lage programvare, jobbe på frilansprosjekter og i faste stillinger som webutvikler, alltid på jakt etter nye muligheter til å vokse.",
+    "heading": "Erfaring som webutvikler",
+    "timelineHeading": "Tidslinje for erfaring som webutvikler",
+    "learnMore": "Hva gjør en webutvikler? Les mer om rollen",
+    "durationLabel": "Varighet",
+    "skillsLabel": "Teknologier brukt i rollen",
+    "description": "Siden 2004 har jeg jobbet som webutvikler og programvareutvikler. Siden 10.2022 er jeg konsulent hos OsloWeb AS, hvor jeg tar nettsider fra skisse til produksjon med React, Next.js, WordPress og Sanity – med fokus på ytelse, tilgjengelighet og SEO.",
     "experiences": [
       {
-        "year": "2025",
-        "position": "React webutvikler",
-        "company": "MERCOR – San Francisco, USA",
-        "duration": "01.2025 - nå",
-        "description": "AI-trening, problemløsning, prompt-engineering med React, JavaScript, CSS, Tailwind",
-        "skills": ["React", "JavaScript", "CSS", "Tailwind", "AI", "TypeScript"]
-      },
-      {
-        "year": "2024",
-        "position": "Fullstack webutvikler",
-        "company": "CELESTE – San Francisco, USA",
-        "duration": "04.2024 - 09.2024",
-        "description": "Bygget AI-treningssystemer, implementerte prompt-løsninger, utviklet grensesnitt for AI-modelltrening",
+        "year": "2026",
+        "position": "Webutvikler – agentisk utvikling med AI",
+        "company": "OsloWeb AS – Verdi",
+        "duration": "10.2026 - nå",
+        "description": "Bruker agentisk koding i daglig webutvikling: skills, subagenter, PRD-er, ticketing og målrettet kontekst og prompting. Planlegger arbeid med PRD-er og tickets og bryter det ned i oppgaver for AI-agenter.",
         "skills": [
-          "Python",
-          "AI",
-          "Maskinlæring",
-          "Node.js",
-          "React",
+          "AI-agenter",
+          "Subagenter",
+          "PRD",
+          "Prompt engineering",
           "TypeScript"
         ]
       },
       {
-        "year": "2024",
-        "position": "Opplæring i prosjektledelse",
-        "company": "Bærum kommune – Norge",
-        "duration": "02.2024 - 05.2024",
-        "description": "Ledet digitaliseringsprosjekter, styrte modernisering av kommunens IT-infrastruktur",
-        "skills": ["Prosjektledelse", "Azure", "Infrastruktur", "Ledelse"]
+        "year": "2025",
+        "position": "Webutvikler – kodegjennomgang av AI-generert kode",
+        "company": "OsloWeb AS – Mercor",
+        "duration": "01.2025 - nå",
+        "description": "Kvalitetssikrer og vurderer AI-generert kode i React- og TypeScript-applikasjoner, og har gjennomgått og merget mange AI-genererte pull requests. Bygget pipeline-skript, automasjoner, agentiske verifiseringer og revisjonsbotter, og jobbet med AI-resonneringsmoduler og verktøybruk.",
+        "skills": [
+          "React",
+          "TypeScript",
+          "Code review",
+          "AI",
+          "Automasjon"
+        ]
       },
       {
         "year": "2022",
-        "position": "Fullstack webutvikler",
-        "company": "TECHPROS AS – Oslo, Norge",
-        "duration": "04.2022 - 05.2022",
-        "description": "Utviklet rammeverk for automatisering av økonomi, bygget React-dashboard med Node.js/PostgreSQL",
-        "skills": ["React", "Node.js", "PostgreSQL", "JavaScript", "REST API"]
+        "position": "Webutvikler og webdesigner (konsulent)",
+        "company": "OsloWeb AS – WordPress og Sanity",
+        "duration": "10.2022 - nå",
+        "description": "Designet UI/UX i Figma for osloweb.no og flere frilansprosjekter, og bygget nettsider i WordPress og Sanity, blant annet apame.no og toyenblomster.no. Webstøtte, innholdsoppdateringer og landingssider for kunder. Publisering på Vercel og nå Netlify, gjenbrukbare React- og TypeScript-komponenter i Storybook, samt forbedringer av ytelse, Core Web Vitals, tilgjengelighet og SEO.",
+        "skills": [
+          "Figma",
+          "WordPress",
+          "Sanity",
+          "Next.js",
+          "Storybook",
+          "Netlify",
+          "SEO",
+          "WCAG"
+        ]
       },
       {
-        "year": "2009",
+        "year": "2024",
         "position": "Webutvikler",
+        "company": "OsloWeb AS – CELESTE",
+        "duration": "04.2024 - 09.2024",
+        "description": "Bygget webløsninger med moderne frontend-teknologi og jobbet sammen med backend-utviklere (Nest.js). Jobbet direkte med kunden på krav og bidro i tekniske diskusjoner og ytelsesforbedringer.",
+        "skills": [
+          "React",
+          "TypeScript",
+          "Nest.js",
+          "Ytelse"
+        ]
+      },
+      {
+        "year": "2024",
+        "position": "IT-konsulent",
+        "company": "OsloWeb AS – Bærum kommune",
+        "duration": "02.2024 - 05.2024",
+        "description": "Vurderte teknisk gjennomførbarhet og estimater for en digital løsning sammen med forretningssiden og IT-arkitekter.",
+        "skills": [
+          "Estimering",
+          "Arkitektur",
+          "Rådgivning"
+        ]
+      },
+      {
+        "year": "2023",
+        "position": "Frontend webutvikler",
+        "company": "OsloWeb AS – TechPros AS",
+        "description": "Bygget et admin-dashboard i React og JavaScript, integrert med Express.js-API-er og JWT-autentisering, og forbedret frontend-ytelse og Core Web Vitals.",
+        "skills": [
+          "React",
+          "JavaScript",
+          "Express.js",
+          "JWT",
+          "Core Web Vitals"
+        ]
+      },
+      {
+        "year": "2022",
+        "position": "Webutvikler",
+        "company": "OsloWeb AS – Perpendo",
+        "duration": "10.2022 - 12.2022",
+        "description": "Bygget interaktive React-komponenter ut fra UX-wireframes og prototyper, i tett samarbeid med UX-designere. Forbedret datalasting og frontend-ytelse.",
+        "skills": [
+          "React",
+          "UX",
+          "Prototyper",
+          "Ytelse"
+        ]
+      },
+      {
+        "year": "2018",
+        "position": "Python-utvikler",
+        "company": "Soft98",
+        "duration": "2018 - 2020",
+        "description": "Bygget API-er og webbaserte systemer med Python og FastAPI.",
+        "skills": [
+          "Python",
+          "FastAPI",
+          "REST API"
+        ]
+      },
+      {
+        "year": "2004",
+        "position": "Programvareutvikler og IT-inspektør",
         "company": "Teheran kommune – Iran",
-        "duration": "01.2009 - 01.2020",
-        "description": "Bygget store digitale plattformer for 50 000+ daglige brukere, forbedret tilgjengeligheten til offentlige tjenester med 60 %",
-        "skills": ["JavaScript", "HTML", "CSS", "SQL", "MySQL"]
+        "duration": "2004 - 2011",
+        "description": "Tidlig erfaring som programvareutvikler (FoxPro, Visual Basic) og IT-inspektør.",
+        "skills": [
+          "FoxPro",
+          "Visual Basic"
+        ]
       }
     ]
   },
@@ -349,19 +434,23 @@
       }
     },
     "career": {
-      "title": "Erfaring | Majid Askarifarsangi, webutvikler Oslo",
-      "description": "Over 15 års erfaring med webutvikling – fra store systemer til moderne React-applikasjoner.",
+      "title": "Erfaring | Majid Askarifarsangi, webutvikler i Oslo",
+      "description": "Erfaring som webutvikler i Oslo: konsulent hos OsloWeb AS siden 2022 med React, Next.js, WordPress og Sanity. Fra design i Figma til produksjon, med fokus på ytelse, SEO og tilgjengelighet.",
       "keywords": [
-        "jobb som webutvikler Oslo",
-        "React utvikler stilling",
-        "fullstack utvikler",
-        "frontend utvikler jobb",
-        "JavaScript",
-        "karriere innen webdesign"
+        "webutvikler",
+        "webutvikler Oslo",
+        "erfaring webutvikler",
+        "CV webutvikler",
+        "frontend webutvikler",
+        "React webutvikler",
+        "webutvikler konsulent",
+        "webdesigner Oslo",
+        "Next.js utvikler",
+        "WordPress utvikler"
       ],
       "openGraph": {
-        "title": "Erfaring | Majid Askarifarsangi",
-        "description": "Se min profesjonelle reise som webutvikler i Oslo. Erfaring fra enterprise-løsninger til moderne React-prosjekter."
+        "title": "Erfaring | Majid Askarifarsangi, webutvikler i Oslo",
+        "description": "Se erfaringen min som webutvikler og webdesigner i Oslo: React, Next.js, WordPress, Sanity og AI-assistert utvikling."
       }
     },
     "contact": {

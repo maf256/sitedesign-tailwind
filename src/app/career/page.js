@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { translations, getTranslation } from "@/lang/translations";
 
 const { career } = translations;
@@ -30,7 +31,7 @@ export function generateMetadata() {
         lang === "en"
           ? "https://en.sitedesign.no/career"
           : "https://sitedesign.no/career",
-      siteName: "Majid Askarifarsangi - Web Developer Oslo",
+      siteName: lang === "en" ? "Majid Askarifarsangi - Web Developer Oslo" : "Majid Askarifarsangi - Webutvikler Oslo",
       images: [
         {
           url:
@@ -39,7 +40,7 @@ export function generateMetadata() {
               : "https://sitedesign.no/majid-askarifarsangi.jpg",
           width: 800,
           height: 800,
-          alt: "Majid Askarifarsangi - Professional Career Web Developer Oslo",
+          alt: lang === "en" ? "Majid Askarifarsangi - Web Developer in Oslo" : "Majid Askarifarsangi - Webutvikler i Oslo",
         },
       ],
       locale: lang === "en" ? "en_US" : "no_NO",
@@ -73,68 +74,38 @@ export function generateMetadata() {
 export default function CareerPage() {
   const lang = process.env.SELECTED_LANG || "no";
 
+  const base = lang === "en" ? "https://en.sitedesign.no" : "https://sitedesign.no";
+  const pageUrl = `${base}/career`;
+
   const structuredData = {
     "@context": "https://schema.org",
-    "@type": "Person",
-    name: "Majid Askarifarsangi",
-    url:
-      lang === "en"
-        ? "https://en.sitedesign.no/career"
-        : "https://sitedesign.no/career",
-    jobTitle: lang === "en" ? "Web Developer" : "Webutvikler",
-    worksFor: [
+    "@graph": [
       {
-        "@type": "Organization",
-        name: "MERCOR",
-        address: {
-          "@type": "PostalAddress",
-          addressLocality: "San Francisco",
-          addressCountry: "USA",
-        },
-        startDate: "2025-01",
-      },
-    ],
-    hasOccupation: [
-      {
-        "@type": "Occupation",
-        name: lang === "en" ? "React Developer" : "React-utvikler",
-        occupationLocation: {
-          "@type": "Place",
-          name: "San Francisco, USA",
-        },
-        skills: ["React", "JavaScript", "CSS", "Tailwind", "AI", "TypeScript"],
+        "@type": "ProfilePage",
+        "@id": `${pageUrl}#profilepage`,
+        url: pageUrl,
+        name: career.heading,
+        inLanguage: lang === "en" ? "en-US" : "no-NO",
+        mainEntity: { "@id": `${base}/#person` },
       },
       {
-        "@type": "Occupation",
-        name: lang === "en" ? "Software Engineer" : "Programvareutvikler",
-        occupationLocation: {
-          "@type": "Place",
-          name: "San Francisco, USA",
-        },
-        skills: [
-          "Python",
-          "AI",
-          "Machine Learning",
-          "Node.js",
-          "React",
-          "TypeScript",
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Majid Askarifarsangi", item: base },
+          { "@type": "ListItem", position: 2, name: career.title, item: pageUrl },
         ],
       },
+      {
+        "@type": "ItemList",
+        name: career.timelineHeading,
+        itemListElement: career.experiences.map((e, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          name: `${e.position} – ${e.company}`,
+          description: e.description,
+        })),
+      },
     ],
-    knowsAbout: [
-      "React.js",
-      "Next.js",
-      "Node.js",
-      "PostgreSQL",
-      "JavaScript",
-      "TypeScript",
-      "Python",
-      "AI",
-      "Machine Learning",
-      "Web Development",
-      "Full-stack Development",
-    ],
-    experienceRequirements: "15+ years",
   };
 
   return (
@@ -153,7 +124,7 @@ export default function CareerPage() {
                 textShadow: "0 1px 1px var(--shine-strong)",
               }}
             >
-              {career.title}
+              {career.heading}
             </h1>
             <p
               className="text-lg max-w-2xl mx-auto"
@@ -164,6 +135,15 @@ export default function CareerPage() {
             >
               {career.description}
             </p>
+            <p className="mt-4">
+              <Link
+                href="/webutvikler"
+                className="font-medium underline"
+                style={{ color: "var(--primary)" }}
+              >
+                {career.learnMore}
+              </Link>
+            </p>
           </header>
 
           <section
@@ -172,7 +152,7 @@ export default function CareerPage() {
             aria-labelledby="timeline-heading"
           >
             <h2 id="timeline-heading" className="sr-only">
-              Career Timeline
+              {career.timelineHeading}
             </h2>
 
             <div
@@ -236,17 +216,19 @@ export default function CareerPage() {
                           {experience.company}
                         </p>
                       </div>
+                      {experience.duration && (
                       <div className="mt-3 md:mt-0 md:ml-4">
                         <time
                           className="inline-block px-3 py-1.5 rounded-md text-sm font-medium metal-button"
                           style={{
                             textShadow: "0 1px 0 var(--shine-soft)",
                           }}
-                          aria-label={`Employment duration: ${experience.duration}`}
+                          aria-label={`${career.durationLabel}: ${experience.duration}`}
                         >
                           {experience.duration}
                         </time>
                       </div>
+                      )}
                     </header>
 
                     <p
@@ -268,7 +250,7 @@ export default function CareerPage() {
                         aria-labelledby={`skills-${index}-heading`}
                       >
                         <h4 id={`skills-${index}-heading`} className="sr-only">
-                          Technologies used in this role
+                          {career.skillsLabel}
                         </h4>
                         {experience.skills.map((skill, skillIndex) => (
                           <span

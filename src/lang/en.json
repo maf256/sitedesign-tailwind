@@ -1,10 +1,18 @@
 {
   "navbar": {
     "items": [
-      { "name": "Home" },
-      { "name": "About" },
-      { "name": "Career" },
-      { "name": "Contact" }
+      {
+        "name": "Home"
+      },
+      {
+        "name": "About"
+      },
+      {
+        "name": "Career"
+      },
+      {
+        "name": "Contact"
+      }
     ],
     "languageToggle": "EN"
   },
@@ -111,59 +119,131 @@
   },
   "career": {
     "title": "Career",
-    "description": "Over the years, I've enjoyed creating software, working on freelance projects, and full time positions as a web developer, always looking for new opportunities to grow.",
+    "heading": "Experience as a web developer (webutvikler)",
+    "timelineHeading": "Web developer career timeline",
+    "learnMore": "What does a web developer (webutvikler) do? Read more about the role",
+    "durationLabel": "Duration",
+    "skillsLabel": "Technologies used in this role",
+    "description": "I have worked as a web developer and software developer since 2004. Since 10.2022 I have been a consultant at OsloWeb AS, taking websites from sketch to production with React, Next.js, WordPress and Sanity – with a focus on performance, accessibility and SEO.",
     "experiences": [
       {
-        "year": "2025",
-        "position": "React Developer",
-        "company": "MERCOR – San Francisco, USA",
-        "duration": "01.2025 - present",
-        "description": "AI training, problem-solving, prompt engineering using React, JavaScript, CSS, Tailwind",
-        "skills": ["React", "JavaScript", "CSS", "Tailwind", "AI", "TypeScript"]
-      },
-      {
-        "year": "2024",
-        "position": "Software Engineer",
-        "company": "CELESTE – San Francisco, USA",
-        "duration": "04.2024 - 09.2024",
-        "description": "Built AI training pipelines, implemented prompt engineering solutions, developed AI model training interfaces",
+        "year": "2026",
+        "position": "Web Developer – Agentic Development with AI",
+        "company": "OsloWeb AS – Verdi",
+        "duration": "10.2026 - present",
+        "description": "Uses agentic coding in day-to-day web development: skills, subagents, PRDs, ticketing and targeted context and prompting. Plans work with PRDs and tickets and breaks it into tasks for AI agents and subagents.",
         "skills": [
-          "Python",
-          "AI",
-          "Machine Learning",
-          "Node.js",
-          "React",
+          "AI agents",
+          "Subagents",
+          "PRD",
+          "Prompt engineering",
           "TypeScript"
         ]
       },
       {
-        "year": "2024",
-        "position": "Technical Project Management Training",
-        "company": "Bærum kommune – Norway",
-        "duration": "02.2024 - 05.2024",
-        "description": "Led digitization project coordination, managed municipal IT infrastructure modernization",
+        "year": "2025",
+        "position": "Web Developer – AI Code Review",
+        "company": "OsloWeb AS – Mercor",
+        "duration": "01.2025 - present",
+        "description": "Critically reviews and quality-assures AI-generated code in React and TypeScript applications, and has reviewed and merged many AI-generated pull requests. Built pipeline scripts, automations, agentic verifications and audit bots, and worked on AI reasoning modules and tool use.",
         "skills": [
-          "Project Management",
-          "Azure",
-          "Infrastructure",
-          "Leadership"
+          "React",
+          "TypeScript",
+          "Code review",
+          "AI",
+          "Automation"
         ]
       },
       {
         "year": "2022",
-        "position": "Fullstack Developer",
-        "company": "TECHPROS AS – Oslo, Norway",
-        "duration": "04.2022 - 05.2022",
-        "description": "Developed automation framework for financial collections, built React dashboard with Node.js/PostgreSQL",
-        "skills": ["React", "Node.js", "PostgreSQL", "JavaScript", "REST API"]
+        "position": "Web Developer and Web Designer (consultant)",
+        "company": "OsloWeb AS – WordPress and Sanity",
+        "duration": "10.2022 - present",
+        "description": "Designed UI/UX in Figma for osloweb.no and several freelance projects, and built websites in WordPress and Sanity, including apame.no and toyenblomster.no. Web support, content updates and landing pages for clients. Deployed on Vercel and now Netlify, built reusable React and TypeScript components in Storybook, and improved performance, Core Web Vitals, accessibility and SEO.",
+        "skills": [
+          "Figma",
+          "WordPress",
+          "Sanity",
+          "Next.js",
+          "Storybook",
+          "Netlify",
+          "SEO",
+          "WCAG"
+        ]
       },
       {
-        "year": "2009",
+        "year": "2024",
         "position": "Web Developer",
-        "company": "Municipality of Tehran – Iran",
-        "duration": "01.2009 - 01.2020",
-        "description": "Built large-scale digital platforms serving 50,000+ daily users, improved public service accessibility by 60%",
-        "skills": ["JavaScript", "HTML", "CSS", "SQL", "MySQL"]
+        "company": "OsloWeb AS – CELESTE",
+        "duration": "04.2024 - 09.2024",
+        "description": "Built web solutions with modern frontend technology and worked with backend developers (Nest.js). Worked directly with the client on requirements and contributed to technical discussions and performance improvements.",
+        "skills": [
+          "React",
+          "TypeScript",
+          "Nest.js",
+          "Performance"
+        ]
+      },
+      {
+        "year": "2024",
+        "position": "IT Consultant",
+        "company": "OsloWeb AS – Bærum kommune",
+        "duration": "02.2024 - 05.2024",
+        "description": "Assessed technical feasibility and estimates for a digital solution, together with the business side and IT architects.",
+        "skills": [
+          "Estimation",
+          "Architecture",
+          "Consulting"
+        ]
+      },
+      {
+        "year": "2023",
+        "position": "Frontend Web Developer",
+        "company": "OsloWeb AS – TechPros AS",
+        "description": "Built an admin dashboard in React and JavaScript, integrated with Express.js APIs and JWT authentication, and improved frontend performance and Core Web Vitals.",
+        "skills": [
+          "React",
+          "JavaScript",
+          "Express.js",
+          "JWT",
+          "Core Web Vitals"
+        ]
+      },
+      {
+        "year": "2022",
+        "position": "Web Developer",
+        "company": "OsloWeb AS – Perpendo",
+        "duration": "10.2022 - 12.2022",
+        "description": "Built interactive React components from UX wireframes and prototypes, working closely with UX designers in design reviews. Improved data loading and frontend performance.",
+        "skills": [
+          "React",
+          "UX",
+          "Prototyping",
+          "Performance"
+        ]
+      },
+      {
+        "year": "2018",
+        "position": "Python Developer",
+        "company": "Soft98",
+        "duration": "2018 - 2020",
+        "description": "Built APIs and web-based systems with Python and FastAPI.",
+        "skills": [
+          "Python",
+          "FastAPI",
+          "REST API"
+        ]
+      },
+      {
+        "year": "2004",
+        "position": "Software Developer and IT Inspector",
+        "company": "Tehran Municipality – Iran",
+        "duration": "2004 - 2011",
+        "description": "Early experience as a software developer (FoxPro, Visual Basic) and IT inspector.",
+        "skills": [
+          "FoxPro",
+          "Visual Basic"
+        ]
       }
     ]
   },
@@ -354,19 +434,23 @@
       }
     },
     "career": {
-      "title": "Career | Majid Askarifarsangi, Web Developer Oslo",
-      "description": "15+ years of experience in web development, from enterprise apps to modern React projects.",
+      "title": "Career | Majid Askarifarsangi, Web Developer in Oslo",
+      "description": "Experience as a web developer (webutvikler) in Oslo: consultant at OsloWeb AS since 2022 with React, Next.js, WordPress and Sanity. From Figma design to production, focused on performance, SEO and accessibility.",
       "keywords": [
-        "job as web developer Oslo",
-        "React developer position",
-        "fullstack developer",
-        "frontend developer job",
-        "JavaScript",
-        "career in web design"
+        "webutvikler",
+        "web developer Oslo",
+        "webutvikler Oslo",
+        "web developer experience",
+        "frontend web developer",
+        "React web developer",
+        "web developer consultant",
+        "web designer Oslo",
+        "Next.js developer",
+        "WordPress developer"
       ],
       "openGraph": {
-        "title": "Career of Majid Askarifarsangi",
-        "description": "Explore my professional journey as a web developer in Oslo, from enterprise systems to modern React apps."
+        "title": "Career | Majid Askarifarsangi, Web Developer in Oslo",
+        "description": "Explore my experience as a web developer and web designer in Oslo: React, Next.js, WordPress, Sanity and AI-assisted development."
       }
     },
     "contact": {
