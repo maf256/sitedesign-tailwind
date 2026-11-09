@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { translations, getTranslation } from "@/lang/translations";
+import { BIRTH_DATE, withAge } from "@/lib/age";
 
 const { about } = translations;
 
@@ -91,7 +92,7 @@ export default function About() {
       lang === "en"
         ? "Experienced full-stack developer with over 15 years of professional work, specializing in React.js, Next.js, Node.js, and PostgreSQL."
         : "Erfaren fullstack-utvikler med over 15 år i bransjen, og jobber spesielt med React.js, Next.js, Node.js og PostgreSQL.",
-    birthDate: "1983-03-30",
+    birthDate: BIRTH_DATE,
     address: {
       "@type": "PostalAddress",
       addressLocality: "Sandvika",
@@ -209,7 +210,7 @@ export default function About() {
                     textShadow: "0 1px 0 rgba(255,255,255,0.7)",
                   }}
                 >
-                  {item}
+                  {withAge(item)}
                 </li>
               ))}
             </ul>
