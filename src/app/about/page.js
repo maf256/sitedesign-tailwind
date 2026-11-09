@@ -222,20 +222,14 @@ export default function About() {
                 href={about.certs.resume.url}
                 target="_blank"
                 rel="noopener noreferrer"
+                className="metal-button"
                 style={{
                   display: "block",
                   padding: "7px 14px",
                   fontSize: "18px",
                   fontWeight: "500",
-                  color: "#2d2d2d",
                   textDecoration: "none",
                   borderRadius: "5px",
-                  background:
-                    "linear-gradient(180deg, #e9e9e9 0%, #d1d1d1 100%)",
-                  boxShadow:
-                    "inset 0 1px 0 rgba(255,255,255,0.85), 0 1px 2px rgba(0,0,0,0.18)",
-                  border: "1px solid rgba(0,0,0,0.17)",
-                  textShadow: "0 1px 0 rgba(255,255,255,0.85)",
                   letterSpacing: "-0.01em",
                 }}
               >
@@ -246,20 +240,14 @@ export default function About() {
                 href="https://drive.google.com/file/d/1ik8Ajr50lamXsje0qRqjnsmJIjM2e9Xd/view"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="metal-button"
                 style={{
                   display: "block",
                   padding: "7px 14px",
                   fontSize: "18px",
                   fontWeight: "500",
-                  color: "#2d2d2d",
                   textDecoration: "none",
                   borderRadius: "5px",
-                  background:
-                    "linear-gradient(180deg, #e9e9e9 0%, #d1d1d1 100%)",
-                  boxShadow:
-                    "inset 0 1px 0 rgba(255,255,255,0.85), 0 1px 2px rgba(0,0,0,0.18)",
-                  border: "1px solid rgba(0,0,0,0.17)",
-                  textShadow: "0 1px 0 rgba(255,255,255,0.85)",
                   letterSpacing: "-0.01em",
                 }}
               >
@@ -270,20 +258,14 @@ export default function About() {
                 href="https://drive.google.com/file/d/1Nh8i9QphiozXYRAhtb-X3-OhE2BovEd1/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="metal-button"
                 style={{
                   display: "block",
                   padding: "7px 14px",
                   fontSize: "18px",
                   fontWeight: "500",
-                  color: "#2d2d2d",
                   textDecoration: "none",
                   borderRadius: "5px",
-                  background:
-                    "linear-gradient(180deg, #e9e9e9 0%, #d1d1d1 100%)",
-                  boxShadow:
-                    "inset 0 1px 0 rgba(255,255,255,0.85), 0 1px 2px rgba(0,0,0,0.18)",
-                  border: "1px solid rgba(0,0,0,0.17)",
-                  textShadow: "0 1px 0 rgba(255,255,255,0.85)",
                   letterSpacing: "-0.01em",
                 }}
               >

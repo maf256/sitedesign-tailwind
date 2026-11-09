@@ -7,16 +7,10 @@ const { navbar } = translations;
 export default function Navbar() {
   return (
     <nav
-      className="w-full sticky top-0 z-50"
+      className="w-full sticky top-0 z-50 metal-card"
       role="navigation"
       aria-label="Main navigation"
-      style={{
-        background:
-          "linear-gradient(to bottom, #e8e8e8 0%, #d0d0d0 50%, #c8c8c8 100%)",
-        boxShadow:
-          "0 1px 0 0 rgba(255, 255, 255, 0.8) inset, 0 2px 8px rgba(0, 0, 0, 0.08)",
-        borderBottom: "1px solid #a8a8a8",
-      }}
+      style={{ borderWidth: "0 0 1px 0" }}
     >
       <div className="mx-auto max-w-[900px] px-6 lg:px-0">
         <div className="flex items-center justify-between h-[48px]">
