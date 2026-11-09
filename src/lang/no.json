@@ -72,7 +72,7 @@
     "summery": {
       "title": "Kort om meg",
       "items": [
-        "Jeg heter Majid og er 41 år gammel",
+        "Jeg heter Majid og er {age} år gammel",
         "Jeg bor i Sandvika, Norge",
         "Jeg spesialiserer meg på JavaScript",
         "Jeg har jobbet med JavaScript prosjekter siden 2010",
@@ -196,7 +196,7 @@
       "personalInfo": {
         "title": "Personlig informasjon",
         "items": [
-          { "label": "Alder", "value": "41" },
+          { "label": "Alder", "value": "{age}" },
           { "label": "Sted", "value": "Sandvika, Norge" },
           { "label": "Telefon", "value": "+47 40189111" }
         ]
