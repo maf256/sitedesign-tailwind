@@ -333,7 +333,7 @@
     },
     "what": {
       "title": "Hva gjør en webutvikler?",
-      "description": "En webutvikler lager nettsider og applikasjoner som kjører på internett. Noen fokuserer på det du ser og bruker, andre på det som skjer i bakgrunnen – men sammen får de nettet til å fungere.",
+      "description": "En webutvikler lager nettsider og applikasjoner som kjører på internett. Frontend-utvikling handler om det du ser og bruker, mens backend-utvikling foregår i bakgrunnen – men sammen får de nettet til å fungere.",
       "imageAlt": "Illustrasjon av frontend (nettleservindu med grensesnittselementer) koblet til backend (servere og databaser)",
       "frontend": {
         "title": "Frontend webutvikler: det brukeren ser",
@@ -377,7 +377,7 @@
     "why": {
       "title": "Hvorfor webutviklere er viktige",
       "paragraphs": [
-        "Hvert merke trenger en digital tilstedeværelse. Uten en nettside eller app er du usynlig for mesteparten av målgruppen din.",
+        "Hvert merke trenger en digital tilstedeværelse, og nettsideutvikling er ofte første steg. Uten en nettside eller app er du usynlig for mesteparten av målgruppen din.",
         "En dyktig webutvikler hjelper til med å lage verktøy som ikke bare eksisterer – men som leverer. Det betyr bedre rekkevidde, mer engasjement og sterkere tillit."
       ],
       "points": [
@@ -397,7 +397,7 @@
     },
     "technologies": {
       "title": "Teknologier en moderne webutvikler bruker",
-      "intro": "Verktøyene endrer seg raskt, men noen teknologier har blitt standard for nettsider og webapplikasjoner i Norge. Dette er de jeg bruker mest i jobben som webutvikler i Oslo.",
+      "intro": "Verktøyene endrer seg raskt, men noen teknologier har blitt standard for nettsider og webapplikasjoner i Norge. Dette er de jeg bruker mest i jobben som webutvikler i Oslo, der fullstack-utvikling betyr at både frontend og backend er med.",
       "items": [
         {
           "title": "React: gjenbrukbare komponenter",
@@ -450,7 +450,7 @@
     },
     "employment": {
       "title": "Frilans, konsulent eller fast ansatt?",
-      "intro": "Webutviklere jobber på ulike måter. Hvilken modell som passer best, avhenger av prosjektet, budsjettet og hvor lenge du trenger hjelp.",
+      "intro": "Tjenester for webutvikling kjøpes på ulike måter. Hvilken modell som passer best, avhenger av prosjektet, budsjettet og hvor lenge du trenger hjelp.",
       "options": [
         {
           "title": "Frilans webutvikler: fleksibelt og direkte",
@@ -481,16 +481,16 @@
           "description": "En presentasjonsside med noen få undersider, kontaktskjema og et publiseringsverktøy som WordPress eller Sanity."
         },
         {
-          "title": "Skreddersydd webløsning",
+          "title": "Skreddersydd webutvikling",
           "range": "typisk fra ca. 50 000 kr og oppover",
-          "description": "Nettbutikker, webapplikasjoner og integrasjoner mot andre systemer krever mer planlegging, utvikling og testing."
+          "description": "Utvikling av webapplikasjoner, nettbutikker og integrasjoner mot andre systemer krever mer planlegging, utvikling og testing."
         }
       ],
       "note": "Husk også løpende kostnader til hosting, domene, lisenser og vedlikehold. Be alltid om et skriftlig estimat før prosjektet starter, så vet du hva du betaler for."
     },
     "choose": {
       "title": "Slik velger du riktig webutvikler",
-      "intro": "Enten du ser etter en webutvikler i Oslo eller et annet sted i landet, er det noen enkle spørsmål som skiller de gode fra resten.",
+      "intro": "Enten du leter etter webutviklere nær meg, en webutvikler i Oslo eller et annet sted i landet, er det noen enkle spørsmål som skiller de gode fra resten.",
       "tips": [
         {
           "title": "Se på tidligere prosjekter",

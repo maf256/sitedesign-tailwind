@@ -333,7 +333,7 @@
     },
     "what": {
       "title": "What Does a Web Developer Do?",
-      "description": "A web developer creates websites and applications that run on the internet. Some focus on what you see and use, others focus on what happens in the background—but together, they make the web work.",
+      "description": "A web developer creates websites and applications that run on the internet. Frontend development is about what you see and use, while backend development happens in the background—but together, they make the web work.",
       "imageAlt": "Illustration of frontend (a browser window with interface elements) connected to backend (servers and databases)",
       "frontend": {
         "title": "Frontend web developer: what the user sees",
@@ -377,7 +377,7 @@
     "why": {
       "title": "Why Web Developers Matter",
       "paragraphs": [
-        "Every brand needs a digital presence. Without a website or app, you’re invisible to most of your audience.",
+        "Every brand needs a digital presence, and website development is often the first step. Without a website or app, you’re invisible to most of your audience.",
         "A skilled web developer helps create tools that don’t just exist—they perform. That means better reach, more engagement, and stronger trust."
       ],
       "points": [
@@ -397,7 +397,7 @@
     },
     "technologies": {
       "title": "Technologies a Modern Web Developer Uses",
-      "intro": "Tools change quickly, but some technologies have become the standard for websites and web applications in Norway. These are the ones I use most in my work as a web developer in Oslo.",
+      "intro": "Tools change quickly, but some technologies have become the standard for websites and web applications in Norway. These are the ones I use most in my work as a web developer in Oslo, where full-stack development means both frontend and backend are involved.",
       "items": [
         {
           "title": "React: reusable components",
@@ -450,7 +450,7 @@
     },
     "employment": {
       "title": "Freelancer, Consultant, or Employee?",
-      "intro": "Web developers work in different ways. Which model fits best depends on the project, the budget, and how long you need help.",
+      "intro": "Web development services can be bought in different ways. Which model fits best depends on the project, the budget, and how long you need help.",
       "options": [
         {
           "title": "Freelance web developer: flexible and direct",
@@ -481,16 +481,16 @@
           "description": "A presentation site with a few subpages, a contact form, and a publishing tool such as WordPress or Sanity."
         },
         {
-          "title": "Custom web solution",
+          "title": "Custom web development",
           "range": "typically from approx. NOK 50,000 and up",
-          "description": "Online stores, web applications, and integrations with other systems require more planning, development, and testing."
+          "description": "Web application development, online stores, and integrations with other systems require more planning, development, and testing."
         }
       ],
       "note": "Also remember ongoing costs for hosting, domain, licenses, and maintenance. Always ask for a written estimate before the project starts, so you know what you are paying for."
     },
     "choose": {
       "title": "How to Choose the Right Web Developer",
-      "intro": "Whether you are looking for a web developer in Oslo or elsewhere in the country, a few simple questions separate the good ones from the rest.",
+      "intro": "Whether you are looking for web developers near me, a web developer in Oslo, or one elsewhere in the country, a few simple questions separate the good ones from the rest.",
       "tips": [
         {
           "title": "Look at previous projects",
