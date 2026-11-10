@@ -32,7 +32,7 @@
     "whatIsWebDev": {
       "title": "What is Web Development?",
       "description": "Web development is building applications, services, or sites that run over the web, whether that's consumer-facing websites or backend enterprise systems delivered through web technologies. It can range from creating simple informational pages to developing complex APIs and client-server systems that power entire organizations. At its core, web development is about using the web as the platform for delivering software and connecting people with the tools or information they need.",
-      "readMore": "Read More",
+      "readMore": "What does a web developer (webutvikler) do? Read about the role",
       "frontend": {
         "title": "Frontend Development",
         "description": "Frontend web development is about creating the part of a website or app that people directly use. It shapes how users see, click, type, and move through the interface. Ultimately, it bridges design and user experience into a functional product."
@@ -321,6 +321,11 @@
   },
   "webdeveloper": {
     "breadcrumbHome": "Home",
+    "related": {
+      "careerLink": "See Majid's career and experience as a web developer",
+      "contactLink": "Contact web developer Majid in Oslo",
+      "text": "Want to know more about who is behind this, or need a web developer for your project?"
+    },
     "hero": {
       "title": "Who is a Web Developer?",
       "subtitle": "A web developer is the person who builds the digital layer of today’s world. They turn ideas into websites, apps, and online tools that people use every day."

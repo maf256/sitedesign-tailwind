@@ -32,7 +32,7 @@
     "whatIsWebDev": {
       "title": "Hva er webutvikling?",
       "description": "Webutvikling handler om å lage applikasjoner, tjenester eller nettsider som kjører på nettet, enten det er enkle informasjons­sider eller avanserte systemer brukt av bedrifter. Det kan være alt fra en enkel landingsside til komplekse API-er og klient-server løsninger som støtter hele organisasjoner. Kort sagt: webutvikling handler om å bruke nettet som plattform for programvare og for å koble folk til verktøy og informasjon de trenger.",
-      "readMore": "Les mer",
+      "readMore": "Hva gjør en webutvikler? Les mer om webutvikler-rollen",
       "frontend": {
         "title": "Frontend - webutvikling",
         "description": "Frontend handler om det brukeren ser og bruker direkte. Det bestemmer hvordan man klikker, skriver og beveger seg i en løsning. Her kobles design og brukeropplevelse sammen til et fungerende produkt."
@@ -321,6 +321,11 @@
   },
   "webdeveloper": {
     "breadcrumbHome": "Hjem",
+    "related": {
+      "careerLink": "Se Majids karriere og erfaring som webutvikler",
+      "contactLink": "Kontakt webutvikler Majid i Oslo",
+      "text": "Vil du vite mer om hvem som står bak, eller trenger du en webutvikler til ditt prosjekt?"
+    },
     "hero": {
       "title": "Hvem er en webutvikler?",
       "subtitle": "En webutvikler er personen som bygger det digitale laget i dagens verden. De gjør ideer om til nettsider, apper og nettbaserte verktøy som folk bruker hver dag."

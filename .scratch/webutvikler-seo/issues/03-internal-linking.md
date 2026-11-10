@@ -4,7 +4,7 @@
 
 **Blocked by:** none
 
-**Status:** ready-for-agent
+**Status:** resolved
 
 ## Evidence
 
@@ -12,8 +12,8 @@ Only /career links to the page. The page itself links only to "Back" (/).
 
 ## Acceptance criteria
 
-- [ ] Link from homepage hero or About with anchor text "webutvikler" / "hva gjør en webutvikler"
-- [ ] On-page links to /career and /contact with descriptive anchors
-- [ ] Anchors are not generic ("klikk her")
+- [x] Link from homepage hero or About with anchor text "webutvikler" / "hva gjør en webutvikler"
+- [x] On-page links to /career and /contact with descriptive anchors
+- [x] Anchors are not generic ("klikk her")
 
 ## Comments

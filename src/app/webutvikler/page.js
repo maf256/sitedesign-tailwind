@@ -329,6 +329,34 @@ export default function WebDeveloperPage() {
               ))}
             </div>
           </section>
+
+          <section className="py-16 text-center">
+            <p
+              className="text-lg mb-6"
+              style={{
+                color: "var(--text)",
+                textShadow: "0 1px 0 var(--shine-soft)",
+              }}
+            >
+              {webdeveloper.related.text}
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link
+                href="/career"
+                className="font-medium underline"
+                style={{ color: "var(--primary)" }}
+              >
+                {webdeveloper.related.careerLink}
+              </Link>
+              <Link
+                href="/contact"
+                className="font-medium underline"
+                style={{ color: "var(--primary)" }}
+              >
+                {webdeveloper.related.contactLink}
+              </Link>
+            </div>
+          </section>
         </div>
       </main>
     </>
