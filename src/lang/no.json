@@ -320,6 +320,7 @@
     }
   },
   "webdeveloper": {
+    "breadcrumbLabel": "Brødsmulesti",
     "breadcrumbHome": "Hjem",
     "hero": {
       "title": "Hvem er en webutvikler?",

@@ -1,5 +1,4 @@
 import { translations, getTranslation } from "@/lang/translations";
-import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -125,18 +124,31 @@ export default function WebDeveloperPage() {
         style={{ background: "var(--base-100)" }}
       >
         <div className="mx-auto max-w-5xl px-6 lg:px-8">
-          <div className="pt-8 pb-4">
-            <Link
-              href="/"
-              className="inline-flex items-center gap-2 font-medium"
-              style={{
-                color: "var(--primary)",
-                textShadow: "0 1px 0 var(--shine-soft)",
-              }}
-            >
-              <ArrowLeft size={18} /> Back
-            </Link>
-          </div>
+          <nav aria-label={webdeveloper.breadcrumbLabel} className="pt-8 pb-4">
+            <ol className="flex flex-wrap items-center gap-2 text-sm">
+              <li>
+                <Link
+                  href="/"
+                  className="inline-flex items-center gap-2 font-medium"
+                  style={{
+                    color: "var(--primary)",
+                    textShadow: "0 1px 0 var(--shine-soft)",
+                  }}
+                >
+                  {webdeveloper.breadcrumbHome}
+                </Link>
+              </li>
+              <li aria-hidden="true" style={{ color: "var(--text)" }}>
+                /
+              </li>
+              <li
+                aria-current="page"
+                style={{ color: "var(--text)" }}
+              >
+                {webdeveloper.hero.title}
+              </li>
+            </ol>
+          </nav>
 
           <section className="flex flex-col justify-center py-12 text-center">
             <div className="max-w-4xl mx-auto">
