@@ -160,6 +160,39 @@ export default function WebDeveloperPage() {
             </div>
           </section>
 
+          <section className="py-8">
+            <div className="rounded-lg p-8 text-center metal-card">
+              <h2
+                className="text-3xl font-semibold mb-3"
+                style={{
+                  color: "var(--heading)",
+                  textShadow: "0 1px 1px var(--shine-strong)",
+                }}
+              >
+                {webdeveloper.cta.title}
+              </h2>
+              <p
+                className="text-lg mb-6"
+                style={{
+                  color: "var(--text)",
+                  textShadow: "0 1px 0 var(--shine-soft)",
+                }}
+              >
+                {webdeveloper.cta.description}
+              </p>
+              <Link
+                href="/contact"
+                className="inline-block rounded-lg px-8 py-3 font-semibold metal-button"
+                style={{
+                  color: "var(--primary)",
+                  textShadow: "0 1px 0 var(--shine-soft)",
+                }}
+              >
+                {webdeveloper.cta.button}
+              </Link>
+            </div>
+          </section>
+
           <section className="py-16">
             <div className="rounded-lg p-8 mb-8 metal-card">
               <h2
@@ -329,6 +362,49 @@ export default function WebDeveloperPage() {
               ))}
             </div>
           </section>
+          <section className="py-8">
+            <div className="rounded-lg p-8 text-center metal-card">
+              <h2
+                className="text-3xl font-semibold mb-3"
+                style={{
+                  color: "var(--heading)",
+                  textShadow: "0 1px 1px var(--shine-strong)",
+                }}
+              >
+                {webdeveloper.cta.title}
+              </h2>
+              <p
+                className="text-lg mb-6"
+                style={{
+                  color: "var(--text)",
+                  textShadow: "0 1px 0 var(--shine-soft)",
+                }}
+              >
+                {webdeveloper.cta.description}
+              </p>
+              <Link
+                href="/contact"
+                className="inline-block rounded-lg px-8 py-3 font-semibold metal-button"
+                style={{
+                  color: "var(--primary)",
+                  textShadow: "0 1px 0 var(--shine-soft)",
+                }}
+              >
+                {webdeveloper.cta.button}
+              </Link>
+            </div>
+          </section>
+
+          <p
+            className="text-center pb-16"
+            style={{
+              fontSize: "16px",
+              color: "var(--text)",
+              textShadow: "0 1px 0 var(--shine-soft)",
+            }}
+          >
+            {webdeveloper.author.text}
+          </p>
         </div>
       </main>
     </>

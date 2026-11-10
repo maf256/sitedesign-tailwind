@@ -387,6 +387,15 @@
           "description": "Secure, stable, and well-maintained systems prevent downtime and protect your data."
         }
       ]
+    },
+    "cta": {
+      "title": "Need a web developer in Oslo?",
+      "description": "Get in touch and let's talk about your project.",
+      "button": "Get in touch"
+    },
+    "author": {
+      "name": "Majid Askarifarsangi",
+      "text": "Written by Majid Askarifarsangi, a web developer with over 15 years of experience and a consultant at OsloWeb AS."
     }
   },
   "notFound": {

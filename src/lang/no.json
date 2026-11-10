@@ -387,6 +387,15 @@
           "description": "Sikre, stabile og godt vedlikeholdte systemer forhindrer nedetid og beskytter dataene dine."
         }
       ]
+    },
+    "cta": {
+      "title": "Trenger du en webutvikler i Oslo?",
+      "description": "Ta kontakt, så snakker vi om prosjektet ditt.",
+      "button": "Ta kontakt"
+    },
+    "author": {
+      "name": "Majid Askarifarsangi",
+      "text": "Skrevet av Majid Askarifarsangi, webutvikler med over 15 års erfaring og konsulent hos OsloWeb AS."
     }
   },
   "notFound": {
