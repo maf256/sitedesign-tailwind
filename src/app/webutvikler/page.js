@@ -92,7 +92,7 @@ export default function WebDeveloperPage() {
         // References the Person defined on the homepage (`/#person`)
         // instead of duplicating the profile here.
         author: { "@id": `${base}/#person` },
-        datePublished: "2025-01-01",
+        datePublished: "2025-08-18",
         dateModified: "2026-11-10",
       },
       {
