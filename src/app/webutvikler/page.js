@@ -18,11 +18,11 @@ export function generateMetadata() {
     alternates: {
       canonical:
         lang === "en"
-          ? "https://en.sitedesign.no/webdeveloper"
-          : "https://sitedesign.no/webdeveloper",
+          ? "https://en.sitedesign.no/webutvikler"
+          : "https://sitedesign.no/webutvikler",
       languages: {
-        no: "https://sitedesign.no/webdeveloper",
-        en: "https://en.sitedesign.no/webdeveloper",
+        no: "https://sitedesign.no/webutvikler",
+        en: "https://en.sitedesign.no/webutvikler",
       },
     },
     openGraph: {
@@ -30,8 +30,8 @@ export function generateMetadata() {
       description: seo.openGraph.description,
       url:
         lang === "en"
-          ? "https://en.sitedesign.no/webdeveloper"
-          : "https://sitedesign.no/webdeveloper",
+          ? "https://en.sitedesign.no/webutvikler"
+          : "https://sitedesign.no/webutvikler",
       siteName: "Majid Askarifarsangi - Webutvikler Oslo",
       images: [
         {
