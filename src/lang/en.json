@@ -320,6 +320,7 @@
     }
   },
   "webdeveloper": {
+    "breadcrumbLabel": "Breadcrumb",
     "breadcrumbHome": "Home",
     "hero": {
       "title": "Who is a Web Developer?",
