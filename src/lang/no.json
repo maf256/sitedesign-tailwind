@@ -32,7 +32,7 @@
     "whatIsWebDev": {
       "title": "Hva er webutvikling?",
       "description": "Webutvikling handler om å lage applikasjoner, tjenester eller nettsider som kjører på nettet, enten det er enkle informasjons­sider eller avanserte systemer brukt av bedrifter. Det kan være alt fra en enkel landingsside til komplekse API-er og klient-server løsninger som støtter hele organisasjoner. Kort sagt: webutvikling handler om å bruke nettet som plattform for programvare og for å koble folk til verktøy og informasjon de trenger.",
-      "readMore": "Les mer",
+      "readMore": "Hva gjør en webutvikler? Les mer om webutvikler-rollen",
       "frontend": {
         "title": "Frontend - webutvikling",
         "description": "Frontend handler om det brukeren ser og bruker direkte. Det bestemmer hvordan man klikker, skriver og beveger seg i en løsning. Her kobles design og brukeropplevelse sammen til et fungerende produkt."
@@ -320,7 +320,13 @@
     }
   },
   "webdeveloper": {
+    "breadcrumbLabel": "Brødsmulesti",
     "breadcrumbHome": "Hjem",
+    "related": {
+      "careerLink": "Se Majids karriere og erfaring som webutvikler",
+      "contactLink": "Kontakt webutvikler Majid i Oslo",
+      "text": "Vil du vite mer om hvem som står bak, eller trenger du en webutvikler til ditt prosjekt?"
+    },
     "hero": {
       "title": "Hvem er en webutvikler?",
       "subtitle": "En webutvikler er personen som bygger det digitale laget i dagens verden. De gjør ideer om til nettsider, apper og nettbaserte verktøy som folk bruker hver dag."
@@ -328,12 +334,13 @@
     "what": {
       "title": "Hva gjør en webutvikler?",
       "description": "En webutvikler lager nettsider og applikasjoner som kjører på internett. Noen fokuserer på det du ser og bruker, andre på det som skjer i bakgrunnen – men sammen får de nettet til å fungere.",
+      "imageAlt": "Illustrasjon av frontend (nettleservindu med grensesnittselementer) koblet til backend (servere og databaser)",
       "frontend": {
-        "title": "Frontend webutvikler",
+        "title": "Frontend webutvikler: det brukeren ser",
         "description": "Frontend webutvikler jobber med grensesnittet. De sørger for at alt ser riktig ut, laster raskt, og reagerer når du klikker eller skriver."
       },
       "backend": {
-        "title": "Backend webutvikler",
+        "title": "Backend webutvikler: logikken bak kulissene",
         "description": "Backend webutvikler jobber med den skjulte logikken. De håndterer data, sikkerhet, servere og alt som får systemet til å kjøre pålitelig."
       }
     },
@@ -342,27 +349,27 @@
       "description": "En god utvikler kan ikke bare kode – de forstår hvordan folk bruker nettet og hvordan bedrifter vokser på nett.",
       "items": [
         {
-          "title": "Problemløsning",
+          "title": "Problemløsning i webutvikling",
           "description": "Bryte ned komplekse utfordringer og finne fungerende løsninger."
         },
         {
-          "title": "Designforståelse",
+          "title": "Designforståelse for bedre brukeropplevelse",
           "description": "Å vite hvordan designvalg påvirker brukervennlighet og flyt."
         },
         {
-          "title": "Teknisk tilpasningsevne",
+          "title": "Teknisk tilpasningsevne: rammeverk og webstandarder",
           "description": "Holde seg oppdatert på rammeverk, språk og webstandarder."
         },
         {
-          "title": "Samarbeid",
+          "title": "Samarbeid med designere, kunder og utviklere",
           "description": "Jobbe med designere, kunder og andre utviklere for å realisere ideer."
         },
         {
-          "title": "Ytelsesorientering",
+          "title": "Ytelse, sikkerhet og skalerbarhet",
           "description": "Optimalisere for hastighet, sikkerhet og skalerbarhet."
         },
         {
-          "title": "Brukerfokus",
+          "title": "Brukerfokus i hver nettside",
           "description": "Alltid bygge med sluttbrukerens opplevelse i tankene."
         }
       ]
@@ -375,15 +382,15 @@
       ],
       "points": [
         {
-          "title": "Førsteinntrykk",
+          "title": "Førsteinntrykk: en nettside som holder på besøkende",
           "description": "En besøkendes mening formes på sekunder. God utvikling holder dem engasjert."
         },
         {
-          "title": "Skalerbarhet",
+          "title": "Skalerbar nettside som vokser med virksomheten",
           "description": "Et solid fundament gjør at nettsiden eller appen kan vokse sammen med virksomheten din."
         },
         {
-          "title": "Pålitelighet",
+          "title": "Pålitelig webutvikling uten nedetid",
           "description": "Sikre, stabile og godt vedlikeholdte systemer forhindrer nedetid og beskytter dataene dine."
         }
       ]
@@ -503,6 +510,15 @@
         }
       ],
       "outro": "Lokal tilstedeværelse kan også være en fordel. En webutvikler nær deg kan møte deg ansikt til ansikt, kjenner markedet ditt og er lett å få tak i når noe haster."
+    },
+    "cta": {
+      "title": "Trenger du en webutvikler i Oslo?",
+      "description": "Ta kontakt, så snakker vi om prosjektet ditt.",
+      "button": "Ta kontakt"
+    },
+    "author": {
+      "name": "Majid Askarifarsangi",
+      "text": "Skrevet av Majid Askarifarsangi, webutvikler med over 15 års erfaring og konsulent hos OsloWeb AS."
     }
   },
   "notFound": {
@@ -586,8 +602,8 @@
       }
     },
     "webdeveloper": {
-      "title": "Webutvikler | hvem er en webutvikler?",
-      "description": "Oppdag hva en webutvikler gjør, forskjellen mellom frontend- og backend-utvikling, og de viktigste ferdighetene som trengs for å bygge moderne nettsider og applikasjoner. Lær hvorfor webutviklere er essensielle i dagens digitale verden.",
+      "title": "Hva er en webutvikler? Rolle og ferdigheter | Majid Askarifarsangi",
+      "description": "Lær hva en webutvikler gjør, forskjellen på frontend og backend, og hvilke ferdigheter som trengs for moderne nettsider. Ta kontakt for ditt neste prosjekt!",
       "keywords": [
         "webutvikler",
         "webutvikling",
@@ -602,7 +618,7 @@
         "utvikling av webapplikasjoner"
       ],
       "openGraph": {
-        "title": "Hvem er en webutvikler? | Frontend & Backend forklart",
+        "title": "Hva er en webutvikler? Rolle og ferdigheter | Majid Askarifarsangi",
         "description": "Forstå rollen til en webutvikler, utforsk frontend- og backend-ansvarsområder, oppdag nøkkelferdigheter, og lær hvorfor webutviklere er avgjørende for moderne virksomheter."
       }
     }

@@ -4,7 +4,7 @@
 
 **Blocked by:** none
 
-**Status:** ready-for-agent
+**Status:** resolved
 
 ## Evidence
 
@@ -12,7 +12,7 @@
 
 ## Acceptance criteria
 
-- [ ] "Tilbake" or breadcrumb (Hjem > Webutvikler) in Norwegian, "Back" in English
-- [ ] Text comes from the translation files, not hard-coded
+- [x] "Tilbake" or breadcrumb (Hjem > Webutvikler) in Norwegian, "Back" in English
+- [x] Text comes from the translation files, not hard-coded
 
 ## Comments
