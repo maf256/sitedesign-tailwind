@@ -1,6 +1,7 @@
 import { translations, getTranslation } from "@/lang/translations";
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 const { webdeveloper } = translations;
 
@@ -181,6 +182,15 @@ export default function WebDeveloperPage() {
                 {webdeveloper.what.description}
               </p>
             </div>
+
+            <Image
+              src="/webutvikler-frontend-backend.webp"
+              alt={webdeveloper.what.imageAlt}
+              width={1200}
+              height={670}
+              sizes="(min-width: 1024px) 896px, 100vw"
+              className="w-full h-auto rounded-lg mb-8"
+            />
 
             <div className="grid md:grid-cols-2 gap-6">
               <div className="rounded-lg p-8 metal-button">

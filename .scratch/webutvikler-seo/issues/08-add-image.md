@@ -4,7 +4,7 @@
 
 **Blocked by:** none
 
-**Status:** ready-for-agent
+**Status:** resolved
 
 ## Evidence
 
@@ -12,9 +12,9 @@ Page has no images.
 
 ## Acceptance criteria
 
-- [ ] Image generated (GPT image generation) and saved under `public/`
-- [ ] Optimised size/format, `next/image` with width/height
-- [ ] Norwegian alt text (English on the en site)
-- [ ] Looks right in light and dark mode
+- [x] Image generated (GPT image generation) and saved under `public/`
+- [x] Optimised size/format, `next/image` with width/height
+- [x] Norwegian alt text (English on the en site)
+- [x] Looks right in light and dark mode
 
 ## Comments

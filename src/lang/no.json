@@ -328,6 +328,7 @@
     "what": {
       "title": "Hva gjør en webutvikler?",
       "description": "En webutvikler lager nettsider og applikasjoner som kjører på internett. Noen fokuserer på det du ser og bruker, andre på det som skjer i bakgrunnen – men sammen får de nettet til å fungere.",
+      "imageAlt": "Illustrasjon av frontend (nettleservindu med grensesnittselementer) koblet til backend (servere og databaser)",
       "frontend": {
         "title": "Frontend webutvikler",
         "description": "Frontend webutvikler jobber med grensesnittet. De sørger for at alt ser riktig ut, laster raskt, og reagerer når du klikker eller skriver."
