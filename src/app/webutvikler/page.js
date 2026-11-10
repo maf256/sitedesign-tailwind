@@ -1,6 +1,6 @@
 import { translations, getTranslation } from "@/lang/translations";
-import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 const { webdeveloper } = translations;
 
@@ -18,11 +18,11 @@ export function generateMetadata() {
     alternates: {
       canonical:
         lang === "en"
-          ? "https://en.sitedesign.no/webdeveloper"
-          : "https://sitedesign.no/webdeveloper",
+          ? "https://en.sitedesign.no/webutvikler"
+          : "https://sitedesign.no/webutvikler",
       languages: {
-        no: "https://sitedesign.no/webdeveloper",
-        en: "https://en.sitedesign.no/webdeveloper",
+        no: "https://sitedesign.no/webutvikler",
+        en: "https://en.sitedesign.no/webutvikler",
       },
     },
     openGraph: {
@@ -30,8 +30,8 @@ export function generateMetadata() {
       description: seo.openGraph.description,
       url:
         lang === "en"
-          ? "https://en.sitedesign.no/webdeveloper"
-          : "https://sitedesign.no/webdeveloper",
+          ? "https://en.sitedesign.no/webutvikler"
+          : "https://sitedesign.no/webutvikler",
       siteName: "Majid Askarifarsangi - Webutvikler Oslo",
       images: [
         {
@@ -124,18 +124,31 @@ export default function WebDeveloperPage() {
         style={{ background: "var(--base-100)" }}
       >
         <div className="mx-auto max-w-5xl px-6 lg:px-8">
-          <div className="pt-8 pb-4">
-            <Link
-              href="/"
-              className="inline-flex items-center gap-2 font-medium"
-              style={{
-                color: "var(--primary)",
-                textShadow: "0 1px 0 var(--shine-soft)",
-              }}
-            >
-              <ArrowLeft size={18} /> Back
-            </Link>
-          </div>
+          <nav aria-label={webdeveloper.breadcrumbLabel} className="pt-8 pb-4">
+            <ol className="flex flex-wrap items-center gap-2 text-sm">
+              <li>
+                <Link
+                  href="/"
+                  className="inline-flex items-center gap-2 font-medium"
+                  style={{
+                    color: "var(--primary)",
+                    textShadow: "0 1px 0 var(--shine-soft)",
+                  }}
+                >
+                  {webdeveloper.breadcrumbHome}
+                </Link>
+              </li>
+              <li aria-hidden="true" style={{ color: "var(--text)" }}>
+                /
+              </li>
+              <li
+                aria-current="page"
+                style={{ color: "var(--text)" }}
+              >
+                {webdeveloper.hero.title}
+              </li>
+            </ol>
+          </nav>
 
           <section className="flex flex-col justify-center py-12 text-center">
             <div className="max-w-4xl mx-auto">
@@ -160,6 +173,39 @@ export default function WebDeveloperPage() {
             </div>
           </section>
 
+          <section className="py-8">
+            <div className="rounded-lg p-8 text-center metal-card">
+              <h2
+                className="text-3xl font-semibold mb-3"
+                style={{
+                  color: "var(--heading)",
+                  textShadow: "0 1px 1px var(--shine-strong)",
+                }}
+              >
+                {webdeveloper.cta.title}
+              </h2>
+              <p
+                className="text-lg mb-6"
+                style={{
+                  color: "var(--text)",
+                  textShadow: "0 1px 0 var(--shine-soft)",
+                }}
+              >
+                {webdeveloper.cta.description}
+              </p>
+              <Link
+                href="/contact"
+                className="inline-block rounded-lg px-8 py-3 font-semibold metal-button"
+                style={{
+                  color: "var(--primary)",
+                  textShadow: "0 1px 0 var(--shine-soft)",
+                }}
+              >
+                {webdeveloper.cta.button}
+              </Link>
+            </div>
+          </section>
+
           <section className="py-16">
             <div className="rounded-lg p-8 mb-8 metal-card">
               <h2
@@ -181,6 +227,15 @@ export default function WebDeveloperPage() {
                 {webdeveloper.what.description}
               </p>
             </div>
+
+            <Image
+              src="/webutvikler-frontend-backend.webp"
+              alt={webdeveloper.what.imageAlt}
+              width={1200}
+              height={670}
+              sizes="(min-width: 1024px) 896px, 100vw"
+              className="w-full h-auto rounded-lg mb-8"
+            />
 
             <div className="grid md:grid-cols-2 gap-6">
               <div className="rounded-lg p-8 metal-button">
@@ -357,6 +412,49 @@ export default function WebDeveloperPage() {
               </Link>
             </div>
           </section>
+          <section className="py-8">
+            <div className="rounded-lg p-8 text-center metal-card">
+              <h2
+                className="text-3xl font-semibold mb-3"
+                style={{
+                  color: "var(--heading)",
+                  textShadow: "0 1px 1px var(--shine-strong)",
+                }}
+              >
+                {webdeveloper.cta.title}
+              </h2>
+              <p
+                className="text-lg mb-6"
+                style={{
+                  color: "var(--text)",
+                  textShadow: "0 1px 0 var(--shine-soft)",
+                }}
+              >
+                {webdeveloper.cta.description}
+              </p>
+              <Link
+                href="/contact"
+                className="inline-block rounded-lg px-8 py-3 font-semibold metal-button"
+                style={{
+                  color: "var(--primary)",
+                  textShadow: "0 1px 0 var(--shine-soft)",
+                }}
+              >
+                {webdeveloper.cta.button}
+              </Link>
+            </div>
+          </section>
+
+          <p
+            className="text-center pb-16"
+            style={{
+              fontSize: "16px",
+              color: "var(--text)",
+              textShadow: "0 1px 0 var(--shine-soft)",
+            }}
+          >
+            {webdeveloper.author.text}
+          </p>
         </div>
       </main>
     </>
