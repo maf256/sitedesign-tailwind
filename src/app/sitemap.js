@@ -1,3 +1,5 @@
+import { WEBUTVIKLER_DATE_MODIFIED } from "@/lib/page-dates";
+
 const NO_BASE = "https://sitedesign.no";
 const EN_BASE = "https://en.sitedesign.no";
 
@@ -9,7 +11,7 @@ const LAST_MODIFIED = {
   about: "2026-11-09", // src/app/about/page.js
   career: "2026-11-09", // src/app/career/page.js
   contact: "2026-11-09", // src/app/contact/page.js
-  webutvikler: "2026-11-09", // src/app/webutvikler/page.js
+  webutvikler: WEBUTVIKLER_DATE_MODIFIED, // src/lib/page-dates.js
 };
 
 // One entry per page.

@@ -333,7 +333,7 @@
     },
     "what": {
       "title": "Hva gjør en webutvikler?",
-      "description": "En webutvikler lager nettsider og applikasjoner som kjører på internett. Frontend-utvikling handler om det du ser og bruker, mens backend-utvikling foregår i bakgrunnen – men sammen får de nettet til å fungere.",
+      "description": "En webutvikler lager nettsider og applikasjoner som kjører på internett. Frontend handler om det du ser og bruker, backend foregår i bakgrunnen – sammen får de nettet til å fungere.",
       "imageAlt": "Illustrasjon av frontend (nettleservindu med grensesnittselementer) koblet til backend (servere og databaser)",
       "frontend": {
         "title": "Frontend webutvikler: det brukeren ser",
@@ -397,146 +397,146 @@
     },
     "technologies": {
       "title": "Teknologier en moderne webutvikler bruker",
-      "intro": "Verktøyene endrer seg raskt, men noen teknologier har blitt standard for nettsider og webapplikasjoner i Norge. Dette er de jeg bruker mest i jobben som webutvikler i Oslo, der fullstack-utvikling betyr at både frontend og backend er med.",
+      "intro": "Dette er teknologiene jeg bruker mest som webutvikler i Oslo, der fullstack-utvikling dekker både frontend og backend.",
       "items": [
         {
           "title": "React: gjenbrukbare komponenter",
-          "description": "React er et JavaScript-bibliotek for å bygge brukergrensesnitt av små, gjenbrukbare komponenter. Det gjør store løsninger enklere å vedlikeholde og videreutvikle."
+          "description": "Et JavaScript-bibliotek for brukergrensesnitt bygget av gjenbrukbare komponenter."
         },
         {
           "title": "Next.js: raske og søkemotorvennlige sider",
-          "description": "Next.js bygger på React og legger til serverrendering, statisk generering og ruting. Resultatet er sider som laster raskt, og som Google enkelt kan lese."
+          "description": "Bygger på React med serverrendering og ruting. Sidene laster raskt og er lette for Google å lese."
         },
         {
           "title": "WordPress: velprøvd publiseringsverktøy",
-          "description": "WordPress driver en stor andel av verdens nettsider. Det passer godt når redaktører vil oppdatere innholdet selv, og når budsjettet tilsier en kjent plattform."
+          "description": "Driver en stor andel av verdens nettsider. Passer når redaktører vil oppdatere innholdet selv."
         },
         {
           "title": "Sanity: headless CMS for strukturert innhold",
-          "description": "Sanity skiller innhold fra presentasjon. Redaktørene får et ryddig verktøy, mens utvikleren står fritt til å vise innholdet på nettside, app eller andre kanaler."
+          "description": "Skiller innhold fra presentasjon, så innholdet kan vises på nettside, app eller andre kanaler."
         },
         {
           "title": "Node.js: JavaScript på serveren",
-          "description": "Med Node.js kan backend-logikk, API-er og integrasjoner skrives i samme språk som frontend. Det gir kortere vei fra idé til fungerende løsning."
+          "description": "Backend, API-er og integrasjoner i samme språk som frontend gir kortere vei fra idé til løsning."
         }
       ]
     },
     "become": {
       "title": "Hvordan bli webutvikler?",
-      "intro": "Det finnes ingen enkelt vei inn i yrket. Noen tar en bachelorgrad i informatikk eller webutvikling, andre går fagskole, tar et intensivkurs eller lærer seg alt på egen hånd. Arbeidsgivere er mest opptatt av hva du faktisk kan vise frem.",
+      "intro": "Det finnes ingen enkelt vei inn i yrket: bachelorgrad, fagskole, kurs eller selvstudium. Arbeidsgivere vil se hva du kan vise frem.",
       "steps": [
         {
           "title": "Lær grunnmuren: HTML, CSS og JavaScript",
-          "description": "Alt på nettet bygger på disse tre. Forstå dem godt før du hopper over til rammeverk, så blir resten mye lettere."
+          "description": "Alt på nettet bygger på disse tre. Forstå dem godt før du hopper til rammeverk."
         },
         {
           "title": "Velg ett rammeverk og gå i dybden",
-          "description": "React er blant de mest etterspurte ferdighetene i stillingsannonser for webutviklere. Når du behersker det, er steget over til Next.js kort."
+          "description": "React er blant de mest etterspurte ferdighetene i stillingsannonser, og steget til Next.js er kort."
         },
         {
           "title": "Bygg en portefølje med egne prosjekter",
-          "description": "Ekte prosjekter sier mer enn et vitnemål. Lag en nettside for en venn, en lokal forening eller en egen idé, og legg koden ut på GitHub."
+          "description": "Ekte prosjekter sier mer enn et vitnemål. Lag en nettside for en venn eller forening, og legg koden på GitHub."
         },
         {
           "title": "Lær Git og samarbeid i team",
-          "description": "Versjonskontroll, kodegjennomgang og dialog med designere er en like stor del av jobben som selve kodingen."
+          "description": "Versjonskontroll, kodegjennomgang og dialog med designere er like viktig som selve kodingen."
         },
         {
           "title": "Søk juniorstillinger eller ta små oppdrag",
-          "description": "Juniorstillinger, traineeprogrammer og mindre frilansoppdrag gir verdifull erfaring. Det viktigste er å komme i gang og fortsette å lære."
+          "description": "Juniorstillinger, traineeprogrammer og små frilansoppdrag gir erfaring. Det viktigste er å komme i gang."
         }
       ],
-      "outro": "Selv har jeg jobbet som webutvikler siden 2004, og jeg lærer fortsatt noe nytt hver uke. Yrket belønner nysgjerrighet mer enn noe annet."
+      "outro": "Selv har jeg jobbet som webutvikler siden 2004, og jeg lærer fortsatt noe nytt hver uke."
     },
     "employment": {
       "title": "Frilans, konsulent eller fast ansatt?",
-      "intro": "Tjenester for webutvikling kjøpes på ulike måter. Hvilken modell som passer best, avhenger av prosjektet, budsjettet og hvor lenge du trenger hjelp.",
+      "intro": "Tjenester for webutvikling kjøpes på ulike måter. Hva som passer, avhenger av prosjektet, budsjettet og tidsrammen.",
       "options": [
         {
           "title": "Frilans webutvikler: fleksibelt og direkte",
-          "description": "En frilans webutvikler tar oppdrag for egen regning og fakturerer per time eller per prosjekt. Du får direkte kontakt med den som skriver koden, og ofte lavere kostnader enn hos et stort byrå."
+          "description": "En frilans webutvikler tar oppdrag for egen regning. Du får direkte kontakt og ofte lavere kostnader enn hos et stort byrå."
         },
         {
           "title": "Konsulent: bred erfaring fra mange prosjekter",
-          "description": "En konsulent er ansatt i et konsulentselskap og leies ut til kunder. Selv jobber jeg som konsulent hos OsloWeb AS, der jeg har levert løsninger for alt fra kommuner til teknologiselskaper. Kunden får erfaring og et selskap i ryggen."
+          "description": "En konsulent er ansatt i et konsulentselskap og leies ut til kunder. Selv er jeg konsulent hos OsloWeb AS, med leveranser fra kommuner til teknologiselskaper."
         },
         {
           "title": "Fast ansatt webutvikler: langsiktig eierskap",
-          "description": "En fast ansatt utvikler kjenner produktet og organisasjonen i dybden. Det lønner seg når du har et digitalt produkt som skal videreutvikles kontinuerlig over flere år."
+          "description": "En fast ansatt utvikler kjenner produktet i dybden, noe som lønner seg når det skal videreutvikles over flere år."
         }
       ]
     },
     "price": {
       "title": "Hva koster en webutvikler?",
-      "intro": "Prisen avhenger av omfang, kompleksitet og hvem du leier inn. Tallene under er omtrentlige prisnivåer i det norske markedet, oppgitt eks. mva. De er ment som en pekepinn, ikke som et pristilbud.",
+      "intro": "Prisen avhenger av omfang, kompleksitet og hvem du leier inn. Tallene er omtrentlige prisnivåer i Norge, eks. mva., ikke et pristilbud.",
       "ranges": [
         {
           "title": "Timepris for webutvikler",
           "range": "ca. 800–1 500 kr per time",
-          "description": "Frilansere ligger ofte i den nedre delen av spennet, mens byråer og konsulentselskaper gjerne ligger høyere."
+          "description": "Frilansere ligger ofte lavere, byråer gjerne høyere."
         },
         {
           "title": "Enkel nettside for bedrift",
           "range": "ofte ca. 15 000–50 000 kr",
-          "description": "En presentasjonsside med noen få undersider, kontaktskjema og et publiseringsverktøy som WordPress eller Sanity."
+          "description": "Presentasjonsside med noen undersider, kontaktskjema og et publiseringsverktøy som WordPress eller Sanity."
         },
         {
           "title": "Skreddersydd webutvikling",
           "range": "typisk fra ca. 50 000 kr og oppover",
-          "description": "Utvikling av webapplikasjoner, nettbutikker og integrasjoner mot andre systemer krever mer planlegging, utvikling og testing."
+          "description": "Webapplikasjoner, nettbutikker og integrasjoner krever mer planlegging og testing."
         }
       ],
-      "note": "Husk også løpende kostnader til hosting, domene, lisenser og vedlikehold. Be alltid om et skriftlig estimat før prosjektet starter, så vet du hva du betaler for."
+      "note": "Husk løpende kostnader til hosting, domene, lisenser og vedlikehold, og be om et skriftlig estimat."
     },
     "choose": {
       "title": "Slik velger du riktig webutvikler",
-      "intro": "Enten du leter etter webutviklere nær meg, en webutvikler i Oslo eller et annet sted i landet, er det noen enkle spørsmål som skiller de gode fra resten.",
+      "intro": "Enten du leter etter webutviklere nær meg eller en webutvikler i Oslo, skiller noen enkle spørsmål de gode fra resten.",
       "tips": [
         {
           "title": "Se på tidligere prosjekter",
-          "description": "Be om eksempler på nettsider utvikleren har laget. Sjekk om de laster raskt og fungerer godt på mobil."
+          "description": "Be om eksempler på nettsider utvikleren har laget, og sjekk om de laster raskt og fungerer på mobil."
         },
         {
           "title": "Spør hvorfor, ikke bare hva",
-          "description": "En god webutvikler forklarer hvorfor en teknologi passer for deg, ikke bare hvilket verktøy de selv liker best."
+          "description": "En god webutvikler forklarer hvorfor en teknologi passer for deg, ikke bare hva de liker best."
         },
         {
           "title": "Avklar eierskap og vedlikehold",
-          "description": "Sørg for at du eier koden, domenet og innholdet, og at det finnes en plan for oppdateringer etter lansering."
+          "description": "Sørg for at du eier koden, domenet og innholdet, og at det finnes en plan for oppdateringer."
         },
         {
           "title": "Vurder kommunikasjonen",
-          "description": "Du skal forstå hva som skjer i prosjektet. Svarer utvikleren tydelig og raskt allerede før dere har signert, er det et godt tegn."
+          "description": "Svarer utvikleren tydelig og raskt før dere har signert, er det et godt tegn."
         }
       ],
-      "outro": "Lokal tilstedeværelse kan også være en fordel. En webutvikler nær deg kan møte deg ansikt til ansikt, kjenner markedet ditt og er lett å få tak i når noe haster."
+      "outro": "Lokal tilstedeværelse kan være en fordel. En webutvikler nær deg kan møte deg ansikt til ansikt og er lett å nå når noe haster."
     },
     "faq": {
       "title": "Vanlige spørsmål om webutvikler",
       "items": [
         {
           "question": "Hva gjør en webutvikler?",
-          "answer": "En webutvikler bygger og vedlikeholder nettsider og nettbaserte løsninger. Arbeidet omfatter alt fra det besøkende ser i nettleseren (frontend) til serverne, databasene og logikken bak (backend)."
+          "answer": "En webutvikler bygger og vedlikeholder nettsider og nettbaserte løsninger, fra det besøkende ser (frontend) til serverne, databasene og logikken bak (backend)."
         },
         {
           "question": "Hva er forskjellen på frontend og backend?",
-          "answer": "Frontend er den delen av en nettside brukeren ser og samhandler med, som layout, knapper og skjemaer. Backend er det som skjer bak kulissene, som lagring av data, innlogging og integrasjoner med andre systemer."
+          "answer": "Frontend er det brukeren ser og bruker, som layout, knapper og skjemaer. Backend er det som skjer bak kulissene, som datalagring, innlogging og integrasjoner."
         },
         {
           "question": "Hva koster det å hyre en webutvikler?",
-          "answer": "Timeprisen for en webutvikler i Norge ligger ofte på ca. 800–1 500 kr eks. mva., avhengig av erfaring og om du hyrer frilanser eller byrå. En enkel bedriftsside koster gjerne fra ca. 15 000 kr, mens større løsninger koster mer."
+          "answer": "Timeprisen i Norge ligger ofte på ca. 800–1 500 kr eks. mva., avhengig av erfaring og om du hyrer frilanser eller byrå. En enkel bedriftsside koster gjerne fra ca. 15 000 kr, større løsninger mer."
         },
         {
           "question": "Hvilke ferdigheter trenger en webutvikler?",
-          "answer": "Kjernen er HTML, CSS og JavaScript. Mange bruker i tillegg rammeverk som React og Next.js, og kunnskap om databaser, API-er, versjonskontroll, ytelse og universell utforming er viktig."
+          "answer": "Kjernen er HTML, CSS og JavaScript. Mange bruker også React og Next.js, og kunnskap om databaser, API-er, versjonskontroll, ytelse og universell utforming er viktig."
         },
         {
           "question": "Hvordan velger jeg riktig webutvikler?",
-          "answer": "Se på tidligere prosjekter, spør hvorfor en teknologi passer for deg, avklar eierskap til kode og domene, og vurder hvor tydelig og raskt utvikleren kommuniserer."
+          "answer": "Se på tidligere prosjekter, spør hvorfor en teknologi passer, avklar eierskap til kode og domene, og vurder hvor tydelig utvikleren kommuniserer."
         },
         {
           "question": "Jobber du som webutvikler i Oslo?",
-          "answer": "Ja, Majid Askarifarsangi er webutvikler i Oslo og tar oppdrag for kunder både lokalt og andre steder i landet. Ta kontakt for en uforpliktende prat om prosjektet ditt."
+          "answer": "Ja, Majid Askarifarsangi er webutvikler i Oslo og tar oppdrag lokalt og ellers i landet. Ta kontakt for en uforpliktende prat."
         }
       ]
     },
@@ -648,7 +648,7 @@
       ],
       "openGraph": {
         "title": "Hva er en webutvikler? Rolle og ferdigheter | Majid Askarifarsangi",
-        "description": "Forstå rollen til en webutvikler, utforsk frontend- og backend-ansvarsområder, oppdag nøkkelferdigheter, og lær hvorfor webutviklere er avgjørende for moderne virksomheter."
+        "description": "Lær hva en webutvikler gjør, forskjellen på frontend og backend, og hvilke ferdigheter som trengs. Ta kontakt for ditt neste prosjekt!"
       }
     }
   }

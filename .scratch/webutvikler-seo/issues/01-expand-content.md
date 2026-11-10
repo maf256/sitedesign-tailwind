@@ -18,4 +18,4 @@ Page has about 300 words and reads like a dictionary entry. Top results for the 
 
 ## Comments
 
-- Resolved: `webdeveloper.{technologies,become,employment,price,choose}` added (~1080 words total in `webdeveloper.*`, no.json). Rendered by `ExtendedContentSections` in `src/app/webutvikler/page.js`, below the existing sections. Prices are hedged as approximate, ex. VAT. "frilans webutvikler", "webutvikler i Oslo" and "webutvikler nær deg" each appear once, naturally (ticket 09 can build on this). There is no FAQ yet (ticket 04).
+- Resolved: `webdeveloper.{technologies,become,employment,price,choose}` added (about 1170 words total in `webdeveloper.*` in no.json, about 1190 in en.json; counted by whitespace split over all strings, trimmed to stay within 1200). Rendered by `ArticleSections` in `src/app/webutvikler/page.js`, below the existing sections. Prices are hedged as approximate, ex. VAT. "frilans webutvikler", "webutvikler i Oslo" and "webutvikler nær deg" each appear once, naturally (ticket 09 can build on this). There is no FAQ yet (ticket 04).

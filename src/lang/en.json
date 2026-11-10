@@ -325,16 +325,16 @@
     "related": {
       "careerLink": "See Majid's career and experience as a web developer",
       "contactLink": "Contact web developer Majid in Oslo",
-      "text": "Want to know more about who is behind this, or need a web developer for your project?"
+      "text": "Want to know who is behind this, or need a web developer for your project?"
     },
     "hero": {
       "title": "Who is a Web Developer?",
-      "subtitle": "A web developer is the person who builds the digital layer of today’s world. They turn ideas into websites, apps, and online tools that people use every day."
+      "subtitle": "A web developer builds the digital layer of today’s world, turning ideas into websites, apps, and online tools people use every day."
     },
     "what": {
       "title": "What Does a Web Developer Do?",
-      "description": "A web developer creates websites and applications that run on the internet. Frontend development is about what you see and use, while backend development happens in the background—but together, they make the web work.",
-      "imageAlt": "Illustration of frontend (a browser window with interface elements) connected to backend (servers and databases)",
+      "description": "A web developer creates websites and applications that run on the internet. Frontend is what you see and use, backend runs in the background—together, they make the web work.",
+      "imageAlt": "Frontend (a browser window with interface elements) connected to backend (servers and databases)",
       "frontend": {
         "title": "Frontend web developer: what the user sees",
         "description": "Frontend developers work on the interface. They make sure everything looks right, loads fast, and reacts when you click or type."
@@ -362,11 +362,11 @@
         },
         {
           "title": "Collaboration with designers, clients and developers",
-          "description": "Working with designers, clients, and other developers to bring ideas to life."
+          "description": "Working with designers, clients, and developers."
         },
         {
           "title": "Performance, security and scalability",
-          "description": "Optimizing for speed, security, and scalability."
+          "description": "Optimizing for speed and security."
         },
         {
           "title": "User focus in every website",
@@ -377,166 +377,166 @@
     "why": {
       "title": "Why Web Developers Matter",
       "paragraphs": [
-        "Every brand needs a digital presence, and website development is often the first step. Without a website or app, you’re invisible to most of your audience.",
-        "A skilled web developer helps create tools that don’t just exist—they perform. That means better reach, more engagement, and stronger trust."
+        "Every brand needs a digital presence, and a website is often the first step. Without one, you’re invisible to most of your audience.",
+        "A skilled web developer helps create tools that don’t just exist—they perform: better reach, more engagement, stronger trust."
       ],
       "points": [
         {
           "title": "First impressions: a website that keeps visitors",
-          "description": "A visitor’s opinion forms in seconds. Good development keeps them engaged."
+          "description": "Opinions form in seconds. Good development keeps visitors engaged."
         },
         {
           "title": "A scalable website that grows with your business",
-          "description": "A strong foundation allows your site or app to grow with your business."
+          "description": "A strong foundation lets your site or app grow with your business."
         },
         {
           "title": "A reliable website with minimal downtime",
-          "description": "Secure, stable, and well-maintained systems prevent downtime and protect your data."
+          "description": "Secure, stable, well-maintained systems prevent downtime and protect your data."
         }
       ]
     },
     "technologies": {
       "title": "Technologies a Modern Web Developer Uses",
-      "intro": "Tools change quickly, but some technologies have become the standard for websites and web applications in Norway. These are the ones I use most in my work as a web developer in Oslo, where full-stack development means both frontend and backend are involved.",
+      "intro": "My most-used technologies as a web developer in Oslo, where full-stack development covers both frontend and backend.",
       "items": [
         {
           "title": "React: reusable components",
-          "description": "React is a JavaScript library for building user interfaces from small, reusable components. It makes large solutions easier to maintain and develop further."
+          "description": "A JavaScript library for interfaces built from reusable components."
         },
         {
           "title": "Next.js: fast, search-friendly pages",
-          "description": "Next.js builds on React and adds server rendering, static generation, and routing. The result is pages that load fast and that Google can read easily."
+          "description": "Builds on React with server rendering and routing. Pages load fast and are easy for Google to read."
         },
         {
           "title": "WordPress: a proven publishing tool",
-          "description": "WordPress powers a large share of the world's websites. It is a good fit when editors want to update content themselves and the budget calls for a well-known platform."
+          "description": "Powers a large share of the world's websites. Fits when editors want to update content themselves."
         },
         {
           "title": "Sanity: headless CMS for structured content",
-          "description": "Sanity separates content from presentation. Editors get a tidy tool, while the developer is free to show the content on a website, an app, or other channels."
+          "description": "Separates content from presentation, so it can be shown on a website, an app, or other channels."
         },
         {
           "title": "Node.js: JavaScript on the server",
-          "description": "With Node.js, backend logic, APIs, and integrations can be written in the same language as the frontend. That shortens the path from idea to working solution."
+          "description": "Backend, APIs, and integrations in the same language as the frontend."
         }
       ]
     },
     "become": {
       "title": "How Do You Become a Web Developer?",
-      "intro": "There is no single path into the profession. Some take a bachelor's degree in computer science or web development, others attend vocational college, take an intensive course, or teach themselves everything. Employers care most about what you can actually show.",
+      "intro": "There is no single path in: a degree, vocational college, a course, or self-study. Employers want to see what you can show.",
       "steps": [
         {
           "title": "Learn the foundation: HTML, CSS, and JavaScript",
-          "description": "Everything on the web is built on these three. Understand them well before jumping to frameworks, and the rest becomes much easier."
+          "description": "Everything on the web builds on these three. Learn them well before frameworks."
         },
         {
           "title": "Pick one framework and go deep",
-          "description": "React is among the most requested skills in web developer job listings. Once you master it, the step to Next.js is short."
+          "description": "React is among the most requested skills in job listings; Next.js is a short step from there."
         },
         {
           "title": "Build a portfolio of your own projects",
-          "description": "Real projects say more than a diploma. Build a website for a friend, a local club, or an idea of your own, and publish the code on GitHub."
+          "description": "Real projects say more than a diploma. Build a site for a friend and publish the code on GitHub."
         },
         {
           "title": "Learn Git and teamwork",
-          "description": "Version control, code review, and dialogue with designers are as much a part of the job as the coding itself."
+          "description": "Version control, code review, and working with designers matter as much as coding."
         },
         {
           "title": "Apply for junior roles or take small gigs",
-          "description": "Junior positions, trainee programs, and smaller freelance gigs give valuable experience. The most important thing is to get started and keep learning."
+          "description": "Junior roles, trainee programs, and small freelance gigs give experience. The key is to start."
         }
       ],
-      "outro": "I have worked as a web developer since 2004 myself, and I still learn something new every week. The profession rewards curiosity more than anything else."
+      "outro": "I have worked as a web developer since 2004 and still learn something new every week."
     },
     "employment": {
       "title": "Freelancer, Consultant, or Employee?",
-      "intro": "Web development services can be bought in different ways. Which model fits best depends on the project, the budget, and how long you need help.",
+      "intro": "Web development can be bought in different ways. What fits depends on project, budget, and timeframe.",
       "options": [
         {
           "title": "Freelance web developer: flexible and direct",
-          "description": "A freelance web developer takes on work on their own account and bills by the hour or per project. You get direct contact with the person writing the code, and often lower costs than with a large agency."
+          "description": "A freelancer works on their own account. You get direct contact and often lower costs than at a large agency."
         },
         {
           "title": "Consultant: broad experience from many projects",
-          "description": "A consultant is employed by a consultancy and hired out to clients. I work as a consultant at OsloWeb AS myself, where I have delivered solutions for everything from municipalities to tech companies. The client gets experience and a company behind it."
+          "description": "A consultant is employed by a consultancy and hired out to clients. I consult at OsloWeb AS, delivering for municipalities and tech companies."
         },
         {
           "title": "In-house web developer: long-term ownership",
-          "description": "An in-house developer knows the product and the organization in depth. It pays off when you have a digital product that will be developed continuously over several years."
+          "description": "An in-house developer knows the product in depth, which pays off long-term."
         }
       ]
     },
     "price": {
       "title": "How Much Does a Web Developer Cost?",
-      "intro": "The price depends on scope, complexity, and who you hire. The figures below are approximate price levels in the Norwegian market, excluding VAT. They are meant as a guideline, not as a quote.",
+      "intro": "Price depends on scope, complexity, and who you hire. These are approximate Norwegian price levels, excluding VAT, not a quote.",
       "ranges": [
         {
           "title": "Hourly rate for a web developer",
           "range": "approx. NOK 800–1,500 per hour",
-          "description": "Freelancers are often at the lower end of the range, while agencies and consultancies tend to be higher."
+          "description": "Freelancers are often lower, agencies higher."
         },
         {
           "title": "Simple business website",
           "range": "often approx. NOK 15,000–50,000",
-          "description": "A presentation site with a few subpages, a contact form, and a publishing tool such as WordPress or Sanity."
+          "description": "A presentation site with a few subpages, a contact form, and a publishing tool such as WordPress."
         },
         {
           "title": "Custom web development",
           "range": "typically from approx. NOK 50,000 and up",
-          "description": "Web application development, online stores, and integrations with other systems require more planning, development, and testing."
+          "description": "Web applications, online stores, and integrations require more planning and testing."
         }
       ],
-      "note": "Also remember ongoing costs for hosting, domain, licenses, and maintenance. Always ask for a written estimate before the project starts, so you know what you are paying for."
+      "note": "Remember ongoing costs for hosting, domain, licenses, and maintenance. Ask for a written estimate."
     },
     "choose": {
       "title": "How to Choose the Right Web Developer",
-      "intro": "Whether you are looking for web developers near me, a web developer in Oslo, or one elsewhere in the country, a few simple questions separate the good ones from the rest.",
+      "intro": "Whether you want web developers near me or a web developer in Oslo, a few questions separate the good from the rest.",
       "tips": [
         {
           "title": "Look at previous projects",
-          "description": "Ask for examples of websites the developer has built. Check whether they load fast and work well on mobile."
+          "description": "Ask for examples of sites the developer has built. Check that they load fast and work on mobile."
         },
         {
           "title": "Ask why, not just what",
-          "description": "A good web developer explains why a technology suits you, not just which tool they personally like best."
+          "description": "A good web developer explains why a technology suits you, not just what they prefer."
         },
         {
           "title": "Clarify ownership and maintenance",
-          "description": "Make sure you own the code, the domain, and the content, and that there is a plan for updates after launch."
+          "description": "Make sure you own the code, domain, and content, and that updates are planned."
         },
         {
           "title": "Judge the communication",
-          "description": "You should understand what is happening in the project. If the developer answers clearly and quickly even before you have signed, that is a good sign."
+          "description": "Clear, quick answers before you sign are a good sign."
         }
       ],
-      "outro": "Being local can also be an advantage. A web developer near you can meet you face to face, knows your market, and is easy to reach when something is urgent."
+      "outro": "Being local helps. A web developer near you can meet face to face and is easy to reach when something is urgent."
     },
     "faq": {
       "title": "Frequently asked questions about web developers",
       "items": [
         {
           "question": "What does a web developer do?",
-          "answer": "A web developer builds and maintains websites and web-based solutions. The work covers everything from what visitors see in the browser (frontend) to the servers, databases and logic behind it (backend)."
+          "answer": "A web developer builds and maintains websites and web solutions, from what visitors see (frontend) to the servers, databases and logic behind it (backend)."
         },
         {
           "question": "What is the difference between frontend and backend?",
-          "answer": "Frontend is the part of a website users see and interact with, such as layout, buttons and forms. Backend is what happens behind the scenes, such as data storage, login and integrations with other systems."
+          "answer": "Frontend is what users see and use: layout, buttons and forms. Backend is behind the scenes: data storage, login and integrations."
         },
         {
           "question": "How much does it cost to hire a web developer?",
-          "answer": "Hourly rates for a web developer in Norway are often around NOK 800–1,500 excl. VAT, depending on experience and whether you hire a freelancer or an agency. A simple business website typically starts from around NOK 15,000, while larger solutions cost more."
+          "answer": "Hourly rates in Norway are often around NOK 800–1,500 excl. VAT, depending on experience and whether you hire a freelancer or an agency. A simple business website typically starts around NOK 15,000; larger solutions cost more."
         },
         {
           "question": "What skills does a web developer need?",
-          "answer": "The core is HTML, CSS and JavaScript. Many also use frameworks such as React and Next.js, and knowledge of databases, APIs, version control, performance and accessibility is important."
+          "answer": "The core is HTML, CSS and JavaScript. Many also use React and Next.js, and databases, APIs, version control, performance and accessibility matter."
         },
         {
           "question": "How do I choose the right web developer?",
-          "answer": "Look at previous projects, ask why a technology suits you, clarify ownership of code and domain, and consider how clearly and quickly the developer communicates."
+          "answer": "Look at previous projects, ask why a technology suits you, clarify ownership of code and domain, and judge how clearly the developer communicates."
         },
         {
           "question": "Do you work as a web developer in Oslo?",
-          "answer": "Yes, Majid Askarifarsangi is a web developer in Oslo and takes on clients both locally and elsewhere in the country. Get in touch for a no-obligation chat about your project."
+          "answer": "Yes, Majid Askarifarsangi is a web developer in Oslo and works with clients locally and nationwide. Get in touch for a no-obligation chat."
         }
       ]
     },
@@ -547,7 +547,7 @@
     },
     "author": {
       "name": "Majid Askarifarsangi",
-      "text": "Written by Majid Askarifarsangi, a web developer with over 15 years of experience and a consultant at OsloWeb AS."
+      "text": "Written by Majid Askarifarsangi, a web developer with over 15 years of experience and consultant at OsloWeb AS."
     }
   },
   "notFound": {
@@ -648,7 +648,7 @@
       ],
       "openGraph": {
         "title": "What is a web developer? Role and skills | Majid Askarifarsangi",
-        "description": "Understand the role of a web developer, explore frontend and backend responsibilities, discover key skills, and learn why web developers are vital for modern businesses."
+        "description": "Learn what a web developer does, frontend vs backend, and the key skills needed. Contact me for your next project!"
       }
     }
   }

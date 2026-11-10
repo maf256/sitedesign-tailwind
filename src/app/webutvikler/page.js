@@ -1,6 +1,7 @@
 import { translations, getTranslation } from "@/lang/translations";
 import Link from "next/link";
 import Image from "next/image";
+import { WEBUTVIKLER_DATE_MODIFIED } from "@/lib/page-dates";
 
 const { webdeveloper } = translations;
 
@@ -93,7 +94,7 @@ export default function WebDeveloperPage() {
         // instead of duplicating the profile here.
         author: { "@id": `${base}/#person` },
         datePublished: "2025-08-18",
-        dateModified: "2026-11-10",
+        dateModified: WEBUTVIKLER_DATE_MODIFIED,
       },
       {
         "@type": "FAQPage",
@@ -183,38 +184,7 @@ export default function WebDeveloperPage() {
             </div>
           </section>
 
-          <section className="py-8">
-            <div className="rounded-lg p-8 text-center metal-card">
-              <h2
-                className="text-3xl font-semibold mb-3"
-                style={{
-                  color: "var(--heading)",
-                  textShadow: "0 1px 1px var(--shine-strong)",
-                }}
-              >
-                {webdeveloper.cta.title}
-              </h2>
-              <p
-                className="text-lg mb-6"
-                style={{
-                  color: "var(--text)",
-                  textShadow: "0 1px 0 var(--shine-soft)",
-                }}
-              >
-                {webdeveloper.cta.description}
-              </p>
-              <Link
-                href="/contact"
-                className="inline-block rounded-lg px-8 py-3 font-semibold metal-button"
-                style={{
-                  color: "var(--primary)",
-                  textShadow: "0 1px 0 var(--shine-soft)",
-                }}
-              >
-                {webdeveloper.cta.button}
-              </Link>
-            </div>
-          </section>
+          <CtaCard />
 
           <section className="py-16">
             <div className="rounded-lg p-8 mb-8 metal-card">
@@ -395,26 +365,17 @@ export default function WebDeveloperPage() {
             </div>
           </section>
 
-          <ExtendedContentSections />
+          <ArticleSections />
 
           <section className="py-16">
-            <h2
-              className="text-4xl font-semibold mb-8 text-center"
-              style={headingStyle}
-            >
+            <SectionHeading className="mb-8 text-center">
               {webdeveloper.faq.title}
-            </h2>
+            </SectionHeading>
             <div className="space-y-4">
               {webdeveloper.faq.items.map((item) => (
-                <div key={item.question} className="rounded-lg p-6 metal-button">
-                  <h3
-                    className="font-semibold mb-2"
-                    style={{ fontSize: "18px", ...headingStyle }}
-                  >
-                    {item.question}
-                  </h3>
+                <InfoCard key={item.question} title={item.question}>
                   <CardText>{item.answer}</CardText>
-                </div>
+                </InfoCard>
               ))}
             </div>
           </section>
@@ -446,38 +407,7 @@ export default function WebDeveloperPage() {
               </Link>
             </div>
           </section>
-          <section className="py-8">
-            <div className="rounded-lg p-8 text-center metal-card">
-              <h2
-                className="text-3xl font-semibold mb-3"
-                style={{
-                  color: "var(--heading)",
-                  textShadow: "0 1px 1px var(--shine-strong)",
-                }}
-              >
-                {webdeveloper.cta.title}
-              </h2>
-              <p
-                className="text-lg mb-6"
-                style={{
-                  color: "var(--text)",
-                  textShadow: "0 1px 0 var(--shine-soft)",
-                }}
-              >
-                {webdeveloper.cta.description}
-              </p>
-              <Link
-                href="/contact"
-                className="inline-block rounded-lg px-8 py-3 font-semibold metal-button"
-                style={{
-                  color: "var(--primary)",
-                  textShadow: "0 1px 0 var(--shine-soft)",
-                }}
-              >
-                {webdeveloper.cta.button}
-              </Link>
-            </div>
-          </section>
+          <CtaCard />
 
           <p
             className="text-center pb-16"
@@ -495,8 +425,7 @@ export default function WebDeveloperPage() {
   );
 }
 
-// Ticket 01: extended informational + commercial content.
-// Kept as separate components so other page sections can change independently.
+// Shared styles and small components for the article sections below.
 const headingStyle = {
   color: "var(--heading)",
   textShadow: "0 1px 1px var(--shine-strong)",
@@ -519,15 +448,29 @@ function SectionIntro({ title, intro }) {
   );
 }
 
+function SectionHeading({ className = "mb-6", children }) {
+  return (
+    <h2 className={`text-4xl font-semibold ${className}`} style={headingStyle}>
+      {children}
+    </h2>
+  );
+}
+
+function CardTitle({ className = "mb-2", children }) {
+  return (
+    <h3
+      className={`font-semibold ${className}`}
+      style={{ fontSize: "18px", ...headingStyle }}
+    >
+      {children}
+    </h3>
+  );
+}
+
 function InfoCard({ title, children }) {
   return (
     <div className="rounded-lg p-6 metal-button">
-      <h3
-        className="font-semibold mb-2"
-        style={{ fontSize: "18px", ...headingStyle }}
-      >
-        {title}
-      </h3>
+      <CardTitle>{title}</CardTitle>
       {children}
     </div>
   );
@@ -537,7 +480,7 @@ function CardText({ children }) {
   return <p style={{ fontSize: "16px", ...textStyle }}>{children}</p>;
 }
 
-function ExtendedContentSections() {
+function ArticleSections() {
   const { technologies, become, employment, price, choose } = webdeveloper;
 
   return (
@@ -555,9 +498,7 @@ function ExtendedContentSections() {
 
       <section className="py-16">
         <div className="rounded-lg p-8 metal-card">
-          <h2 className="text-4xl font-semibold mb-6" style={headingStyle}>
-            {become.title}
-          </h2>
+          <SectionHeading>{become.title}</SectionHeading>
           <p className="text-lg leading-relaxed mb-8" style={textStyle}>
             {become.intro}
           </p>
@@ -572,12 +513,7 @@ function ExtendedContentSections() {
                   {idx + 1}
                 </span>
                 <div>
-                  <h3
-                    className="font-semibold mb-1"
-                    style={{ fontSize: "18px", ...headingStyle }}
-                  >
-                    {step.title}
-                  </h3>
+                  <CardTitle className="mb-1">{step.title}</CardTitle>
                   <CardText>{step.description}</CardText>
                 </div>
               </li>
@@ -622,9 +558,7 @@ function ExtendedContentSections() {
 
       <section className="py-16">
         <div className="rounded-lg p-8 mb-8 metal-card">
-          <h2 className="text-4xl font-semibold mb-6" style={headingStyle}>
-            {choose.title}
-          </h2>
+          <SectionHeading>{choose.title}</SectionHeading>
           <p className="text-lg leading-relaxed" style={textStyle}>
             {choose.intro}
           </p>
@@ -641,5 +575,30 @@ function ExtendedContentSections() {
         </p>
       </section>
     </>
+  );
+}
+
+function CtaCard() {
+  return (
+    <section className="py-8">
+      <div className="rounded-lg p-8 text-center metal-card">
+        <h2 className="text-3xl font-semibold mb-3" style={headingStyle}>
+          {webdeveloper.cta.title}
+        </h2>
+        <p className="text-lg mb-6" style={textStyle}>
+          {webdeveloper.cta.description}
+        </p>
+        <Link
+          href="/contact"
+          className="inline-block rounded-lg px-8 py-3 font-semibold metal-button"
+          style={{
+            color: "var(--primary)",
+            textShadow: "0 1px 0 var(--shine-soft)",
+          }}
+        >
+          {webdeveloper.cta.button}
+        </Link>
+      </div>
+    </section>
   );
 }
