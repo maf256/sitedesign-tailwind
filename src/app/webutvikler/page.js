@@ -92,6 +92,16 @@ export default function WebDeveloperPage() {
         // References the Person defined on the homepage (`/#person`)
         // instead of duplicating the profile here.
         author: { "@id": `${base}/#person` },
+        datePublished: "2025-01-01",
+        dateModified: "2026-11-10",
+      },
+      {
+        "@type": "FAQPage",
+        mainEntity: webdeveloper.faq.items.map((item) => ({
+          "@type": "Question",
+          name: item.question,
+          acceptedAnswer: { "@type": "Answer", text: item.answer },
+        })),
       },
       {
         "@type": "BreadcrumbList",
@@ -386,6 +396,28 @@ export default function WebDeveloperPage() {
           </section>
 
           <ExtendedContentSections />
+
+          <section className="py-16">
+            <h2
+              className="text-4xl font-semibold mb-8 text-center"
+              style={headingStyle}
+            >
+              {webdeveloper.faq.title}
+            </h2>
+            <div className="space-y-4">
+              {webdeveloper.faq.items.map((item) => (
+                <div key={item.question} className="rounded-lg p-6 metal-button">
+                  <h3
+                    className="font-semibold mb-2"
+                    style={{ fontSize: "18px", ...headingStyle }}
+                  >
+                    {item.question}
+                  </h3>
+                  <CardText>{item.answer}</CardText>
+                </div>
+              ))}
+            </div>
+          </section>
 
           <section className="py-16 text-center">
             <p

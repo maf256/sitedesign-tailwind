@@ -511,6 +511,35 @@
       ],
       "outro": "Being local can also be an advantage. A web developer near you can meet you face to face, knows your market, and is easy to reach when something is urgent."
     },
+    "faq": {
+      "title": "Frequently asked questions about web developers",
+      "items": [
+        {
+          "question": "What does a web developer do?",
+          "answer": "A web developer builds and maintains websites and web-based solutions. The work covers everything from what visitors see in the browser (frontend) to the servers, databases and logic behind it (backend)."
+        },
+        {
+          "question": "What is the difference between frontend and backend?",
+          "answer": "Frontend is the part of a website users see and interact with, such as layout, buttons and forms. Backend is what happens behind the scenes, such as data storage, login and integrations with other systems."
+        },
+        {
+          "question": "How much does it cost to hire a web developer?",
+          "answer": "Hourly rates for a web developer in Norway are often around NOK 800–1,500 excl. VAT, depending on experience and whether you hire a freelancer or an agency. A simple business website typically starts from around NOK 15,000, while larger solutions cost more."
+        },
+        {
+          "question": "What skills does a web developer need?",
+          "answer": "The core is HTML, CSS and JavaScript. Many also use frameworks such as React and Next.js, and knowledge of databases, APIs, version control, performance and accessibility is important."
+        },
+        {
+          "question": "How do I choose the right web developer?",
+          "answer": "Look at previous projects, ask why a technology suits you, clarify ownership of code and domain, and consider how clearly and quickly the developer communicates."
+        },
+        {
+          "question": "Do you work as a web developer in Oslo?",
+          "answer": "Yes, Majid Askarifarsangi is a web developer in Oslo and takes on clients both locally and elsewhere in the country. Get in touch for a no-obligation chat about your project."
+        }
+      ]
+    },
     "cta": {
       "title": "Need a web developer in Oslo?",
       "description": "Get in touch and let's talk about your project.",

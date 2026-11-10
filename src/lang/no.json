@@ -511,6 +511,35 @@
       ],
       "outro": "Lokal tilstedeværelse kan også være en fordel. En webutvikler nær deg kan møte deg ansikt til ansikt, kjenner markedet ditt og er lett å få tak i når noe haster."
     },
+    "faq": {
+      "title": "Vanlige spørsmål om webutvikler",
+      "items": [
+        {
+          "question": "Hva gjør en webutvikler?",
+          "answer": "En webutvikler bygger og vedlikeholder nettsider og nettbaserte løsninger. Arbeidet omfatter alt fra det besøkende ser i nettleseren (frontend) til serverne, databasene og logikken bak (backend)."
+        },
+        {
+          "question": "Hva er forskjellen på frontend og backend?",
+          "answer": "Frontend er den delen av en nettside brukeren ser og samhandler med, som layout, knapper og skjemaer. Backend er det som skjer bak kulissene, som lagring av data, innlogging og integrasjoner med andre systemer."
+        },
+        {
+          "question": "Hva koster det å hyre en webutvikler?",
+          "answer": "Timeprisen for en webutvikler i Norge ligger ofte på ca. 800–1 500 kr eks. mva., avhengig av erfaring og om du hyrer frilanser eller byrå. En enkel bedriftsside koster gjerne fra ca. 15 000 kr, mens større løsninger koster mer."
+        },
+        {
+          "question": "Hvilke ferdigheter trenger en webutvikler?",
+          "answer": "Kjernen er HTML, CSS og JavaScript. Mange bruker i tillegg rammeverk som React og Next.js, og kunnskap om databaser, API-er, versjonskontroll, ytelse og universell utforming er viktig."
+        },
+        {
+          "question": "Hvordan velger jeg riktig webutvikler?",
+          "answer": "Se på tidligere prosjekter, spør hvorfor en teknologi passer for deg, avklar eierskap til kode og domene, og vurder hvor tydelig og raskt utvikleren kommuniserer."
+        },
+        {
+          "question": "Jobber du som webutvikler i Oslo?",
+          "answer": "Ja, Majid Askarifarsangi er webutvikler i Oslo og tar oppdrag for kunder både lokalt og andre steder i landet. Ta kontakt for en uforpliktende prat om prosjektet ditt."
+        }
+      ]
+    },
     "cta": {
       "title": "Trenger du en webutvikler i Oslo?",
       "description": "Ta kontakt, så snakker vi om prosjektet ditt.",
