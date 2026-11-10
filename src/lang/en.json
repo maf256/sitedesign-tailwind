@@ -329,11 +329,11 @@
       "title": "What Does a Web Developer Do?",
       "description": "A web developer creates websites and applications that run on the internet. Some focus on what you see and use, others focus on what happens in the background—but together, they make the web work.",
       "frontend": {
-        "title": "Frontend Development",
+        "title": "Frontend web developer: what the user sees",
         "description": "Frontend developers work on the interface. They make sure everything looks right, loads fast, and reacts when you click or type."
       },
       "backend": {
-        "title": "Backend Development",
+        "title": "Backend web developer: the logic behind the scenes",
         "description": "Backend developers work on the hidden logic. They handle data, security, servers, and everything that makes the system run reliably."
       }
     },
@@ -342,27 +342,27 @@
       "description": "A good developer doesn’t just know code—they understand how people use the web and how businesses grow online.",
       "items": [
         {
-          "title": "Problem Solving",
+          "title": "Problem solving in web development",
           "description": "Breaking down complex issues and finding working solutions."
         },
         {
-          "title": "Design Awareness",
+          "title": "Design awareness for better user experience",
           "description": "Knowing how design choices affect usability and flow."
         },
         {
-          "title": "Technical Adaptability",
+          "title": "Technical adaptability: frameworks and web standards",
           "description": "Staying current with frameworks, languages, and web standards."
         },
         {
-          "title": "Collaboration",
+          "title": "Collaboration with designers, clients and developers",
           "description": "Working with designers, clients, and other developers to bring ideas to life."
         },
         {
-          "title": "Performance Mindset",
+          "title": "Performance, security and scalability",
           "description": "Optimizing for speed, security, and scalability."
         },
         {
-          "title": "User Focus",
+          "title": "User focus in every website",
           "description": "Always building with the end-user’s experience in mind."
         }
       ]
@@ -375,15 +375,15 @@
       ],
       "points": [
         {
-          "title": "First Impressions",
+          "title": "First impressions: a website that keeps visitors",
           "description": "A visitor’s opinion forms in seconds. Good development keeps them engaged."
         },
         {
-          "title": "Scalability",
+          "title": "A scalable website that grows with your business",
           "description": "A strong foundation allows your site or app to grow with your business."
         },
         {
-          "title": "Reliability",
+          "title": "A reliable website with minimal downtime",
           "description": "Secure, stable, and well-maintained systems prevent downtime and protect your data."
         }
       ]
