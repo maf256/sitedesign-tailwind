@@ -387,6 +387,122 @@
           "description": "Secure, stable, and well-maintained systems prevent downtime and protect your data."
         }
       ]
+    },
+    "technologies": {
+      "title": "Technologies a Modern Web Developer Uses",
+      "intro": "Tools change quickly, but some technologies have become the standard for websites and web applications in Norway. These are the ones I use most in my work as a web developer in Oslo.",
+      "items": [
+        {
+          "title": "React: reusable components",
+          "description": "React is a JavaScript library for building user interfaces from small, reusable components. It makes large solutions easier to maintain and develop further."
+        },
+        {
+          "title": "Next.js: fast, search-friendly pages",
+          "description": "Next.js builds on React and adds server rendering, static generation, and routing. The result is pages that load fast and that Google can read easily."
+        },
+        {
+          "title": "WordPress: a proven publishing tool",
+          "description": "WordPress powers a large share of the world's websites. It is a good fit when editors want to update content themselves and the budget calls for a well-known platform."
+        },
+        {
+          "title": "Sanity: headless CMS for structured content",
+          "description": "Sanity separates content from presentation. Editors get a tidy tool, while the developer is free to show the content on a website, an app, or other channels."
+        },
+        {
+          "title": "Node.js: JavaScript on the server",
+          "description": "With Node.js, backend logic, APIs, and integrations can be written in the same language as the frontend. That shortens the path from idea to working solution."
+        }
+      ]
+    },
+    "become": {
+      "title": "How Do You Become a Web Developer?",
+      "intro": "There is no single path into the profession. Some take a bachelor's degree in computer science or web development, others attend vocational college, take an intensive course, or teach themselves everything. Employers care most about what you can actually show.",
+      "steps": [
+        {
+          "title": "Learn the foundation: HTML, CSS, and JavaScript",
+          "description": "Everything on the web is built on these three. Understand them well before jumping to frameworks, and the rest becomes much easier."
+        },
+        {
+          "title": "Pick one framework and go deep",
+          "description": "React is among the most requested skills in web developer job listings. Once you master it, the step to Next.js is short."
+        },
+        {
+          "title": "Build a portfolio of your own projects",
+          "description": "Real projects say more than a diploma. Build a website for a friend, a local club, or an idea of your own, and publish the code on GitHub."
+        },
+        {
+          "title": "Learn Git and teamwork",
+          "description": "Version control, code review, and dialogue with designers are as much a part of the job as the coding itself."
+        },
+        {
+          "title": "Apply for junior roles or take small gigs",
+          "description": "Junior positions, trainee programs, and smaller freelance gigs give valuable experience. The most important thing is to get started and keep learning."
+        }
+      ],
+      "outro": "I have worked as a web developer since 2004 myself, and I still learn something new every week. The profession rewards curiosity more than anything else."
+    },
+    "employment": {
+      "title": "Freelancer, Consultant, or Employee?",
+      "intro": "Web developers work in different ways. Which model fits best depends on the project, the budget, and how long you need help.",
+      "options": [
+        {
+          "title": "Freelance web developer: flexible and direct",
+          "description": "A freelance web developer takes on work on their own account and bills by the hour or per project. You get direct contact with the person writing the code, and often lower costs than with a large agency."
+        },
+        {
+          "title": "Consultant: broad experience from many projects",
+          "description": "A consultant is employed by a consultancy and hired out to clients. I work as a consultant at OsloWeb AS myself, where I have delivered solutions for everything from municipalities to tech companies. The client gets experience and a company behind it."
+        },
+        {
+          "title": "In-house web developer: long-term ownership",
+          "description": "An in-house developer knows the product and the organization in depth. It pays off when you have a digital product that will be developed continuously over several years."
+        }
+      ]
+    },
+    "price": {
+      "title": "How Much Does a Web Developer Cost?",
+      "intro": "The price depends on scope, complexity, and who you hire. The figures below are approximate price levels in the Norwegian market, excluding VAT. They are meant as a guideline, not as a quote.",
+      "ranges": [
+        {
+          "title": "Hourly rate for a web developer",
+          "range": "approx. NOK 800–1,500 per hour",
+          "description": "Freelancers are often at the lower end of the range, while agencies and consultancies tend to be higher."
+        },
+        {
+          "title": "Simple business website",
+          "range": "often approx. NOK 15,000–50,000",
+          "description": "A presentation site with a few subpages, a contact form, and a publishing tool such as WordPress or Sanity."
+        },
+        {
+          "title": "Custom web solution",
+          "range": "typically from approx. NOK 50,000 and up",
+          "description": "Online stores, web applications, and integrations with other systems require more planning, development, and testing."
+        }
+      ],
+      "note": "Also remember ongoing costs for hosting, domain, licenses, and maintenance. Always ask for a written estimate before the project starts, so you know what you are paying for."
+    },
+    "choose": {
+      "title": "How to Choose the Right Web Developer",
+      "intro": "Whether you are looking for a web developer in Oslo or elsewhere in the country, a few simple questions separate the good ones from the rest.",
+      "tips": [
+        {
+          "title": "Look at previous projects",
+          "description": "Ask for examples of websites the developer has built. Check whether they load fast and work well on mobile."
+        },
+        {
+          "title": "Ask why, not just what",
+          "description": "A good web developer explains why a technology suits you, not just which tool they personally like best."
+        },
+        {
+          "title": "Clarify ownership and maintenance",
+          "description": "Make sure you own the code, the domain, and the content, and that there is a plan for updates after launch."
+        },
+        {
+          "title": "Judge the communication",
+          "description": "You should understand what is happening in the project. If the developer answers clearly and quickly even before you have signed, that is a good sign."
+        }
+      ],
+      "outro": "Being local can also be an advantage. A web developer near you can meet you face to face, knows your market, and is easy to reach when something is urgent."
     }
   },
   "notFound": {

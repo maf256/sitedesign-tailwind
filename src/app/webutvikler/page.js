@@ -329,8 +329,159 @@ export default function WebDeveloperPage() {
               ))}
             </div>
           </section>
+
+          <ExtendedContentSections />
         </div>
       </main>
+    </>
+  );
+}
+
+// Ticket 01: extended informational + commercial content.
+// Kept as separate components so other page sections can change independently.
+const headingStyle = {
+  color: "var(--heading)",
+  textShadow: "0 1px 1px var(--shine-strong)",
+};
+const textStyle = {
+  color: "var(--text)",
+  textShadow: "0 1px 0 var(--shine-soft)",
+};
+
+function SectionIntro({ title, intro }) {
+  return (
+    <div className="text-center mb-12">
+      <h2 className="text-4xl font-semibold mb-4" style={headingStyle}>
+        {title}
+      </h2>
+      <p className="text-lg max-w-3xl mx-auto" style={textStyle}>
+        {intro}
+      </p>
+    </div>
+  );
+}
+
+function InfoCard({ title, children }) {
+  return (
+    <div className="rounded-lg p-6 metal-button">
+      <h3
+        className="font-semibold mb-2"
+        style={{ fontSize: "18px", ...headingStyle }}
+      >
+        {title}
+      </h3>
+      {children}
+    </div>
+  );
+}
+
+function CardText({ children }) {
+  return <p style={{ fontSize: "16px", ...textStyle }}>{children}</p>;
+}
+
+function ExtendedContentSections() {
+  const { technologies, become, employment, price, choose } = webdeveloper;
+
+  return (
+    <>
+      <section className="py-16">
+        <SectionIntro title={technologies.title} intro={technologies.intro} />
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {technologies.items.map((item) => (
+            <InfoCard key={item.title} title={item.title}>
+              <CardText>{item.description}</CardText>
+            </InfoCard>
+          ))}
+        </div>
+      </section>
+
+      <section className="py-16">
+        <div className="rounded-lg p-8 metal-card">
+          <h2 className="text-4xl font-semibold mb-6" style={headingStyle}>
+            {become.title}
+          </h2>
+          <p className="text-lg leading-relaxed mb-8" style={textStyle}>
+            {become.intro}
+          </p>
+          <ol className="space-y-6 mb-8">
+            {become.steps.map((step, idx) => (
+              <li key={step.title} className="flex gap-4">
+                <span
+                  className="flex-shrink-0 w-9 h-9 rounded-full flex items-center justify-center font-semibold metal-button"
+                  style={{ color: "var(--primary)" }}
+                  aria-hidden="true"
+                >
+                  {idx + 1}
+                </span>
+                <div>
+                  <h3
+                    className="font-semibold mb-1"
+                    style={{ fontSize: "18px", ...headingStyle }}
+                  >
+                    {step.title}
+                  </h3>
+                  <CardText>{step.description}</CardText>
+                </div>
+              </li>
+            ))}
+          </ol>
+          <p className="text-lg leading-relaxed" style={textStyle}>
+            {become.outro}
+          </p>
+        </div>
+      </section>
+
+      <section className="py-16">
+        <SectionIntro title={employment.title} intro={employment.intro} />
+        <div className="grid md:grid-cols-3 gap-6">
+          {employment.options.map((option) => (
+            <InfoCard key={option.title} title={option.title}>
+              <CardText>{option.description}</CardText>
+            </InfoCard>
+          ))}
+        </div>
+      </section>
+
+      <section className="py-16">
+        <SectionIntro title={price.title} intro={price.intro} />
+        <div className="grid md:grid-cols-3 gap-6 mb-8">
+          {price.ranges.map((range) => (
+            <InfoCard key={range.title} title={range.title}>
+              <p
+                className="font-semibold mb-2"
+                style={{ fontSize: "17px", color: "var(--primary)" }}
+              >
+                {range.range}
+              </p>
+              <CardText>{range.description}</CardText>
+            </InfoCard>
+          ))}
+        </div>
+        <p className="text-lg max-w-3xl mx-auto text-center" style={textStyle}>
+          {price.note}
+        </p>
+      </section>
+
+      <section className="py-16">
+        <div className="rounded-lg p-8 mb-8 metal-card">
+          <h2 className="text-4xl font-semibold mb-6" style={headingStyle}>
+            {choose.title}
+          </h2>
+          <p className="text-lg leading-relaxed" style={textStyle}>
+            {choose.intro}
+          </p>
+        </div>
+        <div className="grid md:grid-cols-2 gap-6 mb-8">
+          {choose.tips.map((tip) => (
+            <InfoCard key={tip.title} title={tip.title}>
+              <CardText>{tip.description}</CardText>
+            </InfoCard>
+          ))}
+        </div>
+        <p className="text-lg max-w-3xl mx-auto text-center" style={textStyle}>
+          {choose.outro}
+        </p>
+      </section>
     </>
   );
 }

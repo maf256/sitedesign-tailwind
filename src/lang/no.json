@@ -387,6 +387,122 @@
           "description": "Sikre, stabile og godt vedlikeholdte systemer forhindrer nedetid og beskytter dataene dine."
         }
       ]
+    },
+    "technologies": {
+      "title": "Teknologier en moderne webutvikler bruker",
+      "intro": "Verktøyene endrer seg raskt, men noen teknologier har blitt standard for nettsider og webapplikasjoner i Norge. Dette er de jeg bruker mest i jobben som webutvikler i Oslo.",
+      "items": [
+        {
+          "title": "React: gjenbrukbare komponenter",
+          "description": "React er et JavaScript-bibliotek for å bygge brukergrensesnitt av små, gjenbrukbare komponenter. Det gjør store løsninger enklere å vedlikeholde og videreutvikle."
+        },
+        {
+          "title": "Next.js: raske og søkemotorvennlige sider",
+          "description": "Next.js bygger på React og legger til serverrendering, statisk generering og ruting. Resultatet er sider som laster raskt, og som Google enkelt kan lese."
+        },
+        {
+          "title": "WordPress: velprøvd publiseringsverktøy",
+          "description": "WordPress driver en stor andel av verdens nettsider. Det passer godt når redaktører vil oppdatere innholdet selv, og når budsjettet tilsier en kjent plattform."
+        },
+        {
+          "title": "Sanity: headless CMS for strukturert innhold",
+          "description": "Sanity skiller innhold fra presentasjon. Redaktørene får et ryddig verktøy, mens utvikleren står fritt til å vise innholdet på nettside, app eller andre kanaler."
+        },
+        {
+          "title": "Node.js: JavaScript på serveren",
+          "description": "Med Node.js kan backend-logikk, API-er og integrasjoner skrives i samme språk som frontend. Det gir kortere vei fra idé til fungerende løsning."
+        }
+      ]
+    },
+    "become": {
+      "title": "Hvordan bli webutvikler?",
+      "intro": "Det finnes ingen enkelt vei inn i yrket. Noen tar en bachelorgrad i informatikk eller webutvikling, andre går fagskole, tar et intensivkurs eller lærer seg alt på egen hånd. Arbeidsgivere er mest opptatt av hva du faktisk kan vise frem.",
+      "steps": [
+        {
+          "title": "Lær grunnmuren: HTML, CSS og JavaScript",
+          "description": "Alt på nettet bygger på disse tre. Forstå dem godt før du hopper over til rammeverk, så blir resten mye lettere."
+        },
+        {
+          "title": "Velg ett rammeverk og gå i dybden",
+          "description": "React er blant de mest etterspurte ferdighetene i stillingsannonser for webutviklere. Når du behersker det, er steget over til Next.js kort."
+        },
+        {
+          "title": "Bygg en portefølje med egne prosjekter",
+          "description": "Ekte prosjekter sier mer enn et vitnemål. Lag en nettside for en venn, en lokal forening eller en egen idé, og legg koden ut på GitHub."
+        },
+        {
+          "title": "Lær Git og samarbeid i team",
+          "description": "Versjonskontroll, kodegjennomgang og dialog med designere er en like stor del av jobben som selve kodingen."
+        },
+        {
+          "title": "Søk juniorstillinger eller ta små oppdrag",
+          "description": "Juniorstillinger, traineeprogrammer og mindre frilansoppdrag gir verdifull erfaring. Det viktigste er å komme i gang og fortsette å lære."
+        }
+      ],
+      "outro": "Selv har jeg jobbet som webutvikler siden 2004, og jeg lærer fortsatt noe nytt hver uke. Yrket belønner nysgjerrighet mer enn noe annet."
+    },
+    "employment": {
+      "title": "Frilans, konsulent eller fast ansatt?",
+      "intro": "Webutviklere jobber på ulike måter. Hvilken modell som passer best, avhenger av prosjektet, budsjettet og hvor lenge du trenger hjelp.",
+      "options": [
+        {
+          "title": "Frilans webutvikler: fleksibelt og direkte",
+          "description": "En frilans webutvikler tar oppdrag for egen regning og fakturerer per time eller per prosjekt. Du får direkte kontakt med den som skriver koden, og ofte lavere kostnader enn hos et stort byrå."
+        },
+        {
+          "title": "Konsulent: bred erfaring fra mange prosjekter",
+          "description": "En konsulent er ansatt i et konsulentselskap og leies ut til kunder. Selv jobber jeg som konsulent hos OsloWeb AS, der jeg har levert løsninger for alt fra kommuner til teknologiselskaper. Kunden får erfaring og et selskap i ryggen."
+        },
+        {
+          "title": "Fast ansatt webutvikler: langsiktig eierskap",
+          "description": "En fast ansatt utvikler kjenner produktet og organisasjonen i dybden. Det lønner seg når du har et digitalt produkt som skal videreutvikles kontinuerlig over flere år."
+        }
+      ]
+    },
+    "price": {
+      "title": "Hva koster en webutvikler?",
+      "intro": "Prisen avhenger av omfang, kompleksitet og hvem du leier inn. Tallene under er omtrentlige prisnivåer i det norske markedet, oppgitt eks. mva. De er ment som en pekepinn, ikke som et pristilbud.",
+      "ranges": [
+        {
+          "title": "Timepris for webutvikler",
+          "range": "ca. 800–1 500 kr per time",
+          "description": "Frilansere ligger ofte i den nedre delen av spennet, mens byråer og konsulentselskaper gjerne ligger høyere."
+        },
+        {
+          "title": "Enkel nettside for bedrift",
+          "range": "ofte ca. 15 000–50 000 kr",
+          "description": "En presentasjonsside med noen få undersider, kontaktskjema og et publiseringsverktøy som WordPress eller Sanity."
+        },
+        {
+          "title": "Skreddersydd webløsning",
+          "range": "typisk fra ca. 50 000 kr og oppover",
+          "description": "Nettbutikker, webapplikasjoner og integrasjoner mot andre systemer krever mer planlegging, utvikling og testing."
+        }
+      ],
+      "note": "Husk også løpende kostnader til hosting, domene, lisenser og vedlikehold. Be alltid om et skriftlig estimat før prosjektet starter, så vet du hva du betaler for."
+    },
+    "choose": {
+      "title": "Slik velger du riktig webutvikler",
+      "intro": "Enten du ser etter en webutvikler i Oslo eller et annet sted i landet, er det noen enkle spørsmål som skiller de gode fra resten.",
+      "tips": [
+        {
+          "title": "Se på tidligere prosjekter",
+          "description": "Be om eksempler på nettsider utvikleren har laget. Sjekk om de laster raskt og fungerer godt på mobil."
+        },
+        {
+          "title": "Spør hvorfor, ikke bare hva",
+          "description": "En god webutvikler forklarer hvorfor en teknologi passer for deg, ikke bare hvilket verktøy de selv liker best."
+        },
+        {
+          "title": "Avklar eierskap og vedlikehold",
+          "description": "Sørg for at du eier koden, domenet og innholdet, og at det finnes en plan for oppdateringer etter lansering."
+        },
+        {
+          "title": "Vurder kommunikasjonen",
+          "description": "Du skal forstå hva som skjer i prosjektet. Svarer utvikleren tydelig og raskt allerede før dere har signert, er det et godt tegn."
+        }
+      ],
+      "outro": "Lokal tilstedeværelse kan også være en fordel. En webutvikler nær deg kan møte deg ansikt til ansikt, kjenner markedet ditt og er lett å få tak i når noe haster."
     }
   },
   "notFound": {
