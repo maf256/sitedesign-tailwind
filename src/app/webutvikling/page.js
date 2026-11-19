@@ -10,6 +10,11 @@ import {
   InfoCard,
   CardText,
 } from "@/components/PageSections";
+import { personSchema, getBase } from "@/lib/person-schema";
+import {
+  WEBUTVIKLING_DATE_PUBLISHED,
+  WEBUTVIKLING_DATE_MODIFIED,
+} from "@/lib/page-dates";
 
 const { webdevelopment } = translations;
 
@@ -75,12 +80,67 @@ export function generateMetadata() {
   };
 }
 
+// Article + BreadcrumbList JSON-LD. Kept separate from the FAQPage script
+// (ticket 05). The Person node is included in this graph because Google does
+// not follow @id references across pages (see src/lib/person-schema.js).
+function pageStructuredData() {
+  const lang = process.env.SELECTED_LANG || "no";
+  const base = getBase(lang);
+  const pageUrl = `${base}${PATH}`;
+  const person = { "@id": `${base}/#person` };
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      personSchema(lang),
+      {
+        "@type": "Article",
+        "@id": `${pageUrl}#article`,
+        headline: webdevelopment.hero.title,
+        description: getTranslation("seo.webdevelopment").description,
+        url: pageUrl,
+        mainEntityOfPage: pageUrl,
+        inLanguage: lang === "en" ? "en-US" : "no-NO",
+        image: `${base}/webutvikler-frontend-backend.webp`,
+        author: person,
+        publisher: person,
+        datePublished: WEBUTVIKLING_DATE_PUBLISHED,
+        dateModified: WEBUTVIKLING_DATE_MODIFIED,
+      },
+      {
+        // Mirrors the visible breadcrumb: Home > page title.
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: webdevelopment.breadcrumbHome,
+            item: base,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: webdevelopment.hero.title,
+            item: pageUrl,
+          },
+        ],
+      },
+    ],
+  };
+}
+
 export default function WebDevelopmentPage() {
   return (
     <main
       className="min-h-screen w-full"
       style={{ background: "var(--base-100)" }}
     >
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(pageStructuredData()),
+        }}
+      />
       <div className="mx-auto max-w-5xl px-6 lg:px-8">
         <nav aria-label={webdevelopment.breadcrumbLabel} className="pt-8 pb-4">
           <ol className="flex flex-wrap items-center gap-2 text-sm">
