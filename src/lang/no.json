@@ -33,6 +33,7 @@
       "title": "Hva er webutvikling?",
       "description": "Webutvikling handler om å lage applikasjoner, tjenester eller nettsider som kjører på nettet, enten det er enkle informasjons­sider eller avanserte systemer brukt av bedrifter. Det kan være alt fra en enkel landingsside til komplekse API-er og klient-server løsninger som støtter hele organisasjoner. Kort sagt: webutvikling handler om å bruke nettet som plattform for programvare og for å koble folk til verktøy og informasjon de trenger.",
       "readMore": "Hva gjør en webutvikler? Les mer om webutvikler-rollen",
+      "serviceLink": "Les mer om prosess, teknologi og pris innen webutvikling",
       "frontend": {
         "title": "Frontend - webutvikling",
         "description": "Frontend handler om det brukeren ser og bruker direkte. Det bestemmer hvordan man klikker, skriver og beveger seg i en løsning. Her kobles design og brukeropplevelse sammen til et fungerende produkt."
@@ -115,13 +116,15 @@
         }
       ]
     },
-    "now": "Jeg jobber for tiden som programvareutvikler og React-utvikler hos Mercor. Jeg er også veldig interessert i Kotlin og backend-systemer i Kotlin. Jeg tar for tiden et Kotlin-masterkurs på Udemy, og ser fram til å jobbe som backend-utvikler med Kotlin."
+    "now": "Jeg jobber for tiden som programvareutvikler og React-utvikler hos Mercor. Jeg er også veldig interessert i Kotlin og backend-systemer i Kotlin. Jeg tar for tiden et Kotlin-masterkurs på Udemy, og ser fram til å jobbe som backend-utvikler med Kotlin.",
+    "webutviklingLink": "Se hvordan jeg jobber med moderne webutvikling"
   },
   "career": {
     "title": "Erfaring",
     "heading": "Erfaring som webutvikler",
     "timelineHeading": "Tidslinje for erfaring som webutvikler",
     "learnMore": "Hva gjør en webutvikler? Les mer om rollen",
+    "webutviklingLink": "Les mer om prosess og teknologivalg i webutvikling",
     "durationLabel": "Varighet",
     "skillsLabel": "Teknologier brukt i rollen",
     "description": "Siden 2004 har jeg jobbet som webutvikler og programvareutvikler. Siden 10.2022 er jeg konsulent hos OsloWeb AS, hvor jeg tar nettsider fra skisse til produksjon med React, Next.js, WordPress og Sanity – med fokus på ytelse, tilgjengelighet og SEO.",
@@ -324,6 +327,7 @@
     "breadcrumbHome": "Hjem",
     "related": {
       "careerLink": "Se Majids karriere og erfaring som webutvikler",
+      "webutviklingLink": "Utforsk hvordan et prosjekt innen webutvikling gjennomføres",
       "contactLink": "Kontakt webutvikler Majid i Oslo",
       "text": "Vil du vite mer om hvem som står bak, eller trenger du en webutvikler til ditt prosjekt?"
     },
