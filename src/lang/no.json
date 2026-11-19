@@ -559,16 +559,170 @@
     "description": "Webutvikler og webdesign: Majid Askarifarsangi"
   },
   "webdevelopment": {
-    "breadcrumbLabel": "[PLACEHOLDER NO] webdevelopment.breadcrumbLabel",
-    "breadcrumbHome": "[PLACEHOLDER NO] webdevelopment.breadcrumbHome",
+    "breadcrumbLabel": "Brødsmulesti",
+    "breadcrumbHome": "Hjem",
     "hero": {
-      "title": "[PLACEHOLDER NO] webdevelopment.hero.title",
-      "subtitle": "[PLACEHOLDER NO] webdevelopment.hero.subtitle"
+      "title": "Webutvikling: Fra idé til raske, skalerbare nettsider og webapplikasjoner",
+      "subtitle": "Moderne webutvikling for bedrifter forener teknisk arkitektur, god brukeropplevelse og høy ytelse. Slik gjennomføres et webprosjekt fra kravspesifikasjon til sikker lansering og drift."
     },
     "cta": {
-      "title": "[PLACEHOLDER NO] webdevelopment.cta.title",
-      "description": "[PLACEHOLDER NO] webdevelopment.cta.description",
-      "button": "[PLACEHOLDER NO] webdevelopment.cta.button"
+      "title": "Trenger bedriften din profesjonell webutvikling?",
+      "description": "Ta kontakt for en uforpliktende prat om ny nettside, webapplikasjon eller rådgivning i Oslo.",
+      "button": "Start prosjektet"
+    },
+    "what": {
+      "title": "Hva er moderne webutvikling?",
+      "description": "I forretningsmessig sammenheng er webutvikling faget som gjør kommersielle mål og arbeidsprosesser om til fungerende programvare i nettleseren. Der tradisjonell utvikling av nettsider ofte handlet om statiske informasjonssider, spenner dagens nettsideutvikling fra redaksjonelle publiseringsløsninger til kundeportaler og utvikling av webapplikasjoner. Et moderne webprosjekt krever at visuell identitet, innholdsstruktur, universell utforming og teknisk SEO spiller sømløst sammen med kode og infrastruktur.",
+      "imageAlt": "Arkitekturdiagram som viser hvordan klientlaget i nettleseren kommuniserer med API-er, CMS og serverlogikk",
+      "frontend": {
+        "title": "Klient- og grensesnittlaget (Frontend)",
+        "description": "Klientlaget utgjør den visuelle og interaktive delen i nettleseren. Innen frontend og backend webutvikling sørger dette laget for responsiv visning på mobil og desktop, raske sideoverganger, tastaturnavigasjon og umiddelbar respons når brukere fyller ut skjemaer eller filtrerer data."
+      },
+      "backend": {
+        "title": "Serverlogikk, API-er og datalagring (Backend)",
+        "description": "Bak grensesnittet ligger systemarkitekturen som styrer forretningslogikk, autentisering, databaser og dataflyt. Gjennom strukturerte API-er kobles løsningen trygt mot publiseringsverktøy, betaling eller eksterne systemer, slik at tjenesten kjører raskt, stabilt og sikkert."
+      }
+    },
+    "process": {
+      "title": "Slik foregår et webutviklingsprosjekt – steg for steg",
+      "intro": "En strukturert webutvikling prosess reduserer risiko, gir forutsigbare rammer og sikrer at sluttproduktet støtter bedriftens mål. Fra skisse til produksjon følger leveransen fem faser:",
+      "steps": [
+        {
+          "title": "1. Behovsavklaring, mål og teknisk arkitektur",
+          "description": "Vi kartlegger målgrupper, forretningsmål, funksjonelle krav og integrasjoner, vurderer teknisk gjennomførbarhet og utarbeider estimater."
+        },
+        {
+          "title": "2. Struktur, brukeropplevelse og UI-design i Figma",
+          "description": "Informasjonsarkitektur og brukerreiser skisseres før det visuelle uttrykket utformes som interaktive prototyper i Figma, slik at flyten testes før koding."
+        },
+        {
+          "title": "3. Utvikling av frontend, backend og integrasjoner",
+          "description": "Designet omsettes til gjenbrukbare komponenter, gjerne dokumentert i Storybook, mens CMS, datamodeller og API-integrasjoner bygges under versjonskontroll."
+        },
+        {
+          "title": "4. Ytelse, universell utforming (WCAG) og teknisk SEO",
+          "description": "Løsningen kvalitetssikres for Core Web Vitals, mobilytelse, semantisk HTML, WCAG-tilgjengelighet samt strukturerte data og metadata for søkemotorer."
+        },
+        {
+          "title": "5. Lansering, måling og løpende vedlikehold",
+          "description": "Tjenesten settes i produksjon på skyinfrastruktur med SSL og trafikkmåling, etterfulgt av opplæring, sikkerhetsoppdateringer og videreutvikling."
+        }
+      ],
+      "outro": "Faste milepæler og korte beslutningslinjer gir full oversikt gjennom hele prosjektløpet."
+    },
+    "technologies": {
+      "title": "Valg av teknologi og plattform i webutvikling",
+      "intro": "Riktig teknologivalg styres av forretningsbehov, redaksjonell arbeidsflyt og integrasjoner – ikke av trender alene.",
+      "items": [
+        {
+          "title": "Next.js og React for skreddersydde, lynraske løsninger",
+          "description": "Når prosjektet krever skreddersydd webutvikling, høy interaktivitet eller egendefinert logikk, gir React og Next.js serverrendering, topp ytelse og sterk teknisk SEO."
+        },
+        {
+          "title": "Sanity (Headless CMS) for strukturert innhold på tvers av flater",
+          "description": "Sanity skiller innholdsdatabasen fra visningslaget og passer bedrifter som ønsker et tilpasset redaktørgrensesnitt og gjenbruk av innhold på flere flater."
+        },
+        {
+          "title": "WordPress for fleksibel og velprøvd publisering",
+          "description": "En velbygd WordPress-løsning med tilpasset tema gir redaktører et kjent og kostnadseffektivt publiseringsverktøy for bedriftssider, nyheter og landingssider."
+        },
+        {
+          "title": "TypeScript, Node.js og moderne API-arkitektur",
+          "description": "Typesikkerhet med TypeScript, serverløsninger i Node.js (Express.js eller Nest.js) og databaser som PostgreSQL gir robuste integrasjoner og vedlikeholdbar kode."
+        },
+        {
+          "title": "Skyhosting, Core Web Vitals og sikkerhet",
+          "description": "Utrulling på Netlify eller Vercel med globalt CDN sikrer lav responstid, høy oppetid og sterke Core Web Vitals-resultater for bedre konvertering."
+        }
+      ]
+    },
+    "price": {
+      "title": "Hva koster webutvikling i Norge?",
+      "intro": "Når bedrifter undersøker webutvikling pris eller lurer på hva koster en nettside, styres kostnaden av omfang, design og integrasjoner. Tallene under viser typiske, omtrentlige prisnivåer i Norge (eks. mva.) som veiledende estimater, ikke faste pristilbud:",
+      "ranges": [
+        {
+          "title": "Bedriftsnettside med publiseringsløsning",
+          "range": "ca. 15 000–50 000 kr eks. mva.",
+          "description": "Typisk for en profesjonell bedriftsnettside med responsivt design, kontaktskjema, teknisk SEO og CMS som WordPress eller Sanity."
+        },
+        {
+          "title": "Skreddersydd webapplikasjon og integrasjoner",
+          "range": "typisk fra ca. 50 000 kr eks. mva. og oppover",
+          "description": "Omfatter større leveranser med skreddersydde flater i React og Next.js, innlogging, dashbord, databasemodellering eller eksterne API-integrasjoner."
+        },
+        {
+          "title": "Konsulentbistand og videreutvikling på timebasis",
+          "range": "ca. 800–1 500 kr/t eks. mva.",
+          "description": "Passer ved løpende videreutvikling, ytelsesforbedring, kodegjennomgang eller innleie av senior spisskompetanse i et eksisterende team."
+        }
+      ],
+      "note": "Kostnadsdrivere som datamigrering, WCAG-krav samt løpende utgifter til domene, hosting og vedlikehold bør alltid avklares i et skriftlig estimat."
+    },
+    "choose": {
+      "title": "Webbyrå eller senior konsulent – hva bør du velge?",
+      "intro": "Valget mellom byrå eller konsulent webutvikling påvirker budsjett, tempo og nærhet til problemløsningen. Store byråer passer ved store fullservice-oppdrag, mens en erfaren konsulent via OsloWeb AS gir direkte tilgang til senior kompetanse uten fordyrende mellomledd.",
+      "tips": [
+        {
+          "title": "Direkte dialog med den som faktisk bygger løsningen",
+          "description": "Når du samarbeider direkte med konsulenten som utformer arkitekturen og skriver koden, unngås misforståelser og beslutninger tas raskere."
+        },
+        {
+          "title": "Riktig teknologi for behovet – ikke standardmaler",
+          "description": "En uavhengig rådgiver vurderer objektivt om WordPress, Sanity eller skreddersydd Next.js passer best for deres arbeidsflyt og budsjett."
+        },
+        {
+          "title": "Fullt eierskap til kildekode, domene og innhold",
+          "description": "Ryddige avtaler sikrer at bedriften beholder full råderett over kildekode i Git, domene, CMS og data – uten leverandørinnlåsing."
+        },
+        {
+          "title": "Forutsigbar drift, ytelse og langsiktig oppfølging",
+          "description": "Med en fast teknisk partner i Oslo-området får dere kontinuitet i sikkerhetsoppdateringer, SEO-forbedringer og ny funksjonalitet over tid."
+        }
+      ],
+      "outro": "Be alltid om konkrete referanseprosjekter, tydelige milepæler og en ærlig vurdering av hva som gir mest forretningsverdi."
+    },
+    "faq": {
+      "title": "Ofte stilte spørsmål om webutvikling",
+      "items": [
+        {
+          "question": "Hva innebærer profesjonell webutvikling?",
+          "answer": "Det omfatter hele prosessen med å planlegge, designe, kode, teste og drifte nettsider eller webapplikasjoner – fra brukerflaten (frontend) til serverlogikk, API-er, sikkerhet og teknisk SEO (backend)."
+        },
+        {
+          "question": "Hvor lang tid tar det å utvikle en ny nettside?",
+          "answer": "En typisk bedriftsnettside med CMS tar gjerne 3–6 uker fra behovsavklaring og Figma-design til lansering. Større webapplikasjoner og integrasjoner krever vanligvis fra 6 uker til flere måneder."
+        },
+        {
+          "question": "Hva koster webutvikling for en norsk bedrift?",
+          "answer": "En bedriftsnettside med CMS ligger ofte på ca. 15 000–50 000 kr eks. mva., mens skreddersydde webapplikasjoner typisk starter fra ca. 50 000 kr og oppover. Timepris for konsulentbistand er normalt ca. 800–1 500 kr eks. mva."
+        },
+        {
+          "question": "Bør vi velge WordPress, Sanity eller skreddersydd Next.js?",
+          "answer": "WordPress passer godt for innholdsdrevne bedriftssider med kjent redaktørverktøy. Sanity med Next.js er ideelt for høy ytelse og strukturert innhold på flere flater, mens ren React/Next.js velges for webapplikasjoner."
+        },
+        {
+          "question": "Hvorfor er universell utforming (WCAG) og Core Web Vitals viktig?",
+          "answer": "Norske virksomheter er pålagt å følge WCAG-kravene slik at løsningen kan brukes av alle. Samtidig måler Core Web Vitals lastetid og stabilitet, som påvirker brukeropplevelse, konvertering og Google-rangering."
+        },
+        {
+          "question": "Hva er fordelen med å velge en konsulent fremfor et stort webbyrå?",
+          "answer": "Du får direkte dialog med seniorutvikleren som bygger løsningen, lavere administrasjonspåslag og kortere vei fra idé til produksjon, uten å betale for store byråstrukturer."
+        },
+        {
+          "question": "Tilbyr du webutvikling og rådgivning i Oslo-området?",
+          "answer": "Ja, jeg holder til i Sandvika/Oslo og leverer webutvikling, UI/UX-design og rådgivning via OsloWeb AS til bedrifter i Oslo, Bærum og resten av Norge."
+        }
+      ]
+    },
+    "related": {
+      "text": "Vil du vite mer om kompetansen bak leveransene, eller diskutere et konkret prosjekt?",
+      "webdeveloperLink": "Hva gjør en webutvikler? Les om rollen og ferdighetene",
+      "careerLink": "Se Majids prosjekter og erfaring med webutvikling",
+      "contactLink": "Ta kontakt for en uforpliktende prat"
+    },
+    "author": {
+      "name": "Majid Askarifarsangi",
+      "text": "Skrevet av Majid Askarifarsangi, webutvikler i Oslo med erfaring siden 2004 og konsulent hos OsloWeb AS."
     }
   },
   "seo": {
@@ -665,14 +819,25 @@
       }
     },
     "webdevelopment": {
-      "title": "[PLACEHOLDER NO] webdevelopment.seo.title",
-      "description": "[PLACEHOLDER NO] webdevelopment.seo.description",
+      "title": "Webutvikling i Oslo: Prosess, teknologi og pris | Majid",
+      "description": "Alt om moderne webutvikling for bedrifter: prosess fra idé til lansering, valg av Next.js, Sanity eller WordPress, og prisnivå i Norge. Ta kontakt i Oslo.",
       "keywords": [
-        "[PLACEHOLDER NO] webdevelopment.seo.keywords.0"
+        "webutvikling",
+        "webutvikling Oslo",
+        "webutvikling pris",
+        "hva koster en nettside",
+        "utvikling av nettsider",
+        "nettsideutvikling",
+        "webutvikling prosess",
+        "skreddersydd webutvikling",
+        "utvikling av webapplikasjoner",
+        "frontend og backend webutvikling",
+        "webutvikling for bedrifter",
+        "byrå eller konsulent webutvikling"
       ],
       "openGraph": {
-        "title": "[PLACEHOLDER NO] webdevelopment.seo.openGraph.title",
-        "description": "[PLACEHOLDER NO] webdevelopment.seo.openGraph.description"
+        "title": "Webutvikling i Oslo: Prosess, teknologi og pris | Majid",
+        "description": "Alt om moderne webutvikling for bedrifter: prosess fra idé til lansering, valg av Next.js, Sanity eller WordPress, og prisnivå i Norge. Ta kontakt i Oslo."
       }
     }
   }
