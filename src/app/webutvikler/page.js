@@ -1,7 +1,18 @@
 import { translations, getTranslation } from "@/lang/translations";
 import Link from "next/link";
 import Image from "next/image";
+import { personSchema } from "@/lib/person-schema";
 import { WEBUTVIKLER_DATE_MODIFIED } from "@/lib/page-dates";
+import {
+  headingStyle,
+  textStyle,
+  SectionIntro,
+  SectionHeading,
+  CardTitle,
+  InfoCard,
+  CardText,
+  CtaCard,
+} from "@/components/PageSections";
 
 const { webdeveloper } = translations;
 
@@ -82,6 +93,7 @@ export default function WebDeveloperPage() {
   const structuredData = {
     "@context": "https://schema.org",
     "@graph": [
+      personSchema(lang),
       {
         "@type": "Article",
         headline: webdeveloper.hero.title,
@@ -90,8 +102,7 @@ export default function WebDeveloperPage() {
         mainEntityOfPage: pageUrl,
         inLanguage: lang === "en" ? "en-US" : "no-NO",
         image: `${base}/majid-askarifarsangi.jpg`,
-        // References the Person defined on the homepage (`/#person`)
-        // instead of duplicating the profile here.
+        // References the shared Person node included in this @graph.
         author: { "@id": `${base}/#person` },
         datePublished: "2025-08-18",
         dateModified: WEBUTVIKLER_DATE_MODIFIED,
@@ -184,7 +195,7 @@ export default function WebDeveloperPage() {
             </div>
           </section>
 
-          <CtaCard />
+          <CtaCard cta={webdeveloper.cta} />
 
           <section className="py-16">
             <div className="rounded-lg p-8 mb-8 metal-card">
@@ -392,6 +403,13 @@ export default function WebDeveloperPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
+                href="/webutvikling"
+                className="font-medium underline"
+                style={{ color: "var(--primary)" }}
+              >
+                {webdeveloper.related.webutviklingLink}
+              </Link>
+              <Link
                 href="/career"
                 className="font-medium underline"
                 style={{ color: "var(--primary)" }}
@@ -407,7 +425,7 @@ export default function WebDeveloperPage() {
               </Link>
             </div>
           </section>
-          <CtaCard />
+          <CtaCard cta={webdeveloper.cta} />
 
           <p
             className="text-center pb-16"
@@ -423,61 +441,6 @@ export default function WebDeveloperPage() {
       </main>
     </>
   );
-}
-
-// Shared styles and small components for the article sections below.
-const headingStyle = {
-  color: "var(--heading)",
-  textShadow: "0 1px 1px var(--shine-strong)",
-};
-const textStyle = {
-  color: "var(--text)",
-  textShadow: "0 1px 0 var(--shine-soft)",
-};
-
-function SectionIntro({ title, intro }) {
-  return (
-    <div className="text-center mb-12">
-      <h2 className="text-4xl font-semibold mb-4" style={headingStyle}>
-        {title}
-      </h2>
-      <p className="text-lg max-w-3xl mx-auto" style={textStyle}>
-        {intro}
-      </p>
-    </div>
-  );
-}
-
-function SectionHeading({ className = "mb-6", children }) {
-  return (
-    <h2 className={`text-4xl font-semibold ${className}`} style={headingStyle}>
-      {children}
-    </h2>
-  );
-}
-
-function CardTitle({ className = "mb-2", children }) {
-  return (
-    <h3
-      className={`font-semibold ${className}`}
-      style={{ fontSize: "18px", ...headingStyle }}
-    >
-      {children}
-    </h3>
-  );
-}
-
-function InfoCard({ title, children }) {
-  return (
-    <div className="rounded-lg p-6 metal-button">
-      <CardTitle>{title}</CardTitle>
-      {children}
-    </div>
-  );
-}
-
-function CardText({ children }) {
-  return <p style={{ fontSize: "16px", ...textStyle }}>{children}</p>;
 }
 
 function ArticleSections() {
@@ -575,30 +538,5 @@ function ArticleSections() {
         </p>
       </section>
     </>
-  );
-}
-
-function CtaCard() {
-  return (
-    <section className="py-8">
-      <div className="rounded-lg p-8 text-center metal-card">
-        <h2 className="text-3xl font-semibold mb-3" style={headingStyle}>
-          {webdeveloper.cta.title}
-        </h2>
-        <p className="text-lg mb-6" style={textStyle}>
-          {webdeveloper.cta.description}
-        </p>
-        <Link
-          href="/contact"
-          className="inline-block rounded-lg px-8 py-3 font-semibold metal-button"
-          style={{
-            color: "var(--primary)",
-            textShadow: "0 1px 0 var(--shine-soft)",
-          }}
-        >
-          {webdeveloper.cta.button}
-        </Link>
-      </div>
-    </section>
   );
 }

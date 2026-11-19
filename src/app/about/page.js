@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { translations, getTranslation } from "@/lang/translations";
 import { BIRTH_DATE, withAge } from "@/lib/age";
 
@@ -343,6 +344,15 @@ export default function About() {
               }}
             >
               {about.now}
+            </p>
+            <p className="mt-4">
+              <Link
+                href="/webutvikling"
+                className="font-medium underline"
+                style={{ color: "var(--primary)" }}
+              >
+                {about.webutviklingLink}
+              </Link>
             </p>
           </section>
         </div>

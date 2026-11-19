@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { personSchema } from "@/lib/person-schema";
+import { CAREER_DATE_CREATED, CAREER_DATE_MODIFIED } from "@/lib/page-dates";
 import { translations, getTranslation } from "@/lang/translations";
 
 const { career } = translations;
@@ -80,12 +82,15 @@ export default function CareerPage() {
   const structuredData = {
     "@context": "https://schema.org",
     "@graph": [
+      personSchema(lang),
       {
         "@type": "ProfilePage",
         "@id": `${pageUrl}#profilepage`,
         url: pageUrl,
         name: career.heading,
         inLanguage: lang === "en" ? "en-US" : "no-NO",
+        dateCreated: CAREER_DATE_CREATED,
+        dateModified: CAREER_DATE_MODIFIED,
         mainEntity: { "@id": `${base}/#person` },
       },
       {
@@ -142,6 +147,15 @@ export default function CareerPage() {
                 style={{ color: "var(--primary)" }}
               >
                 {career.learnMore}
+              </Link>
+            </p>
+            <p className="mt-2">
+              <Link
+                href="/webutvikling"
+                className="font-medium underline"
+                style={{ color: "var(--primary)" }}
+              >
+                {career.webutviklingLink}
               </Link>
             </p>
           </header>
