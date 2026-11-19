@@ -1,6 +1,15 @@
 import Link from "next/link";
+import Image from "next/image";
 import { translations, getTranslation } from "@/lang/translations";
-import { headingStyle, textStyle, CtaCard } from "@/components/PageSections";
+import {
+  headingStyle,
+  textStyle,
+  CtaCard,
+  SectionIntro,
+  SectionHeading,
+  InfoCard,
+  CardText,
+} from "@/components/PageSections";
 
 const { webdevelopment } = translations;
 
@@ -114,6 +123,145 @@ export default function WebDevelopmentPage() {
         </section>
 
         <CtaCard cta={webdevelopment.cta} />
+
+        <section className="py-12">
+          <SectionHeading>{webdevelopment.what.title}</SectionHeading>
+          <p className="text-lg mb-8 max-w-3xl" style={textStyle}>
+            {webdevelopment.what.description}
+          </p>
+          <Image
+            src="/webutvikler-frontend-backend.webp"
+            alt={webdevelopment.what.imageAlt}
+            width={1200}
+            height={670}
+            sizes="(min-width: 1024px) 896px, 100vw"
+            className="w-full h-auto rounded-lg mb-8"
+          />
+          <div className="grid md:grid-cols-2 gap-6">
+            <InfoCard title={webdevelopment.what.frontend.title}>
+              <CardText>{webdevelopment.what.frontend.description}</CardText>
+            </InfoCard>
+            <InfoCard title={webdevelopment.what.backend.title}>
+              <CardText>{webdevelopment.what.backend.description}</CardText>
+            </InfoCard>
+          </div>
+        </section>
+
+        <section className="py-12">
+          <SectionIntro
+            title={webdevelopment.process.title}
+            intro={webdevelopment.process.intro}
+          />
+          <ol className="grid gap-6 list-none p-0">
+            {webdevelopment.process.steps.map((step) => (
+              <li key={step.title}>
+                <InfoCard title={step.title}>
+                  <CardText>{step.description}</CardText>
+                </InfoCard>
+              </li>
+            ))}
+          </ol>
+          <p className="text-lg text-center mt-8" style={textStyle}>
+            {webdevelopment.process.outro}
+          </p>
+        </section>
+
+        <section className="py-12">
+          <SectionIntro
+            title={webdevelopment.technologies.title}
+            intro={webdevelopment.technologies.intro}
+          />
+          <div className="grid md:grid-cols-2 gap-6">
+            {webdevelopment.technologies.items.map((item) => (
+              <InfoCard key={item.title} title={item.title}>
+                <CardText>{item.description}</CardText>
+              </InfoCard>
+            ))}
+          </div>
+        </section>
+
+        <section className="py-12">
+          <SectionIntro
+            title={webdevelopment.price.title}
+            intro={webdevelopment.price.intro}
+          />
+          <div className="grid md:grid-cols-3 gap-6">
+            {webdevelopment.price.ranges.map((item) => (
+              <InfoCard key={item.title} title={item.title}>
+                <p
+                  className="font-semibold mb-2"
+                  style={{ fontSize: "16px", color: "var(--primary)" }}
+                >
+                  {item.range}
+                </p>
+                <CardText>{item.description}</CardText>
+              </InfoCard>
+            ))}
+          </div>
+          <p className="text-lg text-center mt-8" style={textStyle}>
+            {webdevelopment.price.note}
+          </p>
+        </section>
+
+        <section className="py-12">
+          <SectionIntro
+            title={webdevelopment.choose.title}
+            intro={webdevelopment.choose.intro}
+          />
+          <div className="grid md:grid-cols-2 gap-6">
+            {webdevelopment.choose.tips.map((tip) => (
+              <InfoCard key={tip.title} title={tip.title}>
+                <CardText>{tip.description}</CardText>
+              </InfoCard>
+            ))}
+          </div>
+          <p className="text-lg text-center mt-8" style={textStyle}>
+            {webdevelopment.choose.outro}
+          </p>
+        </section>
+
+        {/* Ticket 05 replaces this block with details/summary + FAQPage schema */}
+        <section className="py-12">
+          <SectionHeading className="mb-8 text-center">
+            {webdevelopment.faq.title}
+          </SectionHeading>
+          <div className="grid gap-6">
+            {webdevelopment.faq.items.map((item) => (
+              <InfoCard key={item.question} title={item.question}>
+                <CardText>{item.answer}</CardText>
+              </InfoCard>
+            ))}
+          </div>
+        </section>
+
+        <section className="py-8 text-center">
+          <p className="text-lg mb-4" style={textStyle}>
+            {webdevelopment.related.text}
+          </p>
+          <ul className="flex flex-col items-center gap-2 list-none p-0">
+            {[
+              ["/webutvikler", webdevelopment.related.webdeveloperLink],
+              ["/career", webdevelopment.related.careerLink],
+              ["/contact", webdevelopment.related.contactLink],
+            ].map(([href, label]) => (
+              <li key={href}>
+                <Link
+                  href={href}
+                  className="font-medium underline"
+                  style={{ color: "var(--primary)" }}
+                >
+                  {label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <CtaCard cta={webdevelopment.cta} />
+
+        <p className="py-8 text-center text-sm" style={textStyle}>
+          {webdevelopment.author.text}
+        </p>
       </div>
     </main>
   );
