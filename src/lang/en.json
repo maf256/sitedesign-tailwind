@@ -33,6 +33,7 @@
       "title": "What is Web Development?",
       "description": "Web development is building applications, services, or sites that run over the web, whether that's consumer-facing websites or backend enterprise systems delivered through web technologies. It can range from creating simple informational pages to developing complex APIs and client-server systems that power entire organizations. At its core, web development is about using the web as the platform for delivering software and connecting people with the tools or information they need.",
       "readMore": "What does a web developer (webutvikler) do? Read about the role",
+      "serviceLink": "Read more about our web development process, technology, and pricing",
       "frontend": {
         "title": "Frontend Development",
         "description": "Frontend web development is about creating the part of a website or app that people directly use. It shapes how users see, click, type, and move through the interface. Ultimately, it bridges design and user experience into a functional product."
@@ -115,13 +116,15 @@
         }
       ]
     },
-    "now": "Currently, I'm working as a software engineer and React developer at Mercor. But I am very much interested in Kotlin and Kotlin backend systems. I'm in the process of Udemy's Kotlin master class. I'm looking forward to work a backend position as a Kotlin developer"
+    "now": "Currently, I'm working as a software engineer and React developer at Mercor. But I am very much interested in Kotlin and Kotlin backend systems. I'm in the process of Udemy's Kotlin master class. I'm looking forward to work a backend position as a Kotlin developer",
+    "webutviklingLink": "See how I work with modern web development"
   },
   "career": {
     "title": "Career",
     "heading": "Experience as a web developer (webutvikler)",
     "timelineHeading": "Web developer career timeline",
     "learnMore": "What does a web developer (webutvikler) do? Read more about the role",
+    "webutviklingLink": "Read more about the web development process and technology choices",
     "durationLabel": "Duration",
     "skillsLabel": "Technologies used in this role",
     "description": "I have worked as a web developer and software developer since 2004. Since 10.2022 I have been a consultant at OsloWeb AS, taking websites from sketch to production with React, Next.js, WordPress and Sanity – with a focus on performance, accessibility and SEO.",
@@ -324,6 +327,7 @@
     "breadcrumbHome": "Home",
     "related": {
       "careerLink": "See Majid's career and experience as a web developer",
+      "webutviklingLink": "Explore how a web development project runs from idea to launch",
       "contactLink": "Contact web developer Majid in Oslo",
       "text": "Want to know who is behind this, or need a web developer for your project?"
     },

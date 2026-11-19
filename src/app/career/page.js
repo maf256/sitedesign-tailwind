@@ -149,6 +149,15 @@ export default function CareerPage() {
                 {career.learnMore}
               </Link>
             </p>
+            <p className="mt-2">
+              <Link
+                href="/webutvikling"
+                className="font-medium underline"
+                style={{ color: "var(--primary)" }}
+              >
+                {career.webutviklingLink}
+              </Link>
+            </p>
           </header>
 
           <section

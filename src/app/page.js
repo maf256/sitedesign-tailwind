@@ -232,6 +232,17 @@ export default function Home() {
                 {home.whatIsWebDev.readMore}
                 <ArrowRight size={16} />
               </Link>
+              <Link
+                href={"/webutvikling"}
+                className="inline-flex items-center gap-2 font-medium mt-4"
+                style={{
+                  color: "var(--primary)",
+                  textShadow: "0 1px 0 var(--shine-soft)",
+                }}
+              >
+                {home.whatIsWebDev.serviceLink}
+                <ArrowRight size={16} />
+              </Link>
             </div>
 
             <div className="grid md:grid-cols-2 gap-6">
