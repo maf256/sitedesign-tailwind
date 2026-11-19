@@ -9,7 +9,7 @@
 **Model:** Opus (schema correctness and NO/EN parity)
 
 - [x] FAQ questions and answers come from the ticket 03 copy; JSON-LD text equals the visible text
-- [x] Valid in Google's Rich Results Test and the Schema.org validator, NO and EN
+- [ ] Valid in Google's Rich Results Test and the Schema.org validator, NO and EN
 - [x] Only one FAQPage block on the page
 - [x] Accessible markup (details/summary or equivalent, keyboard operable)
 
