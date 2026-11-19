@@ -1,0 +1,133 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://sitedesign.no/#person",
+        "name": "Majid Askarifarsangi",
+        "url": "https://sitedesign.no",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://sitedesign.no/majid-askarifarsangi.jpg",
+          "width": 800,
+          "height": 800
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/farsangi",
+          "https://github.com/maf256"
+        ],
+        "jobTitle": "Webutvikler",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Freelance"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Sandvika",
+          "addressRegion": "Akershus",
+          "addressCountry": "NO"
+        },
+        "telephone": "+47-40189111",
+        "email": "majid@sitedesign.no"
+      },
+      {
+        "@type": "Article",
+        "@id": "https://sitedesign.no/webutvikling#article",
+        "headline": "Webutvikling: Fra idé til raske, skalerbare nettsider og webapplikasjoner",
+        "description": "Alt om moderne webutvikling for bedrifter: prosess fra idé til lansering, valg av Next.js, Sanity eller WordPress, og prisnivå i Norge. Ta kontakt i Oslo.",
+        "url": "https://sitedesign.no/webutvikling",
+        "mainEntityOfPage": "https://sitedesign.no/webutvikling",
+        "inLanguage": "no-NO",
+        "image": "https://sitedesign.no/webutvikler-frontend-backend.webp",
+        "author": {
+          "@id": "https://sitedesign.no/#person"
+        },
+        "publisher": {
+          "@id": "https://sitedesign.no/#person"
+        },
+        "datePublished": "2026-11-19",
+        "dateModified": "2026-11-19"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Hjem",
+            "item": "https://sitedesign.no"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Webutvikling: Fra idé til raske, skalerbare nettsider og webapplikasjoner",
+            "item": "https://sitedesign.no/webutvikling"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Hva innebærer profesjonell webutvikling?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Det omfatter hele prosessen med å planlegge, designe, kode, teste og drifte nettsider eller webapplikasjoner – fra brukerflaten (frontend) til serverlogikk, API-er, sikkerhet og teknisk SEO (backend)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Hvor lang tid tar det å utvikle en ny nettside?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "En typisk bedriftsnettside med CMS tar gjerne 3–6 uker fra behovsavklaring og Figma-design til lansering. Større webapplikasjoner og integrasjoner krever vanligvis fra 6 uker til flere måneder."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Hva koster webutvikling for en norsk bedrift?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "En bedriftsnettside med CMS ligger ofte på ca. 15 000–50 000 kr eks. mva., mens skreddersydde webapplikasjoner typisk starter fra ca. 50 000 kr og oppover. Timepris for konsulentbistand er normalt ca. 800–1 500 kr eks. mva."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Bør vi velge WordPress, Sanity eller skreddersydd Next.js?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "WordPress passer godt for innholdsdrevne bedriftssider med kjent redaktørverktøy. Sanity med Next.js er ideelt for høy ytelse og strukturert innhold på flere flater, mens ren React/Next.js velges for webapplikasjoner."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Hvorfor er universell utforming (WCAG) og Core Web Vitals viktig?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Norske virksomheter er pålagt å følge WCAG-kravene slik at løsningen kan brukes av alle. Samtidig måler Core Web Vitals lastetid og stabilitet, som påvirker brukeropplevelse, konvertering og Google-rangering."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Hva er fordelen med å velge en konsulent fremfor et stort webbyrå?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Du får direkte dialog med seniorutvikleren som bygger løsningen, lavere administrasjonspåslag og kortere vei fra idé til produksjon, uten å betale for store byråstrukturer."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Tilbyr du webutvikling og rådgivning i Oslo-området?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, jeg holder til i Sandvika/Oslo og leverer webutvikling, UI/UX-design og rådgivning via OsloWeb AS til bedrifter i Oslo, Bærum og resten av Norge."
+        }
+      }
+    ]
+  }
+]

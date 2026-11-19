@@ -1,0 +1,133 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://en.sitedesign.no/#person",
+        "name": "Majid Askarifarsangi",
+        "url": "https://en.sitedesign.no",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://en.sitedesign.no/majid-askarifarsangi.jpg",
+          "width": 800,
+          "height": 800
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/farsangi",
+          "https://github.com/maf256"
+        ],
+        "jobTitle": "Web Developer",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Freelance"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Sandvika",
+          "addressRegion": "Akershus",
+          "addressCountry": "NO"
+        },
+        "telephone": "+47-40189111",
+        "email": "majid@sitedesign.no"
+      },
+      {
+        "@type": "Article",
+        "@id": "https://en.sitedesign.no/webutvikling#article",
+        "headline": "Web Development: From Idea to Fast, Scalable Websites and Web Applications",
+        "description": "Guide to business web development in Norway: project process, choosing Next.js, Sanity or WordPress, and approximate pricing. Contact an Oslo consultant.",
+        "url": "https://en.sitedesign.no/webutvikling",
+        "mainEntityOfPage": "https://en.sitedesign.no/webutvikling",
+        "inLanguage": "en-US",
+        "image": "https://en.sitedesign.no/webutvikler-frontend-backend.webp",
+        "author": {
+          "@id": "https://en.sitedesign.no/#person"
+        },
+        "publisher": {
+          "@id": "https://en.sitedesign.no/#person"
+        },
+        "datePublished": "2026-11-19",
+        "dateModified": "2026-11-19"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://en.sitedesign.no"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Web Development: From Idea to Fast, Scalable Websites and Web Applications",
+            "item": "https://en.sitedesign.no/webutvikling"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What does professional web development involve?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It covers planning, designing, coding, testing, and operating websites or web applications—from the browser interface (frontend) to server logic, APIs, security, and technical SEO (backend)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does it take to develop a new website?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A business website with a CMS typically takes 3–6 weeks from discovery and Figma design to launch. Custom web applications and integrations usually take 6 weeks to several months."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does web development cost for a business in Norway?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A company website with a CMS often costs around NOK 15,000–50,000 excl. VAT, while custom web applications typically start from approx. NOK 50,000 and up. Hourly consulting rates are normally approx. NOK 800–1,500 excl. VAT."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Should we choose WordPress, Sanity, or custom Next.js?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "WordPress fits content-driven sites wanting a familiar editor. Sanity with Next.js excels for high performance and structured multi-channel content, while custom React/Next.js suits web applications."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why are accessibility (WCAG) and Core Web Vitals important?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Norwegian businesses must meet WCAG standards so sites work for everyone. Meanwhile, Core Web Vitals measure speed and stability, affecting usability, conversions, and search rankings."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the advantage of choosing a consultant over a large web agency?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You work directly with the senior developer building your solution, avoid agency overhead, and move faster from idea to production."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you offer web development and consulting in the Oslo area?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, I am based in Sandvika/Oslo and deliver web development, UI/UX design, and consulting via OsloWeb AS for clients across Oslo, Bærum, and Norway."
+        }
+      }
+    ]
+  }
+]
