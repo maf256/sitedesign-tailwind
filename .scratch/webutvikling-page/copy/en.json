@@ -1,0 +1,193 @@
+{
+  "webdevelopment": {
+    "breadcrumbLabel": "Breadcrumb",
+    "breadcrumbHome": "Home",
+    "hero": {
+      "title": "Web Development: From Idea to Fast, Scalable Websites and Web Applications",
+      "subtitle": "Modern business web development combines technical architecture, intuitive design, and high performance. Here is how a project runs from requirements to launch and ongoing operations."
+    },
+    "cta": {
+      "title": "Does your business need professional web development?",
+      "description": "Get in touch about a new website, web application, or technical consulting in Oslo.",
+      "button": "Start your project"
+    },
+    "what": {
+      "title": "What Is Modern Web Development?",
+      "description": "In business, web development turns commercial goals and workflows into reliable browser software. Where traditional website development meant static pages, modern projects span editorial CMS platforms, customer portals, and web application development. Building a durable product requires visual identity, content structure, accessibility, and search visibility to work with code and infrastructure.",
+      "imageAlt": "Diagram of browser client connected to APIs, CMS, and server logic",
+      "frontend": {
+        "title": "The Client and Interface Layer (Frontend)",
+        "description": "The client layer is the interactive surface on the user's device. Across frontend and backend development, it ensures responsive layouts, fast transitions, keyboard accessibility, and instant feedback when visitors submit forms or filter data."
+      },
+      "backend": {
+        "title": "Server Logic, APIs, and Data Storage (Backend)",
+        "description": "Behind the interface sits the architecture governing business logic, authentication, databases, and data flows. Through structured APIs, the solution connects securely to CMS platforms, payments, or external systems so the service runs reliably."
+      }
+    },
+    "process": {
+      "title": "How a Web Development Project Runs – Step by Step",
+      "intro": "A structured web development process reduces risk, keeps budgets predictable, and ensures the product supports business goals. From sketch to production, delivery follows five stages:",
+      "steps": [
+        {
+          "title": "1. Discovery, Goals, and Technical Architecture",
+          "description": "We map audiences, business goals, functional requirements, and integrations, assess feasibility, and prepare estimates."
+        },
+        {
+          "title": "2. Structure, User Experience, and UI Design in Figma",
+          "description": "Information architecture and user journeys are outlined before building interactive Figma prototypes, validating flows before coding."
+        },
+        {
+          "title": "3. Frontend, Backend, and Integration Development",
+          "description": "Designs become modular components—often documented in Storybook—while CMS, data schemas, and API integrations are built under version control."
+        },
+        {
+          "title": "4. Performance, Accessibility (WCAG), and Technical SEO",
+          "description": "Before launch, the solution is verified for Core Web Vitals, mobile speed, semantic HTML, WCAG compliance, and search metadata."
+        },
+        {
+          "title": "5. Launch, Analytics, and Ongoing Maintenance",
+          "description": "The site is deployed to cloud infrastructure with SSL and analytics, followed by editor training, security updates, and improvements."
+        }
+      ],
+      "outro": "Clear milestones and short decision loops give full visibility throughout the project."
+    },
+    "technologies": {
+      "title": "Choosing the Right Technology and Platform in Web Development",
+      "intro": "Technology choices should be driven by business needs, editorial workflow, and integrations rather than trends.",
+      "items": [
+        {
+          "title": "Next.js and React for Custom, High-Speed Solutions",
+          "description": "When a project demands custom web development, interactivity, or tailored logic, React and Next.js deliver server rendering, top speed, and strong technical SEO."
+        },
+        {
+          "title": "Sanity (Headless CMS) for Structured Multi-Channel Content",
+          "description": "Sanity decouples content storage from presentation, fitting organizations wanting a tailored studio and reusable structured content across channels."
+        },
+        {
+          "title": "WordPress for Flexible, Proven Publishing",
+          "description": "A well-built WordPress site with a custom theme gives editors a familiar, cost-effective publishing tool for company sites, news, and landing pages."
+        },
+        {
+          "title": "TypeScript, Node.js, and Modern API Architecture",
+          "description": "Type safety with TypeScript, Node.js services (Express.js or Nest.js), and PostgreSQL databases provide dependable integrations and maintainable code."
+        },
+        {
+          "title": "Cloud Hosting, Core Web Vitals, and Security",
+          "description": "Deploying on Netlify or Vercel with a global CDN ensures low latency, high uptime, and strong Core Web Vitals scores."
+        }
+      ]
+    },
+    "price": {
+      "title": "How Much Does Web Development Cost in Norway?",
+      "intro": "When evaluating web development cost or website cost in Norway, pricing depends on scope, design, and integrations. The tiers below show typical, approximate Norwegian ranges (excl. VAT) as guidance, not quotes:",
+      "ranges": [
+        {
+          "title": "Business Website with a CMS",
+          "range": "approx. NOK 15,000–50,000 excl. VAT",
+          "description": "Typical for a company website with responsive design, contact forms, technical SEO, and a CMS like WordPress or Sanity."
+        },
+        {
+          "title": "Custom Web Application and Integrations",
+          "range": "typically from approx. NOK 50,000 excl. VAT and up",
+          "description": "Covers larger deliveries with custom React and Next.js interfaces, authentication, dashboards, databases, or API integrations."
+        },
+        {
+          "title": "Hourly Consulting and Ongoing Development",
+          "range": "approx. NOK 800–1,500/hr excl. VAT",
+          "description": "Suited for ongoing development, performance optimization, code reviews, or embedding senior engineering capacity into a team."
+        }
+      ],
+      "note": "Cost drivers like content migration, WCAG compliance, and recurring fees for domain, hosting, and maintenance should be clarified in a written estimate."
+    },
+    "choose": {
+      "title": "Web Agency or Senior Consultant – Which Should You Choose?",
+      "intro": "Choosing between a web agency vs. consultant shapes budget, speed, and proximity to problem solving. Large agencies suit big campaigns, while a consultant via OsloWeb AS gives direct access to senior engineering without agency overhead.",
+      "tips": [
+        {
+          "title": "Direct Dialogue with the Engineer Building Your Solution",
+          "description": "Working directly with the consultant who designs the architecture and writes the code prevents misunderstandings and speeds up decisions."
+        },
+        {
+          "title": "The Right Technology for Your Needs – Not Cookie-Cutter Templates",
+          "description": "An independent consultant objectively evaluates whether WordPress, Sanity, or custom Next.js best fits your workflow and budget."
+        },
+        {
+          "title": "Full Ownership of Source Code, Domain, and Content",
+          "description": "Transparent agreements ensure your business retains full control of your Git code, domain, CMS, and data without vendor lock-in."
+        },
+        {
+          "title": "Predictable Operations, Performance, and Long-Term Support",
+          "description": "Partnering with a consultant in Oslo ensures continuity across security updates, SEO improvements, and new features."
+        }
+      ],
+      "outro": "Ask for reference projects, clear milestones, and an honest assessment of business value."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions About Web Development",
+      "items": [
+        {
+          "question": "What does professional web development involve?",
+          "answer": "It covers planning, designing, coding, testing, and operating websites or web applications—from the browser interface (frontend) to server logic, APIs, security, and technical SEO (backend)."
+        },
+        {
+          "question": "How long does it take to develop a new website?",
+          "answer": "A business website with a CMS typically takes 3–6 weeks from discovery and Figma design to launch. Custom web applications and integrations usually take 6 weeks to several months."
+        },
+        {
+          "question": "How much does web development cost for a business in Norway?",
+          "answer": "A company website with a CMS often costs around NOK 15,000–50,000 excl. VAT, while custom web applications typically start from approx. NOK 50,000 and up. Hourly consulting rates are normally approx. NOK 800–1,500 excl. VAT."
+        },
+        {
+          "question": "Should we choose WordPress, Sanity, or custom Next.js?",
+          "answer": "WordPress fits content-driven sites wanting a familiar editor. Sanity with Next.js excels for high performance and structured multi-channel content, while custom React/Next.js suits web applications."
+        },
+        {
+          "question": "Why are accessibility (WCAG) and Core Web Vitals important?",
+          "answer": "Norwegian businesses must meet WCAG standards so sites work for everyone. Meanwhile, Core Web Vitals measure speed and stability, affecting usability, conversions, and search rankings."
+        },
+        {
+          "question": "What is the advantage of choosing a consultant over a large web agency?",
+          "answer": "You work directly with the senior developer building your solution, avoid agency overhead, and move faster from idea to production."
+        },
+        {
+          "question": "Do you offer web development and consulting in the Oslo area?",
+          "answer": "Yes, I am based in Sandvika/Oslo and deliver web development, UI/UX design, and consulting via OsloWeb AS for clients across Oslo, Bærum, and Norway."
+        }
+      ]
+    },
+    "related": {
+      "text": "Want to explore the skills behind the work, or discuss an upcoming project?",
+      "webdeveloperLink": "What does a web developer do? Read about the role and skills",
+      "careerLink": "See Majid's projects and web development experience",
+      "contactLink": "Get in touch for a no-obligation chat"
+    },
+    "author": {
+      "name": "Majid Askarifarsangi",
+      "text": "Written by Majid Askarifarsangi, Oslo web developer since 2004 and consultant at OsloWeb AS."
+    }
+  },
+  "seo": {
+    "webdevelopment": {
+      "title": "Web Development in Oslo: Process, Tech & Cost | Majid",
+      "description": "Guide to business web development in Norway: project process, choosing Next.js, Sanity or WordPress, and approximate pricing. Contact an Oslo consultant.",
+      "keywords": [
+        "web development",
+        "web development Oslo",
+        "web development cost",
+        "website cost Norway",
+        "website development",
+        "building a website",
+        "web development process",
+        "custom web development",
+        "web application development",
+        "frontend and backend development",
+        "business web development",
+        "web agency vs consultant"
+      ],
+      "openGraph": {
+        "title": "Web Development in Oslo: Process, Tech & Cost | Majid",
+        "description": "Guide to business web development in Norway: project process, choosing Next.js, Sanity or WordPress, and approximate pricing. Contact an Oslo consultant."
+      }
+    }
+  }
+}
