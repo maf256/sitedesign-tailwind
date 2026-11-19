@@ -4,10 +4,14 @@
 
 **Blocked by:** none
 
-**Status:** ready-for-agent
+**Status:** resolved
 
 **Model:** Sonnet
 
 - [ ] Rendered `<title>` on `/webutvikling` is <= 60 chars in NO and EN, with the brand once (e.g. `title: { absolute: ... }` in `generateMetadata`, or drop the suffix from the copy; copy text itself is not rewritten without Gemini)
 - [ ] `og:title` unchanged and still <= 60
 - [ ] Decide whether `/webutvikler` gets the same fix (separate page, flag to the user rather than change silently)
+
+## Comments
+
+Fixed with `title: { absolute: seo.title }` in generateMetadata (title now 55/53 chars, brand once). `/webutvikler` has the same double-suffix; left unchanged, flagged to the user.

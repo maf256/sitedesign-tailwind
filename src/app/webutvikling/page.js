@@ -30,7 +30,7 @@ export function generateMetadata() {
   const image = `${base}/majid-askarifarsangi.jpg`;
 
   return {
-    title: seo.title,
+    title: { absolute: seo.title },
     description: seo.description,
     keywords: seo.keywords,
     authors: [{ name: "Majid Askarifarsangi" }],
