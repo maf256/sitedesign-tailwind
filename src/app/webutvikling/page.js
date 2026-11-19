@@ -280,16 +280,55 @@ export default function WebDevelopmentPage() {
           </p>
         </section>
 
-        {/* Ticket 05 replaces this block with details/summary + FAQPage schema */}
-        <section className="py-12">
-          <SectionHeading className="mb-8 text-center">
+        {/* FAQ (ticket 05): visible Q&A and FAQPage JSON-LD share one source,
+            webdevelopment.faq.items, so the schema text always equals the page. */}
+        <section className="py-12" aria-labelledby="faq-heading">
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                mainEntity: webdevelopment.faq.items.map((item) => ({
+                  "@type": "Question",
+                  name: item.question,
+                  acceptedAnswer: { "@type": "Answer", text: item.answer },
+                })),
+              }),
+            }}
+          />
+          <h2
+            id="faq-heading"
+            className="text-4xl font-semibold mb-8 text-center"
+            style={headingStyle}
+          >
             {webdevelopment.faq.title}
-          </SectionHeading>
-          <div className="grid gap-6">
+          </h2>
+          <div className="grid gap-4">
             {webdevelopment.faq.items.map((item) => (
-              <InfoCard key={item.question} title={item.question}>
-                <CardText>{item.answer}</CardText>
-              </InfoCard>
+              <details
+                key={item.question}
+                className="group rounded-lg metal-button"
+              >
+                <summary className="flex cursor-pointer list-none items-center justify-between gap-4 rounded-lg p-6 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--primary)] [&::-webkit-details-marker]:hidden">
+                  <h3
+                    className="font-semibold"
+                    style={{ fontSize: "18px", ...headingStyle }}
+                  >
+                    {item.question}
+                  </h3>
+                  <span
+                    aria-hidden="true"
+                    className="shrink-0 text-2xl leading-none transition-transform group-open:rotate-45"
+                    style={{ color: "var(--primary)" }}
+                  >
+                    +
+                  </span>
+                </summary>
+                <div className="px-6 pb-6">
+                  <CardText>{item.answer}</CardText>
+                </div>
+              </details>
             ))}
           </div>
         </section>
