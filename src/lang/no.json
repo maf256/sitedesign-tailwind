@@ -558,6 +558,19 @@
   "footer": {
     "description": "Webutvikler og webdesign: Majid Askarifarsangi"
   },
+  "webdevelopment": {
+    "breadcrumbLabel": "[PLACEHOLDER NO] webdevelopment.breadcrumbLabel",
+    "breadcrumbHome": "[PLACEHOLDER NO] webdevelopment.breadcrumbHome",
+    "hero": {
+      "title": "[PLACEHOLDER NO] webdevelopment.hero.title",
+      "subtitle": "[PLACEHOLDER NO] webdevelopment.hero.subtitle"
+    },
+    "cta": {
+      "title": "[PLACEHOLDER NO] webdevelopment.cta.title",
+      "description": "[PLACEHOLDER NO] webdevelopment.cta.description",
+      "button": "[PLACEHOLDER NO] webdevelopment.cta.button"
+    }
+  },
   "seo": {
     "home": {
       "title": "Webutvikler og webdesigner | Oslo",
@@ -649,6 +662,17 @@
       "openGraph": {
         "title": "Hva er en webutvikler? Rolle og ferdigheter | Majid Askarifarsangi",
         "description": "Lær hva en webutvikler gjør, forskjellen på frontend og backend, og hvilke ferdigheter som trengs. Ta kontakt for ditt neste prosjekt!"
+      }
+    },
+    "webdevelopment": {
+      "title": "[PLACEHOLDER NO] webdevelopment.seo.title",
+      "description": "[PLACEHOLDER NO] webdevelopment.seo.description",
+      "keywords": [
+        "[PLACEHOLDER NO] webdevelopment.seo.keywords.0"
+      ],
+      "openGraph": {
+        "title": "[PLACEHOLDER NO] webdevelopment.seo.openGraph.title",
+        "description": "[PLACEHOLDER NO] webdevelopment.seo.openGraph.description"
       }
     }
   }

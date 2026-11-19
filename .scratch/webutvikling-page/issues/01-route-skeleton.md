@@ -4,7 +4,7 @@
 
 **Blocked by:** None (can start immediately)
 
-**Status:** ready-for-agent
+**Status:** resolved
 
 **Model:** Sonnet (Opus only if the shared-component extraction proves tangled)
 
@@ -14,3 +14,9 @@
 - [ ] `/webutvikler` renders exactly as before after the extraction
 - [ ] Placeholder strings live in `no.json` and `en.json`, not hardcoded
 - [ ] Lint and build pass
+
+## Comments
+
+- Shared blocks (headingStyle/textStyle, SectionIntro, SectionHeading, CardTitle, InfoCard, CardText, CtaCard) extracted to `src/components/PageSections.js`; `CtaCard` now takes a `cta` prop. `/webutvikler` markup unchanged.
+- `/webutvikling` is `src/app/webutvikling/page.js` (generateMetadata + H1/intro/CTA only). Placeholders live in `no.json`/`en.json` under top-level `webdevelopment` (breadcrumbLabel, breadcrumbHome, hero.{title,subtitle}, cta.{title,description,button}) and `seo.webdevelopment` (title, description, keywords[], openGraph.{title,description}). Later tickets add sections to `webdevelopment`.
+- Sitemap entry added with its own `WEBUTVIKLING_DATE_MODIFIED` in `src/lib/page-dates.js`. Lint (one pre-existing warning) and build pass; EN build not run separately.

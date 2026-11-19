@@ -1,4 +1,7 @@
-import { WEBUTVIKLER_DATE_MODIFIED } from "@/lib/page-dates";
+import {
+  WEBUTVIKLER_DATE_MODIFIED,
+  WEBUTVIKLING_DATE_MODIFIED,
+} from "@/lib/page-dates";
 
 const NO_BASE = "https://sitedesign.no";
 const EN_BASE = "https://en.sitedesign.no";
@@ -12,6 +15,7 @@ const LAST_MODIFIED = {
   career: "2026-11-09", // src/app/career/page.js
   contact: "2026-11-09", // src/app/contact/page.js
   webutvikler: WEBUTVIKLER_DATE_MODIFIED, // src/lib/page-dates.js
+  webutvikling: WEBUTVIKLING_DATE_MODIFIED, // src/lib/page-dates.js
 };
 
 // One entry per page.
@@ -43,6 +47,12 @@ const PAGES = [
   {
     path: "/webutvikler",
     lastModified: LAST_MODIFIED.webutvikler,
+    no: { changeFrequency: "monthly", priority: 0.9 },
+    en: { changeFrequency: "monthly", priority: 0.9 },
+  },
+  {
+    path: "/webutvikling",
+    lastModified: LAST_MODIFIED.webutvikling,
     no: { changeFrequency: "monthly", priority: 0.9 },
     en: { changeFrequency: "monthly", priority: 0.9 },
   },
