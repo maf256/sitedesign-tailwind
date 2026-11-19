@@ -558,6 +558,19 @@
   "footer": {
     "description": "Web developer and webdesigner: Majid Askarifarsangi"
   },
+  "webdevelopment": {
+    "breadcrumbLabel": "[PLACEHOLDER EN] webdevelopment.breadcrumbLabel",
+    "breadcrumbHome": "[PLACEHOLDER EN] webdevelopment.breadcrumbHome",
+    "hero": {
+      "title": "[PLACEHOLDER EN] webdevelopment.hero.title",
+      "subtitle": "[PLACEHOLDER EN] webdevelopment.hero.subtitle"
+    },
+    "cta": {
+      "title": "[PLACEHOLDER EN] webdevelopment.cta.title",
+      "description": "[PLACEHOLDER EN] webdevelopment.cta.description",
+      "button": "[PLACEHOLDER EN] webdevelopment.cta.button"
+    }
+  },
   "seo": {
     "home": {
       "title": "Web Developer in Oslo | Majid Askarifarsangi",
@@ -649,6 +662,17 @@
       "openGraph": {
         "title": "What is a web developer? Role and skills | Majid Askarifarsangi",
         "description": "Learn what a web developer does, frontend vs backend, and the key skills needed. Contact me for your next project!"
+      }
+    },
+    "webdevelopment": {
+      "title": "[PLACEHOLDER EN] webdevelopment.seo.title",
+      "description": "[PLACEHOLDER EN] webdevelopment.seo.description",
+      "keywords": [
+        "[PLACEHOLDER EN] webdevelopment.seo.keywords.0"
+      ],
+      "openGraph": {
+        "title": "[PLACEHOLDER EN] webdevelopment.seo.openGraph.title",
+        "description": "[PLACEHOLDER EN] webdevelopment.seo.openGraph.description"
       }
     }
   }
