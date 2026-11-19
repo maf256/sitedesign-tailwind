@@ -1,6 +1,7 @@
 import { translations, getTranslation } from "@/lang/translations";
 import Link from "next/link";
 import Image from "next/image";
+import { personSchema } from "@/lib/person-schema";
 import { WEBUTVIKLER_DATE_MODIFIED } from "@/lib/page-dates";
 
 const { webdeveloper } = translations;
@@ -82,6 +83,7 @@ export default function WebDeveloperPage() {
   const structuredData = {
     "@context": "https://schema.org",
     "@graph": [
+      personSchema(lang),
       {
         "@type": "Article",
         headline: webdeveloper.hero.title,
@@ -90,8 +92,7 @@ export default function WebDeveloperPage() {
         mainEntityOfPage: pageUrl,
         inLanguage: lang === "en" ? "en-US" : "no-NO",
         image: `${base}/majid-askarifarsangi.jpg`,
-        // References the Person defined on the homepage (`/#person`)
-        // instead of duplicating the profile here.
+        // References the shared Person node included in this @graph.
         author: { "@id": `${base}/#person` },
         datePublished: "2025-08-18",
         dateModified: WEBUTVIKLER_DATE_MODIFIED,

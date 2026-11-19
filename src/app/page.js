@@ -2,6 +2,7 @@ import { translations, getTranslation } from "@/lang/translations";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { personSchema } from "@/lib/person-schema";
 
 const { home } = translations;
 
@@ -77,41 +78,7 @@ export default function Home() {
   const structuredData = {
     "@context": "https://schema.org",
     "@graph": [
-      {
-        "@type": "Person",
-        "@id": `${
-          lang === "en" ? "https://en.sitedesign.no" : "https://sitedesign.no"
-        }/#person`,
-        name: "Majid Askarifarsangi",
-        url:
-          lang === "en" ? "https://en.sitedesign.no" : "https://sitedesign.no",
-        image: {
-          "@type": "ImageObject",
-          url:
-            lang === "en"
-              ? "https://en.sitedesign.no/majid-askarifarsangi.jpg"
-              : "https://sitedesign.no/majid-askarifarsangi.jpg",
-          width: 800,
-          height: 800,
-        },
-        sameAs: [
-          "https://www.linkedin.com/in/farsangi",
-          "https://github.com/maf256",
-        ],
-        jobTitle: lang === "en" ? "Web Developer" : "Webutvikler",
-        worksFor: {
-          "@type": "Organization",
-          name: "Freelance",
-        },
-        address: {
-          "@type": "PostalAddress",
-          addressLocality: "Sandvika",
-          addressRegion: "Akershus",
-          addressCountry: "NO",
-        },
-        telephone: "+47-40189111",
-        email: "majid@sitedesign.no",
-      },
+      personSchema(lang),
       {
         "@type": "WebSite",
         "@id": `${
